@@ -6,6 +6,7 @@ import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
 import { organizationSchema, webPageSchema } from '@/lib/schema';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
+import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 
 const PATH = '/sister-sites';
 const TITLE = 'BDG Win Sister Sites – Partner Gaming Platforms';
@@ -49,7 +50,10 @@ export default function SisterSitesPage() {
       <Breadcrumb breadcrumb={breadcrumb} />
       <PageHero
         h1="BDG Win Sister Sites"
-        intro="BDG Win is part of a wider family of gaming platforms. Explore our sister and partner sites below."
+        intro={linkifyBrandOnce(
+          'BDG Win is part of a wider family of gaming platforms. Explore our sister and partner sites below.',
+          createLinkifyTracker()
+        )}
         pageEyebrow="Partners"
       />
 

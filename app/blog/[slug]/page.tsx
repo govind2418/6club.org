@@ -10,6 +10,7 @@ import { buildMeta } from '@/lib/seo';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
 import { readingTime } from '@/lib/reading-time';
+import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import * as blog from '@/data/blog.data';
 
 export function generateStaticParams() {
@@ -46,6 +47,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     .map((s, i) => (s.heading ? { id: `section-${i}`, label: s.heading } : null))
     .filter((item): item is { id: string; label: string } => item !== null);
   const tocFaqs = post.faqs.map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
+  const linkTracker = createLinkifyTracker();
 
   const breadcrumb = [
     { label: 'Home', url: '/' },
@@ -112,7 +114,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               {section.heading && <h2 className="mb-3 text-xl font-semibold text-white">{section.heading}</h2>}
               {(section.paragraphs || []).map((p, pi) => (
                 <p key={pi} className="mb-4 text-sm leading-relaxed text-grey lg:text-base">
-                  {p}
+                  {linkifyBrandOnce(p, linkTracker)}
                 </p>
               ))}
             </div>

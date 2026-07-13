@@ -8,6 +8,7 @@ import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
 import { organizationSchema, webPageSchema, faqSchema } from '@/lib/schema';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
+import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import pagesData from '@/data/pages.data';
 import navData from '@/data/nav.data';
 import * as blog from '@/data/blog.data';
@@ -85,7 +86,11 @@ export default function SiteMapPage() {
     <>
       <JsonLd schemas={schemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
-      <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} />
+      <PageHero
+        h1={page.h1}
+        intro={linkifyBrandOnce(page.intro || '', createLinkifyTracker())}
+        pageEyebrow={page.eyebrow}
+      />
       <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mx-auto mt-10 max-w-6xl px-5 lg:px-8" />
 
       <section className="mx-auto max-w-6xl px-5 py-14 lg:px-8">

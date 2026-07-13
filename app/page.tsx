@@ -10,6 +10,7 @@ import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
+import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import {
   organizationSchema,
   websiteSchema,
@@ -92,9 +93,10 @@ export default function HomePage() {
               Play Bold. Win Big.
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
-              BDG Win brings casino tables, slot reels, lottery draws, sports markets and crash games into a
-              single secure account. Register in under a minute, deposit through verified payment methods and
-              track every reward from one dashboard built for fast, modern play.
+              {linkifyBrandOnce(
+                'BDG Win brings casino tables, slot reels, lottery draws, sports markets and crash games into a single secure account. Register in under a minute, deposit through verified payment methods and track every reward from one dashboard built for fast, modern play.',
+                createLinkifyTracker()
+              )}
             </p>
 
             <ul className="mx-auto mt-6 flex max-w-xl flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-grey lg:mx-0 lg:justify-start">

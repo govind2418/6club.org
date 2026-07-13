@@ -9,6 +9,7 @@ import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
 import { organizationSchema, webPageSchema, faqSchema } from '@/lib/schema';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
+import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import pagesData from '@/data/pages.data';
 
 export function generateStaticParams() {
@@ -47,6 +48,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
     .map((section, i) => (section.heading ? { id: `section-${i}`, label: section.heading } : null))
     .filter((item): item is { id: string; label: string } => item !== null);
   const tocFaqs = (page.faqs || []).map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
+  const linkTracker = createLinkifyTracker();
 
   return (
     <>
@@ -65,7 +67,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
                 )}
                 {(section.paragraphs || []).map((p, pi) => (
                   <p key={pi} className="mb-4 text-sm leading-relaxed text-grey lg:text-base">
-                    {p}
+                    {linkifyBrandOnce(p, linkTracker)}
                   </p>
                 ))}
                 {section.list && section.list.length > 0 && (

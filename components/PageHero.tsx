@@ -1,10 +1,12 @@
+import type { ReactNode } from 'react';
+
 export function PageHero({
   h1,
   intro,
   pageEyebrow
 }: {
   h1: string;
-  intro: string;
+  intro: ReactNode;
   pageEyebrow?: string;
 }) {
   return (
