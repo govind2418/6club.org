@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${siteConfig.siteUrl}/`, lastModified: today, changeFrequency: 'daily', priority: 1.0 },
     { url: `${siteConfig.siteUrl}/blog`, lastModified: today, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${siteConfig.siteUrl}/sister-sites`, lastModified: today, changeFrequency: 'monthly', priority: 0.3 },
     ...Object.keys(pagesData).map((slug) => ({
       url: `${siteConfig.siteUrl}${slug}`,
       lastModified: today,

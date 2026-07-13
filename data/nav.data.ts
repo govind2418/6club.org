@@ -62,7 +62,8 @@ const navData: NavData = {
       { label: 'VIP Program', url: '/vip' },
       { label: 'Promotions', url: '/promotions' },
       { label: 'Leaderboard', url: '/leaderboard' },
-      { label: 'Announcements', url: '/announcements' }
+      { label: 'Announcements', url: '/announcements' },
+      { label: 'Sister Sites', url: '/sister-sites' }
     ],
     games: [
       { label: 'Casino Games', url: '/games/casino' },

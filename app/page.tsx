@@ -25,7 +25,18 @@ export const metadata: Metadata = buildMeta({
     'BDG Win is an online gaming platform for casino, slots, lottery, sports and crash games. Register in minutes, deposit securely and claim daily, weekly and VIP rewards.',
   path: '/',
   type: 'website',
-  keywords: ['BDG Win', 'BDG Win Game', 'BDG Win App', 'BDG Win Login', 'BDG Win Register', 'BDG Win Bonus']
+  keywords: [
+    'BDG Win',
+    'BDGWin',
+    'BDG',
+    'BDG Game',
+    'BDG Play',
+    'BDG Win Game',
+    'BDG Win App',
+    'BDG Win Login',
+    'BDG Win Register',
+    'BDG Win Bonus'
+  ]
 });
 
 export default function HomePage() {
@@ -44,7 +55,8 @@ export default function HomePage() {
     { id: 'section-rewards', label: 'A Reward for Every Stage of Play' },
     { id: 'section-referral', label: 'Earn by Inviting Friends to BDG Win' },
     { id: 'section-download', label: 'Take BDG Win With You' },
-    { id: 'section-security', label: 'Your BDG Win Account, Protected' }
+    { id: 'section-security', label: 'Your BDG Win Account, Protected' },
+    { id: 'section-getting-started', label: 'What to Expect in Your First Session' }
   ];
   const homeFaqToc = homeData.faqs.map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
 
@@ -119,6 +131,7 @@ export default function HomePage() {
                 height={720}
                 className="h-auto w-full max-w-md drop-shadow-[0_20px_60px_rgba(244,197,66,.25)] lg:max-w-lg"
                 priority
+                fetchPriority="high"
               />
             </div>
           </div>
@@ -292,6 +305,32 @@ export default function HomePage() {
               <p className="mt-3 text-sm font-semibold text-white">Responsible Gaming Tools</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Getting Started */}
+      <section id="section-getting-started" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
+        <div className="mb-10 text-center">
+          <p className="section-eyebrow">New to BDG Win</p>
+          <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What to Expect in Your First Session</h2>
+        </div>
+        <div className="mx-auto grid max-w-3xl gap-6 text-sm leading-relaxed text-grey lg:text-base">
+          <p>
+            Most new players spend their first few minutes exploring game categories before making a deposit —
+            there&apos;s no requirement to fund your wallet immediately after registering. Once you do deposit,
+            it typically posts within minutes, and every game category becomes available right away rather than
+            unlocking gradually.
+          </p>
+          <p>
+            Your first session is also when the daily reward cycle starts tracking, so logging in again the next
+            day keeps that streak moving. From there, weekly and monthly rewards build on the same activity
+            without needing anything extra from you beyond normal play.
+          </p>
+          <p>
+            If anything is unclear along the way, the Help Center groups guides by topic — account setup,
+            payments and individual game categories — so most first-session questions have a direct answer
+            without needing to contact support.
+          </p>
         </div>
       </section>
 

@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     type: 'article',
     image: '/images/blog-cover.png',
     imageWidth: '800',
-    imageHeight: '450'
+    imageHeight: '450',
+    keywords: ['BDG Win', ...post.tags.map((tag) => `BDG Win ${tag.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}`)]
   });
 }
 

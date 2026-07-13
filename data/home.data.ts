@@ -169,6 +169,18 @@ const homeData: HomeData = {
     {
       q: 'Does BDG Win have a referral program?',
       a: 'Yes. The BDG Win Referral Program lets you earn a share of your invited friends’ activity, tracked from your account dashboard.'
+    },
+    {
+      q: 'Does BDG Win have a VIP program?',
+      a: 'Yes. The BDG Win VIP Program rewards consistent play with faster withdrawals, higher reward multipliers and dedicated support as your tier increases.'
+    },
+    {
+      q: 'Can I try different BDG Win game categories with one account?',
+      a: 'Yes, casino, slots, lottery, sports, crash, fishing and arcade games all share the same account, wallet and rewards, so switching categories doesn’t require a new deposit or account.'
+    },
+    {
+      q: 'Is there a minimum age to register on BDG Win?',
+      a: 'Yes, players must be 18 years or older to register. See our Responsible Gaming page for account limit tools and guidance.'
     }
   ]
 }
