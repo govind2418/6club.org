@@ -1,0 +1,18 @@
+<%
+  var gridColsClass = 'lg:grid-cols-4';
+  if (typeof gridCols !== 'undefined') {
+    if (gridCols === 2) gridColsClass = 'lg:grid-cols-2';
+    else if (gridCols === 3) gridColsClass = 'lg:grid-cols-3';
+  }
+%>
+<div class="grid gap-6 sm:grid-cols-2 <%= gridColsClass %>">
+  <% features.forEach(function(feature) { %>
+  <div class="card-surface fade-in p-6">
+    <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold">
+      <%- icon(feature.icon, 'w-6 h-6') %>
+    </div>
+    <h3 class="mb-2 text-base font-semibold text-white"><%= feature.title %></h3>
+    <p class="text-sm leading-relaxed text-grey"><%= feature.description %></p>
+  </div>
+  <% }); %>
+</div>

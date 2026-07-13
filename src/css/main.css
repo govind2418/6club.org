@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #070707;
+    --card: #111111;
+    --gold: #f4c542;
+    --gold-dark: #c89616;
+    --accent: #8b5e17;
+    --redx: #7a0b0b;
+    --border-gold: rgba(255, 212, 80, 0.15);
+    --glow-gold: rgba(255, 210, 80, 0.35);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: #ffffff;
+    font-family: 'Cinzel', Georgia, 'Times New Roman', serif;
+  }
+
+  body,
+  p,
+  li,
+  span,
+  a,
+  input,
+  textarea {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Georgia, 'Times New Roman', 'Cinzel', serif;
+    letter-spacing: 0.02em;
+  }
+
+  ::selection {
+    background: var(--gold);
+    color: #070707;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .btn-font {
+    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold tracking-wide text-black transition-all duration-300;
+    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+    box-shadow: 0 0 0 1px var(--border-gold), 0 8px 20px -6px rgba(244, 197, 66, 0.45);
+  }
+
+  .btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 24px var(--glow-gold), 0 12px 26px -6px rgba(244, 197, 66, 0.55);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold tracking-wide text-gold transition-all duration-300;
+    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    border-color: var(--border-gold);
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .btn-outline:hover {
+    border-color: var(--gold);
+    box-shadow: 0 0 18px var(--glow-gold);
+    transform: translateY(-2px);
+  }
+
+  .card-surface {
+    @apply rounded-2xl border bg-card transition-all duration-300;
+    border-color: var(--border-gold);
+  }
+
+  .card-surface:hover {
+    transform: translateY(-6px);
+    border-color: rgba(255, 212, 80, 0.4);
+    box-shadow: 0 18px 40px -18px var(--glow-gold);
+  }
+
+  .section-eyebrow {
+    @apply inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold;
+    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .gold-text {
+    background: linear-gradient(120deg, #fff2c9, var(--gold) 45%, var(--gold-dark));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .divider-gold {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-gold), transparent);
+  }
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeUp 0.8s ease forwards;
+  }
+
+  .coin {
+    @apply absolute rounded-full;
+    background: radial-gradient(circle at 32% 28%, #fff6da, var(--gold) 40%, var(--gold-dark) 82%);
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.35), 0 6px 14px -4px rgba(0, 0, 0, 0.6);
+  }
+
+  .particle {
+    @apply absolute rounded-full bg-gold;
+    opacity: 0;
+  }
+
+  .skip-link {
+    @apply absolute left-2 top-2 z-[999] -translate-y-24 rounded-md bg-gold px-4 py-2 text-sm font-semibold text-black transition-transform;
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,14 @@
+<nav aria-label="Breadcrumb" class="border-b border-goldline/60 bg-black/40">
+  <ol class="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-5 py-3 text-xs text-grey lg:px-8">
+    <% breadcrumb.forEach(function(item, index) { %>
+    <li class="flex items-center gap-2">
+      <% if (item.url) { %>
+      <a href="<%= item.url %>" class="hover:text-gold"><%= item.label %></a>
+      <% } else { %>
+      <span class="text-gold" aria-current="page"><%= item.label %></span>
+      <% } %>
+      <% if (index < breadcrumb.length - 1) { %><span class="text-grey/40">/</span><% } %>
+    </li>
+    <% }); %>
+  </ol>
+</nav>

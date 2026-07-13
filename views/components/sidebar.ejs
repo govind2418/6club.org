@@ -1,0 +1,36 @@
+<aside class="space-y-8">
+  <div class="card-surface p-6">
+    <h2 class="mb-4 text-sm font-semibold uppercase tracking-wide text-gold">Categories</h2>
+    <ul class="space-y-2 text-sm text-grey">
+      <% categories.forEach(function(cat) { %>
+      <li>
+        <a href="/blog/category/<%= cat.slug %>" class="flex items-center justify-between hover:text-gold">
+          <span><%= cat.name %></span>
+          <span class="text-xs text-grey/60"><%= cat.count %></span>
+        </a>
+      </li>
+      <% }); %>
+    </ul>
+  </div>
+
+  <div class="card-surface p-6">
+    <h2 class="mb-4 text-sm font-semibold uppercase tracking-wide text-gold">Popular Tags</h2>
+    <div class="flex flex-wrap gap-2">
+      <% tags.forEach(function(tag) { %>
+      <a href="/blog/tag/<%= tag.slug %>" class="rounded-full border border-goldline px-3 py-1 text-xs text-grey hover:border-gold hover:text-gold"><%= tag.name %></a>
+      <% }); %>
+    </div>
+  </div>
+
+  <div class="card-surface p-6">
+    <h2 class="mb-4 text-sm font-semibold uppercase tracking-wide text-gold">Recent Posts</h2>
+    <ul class="space-y-4">
+      <% recentPosts.forEach(function(post) { %>
+      <li>
+        <a href="/blog/<%= post.slug %>" class="text-sm font-medium text-white hover:text-gold"><%= post.title %></a>
+        <p class="mt-1 text-xs text-grey/70"><%= post.date %></p>
+      </li>
+      <% }); %>
+    </ul>
+  </div>
+</aside>

@@ -1,0 +1,73 @@
+<footer class="border-t border-goldline bg-[#050505]">
+  <div class="mx-auto max-w-7xl px-5 py-14 lg:px-8">
+    <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
+      <div>
+        <a href="/" class="mb-4 inline-flex items-center gap-2" aria-label="BDG Win home">
+          <img src="/images/logo.svg" alt="BDG Win" width="150" height="36" class="h-8 w-auto" />
+        </a>
+        <p class="max-w-xs text-sm leading-relaxed text-grey">
+          BDG Win is an online gaming platform where players across India play casino, slot, lottery,
+          sports and crash games, track rewards and manage deposits and withdrawals from one secure account.
+        </p>
+        <div class="mt-5 flex gap-3">
+          <a href="<%= site.social.facebook %>" aria-label="BDG Win on Facebook" class="flex h-9 w-9 items-center justify-center rounded-full border border-goldline text-gold hover:border-gold"><%- icon('facebook', 'w-4 h-4') %></a>
+          <a href="<%= site.social.instagram %>" aria-label="BDG Win on Instagram" class="flex h-9 w-9 items-center justify-center rounded-full border border-goldline text-gold hover:border-gold"><%- icon('instagram', 'w-4 h-4') %></a>
+          <a href="<%= site.social.telegram %>" aria-label="BDG Win on Telegram" class="flex h-9 w-9 items-center justify-center rounded-full border border-goldline text-gold hover:border-gold"><%- icon('send', 'w-4 h-4') %></a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="section-eyebrow mb-4">Platform</h2>
+        <ul class="space-y-2 text-sm text-grey">
+          <% nav.footer.platform.forEach(function(link) { %>
+          <li><a href="<%= link.url %>" class="hover:text-gold"><%= link.label %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section-eyebrow mb-4">Games</h2>
+        <ul class="space-y-2 text-sm text-grey">
+          <% nav.footer.games.forEach(function(link) { %>
+          <li><a href="<%= link.url %>" class="hover:text-gold"><%= link.label %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section-eyebrow mb-4">Account</h2>
+        <ul class="space-y-2 text-sm text-grey">
+          <% nav.footer.account.forEach(function(link) { %>
+          <li><a href="<%= link.url %>" class="hover:text-gold"><%= link.label %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section-eyebrow mb-4">Support</h2>
+        <ul class="space-y-2 text-sm text-grey">
+          <% nav.footer.support.forEach(function(link) { %>
+          <li><a href="<%= link.url %>" class="hover:text-gold"><%= link.label %></a></li>
+          <% }); %>
+        </ul>
+      </div>
+    </div>
+
+    <div class="divider-gold my-10"></div>
+
+    <div class="flex flex-col gap-4 text-xs text-grey/80 lg:flex-row lg:items-center lg:justify-between">
+      <p>&copy; <%= new Date().getFullYear() %> BDG Win. All rights reserved.</p>
+      <ul class="flex flex-wrap gap-x-6 gap-y-2">
+        <% nav.footer.legal.forEach(function(link) { %>
+        <li><a href="<%= link.url %>" class="hover:text-gold"><%= link.label %></a></li>
+        <% }); %>
+      </ul>
+    </div>
+
+    <p class="mt-6 max-w-3xl text-[11px] leading-relaxed text-grey/60">
+      BDG Win promotes responsible gaming. Players must be 18 years or older to register. Please review our
+      <a href="/responsible-gaming" class="underline hover:text-gold">Responsible Gaming</a> guidance and set
+      personal deposit and time limits before you play.
+    </p>
+  </div>
+</footer>

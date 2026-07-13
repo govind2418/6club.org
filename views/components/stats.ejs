@@ -1,0 +1,12 @@
+<section class="border-y border-goldline bg-card/40">
+  <div class="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-5 py-12 lg:grid-cols-4 lg:px-8">
+    <% stats.forEach(function(stat) { %>
+    <div class="text-center">
+      <p class="gold-text font-heading text-3xl font-bold lg:text-4xl">
+        <span data-counter="<%= stat.value %>" data-suffix="<%= stat.suffix || '' %>">0<%= stat.suffix || '' %></span>
+      </p>
+      <p class="mt-2 text-xs uppercase tracking-[0.2em] text-grey lg:text-sm"><%= stat.label %></p>
+    </div>
+    <% }); %>
+  </div>
+</section>
