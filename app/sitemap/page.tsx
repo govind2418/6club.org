@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { PageHero } from '@/components/PageHero';
+import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
@@ -76,16 +77,20 @@ export default function SiteMapPage() {
     }
   ];
 
+  const tocHeadings = groups.map((group, i) => ({ id: `group-${i}`, label: group.label }));
+  const tocFaqs = (page.faqs || []).map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
+
   return (
     <>
       <JsonLd schemas={schemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
       <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} />
+      <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mx-auto mt-10 max-w-6xl px-5 lg:px-8" />
 
       <section className="mx-auto max-w-6xl px-5 py-14 lg:px-8">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {groups.map((group, i) => (
-            <div key={i} className="card-surface p-6">
+            <div key={i} id={`group-${i}`} className="card-surface scroll-mt-24 p-6">
               <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-gold">{group.label}</h2>
               <ul className="space-y-2 text-sm text-grey">
                 {group.links.map((link, li) => (

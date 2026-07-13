@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { AuthorBio } from '@/components/blog/AuthorBio';
@@ -40,7 +41,10 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const relatedPosts = blog.getRelatedPosts(post);
   const fullText = post.content.map((s) => (s.paragraphs || []).join(' ')).join(' ');
   const path = `/blog/${post.slug}`;
-  const toc = post.content.filter((s) => s.heading).map((s) => s.heading as string);
+  const tocHeadings = post.content
+    .map((s, i) => (s.heading ? { id: `section-${i}`, label: s.heading } : null))
+    .filter((item): item is { id: string; label: string } => item !== null);
+  const tocFaqs = post.faqs.map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
 
   const breadcrumb = [
     { label: 'Home', url: '/' },
@@ -99,24 +103,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           className="mb-10 w-full rounded-2xl border border-goldline"
         />
 
-        {toc.length > 0 && (
-          <nav aria-label="Table of contents" className="card-surface mb-10 p-6">
-            <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gold">In This Article</h2>
-            <ol className="space-y-2 text-sm text-grey">
-              {toc.map((heading, i) => (
-                <li key={i}>
-                  <a href={`#section-${i}`} className="hover:text-gold">
-                    {heading}
-                  </a>
-                </li>
-              ))}
-            </ol>
-          </nav>
-        )}
+        <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mb-10" />
 
         <div className="space-y-10">
           {post.content.map((section, i) => (
-            <div key={i} id={`section-${i}`}>
+            <div key={i} id={`section-${i}`} className="scroll-mt-24">
               {section.heading && <h2 className="mb-3 text-xl font-semibold text-white">{section.heading}</h2>}
               {(section.paragraphs || []).map((p, pi) => (
                 <p key={pi} className="mb-4 text-sm leading-relaxed text-grey lg:text-base">

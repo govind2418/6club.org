@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { JsonLd } from '@/components/JsonLd';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { PageHero } from '@/components/PageHero';
+import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
@@ -42,17 +43,23 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
     faqSchema(page.faqs || [])
   ];
 
+  const tocHeadings = (page.sections || [])
+    .map((section, i) => (section.heading ? { id: `section-${i}`, label: section.heading } : null))
+    .filter((item): item is { id: string; label: string } => item !== null);
+  const tocFaqs = (page.faqs || []).map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
+
   return (
     <>
       <JsonLd schemas={schemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
       <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} />
+      <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mx-auto mt-10 max-w-3xl px-5 lg:px-8" />
 
       {page.sections && page.sections.length > 0 && (
         <article className="mx-auto max-w-3xl px-5 py-14 lg:px-8">
           <div className="space-y-10">
             {page.sections.map((section, i) => (
-              <div key={i}>
+              <div key={i} id={`section-${i}`} className="scroll-mt-24">
                 {section.heading && (
                   <h2 className="mb-3 text-xl font-semibold text-white lg:text-2xl">{section.heading}</h2>
                 )}

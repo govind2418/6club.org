@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Icon } from './Icon';
 
 export interface FaqItem {
@@ -19,6 +19,18 @@ export function FaqAccordion({
 }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
+  // Opens the matching FAQ item when a table-of-contents link (#faq-item-N) is followed,
+  // since the accordion answer is collapsed by default and a bare anchor jump wouldn't reveal it.
+  useEffect(() => {
+    const openFromHash = () => {
+      const match = window.location.hash.match(/^#faq-item-(\d+)$/);
+      if (match) setOpenIndex(Number(match[1]));
+    };
+    openFromHash();
+    window.addEventListener('hashchange', openFromHash);
+    return () => window.removeEventListener('hashchange', openFromHash);
+  }, []);
+
   return (
     <section className="mx-auto max-w-4xl px-5 py-16 lg:px-8" aria-labelledby={faqHeadingId}>
       <div className="mb-10 text-center">
@@ -32,7 +44,7 @@ export function FaqAccordion({
         {faqs.map((faq, index) => {
           const isOpen = openIndex === index;
           return (
-            <div key={index} data-open={isOpen} className="card-surface overflow-hidden">
+            <div key={index} id={`faq-item-${index}`} data-open={isOpen} className="card-surface overflow-hidden scroll-mt-24">
               <button
                 type="button"
                 onClick={() => setOpenIndex(isOpen ? null : index)}

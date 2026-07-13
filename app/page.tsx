@@ -6,6 +6,7 @@ import { GameCategoryGrid } from '@/components/GameCategoryGrid';
 import { FeatureGrid } from '@/components/FeatureGrid';
 import { Stats } from '@/components/Stats';
 import { Testimonials } from '@/components/Testimonials';
+import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
@@ -35,6 +36,17 @@ export default function HomePage() {
     webPageSchema({ title: metadata.title as string, description: metadata.description as string, path: '/' }),
     faqSchema(homeData.faqs)
   ];
+
+  const homeToc = [
+    { id: 'section-categories', label: 'Every BDG Win Game, One Account' },
+    { id: 'section-features', label: 'Built for Fast, Secure Play' },
+    { id: 'section-why-choose-us', label: 'What Sets BDG Win Apart' },
+    { id: 'section-rewards', label: 'A Reward for Every Stage of Play' },
+    { id: 'section-referral', label: 'Earn by Inviting Friends to BDG Win' },
+    { id: 'section-download', label: 'Take BDG Win With You' },
+    { id: 'section-security', label: 'Your BDG Win Account, Protected' }
+  ];
+  const homeFaqToc = homeData.faqs.map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
 
   return (
     <>
@@ -113,8 +125,10 @@ export default function HomePage() {
         </div>
       </section>
 
+      <TableOfContents headings={homeToc} faqs={homeFaqToc} className="mx-auto mb-0 max-w-7xl px-5 lg:px-8" />
+
       {/* Game Categories */}
-      <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+      <section id="section-categories" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mb-10 text-center">
           <p className="section-eyebrow">Game Categories</p>
           <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Every BDG Win Game, One Account</h2>
@@ -126,7 +140,7 @@ export default function HomePage() {
       </section>
 
       {/* Features */}
-      <section className="border-y border-goldline bg-card/30">
+      <section id="section-features" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
           <div className="mb-10 text-center">
             <p className="section-eyebrow">Why Players Choose BDG Win</p>
@@ -137,7 +151,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+      <section id="section-why-choose-us" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mb-10 text-center">
           <p className="section-eyebrow">Why Choose Us</p>
           <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What Sets BDG Win Apart</h2>
@@ -149,7 +163,7 @@ export default function HomePage() {
       <Stats stats={homeData.stats} />
 
       {/* Rewards */}
-      <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+      <section id="section-rewards" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mb-10 text-center">
           <p className="section-eyebrow">BDG Win Rewards</p>
           <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">A Reward for Every Stage of Play</h2>
@@ -172,7 +186,7 @@ export default function HomePage() {
       </section>
 
       {/* Referral Program */}
-      <section className="border-y border-goldline bg-card/30">
+      <section id="section-referral" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="section-eyebrow">Referral Program</p>
@@ -210,7 +224,7 @@ export default function HomePage() {
       </section>
 
       {/* Download App */}
-      <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
+      <section id="section-download" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="order-2 grid grid-cols-3 gap-4 lg:order-1">
             <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
@@ -241,7 +255,7 @@ export default function HomePage() {
       </section>
 
       {/* Security */}
-      <section className="border-y border-goldline bg-card/30">
+      <section id="section-security" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="section-eyebrow">Security</p>
