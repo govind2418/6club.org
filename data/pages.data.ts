@@ -284,7 +284,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Promotions and the standard daily, weekly and monthly reward cycles run independently of each other, so opting into a seasonal offer doesn\'t use up or replace anything from your regular rewards. Think of promotions as short-term additions layered on top of a cycle that keeps running either way.',
           'Because they\'re time-limited, it\'s worth checking the Promotions page and your account dashboard periodically rather than assuming an offer you saw once is still live — expired or superseded promotions are removed from the active list as soon as their window closes.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-recharge-bonus-banner.webp',
+          alt: 'BDG Win recharge bonus banner shown alongside the game category grid',
+          caption: 'A seasonal BDG Win recharge bonus banner sitting above the game category grid — a short-term addition layered on top of the standard reward cycle, not a replacement for it.'
+        }
       }
     ],
     faqs: [
@@ -460,7 +465,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'The referral section separates pending earnings from paid ones, along with a count of active versus inactive invited players, so it\'s easy to see at a glance whether recent invites are actually playing or just registered once.',
           'Because tracking is tied to the link itself rather than a manual code entry, there\'s nothing extra an invited player needs to do beyond registering through your link — the connection is made automatically the moment their account is created.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-invite-commission-poster.webp',
+          alt: 'BDG Win shareable invite poster with a scannable QR code and commission rate',
+          caption: 'A shareable BDG Win invite poster with a scannable QR code — one of several ready-made formats for sending your referral link to friends.'
+        }
       }
     ],
     faqs: [
@@ -565,7 +575,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Beyond onboarding, most of an agent\'s ongoing work is checking group-level activity from the management dashboard and helping individual players with account or deposit questions before they escalate to general support.',
           'Because earnings track combined group activity rather than any single player, an agent\'s incentives line up with helping the whole network stay active — a handful of highly active players and a larger group of occasional ones both contribute to the same running total.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-agent-recruitment-banner.webp',
+          alt: 'BDG Win agent recruitment banner shown above the game category grid',
+          caption: 'A BDG Win agent recruitment banner — this is the kind of promotion an agent\'s network sees, tying back to the same account structure the agent manages.'
+        }
       }
     ],
     faqs: [
@@ -745,7 +760,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Every settled round — whether a numbered draw or a Color Prediction cycle — logs its outcome, timing and your entry in the same history view, so comparing recent results doesn\'t require jumping between separate screens for each format.',
           'That shared history is also where the certified random outcome generation described on our Fair Play page becomes visible in practice: each entry reflects an independently generated result, not a running pattern carried over from the previous round.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-wingo-live-round.webp',
+          alt: 'BDG Win Win Go round in progress with a live countdown and number grid',
+          caption: 'A BDG Win Win Go round in progress — the countdown, draw ID and number grid all update together as the round settles.'
+        }
       }
     ],
     faqs: [
@@ -958,7 +978,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Because ranking is based on recent activity rather than an all-time leaderboard, the list is a reasonable starting point when you want to try a game outside your usual category without researching each option individually — a title near the top is, by definition, one a large number of current players are actively choosing.',
           'It updates on the same rolling basis across every category, so a strong week for sports markets or a new slot release can shift the list noticeably compared to the month before.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-wingo-bet-slip.webp',
+          alt: 'BDG Win bet slip showing stake and quantity selection for a popular lottery round',
+          caption: 'A bet slip for one of BDG Win\'s most popular formats, with stake and quantity set before confirming.'
+        }
       }
     ],
     faqs: [
@@ -1247,7 +1272,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Most devices let you stay logged in between sessions, which is convenient on a personal phone or computer but worth avoiding on a shared or public device — logging out manually afterward keeps your wallet and account details from being visible to the next person who uses it.',
           'If you ever see login activity you don\'t recognize, changing your password immediately through the Forgot Password flow is the fastest way to secure the account, and Support can help review recent activity if anything looks unfamiliar.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-login-mockup.webp',
+          alt: 'BDG Win login screen with phone number and password fields',
+          caption: 'The BDG Win login screen, ready for a registered mobile number and password on any device.'
+        }
       }
     ],
     faqs: [
@@ -2022,7 +2052,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Enter a valid gift code in the redemption field on your account dashboard. Codes are typically time-limited and single-use per account, crediting bonus balance directly to your wallet once accepted.',
           'New gift codes are announced through the Announcements page and official BDG Win social channels — always confirm a code through an official source before entering it.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/bdgwin-lottery-win-popup.webp',
+          alt: 'BDG Win bonus confirmation popup showing a credited bonus amount',
+          caption: 'A BDG Win bonus confirmation popup — the same style of instant credit you see once a gift code or bonus is accepted.'
+        }
       },
       {
         heading: 'Avoiding Invalid or Unofficial Codes',
