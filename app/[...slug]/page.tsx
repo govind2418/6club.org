@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { JsonLd } from '@/components/JsonLd';
 import { Breadcrumb } from '@/components/Breadcrumb';
@@ -76,6 +77,18 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
                       <li key={li}>{item}</li>
                     ))}
                   </ul>
+                )}
+                {section.image && (
+                  <figure className="card-surface mx-auto mt-6 max-w-xs overflow-hidden p-3">
+                    <Image
+                      src={section.image.src}
+                      alt={section.image.alt}
+                      width={800}
+                      height={1448}
+                      className="w-full rounded-xl"
+                    />
+                    <figcaption className="mt-3 text-xs leading-relaxed text-grey">{section.image.caption}</figcaption>
+                  </figure>
                 )}
               </div>
             ))}

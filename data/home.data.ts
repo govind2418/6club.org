@@ -1,6 +1,5 @@
 export interface HomeCategory { title: string; description: string; icon: string; url: string; }
 export interface HomeFeature { icon: string; title: string; description: string; }
-export interface HomeStat { value: number; suffix: string; label: string; }
 export interface HomeReward { icon: string; title: string; description: string; url: string; }
 export interface HomeTestimonial { quote: string; name: string; role: string; }
 export interface HomeFaq { q: string; a: string; }
@@ -9,7 +8,6 @@ export interface HomeData {
   categories: HomeCategory[];
   features: HomeFeature[];
   whyChooseUs: HomeFeature[];
-  stats: HomeStat[];
   rewards: HomeReward[];
   testimonials: HomeTestimonial[];
   faqs: HomeFaq[];
@@ -18,50 +16,50 @@ export interface HomeData {
 const homeData: HomeData = {
   categories: [
     {
-      title: 'BDG Win Casino Games',
+      title: 'Casino Games',
       description: 'Live dealer tables and classic table games with real-time results and transparent odds.',
       icon: 'spade',
       url: '/games/casino'
     },
     {
-      title: 'BDG Win Slot Games',
+      title: 'Slot Games',
       description: 'Hundreds of themed slot reels with adjustable stakes and instant round results.',
       icon: 'coins',
       url: '/games/slots'
     },
     {
-      title: 'BDG Win Lottery & Color Prediction',
-      description: 'Fast draw lottery and BDG Win Color Prediction rounds that settle in under a minute.',
+      title: 'Lottery & Color Prediction',
+      description: 'Fast draw lottery and color prediction rounds that settle in under a minute.',
       icon: 'ticket',
       url: '/games/lottery'
     },
     {
-      title: 'BDG Win Sports Games',
+      title: 'Sports Games',
       description: 'Pre-match and live markets across cricket, football, tennis and kabaddi.',
       icon: 'trophy',
       url: '/games/sports'
     },
     {
-      title: 'BDG Win Crash Games',
+      title: 'Crash Games',
       description: 'Watch the multiplier climb and cash out before the round ends.',
       icon: 'rocket',
       url: '/games/crash'
     },
     {
-      title: 'BDG Win Fishing Games',
+      title: 'Fishing Games',
       description: 'Skill-based arcade fishing rounds with multiplier catches and boss fish payouts.',
       icon: 'anchor',
       url: '/games/fishing'
     },
     {
-      title: 'BDG Win Arcade Games',
+      title: 'Arcade Games',
       description: 'Short, casual rounds built for quick sessions between bigger games.',
       icon: 'gamepad-2',
       url: '/games/arcade'
     },
     {
-      title: 'BDG Win Popular Games',
-      description: 'The most played titles on BDG Win this month, ranked by active players.',
+      title: 'Popular Games',
+      description: 'The most played titles this month, ranked by active players.',
       icon: 'flame',
       url: '/games/popular'
     }
@@ -113,13 +111,6 @@ const homeData: HomeData = {
     }
   ],
 
-  stats: [
-    { value: 2400000, suffix: '+', label: 'Registered Players' },
-    { value: 48, suffix: '', label: 'Game Titles' },
-    { value: 18, suffix: 'M+', label: 'Rewards Paid Out' },
-    { value: 24, suffix: '/7', label: 'Player Support' }
-  ],
-
   rewards: [
     { icon: 'sunrise', title: 'Daily Rewards', description: 'Log in daily to collect streak bonuses and free spins.', url: '/rewards/daily' },
     { icon: 'calendar-days', title: 'Weekly Rewards', description: 'Weekly cashback and reload bonuses based on your play.', url: '/rewards/weekly' },
@@ -151,8 +142,16 @@ const homeData: HomeData = {
       a: 'BDG Win is an online gaming platform offering casino, slot, lottery, sports, crash, fishing and arcade games under one account, with dedicated rewards, referral and VIP programs.'
     },
     {
+      q: 'What is BDG Game?',
+      a: '"BDG Game" refers to the full BDG Win game catalog — casino, slots, lottery, sports, crash, fishing and arcade titles — all playable from a single BDG Win account and wallet.'
+    },
+    {
       q: 'How do I create a BDG Win account?',
       a: 'Go to the BDG Win Register page, enter your mobile number, set a password and verify with the OTP sent to your device. The full walkthrough is on our Register guide.'
+    },
+    {
+      q: 'How do I login to BDG Win?',
+      a: 'Go to the BDG Win Login page, enter your registered mobile number and password to access your account. Use the password reset option on that page if you can’t remember your credentials.'
     },
     {
       q: 'Is BDG Win safe to use?',

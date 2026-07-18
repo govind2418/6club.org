@@ -103,11 +103,6 @@ export function softwareApplicationSchema() {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD'
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '18240'
     }
   };
 }

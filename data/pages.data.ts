@@ -1,7 +1,14 @@
+export interface PageSectionImage {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
 export interface PageSection {
   heading?: string;
   paragraphs?: string[];
   list?: string[];
+  image?: PageSectionImage;
 }
 
 export interface PageFaq {
@@ -202,7 +209,12 @@ const pagesData: Record<string, PageEntry> = {
         heading: 'How BDG Win VIP Tiers Work',
         paragraphs: [
           'Every BDG Win account starts at the base tier and moves up based on cumulative activity across games and reward cycles. Each tier increase unlocks a combination of higher reward multipliers, faster withdrawal processing windows and, at higher tiers, a dedicated support contact instead of the general queue.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/vip-tier-progress.webp',
+          alt: 'BDG Win VIP profile screen showing tier badge, experience points and unlocked benefits',
+          caption: 'A BDG Win VIP profile showing tier badge, accumulated experience and the benefits that unlock at that level — level-up rewards, a monthly reward and an improved rebate rate.'
+        }
       },
       {
         heading: 'What VIP Status Changes',
@@ -248,13 +260,23 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Promotions on BDG Win typically fall into three groups: welcome offers for new accounts, reload bonuses tied to deposits, and game-specific promotions that run for a limited time on categories like slots or crash games.',
           'Each promotion lists its own eligibility window and wagering conditions, shown on the offer itself before you opt in.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/promo-first-bet-boost.webp',
+          alt: 'BDG Win promotion offering a bonus percentage boost on a player\'s first bet of the day',
+          caption: 'An example BDG Win promotion adding a bonus percentage to a player\'s first bet of the day, with the eligibility window and boost calculation shown before it applies.'
+        }
       },
       {
         heading: 'Claiming a Promotion Safely',
         paragraphs: [
           'Always confirm a promotion through your BDG Win account or official app rather than an outside link, and review the terms attached to the offer before it is applied to your wallet.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/promotions-hub.webp',
+          alt: 'BDG Win promotions and activity hub listing invitation bonus, betting rebate, super jackpot and attendance bonus',
+          caption: 'BDG Win\'s promotions hub, where offers like the invitation bonus, betting rebate, invite wheel and attendance bonus are listed together with terms attached to each.'
+        }
       },
       {
         heading: 'Where Promotions Fit Alongside Rewards',
@@ -414,13 +436,23 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Every BDG Win account has a unique referral link found in the dashboard. When someone registers using your link and starts playing, that account is tagged to your referral profile, and a share of their qualifying activity is credited to you on an ongoing basis.',
           'You can track pending and paid referral earnings, along with the number of active invited players, from the same dashboard section.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/invitation-bonus-received.webp',
+          alt: 'BDG Win invitation bonus screen showing rewards credited per invited friend',
+          caption: 'A BDG Win invitation bonus screen showing rewards credited once an invited friend registers and completes a qualifying deposit.'
+        }
       },
       {
         heading: 'Getting the Most From Referrals',
         paragraphs: [
           'Referral earnings scale with how active your invited players are, so sharing your link with people who intend to play regularly, rather than just registering once, produces steadier returns over time.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/invite-wheel-cashout.webp',
+          alt: 'BDG Win Invite Wheel showing spin-based bonus amounts added to a referrer\'s balance',
+          caption: 'The BDG Win Invite Wheel, which adds spin-based bonus amounts to a referrer\'s balance as more invited friends join.'
+        }
       },
       {
         heading: 'Reading Your Referral Dashboard',
@@ -459,7 +491,12 @@ const pagesData: Record<string, PageEntry> = {
         heading: 'How Affiliate Tracking Differs From Referrals',
         paragraphs: [
           'While the standard referral program suits individual players sharing a personal link, the BDG Win affiliate program is designed for larger-scale promotion — think content channels, communities or marketing campaigns. Affiliates get dedicated tracking links, campaign-level reporting and commission structures based on player volume and activity.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/agent-program-rules.webp',
+          alt: 'BDG Win promotion partner program rules explaining subordinate levels for invited players',
+          caption: 'BDG Win\'s promotion partner rules, explaining how subordinate levels are counted when an invited player goes on to invite others — the same underlying structure affiliate tracking builds on.'
+        }
       },
       {
         heading: 'Applying as a BDG Win Affiliate',
@@ -504,13 +541,23 @@ const pagesData: Record<string, PageEntry> = {
         heading: 'What a BDG Win Agent Does',
         paragraphs: [
           'A BDG Win agent oversees a group of players — helping them register, deposit and understand the platform — in exchange for ongoing earnings tied to that group\'s activity. Agents get a management dashboard separate from the standard player view, showing group-level deposits, activity and earnings.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/agency-commission-dashboard.webp',
+          alt: 'BDG Win agent Agency dashboard showing direct and team subordinate counts and commission total',
+          caption: 'A BDG Win agent\'s Agency dashboard, showing direct and team subordinate counts, deposit numbers and the previous day\'s total commission.'
+        }
       },
       {
         heading: 'Becoming an Agent',
         paragraphs: [
           'Agent status is granted after an application reviewed through the Contact page, where existing player history and intended network size are considered before access is set up.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/rebate-ratio-table.webp',
+          alt: 'BDG Win rebate ratio table showing commission percentages by level and subordinate depth',
+          caption: 'BDG Win\'s rebate ratio table, showing how commission percentages change across rebate levels and subordinate depth for lottery, casino and sports.'
+        }
       },
       {
         heading: 'Managing a Player Network Day to Day',
@@ -630,7 +677,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Slot titles on BDG Win are grouped by theme and volatility, with stake ranges adjustable per spin. Round results are generated and displayed instantly, without long loading animations, which keeps sessions quick even on limited mobile data.',
           'New slot titles are added periodically and appear first on the New Games page before moving into general rotation.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/slots-provider-grid.webp',
+          alt: 'BDG Win slots screen showing titles from multiple game studios grouped for browsing',
+          caption: 'A sample of the slot titles available on BDG Win, grouped for quick browsing across multiple game studios.'
+        }
       },
       {
         heading: 'Matching a Title to Your Play Style',
@@ -670,7 +722,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Numbered lottery draws on BDG Win run on fixed schedules with published draw times, while BDG Win Color Prediction rounds settle in under a minute, letting you place several rounds in a short session.',
           'Every draw and prediction round result is logged in your history, so you can review outcomes and timing at any point from your account.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/lottery-wingo-k3-5d.webp',
+          alt: 'BDG Win lottery category listing Win Go, MotoRace, K3 and 5D draw formats',
+          caption: 'BDG Win\'s lottery category, listing draw formats side by side, each with its own guess-number style and settlement time.'
+        }
       },
       {
         heading: 'Reading Your Round History',
@@ -790,14 +847,24 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Each round starts a rising multiplier applied to your stake. You choose when to cash out — the longer you wait, the higher the potential payout, but the round can crash at any moment, ending it at zero if you have not cashed out yet.',
           'Round history and crash points are logged and visible after each round, similar to how BDG Win Color Prediction results are tracked, giving you a clear record of past outcomes.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/mini-games-grid.webp',
+          alt: 'BDG Win mini games list including crash-style titles alongside quick-round games',
+          caption: 'BDG Win\'s mini games list, where crash-style titles sit alongside other quick-round formats.'
+        }
       },
       {
         heading: 'Setting a Cash-Out Approach Before You Play',
         paragraphs: [
           'Because the round can end at any moment, many players decide on a target multiplier before the round starts rather than reacting in the moment — a fixed target removes the split-second decision under pressure once the multiplier is climbing quickly.',
           'The visible round history is useful for this exactly because it shows a spread of recent crash points rather than a single number, which is a more realistic picture of typical outcomes than any one round on its own.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/aviator-bonus.webp',
+          alt: 'BDG Win crash game bonus promotion tied to total turnover, with bonus tiers by wagering amount',
+          caption: 'A BDG Win crash-game bonus tied to total turnover, with bonus tiers shown by wagering amount.'
+        }
       }
     ],
     faqs: [
@@ -868,7 +935,12 @@ const pagesData: Record<string, PageEntry> = {
         heading: 'How Popularity Is Ranked',
         paragraphs: [
           'BDG Win tracks active sessions across casino, slots, lottery, sports, crash, fishing and arcade categories to determine which titles are currently drawing the most play. This ranking updates regularly, so it reflects recent trends rather than a fixed all-time list.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/popular-games-rtp.webp',
+          alt: 'BDG Win popular games list ranked with published RTP percentages',
+          caption: 'BDG Win\'s popular games list, showing top titles ranked alongside their published RTP percentage.'
+        }
       },
       {
         heading: 'Using the Popular List to Try Something New',
@@ -1107,7 +1179,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Enter your mobile number on the registration form, then confirm the one-time code sent to that number. Once verified, set a password for your account — this is what you will use to log in going forward alongside your registered number.',
           'After registration, add a payment method from the Payment Methods page and make your first deposit to unlock full access to every BDG Win game category.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/register-screen.webp',
+          alt: 'BDG Win registration form asking for phone number, password and invite code',
+          caption: 'The BDG Win registration form, asking for a phone number, a password and confirmation before your account is created.'
+        }
       },
       {
         heading: 'What to Have Ready Before You Start',
@@ -1147,7 +1224,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Enter your registered mobile number and password on the login form. The same credentials work across Android, iOS and desktop, so your wallet, rewards and VIP tier stay consistent regardless of which device you log in from.',
           'If you cannot remember your password, use the Forgot Password page to reset it through your registered number rather than creating a new account.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/login-screen.webp',
+          alt: 'BDG Win login screen with phone number and password fields',
+          caption: 'The BDG Win login screen, using a registered mobile number and password, with phone or email login tabs.'
+        }
       },
       {
         heading: 'Staying Logged In Safely',
@@ -1227,7 +1309,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Bank transfers, UPI and select digital wallets are supported for BDG Win deposits and withdrawals, all routed through verified payment partners. Available options may vary slightly depending on your region and account verification status.',
           'Add a payment method from your account settings before making your first deposit — this same method is generally used for withdrawals as well, keeping transactions consistent and traceable.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/wallet-split-view.webp',
+          alt: 'BDG Win wallet summary showing main wallet and third-party wallet balances',
+          caption: 'A BDG Win wallet summary showing the split between main wallet and third-party wallet balances, with quick links to deposit and withdrawal history.'
+        }
       },
       {
         heading: 'Why Deposits and Withdrawals Use the Same Method',
@@ -1267,7 +1354,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'From your account dashboard, choose a payment method from the Payment Methods page, enter the deposit amount, and confirm through your chosen provider. Most deposits post to your BDG Win wallet within minutes once the payment provider confirms the transaction.',
           'If a deposit does not appear after a reasonable wait, check your payment provider\'s transaction history first, then contact Support with the transaction reference if it still has not posted.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/deposit-channels.webp',
+          alt: 'BDG Win deposit screen showing supported payment channels and quick-select amounts',
+          caption: 'The BDG Win Deposit screen, showing supported channels alongside quick-select deposit amounts.'
+        }
       },
       {
         heading: 'Avoiding the Most Common Deposit Delays',
@@ -1307,7 +1399,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'From your wallet, request a withdrawal to your verified payment method and confirm the amount. Most requests are reviewed and processed the same day, though processing speed can vary based on your account verification status and current VIP tier.',
           'Higher BDG Win VIP tiers are typically prioritized in the withdrawal queue, resulting in faster payout confirmation compared to base-tier accounts.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/withdraw-screen.webp',
+          alt: 'BDG Win withdraw screen showing available balance and a saved payout method',
+          caption: 'The BDG Win Withdraw screen, showing available balance, supported payout methods and a saved withdrawal address.'
+        }
       },
       {
         heading: 'Habits That Keep Withdrawals Fast',
@@ -1347,7 +1444,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Every BDG Win session is encrypted, and login access requires your registered mobile number alongside your password. Withdrawal requests are checked against your verified payment method to reduce the risk of unauthorized transfers.',
           'We recommend using a unique password for your BDG Win account and never sharing your login details, OTP codes or password with anyone claiming to be BDG Win support — official support will never ask for your password.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/account-wallet-overview.webp',
+          alt: 'BDG Win account overview showing UID, VIP tier, last login timestamp and wallet balance',
+          caption: 'A BDG Win account overview showing your UID, VIP tier and last login timestamp alongside your wallet balance — everything tied to one encrypted, password-protected session.'
+        }
       },
       {
         heading: 'Recognizing and Avoiding Common Scams',
@@ -1609,7 +1711,12 @@ const pagesData: Record<string, PageEntry> = {
         paragraphs: [
           'Start with the Register, Login and Deposit Guide pages if you are setting up your account for the first time. For payout questions, the Withdrawal Guide and Payment Methods pages cover processing details, while the Security and Fair Play pages explain how BDG Win protects accounts and verifies game outcomes.',
           'If a guide does not answer your question, reach the support team directly through the Contact page.'
-        ]
+        ],
+        image: {
+          src: '/images/screenshots/self-service-center.webp',
+          alt: 'BDG Win Self Service Center listing common self-help topics like deposit and withdrawal issues',
+          caption: 'BDG Win\'s Self Service Center, listing common self-help topics such as deposit issues, IFSC modification and withdrawal problems.'
+        }
       },
       {
         heading: 'Finding the Right Guide Quickly',
