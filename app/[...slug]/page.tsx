@@ -102,6 +102,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
                       alt={section.image.alt}
                       width={800}
                       height={1448}
+                      sizes="(min-width: 640px) 320px, 90vw"
                       className="w-full rounded-xl"
                     />
                     <figcaption className="mt-3 text-xs leading-relaxed text-grey">{section.image.caption}</figcaption>

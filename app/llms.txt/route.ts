@@ -48,12 +48,17 @@ export async function GET() {
       description: pagesData['/games/lottery'].metaDescription
     },
     { label: 'Sports Games', path: '/games/sports', description: pagesData['/games/sports'].metaDescription },
-    { label: 'Crash Games', path: '/games/crash', description: pagesData['/games/crash'].metaDescription }
+    { label: 'Crash Games', path: '/games/crash', description: pagesData['/games/crash'].metaDescription },
+    { label: 'Fishing Games', path: '/games/fishing', description: pagesData['/games/fishing'].metaDescription },
+    { label: 'Arcade Games', path: '/games/arcade', description: pagesData['/games/arcade'].metaDescription },
+    { label: 'Popular Games', path: '/games/popular', description: pagesData['/games/popular'].metaDescription }
   ]);
 
   section('Rewards & Programs', [
     { label: 'Rewards', path: '/rewards', description: pagesData['/rewards'].metaDescription },
     { label: 'VIP Program', path: '/vip', description: pagesData['/vip'].metaDescription },
+    { label: 'Promotions', path: '/promotions', description: pagesData['/promotions'].metaDescription },
+    { label: 'Gift Code', path: '/gift-code', description: pagesData['/gift-code'].metaDescription },
     {
       label: 'Referral Program',
       path: '/referral-program',

@@ -132,7 +132,9 @@ export default function HomePage() {
                 alt="BDG Win gold trophy, casino chips and coins"
                 width={640}
                 height={720}
+                sizes="(min-width: 1024px) 512px, (min-width: 640px) 448px, 90vw"
                 className="h-auto w-full max-w-md drop-shadow-[0_20px_60px_rgba(244,197,66,.25)] lg:max-w-lg"
+                quality={60}
                 priority
                 fetchPriority="high"
               />
@@ -248,6 +250,7 @@ export default function HomePage() {
               alt="BDG Win login screen with phone number and password fields"
               width={800}
               height={1448}
+              sizes="112px"
               className={shot}
             />
           </div>
@@ -267,6 +270,7 @@ export default function HomePage() {
               alt="BDG Win registration form asking for phone number, password and invite code"
               width={800}
               height={1448}
+              sizes="112px"
               className={shot}
             />
           </div>
@@ -296,6 +300,7 @@ export default function HomePage() {
             alt="BDG Win home screen with all game categories one tap away"
             width={800}
             height={1448}
+            sizes="112px"
             className={shot}
           />
         </div>
@@ -324,6 +329,7 @@ export default function HomePage() {
                 alt="Live chat support inside the BDG Win app"
                 width={800}
                 height={1448}
+                sizes="112px"
                 className={shot}
               />
             </div>
@@ -339,6 +345,7 @@ export default function HomePage() {
                 alt="BDG Win VIP tier progress and benefits screen"
                 width={800}
                 height={1448}
+                sizes="112px"
                 className={shot}
               />
             </div>
@@ -381,6 +388,7 @@ export default function HomePage() {
                 alt="BDG Win app before logging in, with event rewards ready to unlock"
                 width={800}
                 height={1448}
+                sizes="112px"
                 className={`${shot} hidden sm:block`}
               />
             </div>
@@ -423,6 +431,7 @@ export default function HomePage() {
                 alt="BDG Win attendance bonus screen showing rewards by consecutive login day"
                 width={800}
                 height={1448}
+                sizes="112px"
                 className={shot}
               />
             </div>
@@ -438,6 +447,7 @@ export default function HomePage() {
                 alt="BDG Win Streak Bonus paying an extra percentage after consecutive wins"
                 width={800}
                 height={1448}
+                sizes="112px"
                 className={shot}
               />
             </div>
@@ -486,6 +496,7 @@ export default function HomePage() {
               alt="Shareable BDG Win referral poster with a scannable invite QR code and commission rate"
               width={800}
               height={1448}
+              sizes="112px"
               className={`${shot} hidden sm:block`}
             />
           </div>
@@ -536,6 +547,7 @@ export default function HomePage() {
               alt="BDG Win account overview showing UID, VIP tier and total wallet balance"
               width={800}
               height={1448}
+              sizes="112px"
               className={`${shot} hidden sm:block`}
             />
           </div>
@@ -572,6 +584,7 @@ export default function HomePage() {
             alt="BDG Win gift code redemption screen"
             width={800}
             height={1448}
+            sizes="112px"
             className={`${shot} mx-auto hidden sm:mx-0 sm:block`}
           />
         </div>
