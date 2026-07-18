@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { BlogListingPage } from '@/components/blog/BlogListingPage';
 import { buildBlogListing } from '@/lib/blog-listing';
 import { buildMeta } from '@/lib/seo';
-import { organizationSchema, webPageSchema } from '@/lib/schema';
+import { organizationSchema, collectionPageSchema } from '@/lib/schema';
 import * as blog from '@/data/blog.data';
 
 export function generateStaticParams() {
@@ -30,7 +30,7 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
   const title = `${category.name} Articles | BDG Win Blog`;
   const description = `Read BDG Win blog articles filed under ${category.name}.`;
   const listing = buildBlogListing({ posts: blog.getPostsByCategory(category.slug), path, heading: category.name });
-  const schemas = [organizationSchema(), webPageSchema({ title, description, path })];
+  const schemas = [organizationSchema(), collectionPageSchema({ title, description, path })];
 
   return <BlogListingPage eyebrow="Category" heading={category.name} path={path} listing={listing} schemas={schemas} />;
 }

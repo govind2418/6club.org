@@ -4,6 +4,9 @@ import { PostCard } from './PostCard';
 import { Pagination } from './Pagination';
 import { Sidebar } from './Sidebar';
 import { Newsletter } from './Newsletter';
+import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
+import { itemListSchema } from '@/lib/schema';
+import { siteConfig as site } from '@/lib/site.config';
 import type { BlogListingResult } from '@/lib/blog-listing';
 
 export function BlogListingPage({
@@ -21,9 +24,17 @@ export function BlogListingPage({
 }) {
   const { pagination, breadcrumb, categories, tags, recentPosts } = listing;
 
+  const allSchemas = [
+    ...schemas,
+    buildBreadcrumbSchema(breadcrumb),
+    itemListSchema({
+      items: pagination.items.map((post) => ({ name: post.title, url: `${site.siteUrl}/blog/${post.slug}` }))
+    })
+  ];
+
   return (
     <>
-      <JsonLd schemas={schemas} />
+      <JsonLd schemas={allSchemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
 
       <section className="relative overflow-hidden border-b border-goldline pb-12 pt-32 lg:pt-40">

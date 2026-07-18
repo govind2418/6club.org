@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { BlogListingPage } from '@/components/blog/BlogListingPage';
 import { buildBlogListing, BLOG_PER_PAGE } from '@/lib/blog-listing';
 import { buildMeta } from '@/lib/seo';
-import { organizationSchema, webPageSchema } from '@/lib/schema';
+import { organizationSchema, collectionPageSchema } from '@/lib/schema';
 import * as blog from '@/data/blog.data';
 
 const TITLE = 'BDG Win Blog – Guides, Tips and Platform Updates';
@@ -29,7 +29,7 @@ export default async function BlogIndexPagePaginated({ params }: { params: Promi
   const listing = buildBlogListing({ posts, path: PATH, heading: 'BDG Win Blog', page: pageNum });
   if (!pageNum || pageNum < 2 || pageNum > listing.pagination.totalPages) notFound();
 
-  const schemas = [organizationSchema(), webPageSchema({ title: TITLE, description: DESCRIPTION, path: PATH })];
+  const schemas = [organizationSchema(), collectionPageSchema({ title: TITLE, description: DESCRIPTION, path: PATH })];
 
   return (
     <BlogListingPage eyebrow="BDG Win Blog" heading="BDG Win Blog" path={PATH} listing={listing} schemas={schemas} />

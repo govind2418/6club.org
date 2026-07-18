@@ -8,9 +8,10 @@ import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
-import { organizationSchema, webPageSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, webPageSchema, faqSchema, itemListSchema } from '@/lib/schema';
 import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
 import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
+import { siteConfig as site } from '@/lib/site.config';
 import pagesData from '@/data/pages.data';
 
 export function generateStaticParams() {
@@ -42,7 +43,10 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
     organizationSchema(),
     webPageSchema({ title: page.metaTitle, description: page.metaDescription, path }),
     buildBreadcrumbSchema(breadcrumb),
-    faqSchema(page.faqs || [])
+    faqSchema(page.faqs || []),
+    page.itemList
+      ? itemListSchema({ items: page.itemList.map((item) => ({ name: item.label, url: `${site.siteUrl}${item.url}` })) })
+      : null
   ];
 
   const tocHeadings = (page.sections || [])
@@ -57,6 +61,19 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
       <Breadcrumb breadcrumb={breadcrumb} />
       <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} />
       <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mx-auto mt-10 max-w-3xl px-5 lg:px-8" />
+
+      {page.itemList && page.itemList.length > 0 && (
+        <section className="mx-auto max-w-5xl px-5 pt-10 lg:px-8">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {page.itemList.map((item, i) => (
+              <a key={i} href={item.url} className="card-surface p-5">
+                <h3 className="text-sm font-semibold text-white">{item.label}</h3>
+                <p className="mt-1 text-xs leading-relaxed text-grey">{item.description}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       {page.sections && page.sections.length > 0 && (
         <article className="mx-auto max-w-3xl px-5 py-14 lg:px-8">

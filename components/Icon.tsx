@@ -30,7 +30,11 @@ import {
   Sunrise,
   CalendarDays,
   CalendarRange,
-  Crown
+  Crown,
+  LogIn,
+  UserPlus,
+  Download,
+  Percent
 } from 'lucide-react';
 import { Facebook, Instagram } from './icons/brand-icons';
 
@@ -67,7 +71,11 @@ const iconMap: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
   sunrise: Sunrise,
   'calendar-days': CalendarDays,
   'calendar-range': CalendarRange,
-  crown: Crown
+  crown: Crown,
+  'log-in': LogIn,
+  'user-plus': UserPlus,
+  download: Download,
+  percent: Percent
 };
 
 export function Icon({ name, className }: { name: string; className?: string }) {

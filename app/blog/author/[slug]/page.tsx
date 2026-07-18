@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { BlogListingPage } from '@/components/blog/BlogListingPage';
 import { buildBlogListing } from '@/lib/blog-listing';
 import { buildMeta } from '@/lib/seo';
-import { organizationSchema, webPageSchema } from '@/lib/schema';
+import { organizationSchema, collectionPageSchema } from '@/lib/schema';
 import * as blog from '@/data/blog.data';
 
 export function generateStaticParams() {
@@ -30,7 +30,7 @@ export default async function BlogAuthorPage({ params }: { params: Promise<{ slu
   const title = `Articles by ${author.name} | BDG Win Blog`;
   const description = `BDG Win blog articles written by ${author.name}, ${author.role}.`;
   const listing = buildBlogListing({ posts: blog.getPostsByAuthor(author.slug), path, heading: author.name });
-  const schemas = [organizationSchema(), webPageSchema({ title, description, path })];
+  const schemas = [organizationSchema(), collectionPageSchema({ title, description, path })];
 
   return <BlogListingPage eyebrow="Author" heading={author.name} path={path} listing={listing} schemas={schemas} />;
 }

@@ -32,6 +32,7 @@ export interface PageEntry {
   sections?: PageSection[];
   faqs?: PageFaq[];
   related?: PageLink[];
+  itemList?: { label: string; url: string; description: string }[];
 }
 
 const pagesData: Record<string, PageEntry> = {
@@ -591,6 +592,16 @@ const pagesData: Record<string, PageEntry> = {
     h1: 'BDG Win Game Categories',
     intro: 'Every BDG Win game category sits under one account, so you can move between them without switching wallets.',
     breadcrumbTrail: [],
+    itemList: [
+      { label: 'Casino Games', url: '/games/casino', description: 'Live dealer tables and classic table games.' },
+      { label: 'Slot Games', url: '/games/slots', description: 'Themed reels with adjustable stakes.' },
+      { label: 'Lottery & Color Prediction', url: '/games/lottery', description: 'Numbered draws and fast prediction rounds.' },
+      { label: 'Sports Games', url: '/games/sports', description: 'Pre-match and live markets across major sports.' },
+      { label: 'Crash Games', url: '/games/crash', description: 'Cash out a rising multiplier before it crashes.' },
+      { label: 'Fishing Games', url: '/games/fishing', description: 'Skill-based rounds with multiplier catches.' },
+      { label: 'Arcade Games', url: '/games/arcade', description: 'Short, casual rounds for quick sessions.' },
+      { label: 'Popular Games', url: '/games/popular', description: 'The most played titles this month.' }
+    ],
     sections: [
       {
         heading: 'Choosing a Category',

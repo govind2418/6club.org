@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { BlogListingPage } from '@/components/blog/BlogListingPage';
 import { buildBlogListing, BLOG_PER_PAGE } from '@/lib/blog-listing';
 import { buildMeta } from '@/lib/seo';
-import { organizationSchema, webPageSchema } from '@/lib/schema';
+import { organizationSchema, collectionPageSchema } from '@/lib/schema';
 import * as blog from '@/data/blog.data';
 
 function tagName(tagSlug: string) {
@@ -41,7 +41,7 @@ export default async function BlogTagPagePaginated({ params }: { params: Promise
   const listing = buildBlogListing({ posts: blog.getPostsByTag(tagSlug), path, heading: `#${name}`, page: pageNum });
   if (!pageNum || pageNum < 2 || pageNum > listing.pagination.totalPages) notFound();
 
-  const schemas = [organizationSchema(), webPageSchema({ title, description, path })];
+  const schemas = [organizationSchema(), collectionPageSchema({ title, description, path })];
 
   return <BlogListingPage eyebrow="Tag" heading={`#${name}`} path={path} listing={listing} schemas={schemas} />;
 }

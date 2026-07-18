@@ -174,6 +174,60 @@ export default function HomePage() {
               register and what the account itself is built around.
             </p>
           </div>
+
+          <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
+            <div className="card-surface p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Platform Type</dt>
+              <dd className="mt-1 text-sm text-white">Online gaming platform</dd>
+            </div>
+            <div className="card-surface p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Operating Since</dt>
+              <dd className="mt-1 text-sm text-white">2021</dd>
+            </div>
+            <div className="card-surface p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Account Model</dt>
+              <dd className="mt-1 text-sm text-white">One account, one wallet</dd>
+            </div>
+            <div className="card-surface p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Available On</dt>
+              <dd className="mt-1 text-sm text-white">Android, iOS, desktop</dd>
+            </div>
+            <div className="card-surface p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Registration Time</dt>
+              <dd className="mt-1 text-sm text-white">Under a minute</dd>
+            </div>
+            <div className="card-surface p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Reward Structure</dt>
+              <dd className="mt-1 text-sm text-white">Daily, weekly, monthly, VIP</dd>
+            </div>
+          </dl>
+
+          <div className="mt-8">
+            <p className="mb-4 text-center text-xs font-semibold uppercase tracking-wide text-gold">
+              Explore BDG Win
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              {[
+                { label: 'BDG Win Login', url: '/login', icon: 'log-in' },
+                { label: 'BDG Win Register', url: '/register', icon: 'user-plus' },
+                { label: 'BDG Win Download', url: '/download', icon: 'download' },
+                { label: 'BDG Win App', url: '/download', icon: 'smartphone' },
+                { label: 'BDG Game', url: '/games', icon: 'gamepad-2' },
+                { label: 'BDG Win Bonus', url: '/promotions', icon: 'percent' },
+                { label: 'BDG Win Gift Code', url: '/gift-code', icon: 'gift' },
+                { label: 'BDG Win VIP', url: '/vip', icon: 'crown' }
+              ].map((link) => (
+                <a
+                  key={link.url + link.label}
+                  href={link.url}
+                  className="inline-flex items-center gap-2 rounded-full border border-goldline px-4 py-2 text-xs font-semibold text-grey transition-colors hover:border-gold hover:text-gold sm:text-sm"
+                >
+                  <Icon name={link.icon} className="h-3.5 w-3.5 text-gold" />
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
 
         <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">

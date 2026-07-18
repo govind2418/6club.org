@@ -121,3 +121,40 @@ export function webPageSchema({ title, description, path }: { title: string; des
     }
   };
 }
+
+export function itemListSchema({ items }: { items: { name: string; url: string }[] }) {
+  if (!items.length) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url
+    }))
+  };
+}
+
+export function collectionPageSchema({
+  title,
+  description,
+  path
+}: {
+  title: string;
+  description: string;
+  path: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: title,
+    description,
+    url: `${site.siteUrl}${path}`,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: site.siteName,
+      url: site.siteUrl
+    }
+  };
+}
