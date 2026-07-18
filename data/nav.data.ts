@@ -57,7 +57,7 @@ const navData: NavData = {
   ],
   footer: {
     platform: [
-      { label: 'About BDG Win', url: '/about' },
+      { label: 'About BDG Win', url: '/about-us' },
       { label: 'Features', url: '/features' },
       { label: 'VIP Program', url: '/vip' },
       { label: 'Promotions', url: '/promotions' },
@@ -85,7 +85,7 @@ const navData: NavData = {
     support: [
       { label: 'Help Center', url: '/help-center' },
       { label: 'Support', url: '/support' },
-      { label: 'Contact', url: '/contact' },
+      { label: 'Contact', url: '/contact-us' },
       { label: 'FAQs', url: '/faqs' },
       { label: 'Security', url: '/security' },
       { label: 'Responsible Gaming', url: '/responsible-gaming' },
@@ -93,8 +93,9 @@ const navData: NavData = {
     ],
     legal: [
       { label: 'Privacy Policy', url: '/privacy-policy' },
-      { label: 'Terms & Conditions', url: '/terms' },
+      { label: 'Terms & Conditions', url: '/terms-conditions' },
       { label: 'Cookies Policy', url: '/cookies' },
+      { label: 'Disclaimer', url: '/disclaimer' },
       { label: 'Site Map', url: '/sitemap' }
     ]
   }

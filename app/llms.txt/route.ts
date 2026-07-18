@@ -97,9 +97,10 @@ export async function GET() {
   section('Support & Policies', [
     { label: 'FAQs', path: '/faqs', description: pagesData['/faqs'].metaDescription },
     { label: 'Help Center', path: '/help-center', description: pagesData['/help-center'].metaDescription },
-    { label: 'Contact', path: '/contact', description: pagesData['/contact'].metaDescription },
+    { label: 'Contact', path: '/contact-us', description: pagesData['/contact-us'].metaDescription },
     { label: 'Privacy Policy', path: '/privacy-policy', description: pagesData['/privacy-policy'].metaDescription },
-    { label: 'Terms & Conditions', path: '/terms', description: pagesData['/terms'].metaDescription }
+    { label: 'Terms & Conditions', path: '/terms-conditions', description: pagesData['/terms-conditions'].metaDescription },
+    { label: 'Disclaimer', path: '/disclaimer', description: pagesData['/disclaimer'].metaDescription }
   ]);
 
   return new NextResponse(lines.join('\n').trim() + '\n', {

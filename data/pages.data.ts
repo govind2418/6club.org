@@ -36,7 +36,7 @@ export interface PageEntry {
 }
 
 const pagesData: Record<string, PageEntry> = {
-  '/about': {
+  '/about-us': {
     metaTitle: 'About BDG Win – Our Platform and How It Works',
     metaDescription:
       'Learn what BDG Win is, how the platform is structured, and how casino, slot, lottery, sports and crash games sit under one secure account.',
@@ -143,7 +143,7 @@ const pagesData: Record<string, PageEntry> = {
       { q: 'Can I set my own limits on BDG Win?', a: 'Yes, deposit and session limits are available directly from account settings for any player who wants them.' }
     ],
     related: [
-      { label: 'About BDG Win', url: '/about' },
+      { label: 'About BDG Win', url: '/about-us' },
       { label: 'BDG Win Rewards', url: '/rewards' },
       { label: 'BDG Win VIP Program', url: '/vip' }
     ]
@@ -524,7 +524,7 @@ const pagesData: Record<string, PageEntry> = {
     related: [
       { label: 'Referral Program', url: '/referral-program' },
       { label: 'Agent Program', url: '/agent-program' },
-      { label: 'Contact', url: '/contact' }
+      { label: 'Contact', url: '/contact-us' }
     ]
   },
 
@@ -579,7 +579,7 @@ const pagesData: Record<string, PageEntry> = {
     related: [
       { label: 'Affiliate Program', url: '/affiliate-program' },
       { label: 'Referral Program', url: '/referral-program' },
-      { label: 'Contact', url: '/contact' }
+      { label: 'Contact', url: '/contact-us' }
     ]
   },
 
@@ -1610,13 +1610,13 @@ const pagesData: Record<string, PageEntry> = {
       { q: 'Can I ask what specific data BDG Win holds on my account?', a: 'Yes, contact Support to request details about the data associated with your account.' }
     ],
     related: [
-      { label: 'Terms & Conditions', url: '/terms' },
+      { label: 'Terms & Conditions', url: '/terms-conditions' },
       { label: 'Cookies Policy', url: '/cookies' },
       { label: 'Security', url: '/security' }
     ]
   },
 
-  '/terms': {
+  '/terms-conditions': {
     metaTitle: 'BDG Win Terms & Conditions',
     metaDescription:
       'Read the BDG Win terms and conditions covering account eligibility, acceptable use, rewards and withdrawal rules.',
@@ -1702,8 +1702,63 @@ const pagesData: Record<string, PageEntry> = {
     ],
     related: [
       { label: 'Privacy Policy', url: '/privacy-policy' },
-      { label: 'Terms & Conditions', url: '/terms' },
+      { label: 'Terms & Conditions', url: '/terms-conditions' },
       { label: 'Security', url: '/security' }
+    ]
+  },
+
+  '/disclaimer': {
+    metaTitle: 'BDG Win Disclaimer',
+    metaDescription:
+      'Read the BDG Win disclaimer covering informational content, outcome uncertainty, third-party links and platform limitations.',
+    keywords: ['BDG Win Disclaimer'],
+    eyebrow: 'Legal',
+    h1: 'BDG Win Disclaimer',
+    intro: 'This disclaimer sets out the limits of what BDG Win\'s content and platform can promise you.',
+    breadcrumbTrail: [],
+    sections: [
+      {
+        heading: 'General Information, Not a Guarantee',
+        paragraphs: [
+          'Guides, odds explanations and game descriptions across BDG Win are provided for general informational purposes. They describe how a game category or feature works; they are not a promise of any particular outcome, winning result or payout amount.'
+        ]
+      },
+      {
+        heading: 'No Guaranteed Outcomes',
+        paragraphs: [
+          'Casino, slot, lottery, sports, crash, fishing and arcade results are determined by certified random outcome generation or, for sports markets, by real event results — not by BDG Win or by anything published on this site. Past results shown in round history or blog content are not indicative of future outcomes.'
+        ]
+      },
+      {
+        heading: 'Age and Eligibility',
+        paragraphs: [
+          'BDG Win content assumes the reader meets the minimum age and eligibility requirements described in our Terms & Conditions. Nothing on this site is directed at, or intended for, anyone below the required age or in a jurisdiction where this type of platform is not permitted.'
+        ]
+      },
+      {
+        heading: 'Third-Party Links and Content',
+        paragraphs: [
+          'Where BDG Win links to a payment partner, sister site or other third-party destination, that link is provided for convenience. BDG Win does not control and is not responsible for the content, policies or availability of third-party sites once you leave our platform.'
+        ]
+      },
+      {
+        heading: 'Limitation of Liability',
+        paragraphs: [
+          'BDG Win, its content and its guides are provided "as is." To the extent permitted by applicable law, BDG Win is not liable for decisions made based on information published on this site, or for losses arising from platform use, beyond what is separately addressed in our Terms & Conditions.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'Does BDG Win guarantee winnings?', a: 'No, no game category or piece of content on BDG Win guarantees a winning outcome or payout amount.' },
+      { q: 'Are BDG Win blog guides financial or betting advice?', a: 'No, guides are general informational content about how a feature or game works, not personalized advice.' },
+      { q: 'Is BDG Win responsible for third-party sites it links to?', a: 'No, links to payment partners or other third-party destinations are for convenience only; BDG Win does not control that content.' },
+      { q: 'Does past round history predict future results?', a: 'No, each round or market settles independently, and past results shown in history are not indicative of future outcomes.' },
+      { q: 'Where do the full legal terms live?', a: 'Full account and platform terms are on the Terms & Conditions page; this disclaimer covers the limits of BDG Win\'s content specifically.' }
+    ],
+    related: [
+      { label: 'Terms & Conditions', url: '/terms-conditions' },
+      { label: 'Privacy Policy', url: '/privacy-policy' },
+      { label: 'Fair Play', url: '/fair-play' }
     ]
   },
 
@@ -1748,7 +1803,7 @@ const pagesData: Record<string, PageEntry> = {
     related: [
       { label: 'Support', url: '/support' },
       { label: 'FAQs', url: '/faqs' },
-      { label: 'Contact', url: '/contact' }
+      { label: 'Contact', url: '/contact-us' }
     ]
   },
 
@@ -1788,11 +1843,11 @@ const pagesData: Record<string, PageEntry> = {
     related: [
       { label: 'Help Center', url: '/help-center' },
       { label: 'FAQs', url: '/faqs' },
-      { label: 'Contact', url: '/contact' }
+      { label: 'Contact', url: '/contact-us' }
     ]
   },
 
-  '/contact': {
+  '/contact-us': {
     metaTitle: 'Contact BDG Win – Reach Our Support Team',
     metaDescription:
       'Contact BDG Win for player support, affiliate or agent program applications, or general platform questions.',

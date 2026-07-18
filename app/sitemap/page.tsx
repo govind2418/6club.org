@@ -37,7 +37,7 @@ export default function SiteMapPage() {
       label: 'Main',
       links: [
         { label: 'Home', url: '/' },
-        { label: 'About', url: '/about' },
+        { label: 'About', url: '/about-us' },
         { label: 'Features', url: '/features' },
         { label: 'Sister Sites', url: '/sister-sites' }
       ]
