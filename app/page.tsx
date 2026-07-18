@@ -181,7 +181,7 @@ export default function HomePage() {
               alt="BDG Win login screen with phone number and password fields"
               width={800}
               height={1448}
-              className="mb-4 h-40 w-full rounded-xl object-cover object-top"
+              className="mb-4 w-full rounded-xl"
             />
             <h3 className="text-lg font-semibold text-white">BDG Win Login</h3>
             <p className="mt-2 text-sm leading-relaxed text-grey">
@@ -200,7 +200,7 @@ export default function HomePage() {
               alt="BDG Win registration form asking for phone number, password and invite code"
               width={800}
               height={1448}
-              className="mb-4 h-40 w-full rounded-xl object-cover object-top"
+              className="mb-4 w-full rounded-xl"
             />
             <h3 className="text-lg font-semibold text-white">BDG Win Register</h3>
             <p className="mt-2 text-sm leading-relaxed text-grey">
@@ -264,7 +264,7 @@ export default function HomePage() {
                 alt="Live chat support inside the BDG Win app"
                 width={800}
                 height={1448}
-                className="h-56 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 Live chat support inside the BDG Win app, available around the clock for account and payment
@@ -277,7 +277,7 @@ export default function HomePage() {
                 alt="BDG Win VIP tier progress and benefits screen"
                 width={800}
                 height={1448}
-                className="h-56 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 VIP tier progress and benefits, unlocked automatically as your account activity grows.
@@ -311,7 +311,7 @@ export default function HomePage() {
                 alt="BDG Win app before logging in, with event rewards ready to unlock"
                 width={800}
                 height={1448}
-                className="h-64 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 The BDG Win app the moment it opens — event rewards are visible right away and unlock as soon as
@@ -362,7 +362,7 @@ export default function HomePage() {
                 alt="BDG Win attendance bonus screen showing rewards by consecutive login day"
                 width={800}
                 height={1448}
-                className="h-56 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 Daily attendance rewards on BDG Win — the bonus grows the longer your login streak runs.
@@ -374,7 +374,7 @@ export default function HomePage() {
                 alt="BDG Win Streak Bonus paying an extra percentage after consecutive wins"
                 width={800}
                 height={1448}
-                className="h-56 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 A BDG Win Streak Bonus, paying an extra percentage of your betting amount after consecutive wins.
@@ -426,7 +426,7 @@ export default function HomePage() {
                 alt="Shareable BDG Win referral poster with a scannable invite QR code and commission rate"
                 width={800}
                 height={1448}
-                className="h-64 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 A shareable BDG Win referral poster with a scannable invite QR code, ready to send straight to
@@ -482,7 +482,7 @@ export default function HomePage() {
                 alt="BDG Win account overview showing UID, VIP tier and total wallet balance"
                 width={800}
                 height={1448}
-                className="h-56 w-full rounded-xl object-cover object-top"
+                className="w-full rounded-xl"
               />
               <figcaption className="mt-3 text-xs leading-relaxed text-grey">
                 Your BDG Win account dashboard — balance, VIP tier and login activity in one encrypted view.
