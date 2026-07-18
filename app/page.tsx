@@ -19,6 +19,8 @@ import {
 } from '@/lib/schema';
 import homeData from '@/data/home.data';
 
+const shot = 'h-36 w-24 shrink-0 rounded-xl border border-goldline object-cover object-top shadow-[0_12px_35px_rgba(244,197,66,.2)] sm:h-40 sm:w-28';
+
 export const metadata: Metadata = buildMeta({
   title: 'BDG Win | BDG Win Login, Register & BDG Game Platform',
   description:
@@ -175,43 +177,44 @@ export default function HomePage() {
         </div>
 
         <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
-          <div className="card-surface overflow-hidden p-6">
+          <div className="card-surface flex items-start gap-5 p-6">
+            <div className="min-w-0 flex-1">
+              <h3 className="text-lg font-semibold text-white">BDG Win Login</h3>
+              <p className="mt-2 text-sm leading-relaxed text-grey">
+                Returning players sign in from the BDG Win Login page using their registered mobile number and
+                password. Sessions are encrypted, and a password reset option sits directly on the login screen
+                if you can&apos;t remember your credentials.
+              </p>
+              <a href="/login" className="btn-outline mt-4 inline-flex">
+                Go to Login
+              </a>
+            </div>
             <Image
               src="/images/screenshots/login-screen.webp"
               alt="BDG Win login screen with phone number and password fields"
               width={800}
               height={1448}
-              className="mb-4 w-full rounded-xl"
+              className={shot}
             />
-            <h3 className="text-lg font-semibold text-white">BDG Win Login</h3>
-            <p className="mt-2 text-sm leading-relaxed text-grey">
-              Returning players sign in from the BDG Win Login page using their registered mobile number and
-              password. Sessions are encrypted, and a password reset option sits directly on the login screen if
-              you can&apos;t remember your credentials. Once logged in, every game category, your wallet balance
-              and your reward status are all accessible from the same dashboard.
-            </p>
-            <a href="/login" className="btn-outline mt-4 inline-flex">
-              Go to Login
-            </a>
           </div>
-          <div className="card-surface overflow-hidden p-6">
+          <div className="card-surface flex items-start gap-5 p-6">
+            <div className="min-w-0 flex-1">
+              <h3 className="text-lg font-semibold text-white">BDG Win Register</h3>
+              <p className="mt-2 text-sm leading-relaxed text-grey">
+                New players use the BDG Win Register page to create an account with a mobile number, a password
+                and an OTP verification step that usually takes under a minute — no deposit required right away.
+              </p>
+              <a href="/register" className="btn-gold mt-4 inline-flex">
+                Create an Account
+              </a>
+            </div>
             <Image
               src="/images/screenshots/register-screen.webp"
               alt="BDG Win registration form asking for phone number, password and invite code"
               width={800}
               height={1448}
-              className="mb-4 w-full rounded-xl"
+              className={shot}
             />
-            <h3 className="text-lg font-semibold text-white">BDG Win Register</h3>
-            <p className="mt-2 text-sm leading-relaxed text-grey">
-              New players use the BDG Win Register page to create an account with a mobile number, a password and
-              an OTP verification step that usually takes under a minute. There&apos;s no requirement to deposit
-              immediately after registering — you can browse game categories first and fund your wallet whenever
-              you&apos;re ready.
-            </p>
-            <a href="/register" className="btn-gold mt-4 inline-flex">
-              Create an Account
-            </a>
           </div>
         </div>
 
@@ -226,26 +229,22 @@ export default function HomePage() {
 
       {/* Game Categories */}
       <section id="section-categories" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
-        <div className="mb-10 text-center">
-          <p className="section-eyebrow">Game Categories</p>
-          <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Every BDG Win Game, One Account</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-sm text-grey">
-            From live casino tables to color prediction rounds, pick a category and jump straight in.
-          </p>
-        </div>
-        <figure className="card-surface mx-auto mb-10 max-w-sm overflow-hidden p-3">
+        <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left">
+          <div>
+            <p className="section-eyebrow">Game Categories</p>
+            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Every BDG Win Game, One Account</h2>
+            <p className="mt-3 max-w-2xl text-sm text-grey">
+              From live casino tables to color prediction rounds, pick a category and jump straight in.
+            </p>
+          </div>
           <Image
             src="/images/screenshots/home-game-categories.webp"
             alt="BDG Win home screen with all game categories one tap away"
             width={800}
             height={1448}
-            className="w-full rounded-xl"
+            className={shot}
           />
-          <figcaption className="mt-3 text-center text-xs leading-relaxed text-grey">
-            Every category — Popular, Lottery, Slots, Sports, Casino, Rummy, Fishing and more — sits one tap away
-            from the BDG Win home screen.
-          </figcaption>
-        </figure>
+        </div>
         <GameCategoryGrid categories={homeData.categories} />
       </section>
 
@@ -257,32 +256,38 @@ export default function HomePage() {
             <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What Sets BDG Win Apart</h2>
           </div>
           <FeatureGrid features={homeData.whyChooseUs} gridCols={4} />
-          <div className="mx-auto mt-10 grid max-w-2xl gap-6 sm:grid-cols-2">
-            <figure className="card-surface overflow-hidden p-3">
+          <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
+            <div className="card-surface flex items-center gap-4 p-5">
+              <div className="min-w-0 flex-1">
+                <h4 className="text-sm font-semibold text-white">Live Chat, Anytime</h4>
+                <p className="mt-1 text-xs leading-relaxed text-grey">
+                  Live chat support inside the BDG Win app, available around the clock for account and payment
+                  questions.
+                </p>
+              </div>
               <Image
                 src="/images/screenshots/live-chat-support.webp"
                 alt="Live chat support inside the BDG Win app"
                 width={800}
                 height={1448}
-                className="w-full rounded-xl"
+                className={shot}
               />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                Live chat support inside the BDG Win app, available around the clock for account and payment
-                questions.
-              </figcaption>
-            </figure>
-            <figure className="card-surface overflow-hidden p-3">
+            </div>
+            <div className="card-surface flex items-center gap-4 p-5">
+              <div className="min-w-0 flex-1">
+                <h4 className="text-sm font-semibold text-white">VIP Progress</h4>
+                <p className="mt-1 text-xs leading-relaxed text-grey">
+                  VIP tier progress and benefits, unlocked automatically as your account activity grows.
+                </p>
+              </div>
               <Image
                 src="/images/screenshots/vip-tier-progress.webp"
                 alt="BDG Win VIP tier progress and benefits screen"
                 width={800}
                 height={1448}
-                className="w-full rounded-xl"
+                className={shot}
               />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                VIP tier progress and benefits, unlocked automatically as your account activity grows.
-              </figcaption>
-            </figure>
+            </div>
           </div>
         </div>
       </section>
@@ -290,45 +295,41 @@ export default function HomePage() {
       {/* Download App */}
       <section id="section-download" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div className="order-2 lg:order-1">
-            <div className="grid grid-cols-3 gap-4">
-              <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
-                <Icon name="smartphone" className="h-7 w-7 text-gold" />
-                <p className="text-xs text-grey">Android APK</p>
-              </div>
-              <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
-                <Icon name="apple" className="h-7 w-7 text-gold" />
-                <p className="text-xs text-grey">iOS Guide</p>
-              </div>
-              <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
-                <Icon name="monitor" className="h-7 w-7 text-gold" />
-                <p className="text-xs text-grey">Desktop</p>
-              </div>
+          <div className="order-2 grid grid-cols-3 gap-4 lg:order-1">
+            <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
+              <Icon name="smartphone" className="h-7 w-7 text-gold" />
+              <p className="text-xs text-grey">Android APK</p>
             </div>
-            <figure className="card-surface mt-4 overflow-hidden p-3">
+            <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
+              <Icon name="apple" className="h-7 w-7 text-gold" />
+              <p className="text-xs text-grey">iOS Guide</p>
+            </div>
+            <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
+              <Icon name="monitor" className="h-7 w-7 text-gold" />
+              <p className="text-xs text-grey">Desktop</p>
+            </div>
+          </div>
+          <div className="order-1 lg:order-2">
+            <div className="flex items-start gap-5">
+              <div className="min-w-0 flex-1">
+                <p className="section-eyebrow">Download BDG Win</p>
+                <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Take BDG Win With You</h2>
+                <p className="mt-4 text-sm leading-relaxed text-grey">
+                  Install the BDG Win APK on Android, follow our iOS installation guide, or play instantly from
+                  any desktop browser without downloading anything.
+                </p>
+                <a href="/download" className="btn-gold mt-6 inline-flex">
+                  Get the BDG Win App
+                </a>
+              </div>
               <Image
                 src="/images/screenshots/guest-landing-rewards.webp"
                 alt="BDG Win app before logging in, with event rewards ready to unlock"
                 width={800}
                 height={1448}
-                className="w-full rounded-xl"
+                className={`${shot} hidden sm:block`}
               />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                The BDG Win app the moment it opens — event rewards are visible right away and unlock as soon as
-                you log in.
-              </figcaption>
-            </figure>
-          </div>
-          <div className="order-1 lg:order-2">
-            <p className="section-eyebrow">Download BDG Win</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Take BDG Win With You</h2>
-            <p className="mt-4 text-sm leading-relaxed text-grey">
-              Install the BDG Win APK on Android, follow our iOS installation guide, or play instantly from any
-              desktop browser without downloading anything.
-            </p>
-            <a href="/download" className="btn-gold mt-6 inline-flex">
-              Get the BDG Win App
-            </a>
+            </div>
           </div>
         </div>
       </section>
@@ -355,31 +356,37 @@ export default function HomePage() {
               </a>
             ))}
           </div>
-          <div className="mx-auto mt-10 grid max-w-2xl gap-6 sm:grid-cols-2">
-            <figure className="card-surface overflow-hidden p-3">
+          <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
+            <div className="card-surface flex items-center gap-4 p-5">
+              <div className="min-w-0 flex-1">
+                <h4 className="text-sm font-semibold text-white">Attendance Bonus</h4>
+                <p className="mt-1 text-xs leading-relaxed text-grey">
+                  Daily attendance rewards on BDG Win — the bonus grows the longer your login streak runs.
+                </p>
+              </div>
               <Image
                 src="/images/screenshots/attendance-bonus-calendar.webp"
                 alt="BDG Win attendance bonus screen showing rewards by consecutive login day"
                 width={800}
                 height={1448}
-                className="w-full rounded-xl"
+                className={shot}
               />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                Daily attendance rewards on BDG Win — the bonus grows the longer your login streak runs.
-              </figcaption>
-            </figure>
-            <figure className="card-surface overflow-hidden p-3">
+            </div>
+            <div className="card-surface flex items-center gap-4 p-5">
+              <div className="min-w-0 flex-1">
+                <h4 className="text-sm font-semibold text-white">Win Streak Bonus</h4>
+                <p className="mt-1 text-xs leading-relaxed text-grey">
+                  An extra percentage of your betting amount, paid after a run of consecutive wins.
+                </p>
+              </div>
               <Image
                 src="/images/screenshots/win-streak-bonus.webp"
                 alt="BDG Win Streak Bonus paying an extra percentage after consecutive wins"
                 width={800}
                 height={1448}
-                className="w-full rounded-xl"
+                className={shot}
               />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                A BDG Win Streak Bonus, paying an extra percentage of your betting amount after consecutive wins.
-              </figcaption>
-            </figure>
+            </div>
           </div>
         </div>
       </section>
@@ -401,8 +408,8 @@ export default function HomePage() {
               View Referral Program
             </a>
           </div>
-          <div>
-            <div className="grid grid-cols-2 gap-4">
+          <div className="flex items-center gap-5">
+            <div className="grid min-w-0 flex-1 grid-cols-2 gap-4">
               <div className="card-surface p-6 text-center">
                 <p className="gold-text text-3xl font-bold">1</p>
                 <p className="mt-2 text-xs text-grey">Share your link</p>
@@ -420,19 +427,13 @@ export default function HomePage() {
                 <p className="mt-2 text-xs text-grey">You earn rewards</p>
               </div>
             </div>
-            <figure className="card-surface mt-4 overflow-hidden p-3">
-              <Image
-                src="/images/screenshots/invite-poster-commission.webp"
-                alt="Shareable BDG Win referral poster with a scannable invite QR code and commission rate"
-                width={800}
-                height={1448}
-                className="w-full rounded-xl"
-              />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                A shareable BDG Win referral poster with a scannable invite QR code, ready to send straight to
-                friends.
-              </figcaption>
-            </figure>
+            <Image
+              src="/images/screenshots/invite-poster-commission.webp"
+              alt="Shareable BDG Win referral poster with a scannable invite QR code and commission rate"
+              width={800}
+              height={1448}
+              className={`${shot} hidden sm:block`}
+            />
           </div>
         </div>
       </section>
@@ -457,8 +458,8 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-          <div>
-            <div className="grid grid-cols-2 gap-4">
+          <div className="flex items-center gap-5">
+            <div className="grid min-w-0 flex-1 grid-cols-2 gap-4">
               <div className="card-surface p-6">
                 <Icon name="lock" className="h-6 w-6 text-gold" />
                 <p className="mt-3 text-sm font-semibold text-white">Encrypted Sessions</p>
@@ -476,18 +477,13 @@ export default function HomePage() {
                 <p className="mt-3 text-sm font-semibold text-white">Responsible Gaming Tools</p>
               </div>
             </div>
-            <figure className="card-surface mt-4 overflow-hidden p-3">
-              <Image
-                src="/images/screenshots/account-wallet-overview.webp"
-                alt="BDG Win account overview showing UID, VIP tier and total wallet balance"
-                width={800}
-                height={1448}
-                className="w-full rounded-xl"
-              />
-              <figcaption className="mt-3 text-xs leading-relaxed text-grey">
-                Your BDG Win account dashboard — balance, VIP tier and login activity in one encrypted view.
-              </figcaption>
-            </figure>
+            <Image
+              src="/images/screenshots/account-wallet-overview.webp"
+              alt="BDG Win account overview showing UID, VIP tier and total wallet balance"
+              width={800}
+              height={1448}
+              className={`${shot} hidden sm:block`}
+            />
           </div>
         </div>
       </section>
@@ -498,37 +494,33 @@ export default function HomePage() {
           <p className="section-eyebrow">New to BDG Win</p>
           <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What to Expect in Your First Session</h2>
         </div>
-        <div className="mx-auto grid max-w-3xl gap-6 text-sm leading-relaxed text-grey lg:text-base">
-          <p>
-            Most new players spend their first few minutes exploring game categories before making a deposit —
-            there&apos;s no requirement to fund your wallet immediately after registering. Once you do deposit,
-            it typically posts within minutes, and every game category becomes available right away rather than
-            unlocking gradually.
-          </p>
-          <p>
-            Your first session is also when the daily reward cycle starts tracking, so logging in again the next
-            day keeps that streak moving. From there, weekly and monthly rewards build on the same activity
-            without needing anything extra from you beyond normal play.
-          </p>
-          <p>
-            If anything is unclear along the way, the Help Center groups guides by topic — account setup,
-            payments and individual game categories — so most first-session questions have a direct answer
-            without needing to contact support.
-          </p>
-        </div>
-        <figure className="card-surface mx-auto mt-8 max-w-xs overflow-hidden p-3">
+        <div className="mx-auto flex max-w-3xl flex-col gap-6 sm:flex-row sm:items-start">
+          <div className="min-w-0 flex-1 space-y-6 text-sm leading-relaxed text-grey lg:text-base">
+            <p>
+              Most new players spend their first few minutes exploring game categories before making a deposit —
+              there&apos;s no requirement to fund your wallet immediately after registering. Once you do deposit,
+              it typically posts within minutes, and every game category becomes available right away rather
+              than unlocking gradually.
+            </p>
+            <p>
+              Your first session is also when the daily reward cycle starts tracking, so logging in again the
+              next day keeps that streak moving. From there, weekly and monthly rewards build on the same
+              activity without needing anything extra from you beyond normal play.
+            </p>
+            <p>
+              If anything is unclear along the way, the Help Center groups guides by topic — account setup,
+              payments and individual game categories — so most first-session questions have a direct answer
+              without needing to contact support.
+            </p>
+          </div>
           <Image
             src="/images/screenshots/gift-code-redeem.webp"
             alt="BDG Win gift code redemption screen"
             width={800}
             height={1448}
-            className="w-full rounded-xl"
+            className={`${shot} mx-auto hidden sm:mx-0 sm:block`}
           />
-          <figcaption className="mt-3 text-center text-xs leading-relaxed text-grey">
-            Redeeming a BDG Win gift code from the Gifts screen — one of several small rewards new players run
-            into during their first session.
-          </figcaption>
-        </figure>
+        </div>
       </section>
 
       {/* Testimonials */}
