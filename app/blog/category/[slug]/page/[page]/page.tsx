@@ -20,8 +20,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const category = blog.getCategory(params.slug);
   if (!category) return {};
   return buildMeta({
-    title: `${category.name} Articles | BDG Win Blog`,
-    description: `Read BDG Win blog articles filed under ${category.name}.`,
+    title: `${category.name} Articles | 6 Club Blog`,
+    description: `Read 6 Club blog articles filed under ${category.name}.`,
     path: `/blog/category/${category.slug}`
   });
 }
@@ -39,8 +39,8 @@ export default async function BlogCategoryPagePaginated({
   if (page === '1') redirect(path);
 
   const pageNum = parseInt(page, 10);
-  const title = `${category.name} Articles | BDG Win Blog`;
-  const description = `Read BDG Win blog articles filed under ${category.name}.`;
+  const title = `${category.name} Articles | 6 Club Blog`;
+  const description = `Read 6 Club blog articles filed under ${category.name}.`;
   const listing = buildBlogListing({
     posts: blog.getPostsByCategory(category.slug),
     path,

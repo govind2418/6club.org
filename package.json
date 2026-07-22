@@ -1,8 +1,8 @@
 {
-  "name": "bdgwin",
+  "name": "6club",
   "version": "1.0.0",
   "private": true,
-  "description": "BDG Win website source.",
+  "description": "6 Club website source.",
   "engines": {
     "node": ">=18.0.0"
   },

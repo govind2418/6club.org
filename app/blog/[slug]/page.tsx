@@ -22,14 +22,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blog.getPostBySlug(slug);
   if (!post) return {};
   return buildMeta({
-    title: `${post.title} | BDG Win Blog`,
+    title: `${post.title} | 6 Club Blog`,
     description: post.excerpt,
     path: `/blog/${post.slug}`,
     type: 'article',
     image: '/images/blog-cover.png',
     imageWidth: '800',
     imageHeight: '450',
-    keywords: ['BDG Win', ...post.tags.map((tag) => `BDG Win ${tag.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}`)]
+    keywords: ['6 Club', ...post.tags.map((tag) => `6 Club ${tag.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}`)]
   });
 }
 

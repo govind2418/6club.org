@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const author = blog.getAuthor(slug);
   if (!author) return {};
   return buildMeta({
-    title: `Articles by ${author.name} | BDG Win Blog`,
-    description: `BDG Win blog articles written by ${author.name}, ${author.role}.`,
+    title: `Articles by ${author.name} | 6 Club Blog`,
+    description: `6 Club blog articles written by ${author.name}, ${author.role}.`,
     path: `/blog/author/${author.slug}`
   });
 }
@@ -27,8 +27,8 @@ export default async function BlogAuthorPage({ params }: { params: Promise<{ slu
   if (!author) notFound();
 
   const path = `/blog/author/${author.slug}`;
-  const title = `Articles by ${author.name} | BDG Win Blog`;
-  const description = `BDG Win blog articles written by ${author.name}, ${author.role}.`;
+  const title = `Articles by ${author.name} | 6 Club Blog`;
+  const description = `6 Club blog articles written by ${author.name}, ${author.role}.`;
   const listing = buildBlogListing({ posts: blog.getPostsByAuthor(author.slug), path, heading: author.name });
   const schemas = [organizationSchema(), collectionPageSchema({ title, description, path })];
 

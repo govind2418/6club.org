@@ -20,8 +20,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const author = blog.getAuthor(params.slug);
   if (!author) return {};
   return buildMeta({
-    title: `Articles by ${author.name} | BDG Win Blog`,
-    description: `BDG Win blog articles written by ${author.name}, ${author.role}.`,
+    title: `Articles by ${author.name} | 6 Club Blog`,
+    description: `6 Club blog articles written by ${author.name}, ${author.role}.`,
     path: `/blog/author/${author.slug}`
   });
 }
@@ -39,8 +39,8 @@ export default async function BlogAuthorPagePaginated({
   if (page === '1') redirect(path);
 
   const pageNum = parseInt(page, 10);
-  const title = `Articles by ${author.name} | BDG Win Blog`;
-  const description = `BDG Win blog articles written by ${author.name}, ${author.role}.`;
+  const title = `Articles by ${author.name} | 6 Club Blog`;
+  const description = `6 Club blog articles written by ${author.name}, ${author.role}.`;
   const listing = buildBlogListing({
     posts: blog.getPostsByAuthor(author.slug),
     path,

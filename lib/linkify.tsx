@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { siteConfig } from './site.config';
 
 export interface LinkifyTracker {
   done: boolean;
@@ -8,11 +9,11 @@ export function createLinkifyTracker(): LinkifyTracker {
   return { done: false };
 }
 
-const KEYWORD = 'BDG Win';
-const HOME_URL = 'https://bdgwin.ai';
+const KEYWORD = '6 Club';
+const HOME_URL = siteConfig.siteUrl;
 
 /**
- * Wraps the first "BDG Win" mention found across a page in a homepage link,
+ * Wraps the first "6 Club" mention found across a page in a homepage link,
  * then leaves every subsequent mention as plain text via the shared tracker —
  * one contextual internal link per page reads naturally; linking every
  * mention would look like anchor-text stuffing to search engines.

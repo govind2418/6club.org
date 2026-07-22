@@ -19,26 +19,15 @@ import {
 } from '@/lib/schema';
 import homeData from '@/data/home.data';
 
-const shot = 'h-36 w-24 shrink-0 rounded-xl border border-goldline object-cover object-top shadow-[0_12px_35px_rgba(244,197,66,.2)] sm:h-40 sm:w-28';
+const shot = 'h-36 w-24 shrink-0 rounded-xl border border-goldline object-cover object-top shadow-[0_12px_35px_rgba(244,200,74,.2)] sm:h-40 sm:w-28';
 
 export const metadata: Metadata = buildMeta({
-  title: 'BDG Win | BDG Win Login, Register & BDG Game Platform',
+  title: '6 Club Official Website | 6 Club Login, Register & Games Platform',
   description:
-    'BDG Win is an online gaming platform for casino, slots, lottery, sports and crash games. Register in minutes, deposit securely and claim daily, weekly and VIP rewards.',
+    '6 Club Official Website — 6club is an online gaming platform for casino, slots, lottery, sports and crash games. Register in minutes, deposit securely and claim daily, weekly and VIP rewards.',
   path: '/',
   type: 'website',
-  keywords: [
-    'BDG Win',
-    'BDGWin',
-    'BDG',
-    'BDG Game',
-    'BDG Play',
-    'BDG Win Game',
-    'BDG Win App',
-    'BDG Win Login',
-    'BDG Win Register',
-    'BDG Win Bonus'
-  ]
+  keywords: ['6 Club', '6club', '6 Club Official Website', '6 Club Login', '6 Club Register', '6 Club App', '6 Club Download', '6 Club Games', '6 Club Bonus', '6 Club Gift Code', '6 Club VIP']
 });
 
 export default function HomePage() {
@@ -51,13 +40,13 @@ export default function HomePage() {
   ];
 
   const homeToc = [
-    { id: 'section-about', label: 'What Is BDG Win' },
-    { id: 'section-categories', label: 'Every BDG Win Game, One Account' },
-    { id: 'section-why-choose-us', label: 'What Sets BDG Win Apart' },
-    { id: 'section-download', label: 'Take BDG Win With You' },
-    { id: 'section-rewards', label: 'A Reward for Every Stage of Play' },
-    { id: 'section-referral', label: 'Earn by Inviting Friends to BDG Win' },
-    { id: 'section-security', label: 'Your BDG Win Account, Protected' },
+    { id: 'section-about', label: 'What Is 6 Club' },
+    { id: 'section-categories', label: 'One 6 Club Account, Every Game' },
+    { id: 'section-why-choose-us', label: 'Why Players Stick With 6 Club' },
+    { id: 'section-download', label: 'Play 6 Club Anywhere' },
+    { id: 'section-rewards', label: 'A 6 Club Bonus for Every Stage of Play' },
+    { id: 'section-referral', label: 'Invite Friends, Earn on 6 Club' },
+    { id: 'section-security', label: "Is 6 Club Safe? Account Protection" },
     { id: 'section-getting-started', label: 'What to Expect in Your First Session' }
   ];
   const homeFaqToc = homeData.faqs.map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));
@@ -66,13 +55,32 @@ export default function HomePage() {
     <>
       <JsonLd schemas={schemas} />
 
+      {/* 6Club Banner */}
+      <section className="relative overflow-hidden pt-20 lg:pt-24">
+        <div className="mx-auto max-w-7xl px-5 lg:px-8">
+          <a href="/login" aria-label="6Club Login" className="block overflow-hidden rounded-2xl border border-goldline shadow-glow">
+            <Image
+              src="/images/6club-hero-banner.png"
+              alt="6club login"
+              width={1536}
+              height={1024}
+              sizes="(min-width: 1024px) 1280px, 100vw"
+              className="h-auto w-full object-cover"
+              quality={75}
+              priority
+              fetchPriority="high"
+            />
+          </a>
+        </div>
+      </section>
+
       {/* Hero */}
-      <section className="relative overflow-hidden pb-20 pt-32 lg:pt-40">
+      <section className="relative overflow-hidden pb-20 pt-10 lg:pt-14">
         <div
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              'radial-gradient(circle at 22% 20%, rgba(244,197,66,.16), transparent 55%), radial-gradient(circle at 82% 60%, rgba(139,94,23,.18), transparent 50%)'
+              'radial-gradient(circle at 22% 20%, rgba(244,200,74,.16), transparent 55%), radial-gradient(circle at 82% 60%, rgba(142,98,18,.18), transparent 50%)'
           }}
         />
 
@@ -89,54 +97,53 @@ export default function HomePage() {
           <div className="fade-in text-center lg:text-left">
             <p className="section-eyebrow">Online Gaming Platform</p>
             <h1 className="text-balance mt-4 font-heading text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-              <span className="gold-text">BDG Win</span>
+              <span className="gold-text">6 Club</span>
               <br />
-              Play Bold. Win Big.
+              One ID. All Games.
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
               {linkifyBrandOnce(
-                'BDG Win brings casino tables, slot reels, lottery draws, sports markets and crash games into a single secure account. Register in under a minute, deposit through verified payment methods and track every reward from one dashboard built for fast, modern play.',
+                "One 6 Club account unlocks casino tables, slot reels, lottery draws, sports markets and crash rounds — no separate logins, no separate wallets. Finish 6 Club Register in under a minute, fund your wallet through a verified payment method, and watch every bonus land in a single rewards dashboard built for quick, modern play.",
                 createLinkifyTracker()
               )}
             </p>
 
             <ul className="mx-auto mt-6 flex max-w-xl flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-grey lg:mx-0 lg:justify-start">
               <li className="flex items-center gap-2">
-                <Icon name="zap" className="h-4 w-4 text-gold" /> Fast Registration
+                <Icon name="zap" className="h-4 w-4 text-gold" /> Quick 6 Club Registration
               </li>
               <li className="flex items-center gap-2">
-                <Icon name="shield-check" className="h-4 w-4 text-gold" /> Secure Platform
+                <Icon name="shield-check" className="h-4 w-4 text-gold" /> Secure 6 Club Platform
               </li>
               <li className="flex items-center gap-2">
-                <Icon name="sparkles" className="h-4 w-4 text-gold" /> Modern Experience
+                <Icon name="sparkles" className="h-4 w-4 text-gold" /> Modern Play Experience
               </li>
               <li className="flex items-center gap-2">
-                <Icon name="gift" className="h-4 w-4 text-gold" /> Premium Rewards
+                <Icon name="gift" className="h-4 w-4 text-gold" /> Premium 6 Club Rewards
               </li>
             </ul>
 
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
               <a href="/register" className="btn-gold animate-pulseGlow">
-                Register on BDG Win
+                Register on 6 Club
               </a>
               <a href="/login" className="btn-outline">
-                Login
+                6 Club Login
               </a>
             </div>
           </div>
 
-          <div className="relative mx-auto flex max-w-md items-center justify-center lg:max-w-none">
-            <div className="animate-floaty">
+          <div className="relative mx-auto flex max-w-xl items-center justify-center lg:max-w-none">
+            <div className="animate-floaty w-full">
               <Image
-                src="/images/hero-visual.png"
-                alt="BDG Win gold trophy, casino chips and coins"
-                width={640}
-                height={720}
-                sizes="(min-width: 1024px) 512px, (min-width: 640px) 448px, 90vw"
-                className="h-auto w-full max-w-md drop-shadow-[0_20px_60px_rgba(244,197,66,.25)] lg:max-w-lg"
-                quality={60}
-                priority
-                fetchPriority="high"
+                src="/images/6club-login.webp"
+                alt="6 Club gold logo with casino chips, playing cards, dice and a VIP host"
+                width={1373}
+                height={1001}
+                sizes="(min-width: 1024px) 620px, 90vw"
+                className="h-auto w-full drop-shadow-[0_20px_60px_rgba(244,200,74,.25)]"
+                quality={75}
+                loading="lazy"
               />
             </div>
           </div>
@@ -145,79 +152,70 @@ export default function HomePage() {
 
       <TableOfContents headings={homeToc} faqs={homeFaqToc} className="mx-auto mb-0 max-w-7xl px-5 lg:px-8" />
 
-      {/* What Is BDG Win */}
+      {/* What Is 6 Club */}
       <section id="section-about" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <p className="section-eyebrow text-center">Get Started</p>
-          <h2 className="mt-3 text-center text-2xl font-semibold text-white lg:text-3xl">What Is BDG Win</h2>
+          <h2 className="mt-3 text-center text-2xl font-semibold text-white lg:text-3xl">What Is 6 Club</h2>
           <div className="mt-6 space-y-5 text-sm leading-relaxed text-grey lg:text-base">
             <p>
-              BDG Win is an online gaming platform that brings casino tables, slot reels, lottery draws, sports
-              markets, crash rounds, fishing games and arcade titles into a single account. Instead of juggling
-              separate logins for separate game types, you register once and use one wallet, one balance and one
-              rewards ladder across every category on the site. The platform has been running since 2021, and
-              game categories have been added over time based on what players actually use, so the current lineup
-              reflects that history rather than a fixed catalog decided upfront. Whether you&apos;re placing a bet
-              on a live match, watching a crash multiplier climb, or picking numbers in a lottery draw, the
-              account and deposit process behind it stays exactly the same.
+              6 Club — also written 6club, and this is the 6 Club Official Website — is a single-account gaming
+              platform covering casino tables, slot reels, lottery draws, sports markets, crash rounds, fishing
+              games and arcade titles. Rather than separate logins for separate game types, one 6 Club Register
+              gives you one wallet, one balance and one rewards ladder across the whole platform. 6 Club has been
+              running since 2021, and its game lineup has grown around what players actually play rather than a
+              catalog fixed in advance. Whether you&apos;re backing a live match, watching a crash multiplier
+              climb, or picking numbers on a lottery draw, the account and deposit process behind it never
+              changes.
             </p>
             <p>
-              Players often refer to the whole catalog collectively as &ldquo;BDG Game&rdquo; — it isn&apos;t a
-              separate product, just shorthand for everything available inside a BDG Win account. That includes
-              live-dealer casino tables, themed slot reels, fast-settling lottery and color prediction rounds,
-              pre-match and live sports markets, crash games, skill-based fishing rounds and short arcade
-              sessions. New categories get added to this same account structure rather than launched as
-              standalone apps, so a player who registers for slots today can open a sports market or a lottery
-              draw tomorrow without creating anything new or moving funds between wallets.
+              Players sometimes shorten the whole catalog to just &ldquo;6 Club Games&rdquo; — it isn&apos;t a
+              separate product, just shorthand for everything inside a 6 Club account: live-dealer casino tables,
+              themed slot reels, fast-settling lottery and Colour Prediction rounds, pre-match and live sports
+              markets, Aviator-style crash games, skill-based fishing rounds and quick arcade sessions. New
+              categories join this same account rather than launching as standalone apps, so a player registered
+              for Slots today can open a Sports market or a Lottery draw tomorrow without creating a second
+              account or moving money between wallets.
             </p>
             <p>
-              Each category further down this page links to its own dedicated page with full rules, odds
-              information and a direct way to start playing. Before you get there, here&apos;s how to log in,
-              register and what the account itself is built around.
+              Every category further down this page links out to its own dedicated guide, with rules, odds and a
+              direct way to start playing. Before that, here&apos;s how 6 Club Login, 6 Club Register and the
+              account itself actually work.
             </p>
           </div>
 
-          <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
-            <div className="card-surface p-4">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Platform Type</dt>
-              <dd className="mt-1 text-sm text-white">Online gaming platform</dd>
-            </div>
-            <div className="card-surface p-4">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Operating Since</dt>
-              <dd className="mt-1 text-sm text-white">2021</dd>
-            </div>
-            <div className="card-surface p-4">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Account Model</dt>
-              <dd className="mt-1 text-sm text-white">One account, one wallet</dd>
-            </div>
-            <div className="card-surface p-4">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Available On</dt>
-              <dd className="mt-1 text-sm text-white">Android, iOS, desktop</dd>
-            </div>
-            <div className="card-surface p-4">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Registration Time</dt>
-              <dd className="mt-1 text-sm text-white">Under a minute</dd>
-            </div>
-            <div className="card-surface p-4">
-              <dt className="text-xs font-semibold uppercase tracking-wide text-gold">Reward Structure</dt>
-              <dd className="mt-1 text-sm text-white">Daily, weekly, monthly, VIP</dd>
-            </div>
-          </dl>
+          <div className="mt-8 overflow-hidden rounded-2xl border border-goldline bg-goldline/60">
+            <dl className="grid grid-cols-2 gap-px sm:grid-cols-3">
+              {[
+                { label: 'Platform Type', value: 'Online gaming platform' },
+                { label: 'Operating Since', value: '2021' },
+                { label: 'Account Model', value: 'One account, one wallet' },
+                { label: 'Available On', value: 'Android, iOS, desktop' },
+                { label: 'Registration Time', value: 'Under a minute' },
+                { label: 'Reward Structure', value: 'Daily, weekly, monthly, VIP' }
+              ].map((fact) => (
+                <div key={fact.label} className="bg-bg p-4 sm:p-5">
+                  <dt className="text-[11px] font-semibold uppercase tracking-wide text-gold">{fact.label}</dt>
+                  <dd className="mt-1 text-sm text-white">{fact.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
 
           <div className="mt-8">
             <p className="mb-4 text-center text-xs font-semibold uppercase tracking-wide text-gold">
-              Explore BDG Win
+              Explore 6 Club
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               {[
-                { label: 'BDG Win Login', url: '/login', icon: 'log-in' },
-                { label: 'BDG Win Register', url: '/register', icon: 'user-plus' },
-                { label: 'BDG Win Download', url: '/download', icon: 'download' },
-                { label: 'BDG Win App', url: '/download', icon: 'smartphone' },
-                { label: 'BDG Game', url: '/games', icon: 'gamepad-2' },
-                { label: 'BDG Win Bonus', url: '/promotions', icon: 'percent' },
-                { label: 'BDG Win Gift Code', url: '/gift-code', icon: 'gift' },
-                { label: 'BDG Win VIP', url: '/vip', icon: 'crown' }
+                { label: '6 Club Login', url: '/login', icon: 'log-in' },
+                { label: '6 Club Register', url: '/register', icon: 'user-plus' },
+                { label: '6 Club Download', url: '/download', icon: 'download' },
+                { label: '6 Club App', url: '/download', icon: 'smartphone' },
+                { label: '6 Club Game', url: '/games', icon: 'gamepad-2' },
+                { label: '6 Club Bonus', url: '/promotions', icon: 'percent' },
+                { label: '6 Club Gift Code', url: '/gift-code', icon: 'gift' },
+                { label: '6 Club VIP', url: '/vip', icon: 'crown' }
               ].map((link) => (
                 <a
                   key={link.url + link.label}
@@ -235,11 +233,11 @@ export default function HomePage() {
         <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
           <div className="card-surface flex items-start gap-5 p-6">
             <div className="min-w-0 flex-1">
-              <h3 className="text-lg font-semibold text-white">BDG Win Login</h3>
+              <h3 className="text-lg font-semibold text-white">6 Club Login</h3>
               <p className="mt-2 text-sm leading-relaxed text-grey">
-                Returning players sign in from the BDG Win Login page using their registered mobile number and
-                password. Sessions are encrypted, and a password reset option sits directly on the login screen
-                if you can&apos;t remember your credentials.
+                Returning players use 6 Club Login with their registered mobile number and password. Sessions
+                stay encrypted end to end, and a password-reset shortcut sits right on the sign-in screen if your
+                credentials slip your mind.
               </p>
               <a href="/login" className="btn-outline mt-4 inline-flex">
                 Go to Login
@@ -247,7 +245,7 @@ export default function HomePage() {
             </div>
             <Image
               src="/images/screenshots/login-screen.webp"
-              alt="BDG Win login screen with phone number and password fields"
+              alt="6 Club login screen with phone number and password fields"
               width={800}
               height={1448}
               sizes="112px"
@@ -256,10 +254,10 @@ export default function HomePage() {
           </div>
           <div className="card-surface flex items-start gap-5 p-6">
             <div className="min-w-0 flex-1">
-              <h3 className="text-lg font-semibold text-white">BDG Win Register</h3>
+              <h3 className="text-lg font-semibold text-white">6 Club Register</h3>
               <p className="mt-2 text-sm leading-relaxed text-grey">
-                New players use the BDG Win Register page to create an account with a mobile number, a password
-                and an OTP verification step that usually takes under a minute — no deposit required right away.
+                First-time players use 6 Club Register to open an account with a mobile number, a password and a
+                quick OTP check — usually done in under a minute, with no deposit required to finish signing up.
               </p>
               <a href="/register" className="btn-gold mt-4 inline-flex">
                 Create an Account
@@ -267,7 +265,7 @@ export default function HomePage() {
             </div>
             <Image
               src="/images/screenshots/register-screen.webp"
-              alt="BDG Win registration form asking for phone number, password and invite code"
+              alt="6 Club registration form asking for phone number, password and invite code"
               width={800}
               height={1448}
               sizes="112px"
@@ -290,14 +288,15 @@ export default function HomePage() {
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left">
           <div>
             <p className="section-eyebrow">Game Categories</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Every BDG Win Game, One Account</h2>
+            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">One 6 Club Account, Every Game</h2>
             <p className="mt-3 max-w-2xl text-sm text-grey">
-              From live casino tables to color prediction rounds, pick a category and jump straight in.
+              Pick a lane — live casino, themed slots, Colour Prediction, Sports or Aviator-style crash rounds —
+              and jump straight in from your 6 Club dashboard.
             </p>
           </div>
           <Image
             src="/images/screenshots/home-game-categories.webp"
-            alt="BDG Win home screen with all game categories one tap away"
+            alt="6 Club home screen with all game categories one tap away"
             width={800}
             height={1448}
             sizes="112px"
@@ -312,42 +311,65 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
           <div className="mb-10 text-center">
             <p className="section-eyebrow">Why Choose Us</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What Sets BDG Win Apart</h2>
+            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Why Players Stick With 6 Club</h2>
           </div>
           <FeatureGrid features={homeData.whyChooseUs} gridCols={4} />
-          <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
-            <div className="card-surface flex items-center gap-4 p-5">
-              <div className="min-w-0 flex-1">
-                <h4 className="text-sm font-semibold text-white">Live Chat, Anytime</h4>
-                <p className="mt-1 text-xs leading-relaxed text-grey">
-                  Live chat support inside the BDG Win app, available around the clock for account and payment
-                  questions.
+          <div className="mx-auto mt-6 grid max-w-5xl gap-6 sm:grid-cols-2">
+            <div className="card-surface group relative flex items-center gap-5 overflow-hidden p-6">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -right-12 top-1/2 h-44 w-44 -translate-y-1/2 rounded-full bg-success/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100"
+              />
+              <div className="relative min-w-0 flex-1">
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-success/30 bg-success/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-success">
+                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-success" />
+                  Live
+                </span>
+                <h4 className="mt-3 text-base font-semibold text-white">Live Chat, Anytime</h4>
+                <p className="mt-1.5 text-xs leading-relaxed text-grey">
+                  Round-the-clock live chat sits inside the 6 Club App, ready for account and payment questions
+                  any time of day or night.
                 </p>
               </div>
-              <Image
-                src="/images/screenshots/live-chat-support.webp"
-                alt="Live chat support inside the BDG Win app"
-                width={800}
-                height={1448}
-                sizes="112px"
-                className={shot}
-              />
+              <div className="relative shrink-0">
+                <div aria-hidden="true" className="absolute inset-3 rounded-xl bg-gold/25 blur-xl" />
+                <Image
+                  src="/images/screenshots/live-chat-support.webp"
+                  alt="Live chat support inside the 6 Club app"
+                  width={800}
+                  height={1448}
+                  sizes="112px"
+                  className={`${shot} relative`}
+                />
+              </div>
             </div>
-            <div className="card-surface flex items-center gap-4 p-5">
-              <div className="min-w-0 flex-1">
-                <h4 className="text-sm font-semibold text-white">VIP Progress</h4>
-                <p className="mt-1 text-xs leading-relaxed text-grey">
-                  VIP tier progress and benefits, unlocked automatically as your account activity grows.
+            <div className="card-surface group relative flex items-center gap-5 overflow-hidden p-6">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -right-12 top-1/2 h-44 w-44 -translate-y-1/2 rounded-full bg-accent/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100"
+              />
+              <div className="relative min-w-0 flex-1">
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-accent">
+                  <Icon name="crown" className="h-3 w-3" />
+                  VIP
+                </span>
+                <h4 className="mt-3 text-base font-semibold text-white">VIP Progress</h4>
+                <p className="mt-1.5 text-xs leading-relaxed text-grey">
+                  6 Club VIP tier progress climbs automatically as your activity grows, unlocking better rates
+                  without any extra sign-up.
                 </p>
               </div>
-              <Image
-                src="/images/screenshots/vip-tier-progress.webp"
-                alt="BDG Win VIP tier progress and benefits screen"
-                width={800}
-                height={1448}
-                sizes="112px"
-                className={shot}
-              />
+              <div className="relative shrink-0">
+                <div aria-hidden="true" className="absolute inset-3 rounded-xl bg-accent/25 blur-xl" />
+                <Image
+                  src="/images/screenshots/vip-tier-progress.webp"
+                  alt="6 Club VIP tier progress and benefits screen"
+                  width={800}
+                  height={1448}
+                  sizes="112px"
+                  className={`${shot} relative`}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -356,36 +378,36 @@ export default function HomePage() {
       {/* Download App */}
       <section id="section-download" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div className="order-2 grid grid-cols-3 gap-4 lg:order-1">
-            <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
-              <Icon name="smartphone" className="h-7 w-7 text-gold" />
-              <p className="text-xs text-grey">Android APK</p>
-            </div>
-            <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
-              <Icon name="apple" className="h-7 w-7 text-gold" />
-              <p className="text-xs text-grey">iOS Guide</p>
-            </div>
-            <div className="card-surface flex flex-col items-center gap-3 p-6 text-center">
-              <Icon name="monitor" className="h-7 w-7 text-gold" />
-              <p className="text-xs text-grey">Desktop</p>
-            </div>
+          <div className="order-2 divide-y divide-goldline overflow-hidden rounded-2xl border border-goldline lg:order-1">
+            {[
+              { icon: 'smartphone', label: 'Android APK' },
+              { icon: 'apple', label: 'iOS Guide' },
+              { icon: 'monitor', label: 'Desktop' }
+            ].map((item) => (
+              <div key={item.label} className="flex items-center gap-4 p-4 sm:p-5">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold">
+                  <Icon name={item.icon} className="h-5 w-5" />
+                </span>
+                <p className="text-sm font-medium text-white">{item.label}</p>
+              </div>
+            ))}
           </div>
           <div className="order-1 lg:order-2">
             <div className="flex items-start gap-5">
               <div className="min-w-0 flex-1">
-                <p className="section-eyebrow">Download BDG Win</p>
-                <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Take BDG Win With You</h2>
+                <p className="section-eyebrow">6 Club Download</p>
+                <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Play 6 Club Anywhere</h2>
                 <p className="mt-4 text-sm leading-relaxed text-grey">
-                  Install the BDG Win APK on Android, follow our iOS installation guide, or play instantly from
-                  any desktop browser without downloading anything.
+                  Grab the 6 Club APK for Android, follow the iOS install guide on your iPhone, or skip the
+                  download entirely and play 6 Club straight from a desktop browser.
                 </p>
                 <a href="/download" className="btn-gold mt-6 inline-flex">
-                  Get the BDG Win App
+                  Get the 6 Club App
                 </a>
               </div>
               <Image
                 src="/images/screenshots/guest-landing-rewards.webp"
-                alt="BDG Win app before logging in, with event rewards ready to unlock"
+                alt="6 Club app before logging in, with event rewards ready to unlock"
                 width={800}
                 height={1448}
                 sizes="112px"
@@ -400,35 +422,25 @@ export default function HomePage() {
       <section id="section-rewards" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
           <div className="mb-10 text-center">
-            <p className="section-eyebrow">BDG Win Rewards</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">A Reward for Every Stage of Play</h2>
+            <p className="section-eyebrow">6 Club Rewards</p>
+            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">A 6 Club Bonus for Every Stage of Play</h2>
             <p className="mx-auto mt-3 max-w-2xl text-sm text-grey">
-              BDG Win rewards active players with daily streaks, weekly cashback, monthly milestones and a VIP
-              ladder that unlocks faster withdrawals.
+              Active 6 Club players earn through daily login streaks, weekly cashback, monthly milestones and a
+              VIP ladder that speeds up withdrawals the higher you climb.
             </p>
           </div>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {homeData.rewards.map((r, i) => (
-              <a key={i} href={r.url} className="card-surface p-6">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold">
-                  <Icon name={r.icon} className="h-6 w-6" />
-                </div>
-                <h3 className="mb-2 text-base font-semibold text-white">{r.title}</h3>
-                <p className="text-sm leading-relaxed text-grey">{r.description}</p>
-              </a>
-            ))}
-          </div>
+          <FeatureGrid features={homeData.rewards} gridCols={4} />
           <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
             <div className="card-surface flex items-center gap-4 p-5">
               <div className="min-w-0 flex-1">
                 <h4 className="text-sm font-semibold text-white">Attendance Bonus</h4>
                 <p className="mt-1 text-xs leading-relaxed text-grey">
-                  Daily attendance rewards on BDG Win — the bonus grows the longer your login streak runs.
+                  A 6 Club Daily Bonus that grows the longer your login streak stays unbroken.
                 </p>
               </div>
               <Image
                 src="/images/screenshots/attendance-bonus-calendar.webp"
-                alt="BDG Win attendance bonus screen showing rewards by consecutive login day"
+                alt="6 Club attendance bonus screen showing rewards by consecutive login day"
                 width={800}
                 height={1448}
                 sizes="112px"
@@ -439,12 +451,12 @@ export default function HomePage() {
               <div className="min-w-0 flex-1">
                 <h4 className="text-sm font-semibold text-white">Win Streak Bonus</h4>
                 <p className="mt-1 text-xs leading-relaxed text-grey">
-                  An extra percentage of your betting amount, paid after a run of consecutive wins.
+                  An added percentage on top of your stake, credited after a run of consecutive wins.
                 </p>
               </div>
               <Image
                 src="/images/screenshots/win-streak-bonus.webp"
-                alt="BDG Win Streak Bonus paying an extra percentage after consecutive wins"
+                alt="6 Club Streak Bonus paying an extra percentage after consecutive wins"
                 width={800}
                 height={1448}
                 sizes="112px"
@@ -461,39 +473,36 @@ export default function HomePage() {
           <div>
             <p className="section-eyebrow">Referral Program</p>
             <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">
-              Earn by Inviting Friends to BDG Win
+              Invite Friends, Earn on 6 Club
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-grey">
-              Share your BDG Win referral link, and earn a share of your invited friends&apos; activity for as
-              long as they play. Track invites, pending earnings and paid-out totals from your account
-              dashboard.
+              Share your 6 Club Invite Code or referral link, and earn a cut of your friends&apos; activity for as
+              long as they keep playing. Your account dashboard tracks every invite, pending payout and total
+              earned so far.
             </p>
             <a href="/referral-program" className="btn-gold mt-6 inline-flex">
               View Referral Program
             </a>
           </div>
           <div className="flex items-center gap-5">
-            <div className="grid min-w-0 flex-1 grid-cols-2 gap-4">
-              <div className="card-surface p-6 text-center">
-                <p className="gold-text text-3xl font-bold">1</p>
-                <p className="mt-2 text-xs text-grey">Share your link</p>
-              </div>
-              <div className="card-surface p-6 text-center">
-                <p className="gold-text text-3xl font-bold">2</p>
-                <p className="mt-2 text-xs text-grey">Friend registers</p>
-              </div>
-              <div className="card-surface p-6 text-center">
-                <p className="gold-text text-3xl font-bold">3</p>
-                <p className="mt-2 text-xs text-grey">They play games</p>
-              </div>
-              <div className="card-surface p-6 text-center">
-                <p className="gold-text text-3xl font-bold">4</p>
-                <p className="mt-2 text-xs text-grey">You earn rewards</p>
-              </div>
+            <div className="grid min-w-0 flex-1 grid-cols-2 gap-x-4 gap-y-8">
+              {[
+                { n: 1, label: 'Share your link' },
+                { n: 2, label: 'Friend registers' },
+                { n: 3, label: 'They play games' },
+                { n: 4, label: 'You earn rewards' }
+              ].map((step) => (
+                <div key={step.n} className="text-center">
+                  <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-gold/30 bg-gold/10 font-heading text-lg font-bold text-gold">
+                    {step.n}
+                  </span>
+                  <p className="mt-3 text-xs text-grey">{step.label}</p>
+                </div>
+              ))}
             </div>
             <Image
               src="/images/screenshots/invite-poster-commission.webp"
-              alt="Shareable BDG Win referral poster with a scannable invite QR code and commission rate"
+              alt="Shareable 6 Club referral poster with a scannable invite QR code and commission rate"
               width={800}
               height={1448}
               sizes="112px"
@@ -508,10 +517,10 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="section-eyebrow">Security</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Your BDG Win Account, Protected</h2>
+            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Is 6 Club Safe? Here&apos;s How Your Account Is Protected</h2>
             <p className="mt-4 text-sm leading-relaxed text-grey">
-              BDG Win protects every account with encrypted sessions, verified payment partners and withdrawal
-              checks. Read our full Security and Fair Play pages for details on how outcomes and payouts are
+              Every 6 Club account runs behind encrypted sessions, verified payment partners and withdrawal
+              checks. The full Security and Fair Play pages break down exactly how outcomes and payouts get
               verified.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
@@ -524,27 +533,24 @@ export default function HomePage() {
             </div>
           </div>
           <div className="flex items-center gap-5">
-            <div className="grid min-w-0 flex-1 grid-cols-2 gap-4">
-              <div className="card-surface p-6">
-                <Icon name="lock" className="h-6 w-6 text-gold" />
-                <p className="mt-3 text-sm font-semibold text-white">Encrypted Sessions</p>
-              </div>
-              <div className="card-surface p-6">
-                <Icon name="badge-check" className="h-6 w-6 text-gold" />
-                <p className="mt-3 text-sm font-semibold text-white">Verified Payments</p>
-              </div>
-              <div className="card-surface p-6">
-                <Icon name="eye" className="h-6 w-6 text-gold" />
-                <p className="mt-3 text-sm font-semibold text-white">Fair Play Audits</p>
-              </div>
-              <div className="card-surface p-6">
-                <Icon name="life-buoy" className="h-6 w-6 text-gold" />
-                <p className="mt-3 text-sm font-semibold text-white">Responsible Gaming Tools</p>
-              </div>
+            <div className="grid min-w-0 flex-1 grid-cols-1 gap-4 sm:grid-cols-2">
+              {[
+                { icon: 'lock', label: 'Encrypted Sessions' },
+                { icon: 'badge-check', label: 'Verified Payments' },
+                { icon: 'eye', label: 'Fair Play Audits' },
+                { icon: 'life-buoy', label: 'Responsible Gaming Tools' }
+              ].map((item) => (
+                <div key={item.label} className="flex items-center gap-3">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold">
+                    <Icon name={item.icon} className="h-5 w-5" />
+                  </span>
+                  <p className="text-sm font-medium text-white">{item.label}</p>
+                </div>
+              ))}
             </div>
             <Image
               src="/images/screenshots/account-wallet-overview.webp"
-              alt="BDG Win account overview showing UID, VIP tier and total wallet balance"
+              alt="6 Club account overview showing UID, VIP tier and total wallet balance"
               width={800}
               height={1448}
               sizes="112px"
@@ -557,31 +563,31 @@ export default function HomePage() {
       {/* Getting Started */}
       <section id="section-getting-started" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mb-10 text-center">
-          <p className="section-eyebrow">New to BDG Win</p>
+          <p className="section-eyebrow">New to 6 Club</p>
           <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What to Expect in Your First Session</h2>
         </div>
         <div className="mx-auto flex max-w-3xl flex-col gap-6 sm:flex-row sm:items-start">
           <div className="min-w-0 flex-1 space-y-6 text-sm leading-relaxed text-grey lg:text-base">
             <p>
-              Most new players spend their first few minutes exploring game categories before making a deposit —
-              there&apos;s no requirement to fund your wallet immediately after registering. Once you do deposit,
-              it typically posts within minutes, and every game category becomes available right away rather
-              than unlocking gradually.
+              Most players spend their first few minutes on 6 Club browsing game categories before ever making a
+              deposit — funding your wallet isn&apos;t required right after you register. When you do deposit, it
+              usually posts within minutes, and the entire game catalog is available immediately rather than
+              unlocking in stages.
             </p>
             <p>
-              Your first session is also when the daily reward cycle starts tracking, so logging in again the
-              next day keeps that streak moving. From there, weekly and monthly rewards build on the same
-              activity without needing anything extra from you beyond normal play.
+              Your first 6 Club session is also when the Daily Bonus cycle starts counting, so returning the next
+              day keeps that streak alive. Weekly and monthly rewards build on top of that same activity without
+              asking for anything beyond normal play.
             </p>
             <p>
-              If anything is unclear along the way, the Help Center groups guides by topic — account setup,
-              payments and individual game categories — so most first-session questions have a direct answer
-              without needing to contact support.
+              If something&apos;s unclear, the 6 Club Help Center organizes guides by topic — account setup,
+              payments and individual games — so most first-session questions already have a direct answer
+              without needing to contact Support.
             </p>
           </div>
           <Image
             src="/images/screenshots/gift-code-redeem.webp"
-            alt="BDG Win gift code redemption screen"
+            alt="6 Club gift code redemption screen"
             width={800}
             height={1448}
             sizes="112px"
@@ -594,16 +600,16 @@ export default function HomePage() {
       <Testimonials testimonials={homeData.testimonials} />
 
       {/* FAQs */}
-      <FaqAccordion faqs={homeData.faqs} faqTitle="BDG Win Frequently Asked Questions" faqHeadingId="home-faq" />
+      <FaqAccordion faqs={homeData.faqs} faqTitle="6 Club Frequently Asked Questions" faqHeadingId="home-faq" />
 
       {/* CTA */}
       <Cta
         ctaEyebrow="Get Started"
-        ctaTitle="Create Your BDG Win Account Today"
-        ctaDescription="Registration takes under a minute. Verify your number, claim your welcome bonus and choose a game category to begin."
-        ctaPrimaryLabel="Register on BDG Win"
+        ctaTitle="Join 6 Club and Create Your Account Today"
+        ctaDescription="6 Club Register takes under a minute — verify your number, claim your 6 Club Welcome Bonus, and pick a game category to start playing."
+        ctaPrimaryLabel="Register on 6 Club"
         ctaPrimaryUrl="/register"
-        ctaSecondaryLabel="Login to Your Account"
+        ctaSecondaryLabel="6 Club Login"
         ctaSecondaryUrl="/login"
       />
     </>

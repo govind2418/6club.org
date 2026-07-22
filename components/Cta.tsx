@@ -1,8 +1,8 @@
 export function Cta({
-  ctaEyebrow = 'Join BDG Win',
-  ctaTitle = 'Create your BDG Win account and start playing today',
+  ctaEyebrow = 'Join 6 Club',
+  ctaTitle = 'Create your 6 Club account and start playing today',
   ctaDescription = 'Registration takes under a minute. Verify your number, claim your welcome bonus and pick a game category to begin.',
-  ctaPrimaryLabel = 'Register on BDG Win',
+  ctaPrimaryLabel = 'Register on 6 Club',
   ctaPrimaryUrl = '/register',
   ctaSecondaryLabel = 'Login to Your Account',
   ctaSecondaryUrl = '/login'
@@ -18,7 +18,7 @@ export function Cta({
   return (
     <section
       className="relative mx-auto my-10 max-w-6xl overflow-hidden rounded-3xl border border-goldline px-6 py-14 text-center lg:px-16"
-      style={{ background: 'radial-gradient(circle at 50% 0%, rgba(244,197,66,.12), transparent 60%), #0c0c0c' }}
+      style={{ background: 'radial-gradient(circle at 50% 0%, rgba(244,200,74,.12), transparent 60%), #0B0B0D' }}
     >
       <div className="pointer-events-none absolute -left-10 -top-10 h-40 w-40 rounded-full bg-gold/10 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-10 -right-10 h-40 w-40 rounded-full bg-gold/10 blur-3xl" />

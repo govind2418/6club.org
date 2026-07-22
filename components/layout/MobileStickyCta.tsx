@@ -9,7 +9,7 @@ export function MobileStickyCta() {
         className="btn-gold flex w-full items-center justify-center gap-2 animate-pulseGlow"
       >
         <Icon name="gift" className="h-4 w-4" />
-        BDG Win Signup — Get ₹500 Gift Code
+        6 Club Signup — Get ₹500 Gift Code
       </a>
     </div>
   );

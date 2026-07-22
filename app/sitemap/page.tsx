@@ -62,7 +62,7 @@ export default function SiteMapPage() {
       ]
     },
     {
-      label: 'Earn With BDG Win',
+      label: 'Earn With 6 Club',
       links: [
         { label: 'Referral Program', url: '/referral-program' },
         { label: 'Affiliate Program', url: '/affiliate-program' },

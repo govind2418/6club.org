@@ -7,7 +7,7 @@ export const dynamic = 'force-static';
 
 /**
  * llms.txt (see llmstxt.org) gives AI answer engines and agent crawlers a compact,
- * structured map of the site so they can cite BDG Win accurately instead of guessing
+ * structured map of the site so they can cite 6 Club accurately instead of guessing
  * from partial crawls. Built from the same page/blog data that drives sitemap.xml.
  */
 export async function GET() {
@@ -18,7 +18,7 @@ export async function GET() {
   lines.push(`> ${site.defaultDescription}`);
   lines.push('');
   lines.push(
-    'BDG Win is an online gaming platform covering casino, slot, lottery, Color Prediction, sports, ' +
+    '6 Club is an online gaming platform covering casino, slot, lottery, Color Prediction, sports, ' +
       'crash, fishing and arcade games under a single account, wallet and rewards system.'
   );
   lines.push('');

@@ -4,10 +4,10 @@ export function Newsletter() {
       <div className="card-surface p-8 lg:p-10">
         <p className="section-eyebrow">Stay Updated</p>
         <h2 className="mt-3 text-xl font-semibold text-white lg:text-2xl">
-          Get BDG Win News, Bonus Codes &amp; Updates
+          Get 6 Club News, Bonus Codes &amp; Updates
         </h2>
         <p className="mt-2 text-sm text-grey">
-          Subscribe for new game launches, promotion alerts and gift code drops from BDG Win.
+          Subscribe for new game launches, promotion alerts and gift code drops from 6 Club.
         </p>
         <form method="post" action="/newsletter" className="mx-auto mt-6 flex max-w-md flex-col gap-3 sm:flex-row" noValidate>
           <label htmlFor="newsletter-email" className="sr-only">

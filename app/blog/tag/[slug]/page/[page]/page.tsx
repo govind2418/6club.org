@@ -23,8 +23,8 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const name = tagName(params.slug);
   return buildMeta({
-    title: `${name} Articles | BDG Win Blog`,
-    description: `BDG Win blog articles tagged ${name}.`,
+    title: `${name} Articles | 6 Club Blog`,
+    description: `6 Club blog articles tagged ${name}.`,
     path: `/blog/tag/${params.slug}`
   });
 }
@@ -36,8 +36,8 @@ export default async function BlogTagPagePaginated({ params }: { params: Promise
 
   const pageNum = parseInt(page, 10);
   const name = tagName(tagSlug);
-  const title = `${name} Articles | BDG Win Blog`;
-  const description = `BDG Win blog articles tagged ${name}.`;
+  const title = `${name} Articles | 6 Club Blog`;
+  const description = `6 Club blog articles tagged ${name}.`;
   const listing = buildBlogListing({ posts: blog.getPostsByTag(tagSlug), path, heading: `#${name}`, page: pageNum });
   if (!pageNum || pageNum < 2 || pageNum > listing.pagination.totalPages) notFound();
 

@@ -15,8 +15,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const category = blog.getCategory(slug);
   if (!category) return {};
   return buildMeta({
-    title: `${category.name} Articles | BDG Win Blog`,
-    description: `Read BDG Win blog articles filed under ${category.name}.`,
+    title: `${category.name} Articles | 6 Club Blog`,
+    description: `Read 6 Club blog articles filed under ${category.name}.`,
     path: `/blog/category/${category.slug}`
   });
 }
@@ -27,8 +27,8 @@ export default async function BlogCategoryPage({ params }: { params: Promise<{ s
   if (!category) notFound();
 
   const path = `/blog/category/${category.slug}`;
-  const title = `${category.name} Articles | BDG Win Blog`;
-  const description = `Read BDG Win blog articles filed under ${category.name}.`;
+  const title = `${category.name} Articles | 6 Club Blog`;
+  const description = `Read 6 Club blog articles filed under ${category.name}.`;
   const listing = buildBlogListing({ posts: blog.getPostsByCategory(category.slug), path, heading: category.name });
   const schemas = [organizationSchema(), collectionPageSchema({ title, description, path })];
 

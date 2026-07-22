@@ -43,14 +43,14 @@ export const authors: BlogAuthor[] = [
   {
     slug: 'meera-kapoor',
     name: 'Meera Kapoor',
-    role: 'Content Lead, BDG Win',
-    bio: 'Meera covers BDG Win platform guides, focusing on account setup, payments and rewards mechanics.'
+    role: 'Content Lead, 6 Club',
+    bio: 'Meera covers 6 Club platform guides, focusing on account setup, payments and rewards mechanics.'
   },
   {
     slug: 'rohan-verma',
     name: 'Rohan Verma',
-    role: 'Product Writer, BDG Win',
-    bio: 'Rohan writes about BDG Win game categories, covering how each format works and what to expect before you play.'
+    role: 'Product Writer, 6 Club',
+    bio: 'Rohan writes about 6 Club game categories, covering how each format works and what to expect before you play.'
   }
 ];
 
@@ -65,24 +65,24 @@ export const categories: BlogCategory[] = [
 
 export const posts: BlogPost[] = [
   {
-    slug: 'how-bdg-win-color-prediction-rounds-settle',
-    title: 'How BDG Win Color Prediction Rounds Actually Settle',
+    slug: 'how-6club-color-prediction-rounds-settle',
+    title: 'How 6 Club Color Prediction Rounds Actually Settle',
     excerpt:
-      'A plain-language look at how BDG Win Color Prediction rounds are timed, settled and logged, for players who want to understand the mechanics before playing.',
+      'A plain-language look at how 6 Club Color Prediction rounds are timed, settled and logged, for players who want to understand the mechanics before playing.',
     category: 'game-guides',
     tags: ['color-prediction', 'lottery', 'strategy'],
     author: 'rohan-verma',
     date: '2026-05-04',
     dateModified: '2026-05-04',
     faqs: [
-      { q: 'Does a past Color Prediction round affect the next one?', a: 'No, each BDG Win Color Prediction round uses independent certified random generation, so previous outcomes have no bearing on the next round.' },
+      { q: 'Does a past Color Prediction round affect the next one?', a: 'No, each 6 Club Color Prediction round uses independent certified random generation, so previous outcomes have no bearing on the next round.' },
       { q: 'How long does one round take?', a: 'Rounds run on a short, fixed timer, considerably faster than a scheduled numbered lottery draw.' }
     ],
     content: [
       {
         heading: 'Why Color Prediction Feels Different From a Slot Spin',
         paragraphs: [
-          'BDG Win Color Prediction sits in the Lottery Games category, but it plays faster than a numbered draw. Instead of waiting for a scheduled draw time, each round runs on a short, fixed timer, and the outcome is generated the moment that timer ends rather than on a daily or weekly schedule.',
+          '6 Club Color Prediction sits in the Lottery Games category, but it plays faster than a numbered draw. Instead of waiting for a scheduled draw time, each round runs on a short, fixed timer, and the outcome is generated the moment that timer ends rather than on a daily or weekly schedule.',
           'That short cycle is the main reason players compare it to crash games — you can complete several rounds in the time it takes to finish a single scheduled lottery draw.'
         ]
       },
@@ -102,31 +102,31 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'beginners-guide-to-bdg-win-slot-volatility',
-    title: "A Beginner's Guide to BDG Win Slot Volatility",
+    slug: 'beginners-guide-to-6club-slot-volatility',
+    title: "A Beginner's Guide to 6 Club Slot Volatility",
     excerpt:
-      'What "volatility" actually means for BDG Win slot titles, and how to pick a stake range that matches the way you like to play.',
+      'What "volatility" actually means for 6 Club slot titles, and how to pick a stake range that matches the way you like to play.',
     category: 'game-guides',
     tags: ['slots', 'beginner'],
     author: 'rohan-verma',
     date: '2026-04-18',
     dateModified: '2026-04-20',
     faqs: [
-      { q: 'Is high volatility better than low volatility on BDG Win slots?', a: 'Neither is objectively better — it depends on whether you prefer steadier smaller payouts or less frequent larger ones.' },
-      { q: 'Can I change my stake mid-session?', a: 'Yes, BDG Win slot titles let you adjust your stake per spin within the listed range at any time.' }
+      { q: 'Is high volatility better than low volatility on 6 Club slots?', a: 'Neither is objectively better — it depends on whether you prefer steadier smaller payouts or less frequent larger ones.' },
+      { q: 'Can I change my stake mid-session?', a: 'Yes, 6 Club slot titles let you adjust your stake per spin within the listed range at any time.' }
     ],
     content: [
       {
         heading: 'What Volatility Describes',
         paragraphs: [
-          'Volatility is simply a way of describing how a slot title pays out over time. Lower-volatility BDG Win slots tend to pay smaller amounts more frequently, while higher-volatility titles pay less often but with larger amounts when they do land.',
+          'Volatility is simply a way of describing how a slot title pays out over time. Lower-volatility 6 Club slots tend to pay smaller amounts more frequently, while higher-volatility titles pay less often but with larger amounts when they do land.',
           'Neither approach is objectively better — it comes down to whether you prefer a steadier balance or occasional bigger swings.'
         ]
       },
       {
         heading: 'Matching Stakes to Volatility',
         paragraphs: [
-          'On BDG Win, each slot title lets you adjust your stake per spin within a set range. A common approach with higher-volatility titles is to lower your per-spin stake slightly, simply so a longer run without a payout does not use up your session balance too quickly.',
+          'On 6 Club, each slot title lets you adjust your stake per spin within a set range. A common approach with higher-volatility titles is to lower your per-spin stake slightly, simply so a longer run without a payout does not use up your session balance too quickly.',
           'With lower-volatility titles, players often keep a steadier stake since payouts land more often.'
         ]
       },
@@ -139,24 +139,24 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'habits-that-keep-bdg-win-withdrawals-fast',
-    title: '5 Habits That Keep Your BDG Win Withdrawals Fast',
+    slug: 'habits-that-keep-6club-withdrawals-fast',
+    title: '5 Habits That Keep Your 6 Club Withdrawals Fast',
     excerpt:
-      'Small account habits that reduce the chance of a delayed BDG Win withdrawal, based on the most common support questions.',
+      'Small account habits that reduce the chance of a delayed 6 Club withdrawal, based on the most common support questions.',
     category: 'payments',
     tags: ['withdrawal', 'security'],
     author: 'meera-kapoor',
     date: '2026-03-22',
     dateModified: '2026-03-22',
     faqs: [
-      { q: 'Why was my BDG Win withdrawal sent for manual review?', a: 'This usually happens when the withdrawal method differs from the original deposit method or verification has lapsed.' },
-      { q: 'Does VIP tier really change withdrawal speed?', a: 'Yes, higher BDG Win VIP tiers are typically prioritized ahead of the standard withdrawal queue.' }
+      { q: 'Why was my 6 Club withdrawal sent for manual review?', a: 'This usually happens when the withdrawal method differs from the original deposit method or verification has lapsed.' },
+      { q: 'Does VIP tier really change withdrawal speed?', a: 'Yes, higher 6 Club VIP tiers are typically prioritized ahead of the standard withdrawal queue.' }
     ],
     content: [
       {
         heading: '1. Keep Your Payment Method Verified',
         paragraphs: [
-          'BDG Win withdrawals are processed through the same verified method used for deposits. If that method\'s verification status lapses or changes, it can hold up a withdrawal until it is reconfirmed.'
+          '6 Club withdrawals are processed through the same verified method used for deposits. If that method\'s verification status lapses or changes, it can hold up a withdrawal until it is reconfirmed.'
         ]
       },
       {
@@ -168,7 +168,7 @@ export const posts: BlogPost[] = [
       {
         heading: '3. Watch Your VIP Tier',
         paragraphs: [
-          'Higher BDG Win VIP tiers are typically prioritized in the withdrawal queue. If speed matters to you, the Rewards and VIP Program pages explain what moves your tier up.'
+          'Higher 6 Club VIP tiers are typically prioritized in the withdrawal queue. If speed matters to you, the Rewards and VIP Program pages explain what moves your tier up.'
         ]
       },
       {
@@ -186,24 +186,24 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'understanding-the-bdg-win-vip-ladder',
-    title: 'Understanding the BDG Win VIP Ladder',
+    slug: 'understanding-the-6club-vip-ladder',
+    title: 'Understanding the 6 Club VIP Ladder',
     excerpt:
-      'How BDG Win VIP tiers are earned, what changes at each stage, and why withdrawal speed is the benefit most players notice first.',
+      'How 6 Club VIP tiers are earned, what changes at each stage, and why withdrawal speed is the benefit most players notice first.',
     category: 'rewards',
     tags: ['vip', 'rewards'],
     author: 'meera-kapoor',
     date: '2026-02-10',
     dateModified: '2026-02-14',
     faqs: [
-      { q: 'Do I need to pay to reach a higher BDG Win VIP tier?', a: 'No, VIP tiers are earned through normal account activity, not purchased.' },
+      { q: 'Do I need to pay to reach a higher 6 Club VIP tier?', a: 'No, VIP tiers are earned through normal account activity, not purchased.' },
       { q: 'Can my VIP tier decrease?', a: 'Tiers are based on rolling activity, so extended inactivity can affect your standing at the next review.' }
     ],
     content: [
       {
         heading: 'How Tiers Are Earned, Not Bought',
         paragraphs: [
-          'Unlike a paid membership, BDG Win VIP tiers are unlocked through normal account activity across the daily, weekly and monthly reward cycles. There is no separate fee or application — the system reviews your cumulative activity and moves your tier accordingly.'
+          'Unlike a paid membership, 6 Club VIP tiers are unlocked through normal account activity across the daily, weekly and monthly reward cycles. There is no separate fee or application — the system reviews your cumulative activity and moves your tier accordingly.'
         ]
       },
       {
@@ -221,24 +221,24 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'reading-bdg-win-sports-markets-before-cricket-season',
-    title: 'Reading BDG Win Sports Markets Before Cricket Season',
+    slug: 'reading-6club-sports-markets-before-cricket-season',
+    title: 'Reading 6 Club Sports Markets Before Cricket Season',
     excerpt:
-      'A practical primer on how pre-match and live BDG Win sports markets are structured, using cricket as the example.',
+      'A practical primer on how pre-match and live 6 Club sports markets are structured, using cricket as the example.',
     category: 'sports',
     tags: ['sports', 'cricket'],
     author: 'rohan-verma',
     date: '2026-01-29',
     dateModified: '2026-01-29',
     faqs: [
-      { q: 'Why do live BDG Win sports odds change so quickly?', a: 'Live odds reflect the current state of the match, so events like a wicket or a run-rate shift move them in real time.' },
-      { q: 'How are BDG Win sports markets settled?', a: 'Settlement always follows the official result of the underlying match or event.' }
+      { q: 'Why do live 6 Club sports odds change so quickly?', a: 'Live odds reflect the current state of the match, so events like a wicket or a run-rate shift move them in real time.' },
+      { q: 'How are 6 Club sports markets settled?', a: 'Settlement always follows the official result of the underlying match or event.' }
     ],
     content: [
       {
         heading: 'Pre-Match vs Live Markets',
         paragraphs: [
-          'Pre-match markets on BDG Win open before a fixture starts and lock once it begins. Live markets take over from there, with odds adjusting continuously as the match progresses — a wicket, a chase acceleration or a run-rate shift will all move live odds quickly.'
+          'Pre-match markets on 6 Club open before a fixture starts and lock once it begins. Live markets take over from there, with odds adjusting continuously as the match progresses — a wicket, a chase acceleration or a run-rate shift will all move live odds quickly.'
         ]
       },
       {
@@ -250,30 +250,30 @@ export const posts: BlogPost[] = [
       {
         heading: 'Where Settlement Comes From',
         paragraphs: [
-          'All BDG Win sports markets settle based on official match results, so the outcome is never a platform judgment call — it follows the recognized result of the fixture itself.'
+          'All 6 Club sports markets settle based on official match results, so the outcome is never a platform judgment call — it follows the recognized result of the fixture itself.'
         ]
       }
     ]
   },
   {
-    slug: 'practical-guide-to-responsible-play-on-bdg-win',
-    title: 'Setting Limits: A Practical Guide to Responsible Play on BDG Win',
+    slug: 'practical-guide-to-responsible-play-on-6club',
+    title: 'Setting Limits: A Practical Guide to Responsible Play on 6 Club',
     excerpt:
-      'How to set deposit and session limits on BDG Win before you start playing, not after a difficult session.',
+      'How to set deposit and session limits on 6 Club before you start playing, not after a difficult session.',
     category: 'responsible-gaming',
     tags: ['responsible-gaming', 'security'],
     author: 'meera-kapoor',
     date: '2025-12-15',
     dateModified: '2025-12-15',
     faqs: [
-      { q: 'Where do I set a deposit limit on BDG Win?', a: 'Deposit limits are set from your account settings and apply to future deposits going forward.' },
+      { q: 'Where do I set a deposit limit on 6 Club?', a: 'Deposit limits are set from your account settings and apply to future deposits going forward.' },
       { q: 'What does the cooling-off option do?', a: 'It pauses account activity for a set period without requiring full account closure.' }
     ],
     content: [
       {
         heading: 'Set Limits Before You Start, Not After',
         paragraphs: [
-          'The most useful time to set a BDG Win deposit limit is before your session, not partway through one. Limits set from account settings apply to future deposits, so doing this ahead of time removes a decision from the moment you might least want to make it carefully.'
+          'The most useful time to set a 6 Club deposit limit is before your session, not partway through one. Limits set from account settings apply to future deposits, so doing this ahead of time removes a decision from the moment you might least want to make it carefully.'
         ]
       },
       {
@@ -291,32 +291,32 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'what-is-bdg-win',
-    title: 'What Is BDG Win? A Complete Overview',
+    slug: 'what-is-6club',
+    title: 'What Is 6 Club? A Complete Overview',
     excerpt:
-      'A plain-language overview of what BDG Win is, how the single-account model works, and where to go for login, registration, downloads and rewards.',
+      'A plain-language overview of what 6 Club is, how the single-account model works, and where to go for login, registration, downloads and rewards.',
     category: 'getting-started',
     tags: ['overview', 'getting-started'],
     author: 'meera-kapoor',
     date: '2026-07-10',
     dateModified: '2026-07-10',
     faqs: [
-      { q: 'What is BDG Win used for?', a: 'BDG Win is an online gaming platform used for casino, slot, lottery, sports, crash, fishing and arcade games, all through one account.' },
-      { q: 'Is BDG Win one app or several?', a: 'It is a single platform — one account, one wallet and one app or site covers every game category rather than separate apps per category.' }
+      { q: 'What is 6 Club used for?', a: '6 Club is an online gaming platform used for casino, slot, lottery, sports, crash, fishing and arcade games, all through one account.' },
+      { q: 'Is 6 Club one app or several?', a: 'It is a single platform — one account, one wallet and one app or site covers every game category rather than separate apps per category.' }
     ],
     content: [
       {
         heading: 'One Account, Every Game Category',
         paragraphs: [
-          'BDG Win is an online gaming platform that groups casino tables, slot reels, lottery draws, sports markets, crash rounds, fishing games and arcade titles under a single account. Rather than registering separately for each type of game, you create one BDG Win account, and every category becomes available from the same dashboard, wallet and rewards ledger.',
+          '6 Club is an online gaming platform that groups casino tables, slot reels, lottery draws, sports markets, crash rounds, fishing games and arcade titles under a single account. Rather than registering separately for each type of game, you create one 6 Club account, and every category becomes available from the same dashboard, wallet and rewards ledger.',
           'The platform has been running since 2021, and the current lineup of categories reflects gradual additions based on player demand rather than a fixed catalog set at launch.'
         ]
       },
       {
-        heading: 'How BDG Win Differs From a Single-Game App',
+        heading: 'How 6 Club Differs From a Single-Game App',
         paragraphs: [
-          'Most gaming apps focus on one format — a slots app, a sportsbook, a lottery app. BDG Win\'s model is closer to a portfolio: the account, deposit process and reward cycle are identical no matter which category you play, so switching from a crash game to a sports market on the same evening doesn\'t involve a new login or a separate deposit.',
-          'This is also why the term "BDG Game" gets used informally to describe the whole catalog — it isn\'t a separate product, just shorthand for everything accessible from a BDG Win account.'
+          'Most gaming apps focus on one format — a slots app, a sportsbook, a lottery app. 6 Club\'s model is closer to a portfolio: the account, deposit process and reward cycle are identical no matter which category you play, so switching from a crash game to a sports market on the same evening doesn\'t involve a new login or a separate deposit.',
+          'This is also why the term "6 Club Game" gets used informally to describe the whole catalog — it isn\'t a separate product, just shorthand for everything accessible from a 6 Club account.'
         ]
       },
       {
@@ -328,24 +328,24 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'bdg-win-login-guide',
-    title: 'BDG Win Login Guide: Signing In Without the Hassle',
+    slug: '6club-login-guide',
+    title: '6 Club Login Guide: Signing In Without the Hassle',
     excerpt:
-      'How to log into BDG Win on any device, what to do if you forget your password, and why logging out matters on shared devices.',
+      'How to log into 6 Club on any device, what to do if you forget your password, and why logging out matters on shared devices.',
     category: 'getting-started',
     tags: ['login', 'account'],
     author: 'meera-kapoor',
     date: '2026-07-02',
     dateModified: '2026-07-02',
     faqs: [
-      { q: 'Can I use the same BDG Win login on two devices?', a: 'Yes, your registered mobile number and password work across Android, iOS and desktop browsers.' },
+      { q: 'Can I use the same 6 Club login on two devices?', a: 'Yes, your registered mobile number and password work across Android, iOS and desktop browsers.' },
       { q: 'What if I don\'t receive a password reset code?', a: 'Double-check the number on file is correct and current, then contact Support if the code still doesn\'t arrive after a reasonable wait.' }
     ],
     content: [
       {
         heading: 'Logging In on Any Device',
         paragraphs: [
-          'The BDG Win Login page asks for your registered mobile number and password — the same two fields regardless of whether you\'re on Android, iOS or a desktop browser. Because the account is shared across devices, your wallet balance, reward progress and VIP tier stay identical no matter where you log in from.'
+          'The 6 Club Login page asks for your registered mobile number and password — the same two fields regardless of whether you\'re on Android, iOS or a desktop browser. Because the account is shared across devices, your wallet balance, reward progress and VIP tier stay identical no matter where you log in from.'
         ]
       },
       {
@@ -363,18 +363,18 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'bdg-win-register-guide',
-    title: 'How to Register on BDG Win in Under a Minute',
+    slug: '6club-register-guide',
+    title: 'How to Register on 6 Club in Under a Minute',
     excerpt:
-      'A full walkthrough of creating a BDG Win account, from entering your mobile number to unlocking every game category with your first deposit.',
+      'A full walkthrough of creating a 6 Club account, from entering your mobile number to unlocking every game category with your first deposit.',
     category: 'getting-started',
     tags: ['register', 'getting-started'],
     author: 'meera-kapoor',
     date: '2026-06-24',
     dateModified: '2026-06-24',
     faqs: [
-      { q: 'Does BDG Win registration cost anything?', a: 'No, creating an account is free — a mobile number, an OTP verification step and a password are all that\'s required.' },
-      { q: 'Can I register on BDG Win without an invite code?', a: 'Yes, an invite code is optional and mainly used to link your account to whoever referred you.' }
+      { q: 'Does 6 Club registration cost anything?', a: 'No, creating an account is free — a mobile number, an OTP verification step and a password are all that\'s required.' },
+      { q: 'Can I register on 6 Club without an invite code?', a: 'Yes, an invite code is optional and mainly used to link your account to whoever referred you.' }
     ],
     content: [
       {
@@ -398,24 +398,24 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'bdg-win-download-guide',
-    title: 'BDG Win Download Guide: Android, iOS and Desktop',
+    slug: '6club-download-guide',
+    title: '6 Club Download Guide: Android, iOS and Desktop',
     excerpt:
-      'How to install the BDG Win APK on Android, set up access on iOS, or skip downloading anything and play from a desktop browser.',
+      'How to install the 6 Club APK on Android, set up access on iOS, or skip downloading anything and play from a desktop browser.',
     category: 'getting-started',
     tags: ['download', 'mobile'],
     author: 'rohan-verma',
     date: '2026-06-16',
     dateModified: '2026-06-16',
     faqs: [
-      { q: 'Is the BDG Win Android APK safe to install?', a: 'Download it only from the official Download page rather than a third-party link, and allow installs from that source when prompted.' },
-      { q: 'Do I need to download anything to play on desktop?', a: 'No, BDG Win runs directly in a desktop browser without any installation.' }
+      { q: 'Is the 6 Club Android APK safe to install?', a: 'Download it only from the official Download page rather than a third-party link, and allow installs from that source when prompted.' },
+      { q: 'Do I need to download anything to play on desktop?', a: 'No, 6 Club runs directly in a desktop browser without any installation.' }
     ],
     content: [
       {
         heading: 'Installing on Android',
         paragraphs: [
-          'The Download page links directly to the BDG Win Android APK. Because it installs outside the Play Store, Android will prompt you to allow installs from that source the first time — a standard step for APK installs, not specific to BDG Win. Once installed, log in with your existing account or register from inside the app.'
+          'The Download page links directly to the 6 Club Android APK. Because it installs outside the Play Store, Android will prompt you to allow installs from that source the first time — a standard step for APK installs, not specific to 6 Club. Once installed, log in with your existing account or register from inside the app.'
         ]
       },
       {
@@ -427,58 +427,58 @@ export const posts: BlogPost[] = [
       {
         heading: 'Playing From Desktop Without Installing',
         paragraphs: [
-          'If you\'d rather not install anything, BDG Win runs directly in a desktop browser with the same account, wallet and rewards as the mobile app. This is often the fastest way to try the platform before deciding whether to install a dedicated app.'
+          'If you\'d rather not install anything, 6 Club runs directly in a desktop browser with the same account, wallet and rewards as the mobile app. This is often the fastest way to try the platform before deciding whether to install a dedicated app.'
         ]
       }
     ]
   },
   {
-    slug: 'bdg-game-explained',
-    title: '"BDG Game" Explained: What the Term Actually Means',
+    slug: '6club-game-explained',
+    title: '"6 Club Game" Explained: What the Term Actually Means',
     excerpt:
-      'Where the term "BDG Game" comes from, what it covers, and how it relates to the BDG Win account and platform.',
+      'Where the term "6 Club Game" comes from, what it covers, and how it relates to the 6 Club account and platform.',
     category: 'getting-started',
-    tags: ['bdg-game', 'overview'],
+    tags: ['6club-game', 'overview'],
     author: 'rohan-verma',
     date: '2026-06-08',
     dateModified: '2026-06-08',
     faqs: [
-      { q: 'Is BDG Game different from BDG Win?', a: 'No, "BDG Game" is shorthand for the full BDG Win game catalog, not a separate product or account.' },
-      { q: 'Do I need a separate account for each BDG Game category?', a: 'No, one BDG Win account and wallet covers every category referred to as BDG Game.' }
+      { q: 'Is 6 Club Game different from 6 Club?', a: 'No, "6 Club Game" is shorthand for the full 6 Club game catalog, not a separate product or account.' },
+      { q: 'Do I need a separate account for each 6 Club Game category?', a: 'No, one 6 Club account and wallet covers every category referred to as 6 Club Game.' }
     ],
     content: [
       {
         heading: 'Where the Term Comes From',
         paragraphs: [
-          'Players commonly refer to the whole BDG Win catalog collectively as "BDG Game" — it\'s a description of the collection, not a separate app or account type. The name reflects how the platform is used in practice: one account used to access a range of game formats under the BDG Win brand.'
+          'Players commonly refer to the whole 6 Club catalog collectively as "6 Club Game" — it\'s a description of the collection, not a separate app or account type. The name reflects how the platform is used in practice: one account used to access a range of game formats under the 6 Club brand.'
         ]
       },
       {
-        heading: 'What Falls Under "BDG Game"',
+        heading: 'What Falls Under "6 Club Game"',
         paragraphs: [
-          'That includes live-dealer casino tables, themed slot reels, fast-settling lottery and color prediction rounds, pre-match and live sports markets, crash games, skill-based fishing rounds and short arcade sessions. Any of these can reasonably be called a "BDG Game" since they all sit inside the same account structure.'
+          'That includes live-dealer casino tables, themed slot reels, fast-settling lottery and color prediction rounds, pre-match and live sports markets, crash games, skill-based fishing rounds and short arcade sessions. Any of these can reasonably be called a "6 Club Game" since they all sit inside the same account structure.'
         ]
       },
       {
         heading: 'Why It\'s Not a Separate App',
         paragraphs: [
-          'New categories get added to the existing BDG Win account rather than launched as standalone apps, so a player who registered for slots can open a sports market or a lottery draw without creating anything new or moving funds between wallets. That shared structure is exactly why "BDG Game" and "BDG Win" describe the same underlying platform from two different angles.'
+          'New categories get added to the existing 6 Club account rather than launched as standalone apps, so a player who registered for slots can open a sports market or a lottery draw without creating anything new or moving funds between wallets. That shared structure is exactly why "6 Club Game" and "6 Club" describe the same underlying platform from two different angles.'
         ]
       }
     ]
   },
   {
-    slug: 'how-bdg-win-rewards-actually-work',
-    title: 'How BDG Win Rewards Actually Work: Daily, Weekly and Monthly',
+    slug: 'how-6club-rewards-actually-work',
+    title: 'How 6 Club Rewards Actually Work: Daily, Weekly and Monthly',
     excerpt:
-      'A breakdown of the daily, weekly and monthly reward cycles on BDG Win, and how they stack with VIP tiers and referral earnings.',
+      'A breakdown of the daily, weekly and monthly reward cycles on 6 Club, and how they stack with VIP tiers and referral earnings.',
     category: 'rewards',
     tags: ['rewards', 'vip'],
     author: 'meera-kapoor',
     date: '2026-05-28',
     dateModified: '2026-05-28',
     faqs: [
-      { q: 'Do BDG Win daily rewards reset if I miss a day?', a: 'Missing a day typically resets the streak count, though the exact rule is shown on the Daily Rewards page.' },
+      { q: 'Do 6 Club daily rewards reset if I miss a day?', a: 'Missing a day typically resets the streak count, though the exact rule is shown on the Daily Rewards page.' },
       { q: 'Do rewards from different cycles overlap?', a: 'Yes, daily, weekly and monthly rewards run independently and don\'t cancel each other out.' }
     ],
     content: [
@@ -503,18 +503,18 @@ export const posts: BlogPost[] = [
     ]
   },
   {
-    slug: 'bdg-win-bonus-types-explained',
-    title: 'Every Type of BDG Win Bonus, Explained',
+    slug: '6club-bonus-types-explained',
+    title: 'Every Type of 6 Club Bonus, Explained',
     excerpt:
-      'A rundown of the different bonus types on BDG Win — welcome, reload, streak and game-specific — and how to tell them apart before claiming one.',
+      'A rundown of the different bonus types on 6 Club — welcome, reload, streak and game-specific — and how to tell them apart before claiming one.',
     category: 'rewards',
     tags: ['bonus', 'promotions'],
     author: 'rohan-verma',
     date: '2026-05-18',
     dateModified: '2026-05-18',
     faqs: [
-      { q: 'Do BDG Win bonuses expire?', a: 'Most bonuses list an eligibility window on the offer itself, after which they\'re removed from the active list.' },
-      { q: 'Can I use more than one BDG Win bonus at a time?', a: 'It depends on each offer\'s terms — some bonuses are exclusive and can\'t be combined with others.' }
+      { q: 'Do 6 Club bonuses expire?', a: 'Most bonuses list an eligibility window on the offer itself, after which they\'re removed from the active list.' },
+      { q: 'Can I use more than one 6 Club bonus at a time?', a: 'It depends on each offer\'s terms — some bonuses are exclusive and can\'t be combined with others.' }
     ],
     content: [
       {
@@ -532,7 +532,7 @@ export const posts: BlogPost[] = [
       {
         heading: 'Reading the Terms Before You Claim',
         paragraphs: [
-          'Every bonus type lists its own eligibility window and wagering requirement, shown directly on the offer. Confirming a promotion through your BDG Win account or official app, rather than an outside link, and reading those terms before it\'s applied to your wallet, avoids surprises about what the bonus actually requires.'
+          'Every bonus type lists its own eligibility window and wagering requirement, shown directly on the offer. Confirming a promotion through your 6 Club account or official app, rather than an outside link, and reading those terms before it\'s applied to your wallet, avoids surprises about what the bonus actually requires.'
         ]
       }
     ]

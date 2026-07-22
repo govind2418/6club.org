@@ -5,18 +5,18 @@ import { buildMeta } from '@/lib/seo';
 import { organizationSchema, collectionPageSchema } from '@/lib/schema';
 import * as blog from '@/data/blog.data';
 
-const TITLE = 'BDG Win Blog – Guides, Tips and Platform Updates';
+const TITLE = '6 Club Blog – Guides, Tips and Platform Updates';
 const DESCRIPTION =
-  'The BDG Win blog covers game guides, payment tips, rewards explainers and responsible gaming articles.';
+  'The 6 Club blog covers game guides, payment tips, rewards explainers and responsible gaming articles.';
 const PATH = '/blog';
 
 export const metadata: Metadata = buildMeta({ title: TITLE, description: DESCRIPTION, path: PATH });
 
 export default function BlogIndexPage() {
-  const listing = buildBlogListing({ posts: blog.getAllPosts(), path: PATH, heading: 'BDG Win Blog' });
+  const listing = buildBlogListing({ posts: blog.getAllPosts(), path: PATH, heading: '6 Club Blog' });
   const schemas = [organizationSchema(), collectionPageSchema({ title: TITLE, description: DESCRIPTION, path: PATH })];
 
   return (
-    <BlogListingPage eyebrow="BDG Win Blog" heading="BDG Win Blog" path={PATH} listing={listing} schemas={schemas} />
+    <BlogListingPage eyebrow="6 Club Blog" heading="6 Club Blog" path={PATH} listing={listing} schemas={schemas} />
   );
 }

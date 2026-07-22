@@ -57,7 +57,7 @@ const navData: NavData = {
   ],
   footer: {
     platform: [
-      { label: 'About BDG Win', url: '/about-us' },
+      { label: 'About 6 Club', url: '/about-us' },
       { label: 'Features', url: '/features' },
       { label: 'VIP Program', url: '/vip' },
       { label: 'Promotions', url: '/promotions' },

@@ -116,7 +116,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
 
       {page.related && page.related.length > 0 && (
         <section className="mx-auto max-w-3xl px-5 pb-14 lg:px-8">
-          <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-gold">Related BDG Win Pages</h2>
+          <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-gold">Related 6 Club Pages</h2>
           <div className="flex flex-wrap gap-3">
             {page.related.map((link, i) => (
               <a

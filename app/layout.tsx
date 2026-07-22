@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: siteConfig.siteName,
   description: siteConfig.defaultDescription,
-  verification: {
-    google: siteConfig.googleSiteVerification
-  },
+  ...(siteConfig.googleSiteVerification
+    ? { verification: { google: siteConfig.googleSiteVerification } }
+    : {}),
   icons: {
     icon: [
       { url: '/images/favicon.svg', type: 'image/svg+xml' },

@@ -6,9 +6,9 @@ import { buildMeta } from '@/lib/seo';
 import { organizationSchema, collectionPageSchema } from '@/lib/schema';
 import * as blog from '@/data/blog.data';
 
-const TITLE = 'BDG Win Blog – Guides, Tips and Platform Updates';
+const TITLE = '6 Club Blog – Guides, Tips and Platform Updates';
 const DESCRIPTION =
-  'The BDG Win blog covers game guides, payment tips, rewards explainers and responsible gaming articles.';
+  'The 6 Club blog covers game guides, payment tips, rewards explainers and responsible gaming articles.';
 const PATH = '/blog';
 
 export function generateStaticParams() {
@@ -26,12 +26,12 @@ export default async function BlogIndexPagePaginated({ params }: { params: Promi
 
   const pageNum = parseInt(page, 10);
   const posts = blog.getAllPosts();
-  const listing = buildBlogListing({ posts, path: PATH, heading: 'BDG Win Blog', page: pageNum });
+  const listing = buildBlogListing({ posts, path: PATH, heading: '6 Club Blog', page: pageNum });
   if (!pageNum || pageNum < 2 || pageNum > listing.pagination.totalPages) notFound();
 
   const schemas = [organizationSchema(), collectionPageSchema({ title: TITLE, description: DESCRIPTION, path: PATH })];
 
   return (
-    <BlogListingPage eyebrow="BDG Win Blog" heading="BDG Win Blog" path={PATH} listing={listing} schemas={schemas} />
+    <BlogListingPage eyebrow="6 Club Blog" heading="6 Club Blog" path={PATH} listing={listing} schemas={schemas} />
   );
 }

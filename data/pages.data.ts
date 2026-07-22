@@ -37,156 +37,156 @@ export interface PageEntry {
 
 const pagesData: Record<string, PageEntry> = {
   '/about-us': {
-    metaTitle: 'About BDG Win – Our Platform and How It Works',
+    metaTitle: 'About 6 Club – What Is 6 Club & How the Platform Works',
     metaDescription:
-      'Learn what BDG Win is, how the platform is structured, and how casino, slot, lottery, sports and crash games sit under one secure account.',
-    keywords: ['BDG Win', 'About BDG Win', 'BDG Win platform'],
+      'What is 6 Club? Learn how the 6 Club platform works, from one secure account to casino, slot, lottery, sports and crash games in a single wallet.',
+    keywords: ['6 Club', 'About 6 Club', '6 Club platform', 'What is 6 Club', 'What is 6club', '6 Club Platform'],
     eyebrow: 'About Us',
-    h1: 'About BDG Win',
+    h1: 'About 6 Club',
     intro:
-      'BDG Win is an online gaming platform built around one account, one wallet and one set of rewards that carry across every game you play.',
+      '6 Club — sometimes written 6club — is the 6 Club Official Website, built around a simple idea: one login, one wallet, one set of rewards, no matter which game you open.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'What BDG Win Offers',
+        heading: 'What You Get in a Single 6 Club Login',
         paragraphs: [
-          'BDG Win brings together casino tables, slot reels, lottery and Color Prediction rounds, sports markets, crash multipliers, fishing and arcade titles under a single login. Instead of juggling separate accounts for each game type, players move between categories from one dashboard, with one wallet balance and one rewards ledger.',
-          'The platform is organized around speed: registration takes under a minute, deposits post instantly once confirmed, and most withdrawal requests are processed the same day through verified payment partners.'
+          'Casino tables, slot reels, Lottery and Colour Prediction rounds, sports markets, crash multipliers, fishing and arcade titles all sit behind the same sign-in. There\'s no separate account to open for each game type — one dashboard, one balance, one rewards ledger covers everything.',
+          'Speed is the other half of the pitch: 6 Club Register finishes in under a minute, deposits confirm almost instantly, and most withdrawal requests clear the same day once a verified payment partner processes them.'
         ]
       },
       {
-        heading: 'How the BDG Win Account Works',
+        heading: 'What Your Account Actually Tracks',
         paragraphs: [
-          'Every BDG Win account tracks activity across games, rewards claimed, referral earnings and VIP progress in one place. Daily, weekly and monthly rewards are credited automatically based on play, and the VIP ladder unlocks better withdrawal speeds and dedicated support as you move up tiers.',
-          'Account security, fair play standards and responsible gaming controls apply platform-wide, regardless of which game category you use.'
+          'Behind the scenes, a 6 Club account keeps a running tally of game activity, claimed rewards, referral earnings and VIP standing — all in one place rather than scattered across separate systems. Daily, weekly and monthly bonuses post automatically as you play, and moving up the VIP ladder brings faster withdrawals and more direct support.',
+          'None of that changes based on which category you\'re in. Security checks, fair-play standards and the responsible-gaming controls apply the same way whether you\'re at a casino table or a sports market.'
         ]
       },
       {
-        heading: 'Getting Started on BDG Win',
+        heading: 'From Zero to Playing',
         paragraphs: [
-          'Creating an account starts with a mobile number and a password, confirmed by a one-time code — most players are through registration in under a minute. From there, adding a payment method and making a first deposit unlocks every game category immediately, without a separate approval step for each one.',
-          'Once you\'re in, the dashboard becomes the single place to check your wallet balance, see which daily or weekly rewards are still open, track referral earnings and follow your VIP progress. Nothing about that view changes depending on which game you played last.'
+          'A mobile number, a password and a one-time code are all it takes to open an account — most players clear registration in well under a minute. Add a payment method after that and your first deposit switches on every game category at once; there\'s no separate unlock step per category.',
+          'Once you\'re signed in, the dashboard doubles as a control room: wallet balance, open daily or weekly rewards, referral earnings and VIP progress, all in the same view regardless of what you played last.'
         ]
       },
       {
-        heading: 'Built for Long-Term Play, Not Just a First Session',
+        heading: 'Designed for the Long Run, Not Just Day One',
         paragraphs: [
-          'A lot of gaming platforms optimize for a single sign-up bonus and little else. BDG Win\'s reward structure is built the opposite way — daily streaks, weekly cashback and monthly milestones only pay off if you keep coming back, and the VIP ladder is designed to reward months of activity, not a single deposit.',
-          'That\'s also why account security and fair play standards apply the same way to a first-time player and a long-time VIP member: the platform is built to hold up over a long relationship with an account, not just a first session.'
+          'Plenty of gaming sites front-load a single signup bonus and stop there. 6 Club\'s reward system is deliberately the opposite — daily streaks, weekly cashback and monthly milestones only pay off if you keep showing up, and the VIP ladder is built around months of activity rather than one big deposit.',
+          'That same logic extends to security and fair play: the standards a first-time player gets are identical to what a long-time VIP account gets, because the platform is built around a lasting relationship with an account, not a single session.'
         ]
       }
     ],
     faqs: [
-      { q: 'What kind of platform is BDG Win?', a: 'BDG Win is an online gaming platform offering casino, slot, lottery, sports, crash, fishing and arcade games through a single account and wallet.' },
-      { q: 'Do I need separate accounts for different BDG Win games?', a: 'No. One BDG Win account gives you access to every game category, along with shared rewards, referral tracking and VIP status.' },
-      { q: 'Is BDG Win available on mobile?', a: 'Yes. BDG Win works on Android via APK, on iOS through our installation guide, and directly in desktop browsers.' },
-      { q: 'How do I get started on BDG Win?', a: 'Create an account from the Register page, verify your number, make a deposit using a supported payment method, and choose a game category to begin.' },
-      { q: 'Is BDG Win free to explore before depositing?', a: 'You can create an account and look through game categories, rewards and rules before making a deposit; placing real stakes requires a funded wallet.' },
-      { q: 'Does BDG Win work the same way in every game category?', a: 'The account, wallet, rewards and VIP structure work identically across casino, slots, lottery, sports, crash, fishing and arcade titles — only the game rules themselves differ.' }
+      { q: 'What exactly is 6 Club?', a: '6 Club is a single-account gaming platform spanning casino, slots, lottery, sports, crash, fishing and arcade titles, all wired into one wallet.' },
+      { q: 'Do different 6 Club games need different accounts?', a: 'No — one login covers every category, and rewards, referral tracking and VIP status all carry across the same account.' },
+      { q: 'Can I play 6 Club from a phone?', a: 'Yes — Android via the official APK, iOS through the installation guide, or straight from a desktop browser, no app required.' },
+      { q: 'What\'s the fastest way to start on 6 Club?', a: 'Register, verify your number, add a supported payment method, deposit, then pick whichever category you want to open first.' },
+      { q: 'Can I look around before depositing anything?', a: 'Yes — browsing categories, rewards and rules doesn\'t need a funded wallet; only placing a real stake does.' },
+      { q: 'Does every game category behave the same way account-wise?', a: 'Yes — the wallet, rewards and VIP mechanics are identical everywhere; only the rules of the game itself change from category to category.' }
     ],
     related: [
-      { label: 'BDG Win Features', url: '/features' },
+      { label: '6 Club Features', url: '/features' },
       { label: 'Game Categories', url: '/games' },
-      { label: 'Register on BDG Win', url: '/register' }
+      { label: 'Register on 6 Club', url: '/register' }
     ]
   },
 
   '/features': {
-    metaTitle: 'BDG Win Features – What Makes the Platform Different',
+    metaTitle: '6 Club Features – 6 Club Platform Guide to What Makes It Different',
     metaDescription:
-      'Explore the core features of BDG Win: fast registration, secure payments, a unified wallet, rewards system and cross-device play.',
-    keywords: ['BDG Win Features', 'BDG Win'],
+      'Explore 6 Club Platform features: fast registration, secure payments, a unified wallet and rewards system that make 6 Club stand out.',
+    keywords: ['6 Club Features', '6 Club', '6 Club Platform'],
     eyebrow: 'Platform',
-    h1: 'BDG Win Features',
-    intro: 'A breakdown of the features that shape day-to-day play on BDG Win, from account setup to payouts.',
+    h1: '6 Club Features',
+    intro: 'A closer look at what actually shapes day-to-day play on 6 Club — from opening an account to getting paid out.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Account & Access',
+        heading: 'Getting In',
         paragraphs: [
-          'BDG Win registration only requires a mobile number and a password, verified with an OTP. Once verified, the same login works across Android, iOS and desktop browsers, so your balance, rewards and game history stay in sync no matter which device you use.'
+          'A mobile number, a password and an OTP confirmation are the entire signup checklist. Once verified, that same login carries across Android, iOS and desktop browsers, so your balance, rewards and game history never fall out of sync between devices.'
         ]
       },
       {
-        heading: 'Wallet & Rewards',
+        heading: 'One Wallet, Layered Rewards',
         paragraphs: [
-          'A single wallet handles deposits and withdrawals across every game category. On top of that, BDG Win layers daily, weekly and monthly rewards, a referral program that pays out on invited players\' activity, and a VIP ladder that improves withdrawal speed and support access as you climb tiers.'
+          'Deposits and withdrawals run through a single wallet no matter which category you\'re playing. On top of that base, 6 Club stacks daily, weekly and monthly rewards, a referral program paying out on friends\' activity, and a VIP ladder that speeds up withdrawals and support the higher you climb.'
         ]
       },
       {
-        heading: 'Games & Performance',
+        heading: 'Built to Stay Fast',
         paragraphs: [
-          'The platform is built to load quickly even on limited mobile data — pages stay lightweight, and game screens are optimized so rounds start without long buffering waits.'
+          'Pages are kept deliberately lightweight, and game screens are tuned to start rounds without long buffering — the platform is built to hold up on a shaky mobile connection, not just a fast office wifi.'
         ]
       },
       {
-        heading: 'Support That Matches How You Play',
+        heading: 'Support Without the Waiting',
         paragraphs: [
-          'Because BDG Win runs 24/7 across time zones, support isn\'t limited to business hours — live chat and email are staffed around the clock, and VIP tiers get a dedicated contact instead of the general queue once withdrawal speed and account history start to matter more.',
-          'Most support requests fall into a small number of categories — payment status, verification and account access — and the Help Center is organized around those categories first, so a straightforward question doesn\'t need a support ticket to answer.'
+          'Running 24/7 across time zones means support can\'t just be a 9-to-5 desk — live chat and email are staffed around the clock, and higher VIP tiers skip the general queue for a dedicated contact once withdrawal speed and history start mattering more.',
+          'Most requests boil down to a handful of themes — payment status, verification, account access — so the Help Center is built around those exact themes first, meaning a lot of simple questions never need a ticket at all.'
         ]
       },
       {
-        heading: 'Trust Controls Built Into the Platform, Not Bolted On',
+        heading: 'Safety Settings, Not Afterthoughts',
         paragraphs: [
-          'Fair play and responsible gaming aren\'t separate add-ons on BDG Win — outcome generation, deposit limits and session tools are part of the same account settings every player already uses for wallet and rewards management.',
-          'That means turning on a deposit limit or reviewing how a game\'s outcomes are generated takes the same number of steps as checking a reward balance, rather than requiring a separate request to support.'
+          'Fair play and responsible gaming aren\'t bolted-on extras here — outcome generation, deposit limits and session tools live in the same account settings you already use for wallet and rewards management.',
+          'Practically, that means switching on a deposit limit or checking how a game\'s outcomes get generated takes exactly as many clicks as checking a reward balance — no separate support request required.'
         ]
       }
     ],
     faqs: [
-      { q: 'What is the main feature of BDG Win?', a: 'A unified account and wallet that works across all BDG Win game categories, rewards, referrals and VIP status.' },
-      { q: 'Can I use BDG Win on both mobile and desktop?', a: 'Yes, the same BDG Win account and balance carry over between the Android app, iOS and desktop browser access.' },
-      { q: 'Does BDG Win offer rewards automatically?', a: 'Daily, weekly and monthly rewards are credited based on your activity without needing manual claim codes in most cases.' },
-      { q: 'Is BDG Win built for slow internet connections?', a: 'Yes, pages and game screens are kept lightweight so BDG Win loads quickly even on weaker mobile data connections.' },
-      { q: 'Does BDG Win support cost extra or need a premium plan?', a: 'No, live chat and email support are available to every account at no extra cost, with VIP tiers simply getting a dedicated contact.' },
-      { q: 'Can I set my own limits on BDG Win?', a: 'Yes, deposit and session limits are available directly from account settings for any player who wants them.' }
+      { q: 'What\'s the single biggest feature 6 Club offers?', a: 'One account and one wallet that work identically across every game category, reward cycle and VIP tier.' },
+      { q: 'Does 6 Club work the same on mobile and desktop?', a: 'Yes — your account and balance carry over seamlessly between the Android app, iOS and any desktop browser.' },
+      { q: 'Are rewards automatic, or do I need a code?', a: 'Daily, weekly and monthly rewards credit automatically off your activity in most cases, no manual claim code needed.' },
+      { q: 'Does 6 Club hold up on slow mobile data?', a: 'Yes — pages and game screens are built lightweight specifically so 6 Club stays fast on weaker connections.' },
+      { q: 'Is there an extra cost for better support?', a: 'No — live chat and email are free for every account; VIP tiers just get a dedicated contact instead of the shared queue.' },
+      { q: 'Can I cap my own spending on 6 Club?', a: 'Yes — deposit and session limits sit directly in account settings for any player who wants to set them.' }
     ],
     related: [
-      { label: 'About BDG Win', url: '/about-us' },
-      { label: 'BDG Win Rewards', url: '/rewards' },
-      { label: 'BDG Win VIP Program', url: '/vip' }
+      { label: 'About 6 Club', url: '/about-us' },
+      { label: '6 Club Rewards', url: '/rewards' },
+      { label: '6 Club VIP Program', url: '/vip' }
     ]
   },
 
   '/rewards': {
-    metaTitle: 'BDG Win Rewards – Daily, Weekly & Monthly Bonuses',
+    metaTitle: '6 Club Rewards – Daily Bonus, Weekly Cashback & VIP Perks',
     metaDescription:
-      'See how BDG Win rewards work, including daily login bonuses, weekly cashback, monthly milestones and how they connect to the VIP program.',
-    keywords: ['BDG Win Rewards', 'BDG Win Bonus', 'BDG Rewards'],
+      '6 Club Rewards explained: daily bonus streaks, weekly cashback, monthly milestones and how they connect to the 6 Club VIP program.',
+    keywords: ['6 Club Rewards', '6 Club Bonus'],
     eyebrow: 'Rewards',
-    h1: 'BDG Win Rewards',
-    intro: 'BDG Win rewards are structured around three cycles — daily, weekly and monthly — each with its own criteria.',
+    h1: '6 Club Rewards',
+    intro: 'Three separate clocks — daily, weekly and monthly — each with its own criteria, make up the 6 Club rewards system.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How BDG Win Rewards Are Structured',
+        heading: 'Three Cycles, Three Purposes',
         paragraphs: [
-          'Daily rewards on BDG Win are tied to login streaks and small activity milestones. Weekly rewards add cashback and reload bonuses based on how much you played that week. Monthly rewards recognize consistent players with larger milestone bonuses.',
-          'Rewards are credited to your BDG Win wallet automatically once criteria are met, and your history is visible from your account dashboard.'
+          'Daily rewards track login streaks and small activity thresholds. Weekly rewards layer in cashback and reload bonuses scaled to how much you played that week. Monthly rewards go to consistent players in the form of bigger milestone bonuses.',
+          'Every one of these lands in your wallet automatically once its criteria are met — no claim button to hunt for — and the full history sits in your account dashboard.'
         ]
       },
       {
-        heading: 'Connecting Rewards to VIP Status',
+        heading: 'How This Feeds Into VIP',
         paragraphs: [
-          'As you accumulate activity across these reward cycles, your BDG Win VIP tier increases, unlocking faster withdrawals, higher reward multipliers and access to dedicated support.'
+          'Activity across all three cycles adds up over time, and that combined total is what pushes your VIP tier upward — bringing faster withdrawals, bigger multipliers and closer support along with it.'
         ]
       },
       {
-        heading: 'Getting the Most Out of Every Cycle',
+        heading: 'Treating the Three Cycles Separately',
         paragraphs: [
-          'Because the three cycles run on different clocks, it helps to think of them separately rather than as one combined bonus. Daily rewards reward showing up; weekly rewards reward how much you actually played; monthly rewards reward doing both consistently across a full month.',
-          'Players who track all three from the dashboard tend to notice a pattern quickly — a quiet week doesn\'t erase monthly progress, but a broken daily streak does reset that specific counter, so it\'s worth checking in even on days you don\'t plan to play much.'
+          'Since each cycle runs on its own clock, it helps not to lump them together mentally. Daily rewards are about showing up; weekly is about volume; monthly is about doing both consistently for a full month straight.',
+          'Players who watch all three from the dashboard usually spot this pattern fast: a quiet week won\'t wreck your monthly total, but a broken daily streak resets that one counter specifically — worth a quick login even on days you don\'t plan to play much.'
         ]
       }
     ],
     faqs: [
-      { q: 'How often are BDG Win rewards credited?', a: 'BDG Win runs three reward cycles: daily, weekly and monthly, each crediting automatically once you meet the listed criteria.' },
-      { q: 'Do BDG Win rewards expire?', a: 'Reward cycles reset at the start of each new period, so unclaimed daily or weekly criteria do not carry over automatically.' },
-      { q: 'Are rewards different for VIP members?', a: 'Yes, higher BDG Win VIP tiers typically unlock larger reward multipliers alongside faster withdrawal processing.' },
-      { q: 'Where can I see my BDG Win rewards history?', a: 'Your rewards history, including credited and pending bonuses, is visible from your BDG Win account dashboard.' },
-      { q: 'Can I earn from all three reward cycles at once?', a: 'Yes, daily, weekly and monthly rewards run independently, so qualifying activity can credit toward all three at the same time.' },
-      { q: 'Do rewards affect my withdrawal limits?', a: 'Reward credits sit in the same wallet as deposits, so they follow the same withdrawal rules described on the Withdrawal Guide.' }
+      { q: 'How many reward cycles does 6 Club run?', a: 'Three — daily, weekly and monthly — each crediting automatically the moment you hit its criteria.' },
+      { q: 'Do unclaimed 6 Club rewards roll over?', a: 'No — each cycle resets at the start of its next period, so unmet daily or weekly criteria don\'t carry forward.' },
+      { q: 'Do VIP members get bigger rewards?', a: 'Yes — higher VIP tiers generally come with larger multipliers on top of the standard reward amounts.' },
+      { q: 'Where do I check my reward history?', a: 'Your full history — credited and pending — lives in the 6 Club account dashboard.' },
+      { q: 'Can all three cycles pay out in the same week?', a: 'Yes — daily, weekly and monthly run independently, so qualifying activity can trigger all three together.' },
+      { q: 'Do reward credits change my withdrawal rules?', a: 'No — reward money sits in the same wallet as deposits and follows the same rules covered on the Withdrawal Guide.' }
     ],
     related: [
       { label: 'Daily Rewards', url: '/rewards/daily' },
@@ -197,148 +197,148 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/vip': {
-    metaTitle: 'BDG Win VIP Program – Membership Tiers and Benefits',
+    metaTitle: '6 Club VIP – Membership Tiers, Rewards & Exclusive Benefits',
     metaDescription:
-      'Understand how the BDG Win VIP program is structured, what each tier unlocks, and how to progress from your regular account.',
-    keywords: ['BDG Win VIP', 'BDG Win VIP Program', 'BDG VIP'],
+      '6 Club VIP program guide: tier benefits, faster withdrawals and how 6 Club VIP Rewards grow the more consistently you play.',
+    keywords: ['6 Club VIP', '6 Club VIP Program', '6 Club VIP Rewards'],
     eyebrow: 'VIP Program',
-    h1: 'BDG Win VIP Program',
-    intro: 'The BDG Win VIP program rewards consistent players with faster processing, better rates and closer support.',
+    h1: '6 Club VIP Program',
+    intro: '6 Club VIP is the tier ladder that rewards players who stick around — faster processing, better rates and support that\'s easier to reach.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How BDG Win VIP Tiers Work',
+        heading: 'Climbing the Ladder',
         paragraphs: [
-          'Every BDG Win account starts at the base tier and moves up based on cumulative activity across games and reward cycles. Each tier increase unlocks a combination of higher reward multipliers, faster withdrawal processing windows and, at higher tiers, a dedicated support contact instead of the general queue.'
+          'Every account starts at the base tier and climbs based on cumulative activity across games and reward cycles combined. Each step up brings some mix of stronger reward multipliers, quicker withdrawal windows and — once you\'re high enough — a named support contact instead of the shared queue.'
         ],
         image: {
           src: '/images/screenshots/vip-tier-progress.webp',
-          alt: 'BDG Win VIP profile screen showing tier badge, experience points and unlocked benefits',
-          caption: 'A BDG Win VIP profile showing tier badge, accumulated experience and the benefits that unlock at that level — level-up rewards, a monthly reward and an improved rebate rate.'
+          alt: '6 Club VIP profile screen showing tier badge, experience points and unlocked benefits',
+          caption: 'A 6 Club VIP profile showing tier badge, accumulated experience and the benefits that unlock at that level — level-up rewards, a monthly reward and an improved rebate rate.'
         }
       },
       {
-        heading: 'What VIP Status Changes',
+        heading: 'What Actually Changes Once You\'re VIP',
         paragraphs: [
-          'The most noticeable change players report is withdrawal speed — verified VIP accounts are typically processed ahead of the standard queue. VIP members also get earlier access to new game categories and promotions before they roll out platform-wide.'
+          'Withdrawal speed is the change players notice first — verified VIP accounts jump ahead of the standard queue. Early access to new game categories and promotions before they go live platform-wide is the other perk that tends to stand out.'
         ]
       },
       {
-        heading: 'Moving Up the VIP Ladder',
+        heading: 'What Moves the Needle on Tier Reviews',
         paragraphs: [
-          'Tier reviews look at combined activity across daily, weekly and monthly reward cycles rather than a single deposit or session, so steady play across a few weeks moves your tier more reliably than one large deposit followed by inactivity.',
-          'Each step up the ladder tends to compound with the last one — a faster withdrawal window plus a larger reward multiplier plus, eventually, a dedicated support contact instead of the general queue. None of these require a separate request; they apply automatically once your tier updates.'
+          'Reviews look at your combined daily, weekly and monthly activity, not a single deposit or one big session — so a few steady weeks of play move your tier more reliably than one large deposit followed by silence.',
+          'Benefits tend to stack as you climb: a faster withdrawal window, then a bigger multiplier, then eventually a dedicated contact instead of the general queue. None of it needs a separate request — it all switches on automatically the moment your tier updates.'
         ]
       }
     ],
     faqs: [
-      { q: 'How do I join the BDG Win VIP program?', a: 'VIP tiers are unlocked automatically as your account activity and reward history grow — there is no separate VIP application.' },
-      { q: 'What does BDG Win VIP status change?', a: 'Higher VIP tiers on BDG Win typically improve withdrawal processing speed, reward multipliers and support access.' },
-      { q: 'Can my BDG Win VIP tier drop?', a: 'Tiers are generally based on rolling activity, so extended inactivity can affect your standing at the next review.' },
-      { q: 'Is there a cost to reach BDG Win VIP tiers?', a: 'No separate fee is charged — VIP tiers are earned through normal account activity and reward participation.' },
-      { q: 'How often is my BDG Win VIP tier reviewed?', a: 'Tier reviews generally align with the monthly reward cycle, factoring in recent daily and weekly activity as well.' },
-      { q: 'Do higher VIP tiers get early access to new games?', a: 'Yes, VIP members typically see new game categories and promotions before they roll out to all accounts.' }
+      { q: 'Is there an application to join 6 Club VIP?', a: 'No — tiers unlock automatically as account activity and reward history build up; there\'s nothing separate to apply for.' },
+      { q: 'What does VIP status actually unlock?', a: 'Faster withdrawal processing, stronger reward multipliers, and better support access as tiers climb.' },
+      { q: 'Can a VIP tier drop back down?', a: 'Tiers track rolling activity, so a long stretch of inactivity can affect your standing at the next review.' },
+      { q: 'Does reaching a VIP tier cost anything extra?', a: 'No separate fee — tiers are earned purely through normal play and reward participation.' },
+      { q: 'How often does my tier get reviewed?', a: 'Reviews generally line up with the monthly reward cycle, folding in recent daily and weekly activity too.' },
+      { q: 'Do VIP accounts see new games before everyone else?', a: 'Yes — VIP members typically get a first look at new categories and promotions ahead of the wider rollout.' }
     ],
     related: [
-      { label: 'BDG Win Rewards', url: '/rewards' },
+      { label: '6 Club Rewards', url: '/rewards' },
       { label: 'Promotions', url: '/promotions' },
       { label: 'Withdrawal Guide', url: '/withdrawal-guide' }
     ]
   },
 
   '/promotions': {
-    metaTitle: 'BDG Win Promotions – Current Bonuses and Offers',
+    metaTitle: '6 Club Promotions – Current Bonus Offers & Welcome Bonus',
     metaDescription:
-      'Browse current BDG Win promotions, how bonus offers are applied to your account, and where to check terms before claiming.',
-    keywords: ['BDG Win Promotions', 'BDG Win Bonus', 'BDG Promotions'],
+      'Browse current 6 Club Promotions including the 6 Club Welcome Bonus, seasonal offers and how bonus terms apply to your account.',
+    keywords: ['6 Club Promotions', '6 Club Bonus', '6 Club Welcome Bonus'],
     eyebrow: 'Promotions',
-    h1: 'BDG Win Promotions',
-    intro: 'BDG Win promotions run alongside the standard rewards cycle, covering seasonal and game-specific offers.',
+    h1: '6 Club Promotions',
+    intro: 'Promotions sit alongside the standard 6 Club rewards cycle — seasonal offers and game-specific bonuses that come and go on their own schedule.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Types of BDG Win Promotions',
+        heading: 'The Three Kinds of Promotions You\'ll See',
         paragraphs: [
-          'Promotions on BDG Win typically fall into three groups: welcome offers for new accounts, reload bonuses tied to deposits, and game-specific promotions that run for a limited time on categories like slots or crash games.',
-          'Each promotion lists its own eligibility window and wagering conditions, shown on the offer itself before you opt in.'
+          'Most 6 Club promotions fall into one of three buckets: welcome offers for brand-new accounts, reload bonuses tied to a deposit, and time-limited offers built around a specific category like slots or crash games.',
+          'Every offer carries its own eligibility window and wagering conditions, spelled out on the promotion itself before you opt in — nothing is applied without you seeing the terms first.'
         ],
         image: {
           src: '/images/screenshots/promo-first-bet-boost.webp',
-          alt: 'BDG Win promotion offering a bonus percentage boost on a player\'s first bet of the day',
-          caption: 'An example BDG Win promotion adding a bonus percentage to a player\'s first bet of the day, with the eligibility window and boost calculation shown before it applies.'
+          alt: '6 Club promotion offering a bonus percentage boost on a player\'s first bet of the day',
+          caption: 'An example 6 Club promotion adding a bonus percentage to a player\'s first bet of the day, with the eligibility window and boost calculation shown before it applies.'
         }
       },
       {
-        heading: 'Claiming a Promotion Safely',
+        heading: 'Claiming an Offer Without Getting Burned',
         paragraphs: [
-          'Always confirm a promotion through your BDG Win account or official app rather than an outside link, and review the terms attached to the offer before it is applied to your wallet.'
+          'Confirm any promotion from inside your 6 Club account or the official app — never through an outside link — and give the attached terms an actual read before the bonus lands in your wallet.'
         ],
         image: {
           src: '/images/screenshots/promotions-hub.webp',
-          alt: 'BDG Win promotions and activity hub listing invitation bonus, betting rebate, super jackpot and attendance bonus',
-          caption: 'BDG Win\'s promotions hub, where offers like the invitation bonus, betting rebate, invite wheel and attendance bonus are listed together with terms attached to each.'
+          alt: '6 Club promotions and activity hub listing invitation bonus, betting rebate, super jackpot and attendance bonus',
+          caption: '6 Club\'s promotions hub, where offers like the invitation bonus, betting rebate, invite wheel and attendance bonus are listed together with terms attached to each.'
         }
       },
       {
-        heading: 'Where Promotions Fit Alongside Rewards',
+        heading: 'Promotions and Regular Rewards Don\'t Compete',
         paragraphs: [
-          'Promotions and the standard daily, weekly and monthly reward cycles run independently of each other, so opting into a seasonal offer doesn\'t use up or replace anything from your regular rewards. Think of promotions as short-term additions layered on top of a cycle that keeps running either way.',
-          'Because they\'re time-limited, it\'s worth checking the Promotions page and your account dashboard periodically rather than assuming an offer you saw once is still live — expired or superseded promotions are removed from the active list as soon as their window closes.'
+          'A seasonal offer runs completely independently of your daily, weekly and monthly cycles — claiming one doesn\'t use up or cancel out the other. Think of a promotion as a short-term extra stacked on top of a reward system that keeps ticking either way.',
+          'Because these offers are time-boxed, it\'s worth glancing at the Promotions page and your dashboard now and then rather than assuming something you saw once is still running — anything expired or replaced drops off the active list the moment its window closes.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-recharge-bonus-banner.webp',
-          alt: 'BDG Win recharge bonus banner shown alongside the game category grid',
-          caption: 'A seasonal BDG Win recharge bonus banner sitting above the game category grid — a short-term addition layered on top of the standard reward cycle, not a replacement for it.'
+          src: '/images/screenshots/6club-recharge-bonus-banner.webp',
+          alt: '6 Club recharge bonus banner shown alongside the game category grid',
+          caption: 'A seasonal 6 Club recharge bonus banner sitting above the game category grid — a short-term addition layered on top of the standard reward cycle, not a replacement for it.'
         }
       }
     ],
     faqs: [
-      { q: 'How do I find current BDG Win promotions?', a: 'Active BDG Win promotions are listed in your account dashboard and on the Promotions page, each with its own terms.' },
-      { q: 'Do BDG Win promotions have wagering requirements?', a: 'Most bonus-based promotions include a wagering condition, shown in the offer details before you claim it.' },
-      { q: 'Can I combine multiple BDG Win promotions?', a: 'Combinability depends on each offer\'s terms; some promotions are exclusive and cannot be stacked with others.' },
-      { q: 'Are BDG Win promotions available to VIP members only?', a: 'No, most promotions are open to all verified accounts, though some higher-value offers are reserved for VIP tiers.' },
-      { q: 'Do promotions replace my daily, weekly or monthly rewards?', a: 'No, promotions run alongside the standard reward cycles rather than replacing them.' },
-      { q: 'How do I know when a BDG Win promotion has ended?', a: 'Expired promotions are removed from the active list on the Promotions page and your account dashboard.' }
+      { q: 'Where do current promotions show up?', a: 'Live offers are listed on both the Promotions page and your account dashboard, each with its own attached terms.' },
+      { q: 'Is there always a wagering requirement?', a: 'Most bonus-style promotions carry one, and it\'s shown in the offer details before you claim anything.' },
+      { q: 'Can two promotions be claimed together?', a: 'It depends on each offer\'s terms — some are exclusive and won\'t stack with others.' },
+      { q: 'Are promotions reserved for VIP accounts?', a: 'No — most are open to any verified account, though a few higher-value offers are VIP-only.' },
+      { q: 'Do promotions cancel out my regular rewards?', a: 'No — they run alongside the daily, weekly and monthly cycles rather than replacing them.' },
+      { q: 'How do I know a promotion has expired?', a: 'It simply disappears from the active list on the Promotions page and dashboard once its window closes.' }
     ],
     related: [
-      { label: 'BDG Win Rewards', url: '/rewards' },
+      { label: '6 Club Rewards', url: '/rewards' },
       { label: 'Gift Codes', url: '/gift-code' },
       { label: 'VIP Program', url: '/vip' }
     ]
   },
 
   '/rewards/daily': {
-    metaTitle: 'BDG Win Daily Rewards – Login Streaks and Bonuses',
+    metaTitle: '6 Club Daily Bonus – Login Streaks & Daily Rewards',
     metaDescription:
-      'How BDG Win daily rewards work, including login streak bonuses and small daily activity milestones.',
-    keywords: ['BDG Win Daily Rewards', 'BDG Win Bonus', 'BDG Rewards'],
+      'How the 6 Club Daily Bonus works: login streak rewards and small daily activity milestones that build every day you play.',
+    keywords: ['6 Club Daily Rewards', '6 Club Bonus', '6 Club Rewards', '6 Club Daily Bonus'],
     eyebrow: 'Daily Rewards',
-    h1: 'BDG Win Daily Rewards',
-    intro: 'Daily rewards on BDG Win are designed for players who check in and play a little each day.',
+    h1: '6 Club Daily Rewards',
+    intro: 'The Daily Bonus is built for players who just check in and play a little every day — no big sessions required.',
     breadcrumbTrail: [{ label: 'Rewards', url: '/rewards' }],
     sections: [
       {
-        heading: 'How the Daily Cycle Works',
+        heading: 'What Keeps the Streak Moving',
         paragraphs: [
-          'Each day you log in and place qualifying activity on BDG Win, your streak counter advances. Streaks that reach set thresholds unlock a small bonus credited directly to your wallet, visible in your rewards history the same day.',
-          'Missing a day typically resets the streak counter, so consistency matters more than volume for this particular reward cycle.'
+          'Log in and clock qualifying activity on any given day, and your streak counter ticks forward. Hit one of the set thresholds and a small bonus lands straight in your wallet, showing up in your rewards history that same day.',
+          'Skip a day, though, and the counter usually resets — this particular cycle rewards showing up consistently far more than it rewards how much you play in any one sitting.'
         ]
       },
       {
-        heading: 'Getting the Most From Daily Rewards',
+        heading: 'Making the Streak Work for You',
         paragraphs: [
-          'Because thresholds are based on streak length rather than stake size, a short qualifying session each day keeps the streak alive just as well as a longer one — the daily cycle rewards showing up, not how much you deposit on any single day.',
-          'If a streak does break, the counter simply restarts rather than penalizing your account in any other way, so there\'s no downside to picking a daily habit back up after a missed day or two.'
+          'Thresholds key off streak length, not stake size, so a quick five-minute session counts exactly the same as a long one for keeping the streak alive — this cycle is about showing up, not how much you deposit that day.',
+          'A broken streak just starts over — there\'s no other penalty attached — so picking the habit back up after missing a day or two costs you nothing beyond the reset itself.'
         ]
       }
     ],
     faqs: [
-      { q: 'What counts toward a BDG Win daily streak?', a: 'Logging in and completing qualifying activity, such as playing a round in an active game category, keeps your daily streak advancing.' },
-      { q: 'What happens if I miss a day?', a: 'Missing a day generally resets your BDG Win daily streak counter back to the start.' },
-      { q: 'How is the daily bonus paid?', a: 'Daily rewards are credited directly to your BDG Win wallet once the streak threshold is met.' },
-      { q: 'Can I check my current streak?', a: 'Yes, your current daily streak and reward history are visible from your BDG Win account dashboard.' },
-      { q: 'Does a bigger deposit increase my daily reward?', a: 'No, daily rewards are based on streak length and qualifying activity rather than deposit size.' },
-      { q: 'Is there a limit to how long a BDG Win daily streak can run?', a: 'Streaks can continue indefinitely as long as you keep meeting the daily qualifying activity.' }
+      { q: 'What actually counts toward the daily streak?', a: 'Logging in and completing some qualifying activity — like a round in any active game category — keeps the streak advancing.' },
+      { q: 'What happens if I skip a day?', a: 'Your streak counter typically resets back to zero.' },
+      { q: 'Where does the daily bonus get paid?', a: 'Straight into your wallet, automatically, once the streak threshold is hit.' },
+      { q: 'Can I see my current streak count?', a: 'Yes — it\'s visible in your account dashboard alongside your reward history.' },
+      { q: 'Will depositing more money boost my daily bonus?', a: 'No — this cycle is driven by streak length and qualifying activity, not deposit size.' },
+      { q: 'Is there a cap on how long a streak can run?', a: 'No cap — it keeps going as long as you keep meeting the daily activity requirement.' }
     ],
     related: [
       { label: 'Weekly Rewards', url: '/rewards/weekly' },
@@ -348,37 +348,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/rewards/weekly': {
-    metaTitle: 'BDG Win Weekly Rewards – Cashback and Reload Bonuses',
+    metaTitle: '6 Club Weekly Rewards – Cashback & Reload Bonus',
     metaDescription:
-      'Details on BDG Win weekly rewards, including cashback calculations and reload bonuses based on weekly activity.',
-    keywords: ['BDG Win Weekly Rewards', 'BDG Win Bonus', 'BDG Rewards'],
+      'Details on 6 Club weekly rewards, including cashback calculations and reload bonuses based on your weekly activity.',
+    keywords: ['6 Club Weekly Rewards', '6 Club Bonus', '6 Club Rewards'],
     eyebrow: 'Weekly Rewards',
-    h1: 'BDG Win Weekly Rewards',
-    intro: 'Weekly rewards on BDG Win look at your total activity across the previous seven days.',
+    h1: '6 Club Weekly Rewards',
+    intro: 'Weekly rewards look back at everything you did over the previous seven days and pay out based on that total.',
     breadcrumbTrail: [{ label: 'Rewards', url: '/rewards' }],
     sections: [
       {
-        heading: 'How Weekly Cashback Is Calculated',
+        heading: 'How the Cashback Number Gets Set',
         paragraphs: [
-          'At the close of each weekly cycle, BDG Win reviews your play across all game categories and calculates a cashback percentage based on your activity level and current VIP tier. Reload bonuses may also apply if you made qualifying deposits during the week.',
-          'Weekly rewards are credited shortly after the cycle closes and appear in your wallet with a matching entry in your rewards history.'
+          'When a weekly cycle closes, 6 Club looks at your combined play across every category and works out a cashback percentage based on activity level and current VIP tier. Made a qualifying deposit that week too? A reload bonus can stack on top.',
+          'Both land in your wallet shortly after the cycle ends, with a matching line in your rewards history.'
         ]
       },
       {
-        heading: 'Getting the Most From Weekly Cashback',
+        heading: 'Spreading Play Across Categories Still Counts',
         paragraphs: [
-          'Since cashback is calculated across every game category combined, activity doesn\'t need to sit in one category to count — a week split between slots and sports markets is reviewed the same way as a week spent entirely on one category.',
-          'Reload bonuses are the one part of the weekly cycle that depends on deposits specifically, so a week with a qualifying deposit can combine both cashback and a reload bonus, while a no-deposit week is still eligible for cashback alone based on activity.'
+          'Cashback is calculated on combined activity, so there\'s no need to stick to one category — a week split between slots and sports markets gets reviewed exactly the same as a week spent entirely on one.',
+          'The reload bonus is the one piece tied specifically to deposits: make a qualifying one during the week and you can pick up cashback and a reload bonus together, while a no-deposit week still earns cashback on activity alone.'
         ]
       }
     ],
     faqs: [
-      { q: 'When are BDG Win weekly rewards calculated?', a: 'Weekly rewards are reviewed at the end of each seven-day cycle based on your total activity.' },
-      { q: 'Does my VIP tier affect weekly rewards?', a: 'Yes, higher BDG Win VIP tiers typically receive a larger cashback percentage on weekly rewards.' },
-      { q: 'Is a deposit required for weekly rewards?', a: 'Cashback is based on activity, while reload bonuses specifically require a qualifying deposit during the week.' },
-      { q: 'Where do I see my weekly reward amount?', a: 'Your weekly reward total appears in your BDG Win wallet and rewards history once the cycle closes.' },
-      { q: 'Does cashback apply across every BDG Win game category?', a: 'Yes, weekly cashback reviews combined activity across all game categories rather than just one.' },
-      { q: 'Can I get both cashback and a reload bonus in the same week?', a: 'Yes, if you made a qualifying deposit during a week with qualifying activity, both can apply together.' }
+      { q: 'When does 6 Club calculate the weekly reward?', a: 'At the close of every seven-day cycle, based on your total activity across that period.' },
+      { q: 'Does my VIP tier change the weekly payout?', a: 'Yes — higher tiers generally pull a larger cashback percentage.' },
+      { q: 'Do I need to deposit to get a weekly reward?', a: 'Cashback runs off activity alone; the reload bonus specifically needs a qualifying deposit that week.' },
+      { q: 'Where does my weekly total show up?', a: 'In your wallet and rewards history, right after the cycle closes.' },
+      { q: 'Does cashback cover every game category or just one?', a: 'Every category — activity is combined across all of them, not tracked per category.' },
+      { q: 'Can cashback and a reload bonus land in the same week?', a: 'Yes — a qualifying deposit alongside qualifying activity earns both together.' }
     ],
     related: [
       { label: 'Daily Rewards', url: '/rewards/daily' },
@@ -388,37 +388,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/rewards/monthly': {
-    metaTitle: 'BDG Win Monthly Rewards – Milestone Bonuses',
+    metaTitle: '6 Club Monthly Rewards – Milestone Bonus for Consistent Players',
     metaDescription:
-      'How BDG Win monthly rewards recognize consistent players with milestone bonuses tied to a full month of activity.',
-    keywords: ['BDG Win Monthly Rewards', 'BDG Win Bonus', 'BDG Rewards'],
+      'How 6 Club monthly rewards recognize consistent players with milestone bonuses tied to a full month of activity.',
+    keywords: ['6 Club Monthly Rewards', '6 Club Bonus', '6 Club Rewards'],
     eyebrow: 'Monthly Rewards',
-    h1: 'BDG Win Monthly Rewards',
-    intro: 'Monthly rewards are the largest of the three BDG Win reward cycles, built around sustained play.',
+    h1: '6 Club Monthly Rewards',
+    intro: 'Monthly rewards are the biggest of 6 Club\'s three cycles — the payoff for sustained play over a full calendar month.',
     breadcrumbTrail: [{ label: 'Rewards', url: '/rewards' }],
     sections: [
       {
-        heading: 'Qualifying for Monthly Milestones',
+        heading: 'What It Takes to Hit a Milestone',
         paragraphs: [
-          'BDG Win tracks combined daily and weekly activity across a full calendar month. Reaching set milestones unlocks a monthly bonus, generally larger than daily or weekly rewards since it reflects a longer commitment period.',
-          'Monthly rewards also factor into VIP tier reviews, so consistent months of activity can move you up the VIP ladder faster.'
+          '6 Club adds up your daily and weekly activity across an entire calendar month, and crossing a set milestone unlocks a bonus that\'s typically bigger than anything from the daily or weekly cycles — the size reflects the longer time commitment behind it.',
+          'These totals also feed into VIP tier reviews, so a run of consistent months can push you up the ladder faster than sporadic bursts of activity.'
         ]
       },
       {
-        heading: 'Planning Around the Monthly Cycle',
+        heading: 'Thinking in Months, Not Weeks',
         paragraphs: [
-          'Because the monthly milestone looks at the full calendar month rather than any single week, a slower week doesn\'t rule out reaching the milestone if the rest of the month makes up for it — it\'s the combined total that gets reviewed at month\'s end, not a strict week-by-week pace.',
-          'Players aiming for a VIP tier increase often treat the monthly milestone as the clearest signal of where they stand, since it\'s reviewed on the same rolling basis VIP tiers use.'
+          'Because the milestone looks at the whole month, a slower week doesn\'t sink your chances if the rest of the month picks up the slack — it\'s the combined total at month\'s end that gets reviewed, not a strict week-by-week pace.',
+          'Players chasing a VIP upgrade often treat the monthly figure as their clearest gauge, since it\'s assessed on roughly the same rolling schedule VIP reviews use.'
         ]
       }
     ],
     faqs: [
-      { q: 'How is the BDG Win monthly reward different from weekly rewards?', a: 'Monthly rewards are calculated over a full calendar month and are typically larger, reflecting sustained activity rather than a single week.' },
-      { q: 'Do monthly rewards affect my VIP tier?', a: 'Yes, monthly activity is one of the factors reviewed when your BDG Win VIP tier is reassessed.' },
-      { q: 'When are monthly rewards credited?', a: 'Monthly rewards are credited shortly after each calendar month closes, based on your recorded activity.' },
-      { q: 'Can I track progress toward the monthly milestone?', a: 'Your current progress toward monthly reward milestones is visible in your BDG Win account dashboard.' },
-      { q: 'Does a slow week rule out my monthly milestone?', a: 'No, the monthly milestone reviews combined activity across the full month, so other weeks can offset a slower one.' },
-      { q: 'Is the monthly reward the best signal of my VIP progress?', a: 'It\'s a strong one, since monthly totals are reviewed on the same rolling basis used for VIP tier reassessments.' }
+      { q: 'How does the monthly reward differ from the weekly one?', a: 'It\'s calculated over a full calendar month and is usually larger, reflecting sustained play rather than a single week.' },
+      { q: 'Does monthly activity affect my VIP tier?', a: 'Yes — it\'s one of the inputs reviewed whenever your VIP tier gets reassessed.' },
+      { q: 'When does the monthly bonus get credited?', a: 'Shortly after each calendar month closes, based on the activity recorded during it.' },
+      { q: 'Can I track my progress toward the milestone mid-month?', a: 'Yes — current progress is visible any time in your account dashboard.' },
+      { q: 'Does one bad week ruin my monthly milestone?', a: 'No — the review covers the whole month, so stronger weeks can offset a slower one.' },
+      { q: 'Is the monthly total a good signal for VIP progress?', a: 'It\'s a strong one, since it\'s reviewed on roughly the same rolling basis as VIP tier reassessments.' }
     ],
     related: [
       { label: 'Daily Rewards', url: '/rewards/daily' },
@@ -428,58 +428,58 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/referral-program': {
-    metaTitle: 'BDG Win Referral Program – Earn by Inviting Friends',
+    metaTitle: '6 Club Referral – Invite Code & Earn by Inviting Friends',
     metaDescription:
-      'How the BDG Win referral program works: share your link, track invited players and earn from their activity over time.',
-    keywords: ['BDG Win Referral', 'BDG Win Referral Program', 'BDG Referral'],
+      'How the 6 Club Referral program works: share your 6 Club Invite Code, track invited players and earn from their activity over time.',
+    keywords: ['6 Club Referral', '6 Club Referral Program', '6 Club Invite Code'],
     eyebrow: 'Referral Program',
-    h1: 'BDG Win Referral Program',
-    intro: 'The BDG Win referral program pays you a share of activity generated by players you invite.',
+    h1: '6 Club Referral Program',
+    intro: 'Invite friends to 6 Club and earn an ongoing share of what they play — that\'s the entire referral program in one line.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How Referrals Are Tracked',
+        heading: 'How a Referral Actually Gets Tracked',
         paragraphs: [
-          'Every BDG Win account has a unique referral link found in the dashboard. When someone registers using your link and starts playing, that account is tagged to your referral profile, and a share of their qualifying activity is credited to you on an ongoing basis.',
-          'You can track pending and paid referral earnings, along with the number of active invited players, from the same dashboard section.'
+          'Your dashboard holds a unique referral link tied to your account. The moment someone signs up through it and starts playing, that account gets tagged to your referral profile — and a share of their qualifying activity keeps flowing to you for as long as they stay active.',
+          'Pending earnings, paid-out totals and the number of currently active invited players all sit in that same dashboard section.'
         ],
         image: {
           src: '/images/screenshots/invitation-bonus-received.webp',
-          alt: 'BDG Win invitation bonus screen showing rewards credited per invited friend',
-          caption: 'A BDG Win invitation bonus screen showing rewards credited once an invited friend registers and completes a qualifying deposit.'
+          alt: '6 Club invitation bonus screen showing rewards credited per invited friend',
+          caption: 'A 6 Club invitation bonus screen showing rewards credited once an invited friend registers and completes a qualifying deposit.'
         }
       },
       {
-        heading: 'Getting the Most From Referrals',
+        heading: 'Who to Actually Invite',
         paragraphs: [
-          'Referral earnings scale with how active your invited players are, so sharing your link with people who intend to play regularly, rather than just registering once, produces steadier returns over time.'
+          'Earnings scale with how active your invited players stay — so sending your link to people who genuinely plan to keep playing, rather than just sign up once, is what produces steady returns rather than a one-time bump.'
         ],
         image: {
           src: '/images/screenshots/invite-wheel-cashout.webp',
-          alt: 'BDG Win Invite Wheel showing spin-based bonus amounts added to a referrer\'s balance',
-          caption: 'The BDG Win Invite Wheel, which adds spin-based bonus amounts to a referrer\'s balance as more invited friends join.'
+          alt: '6 Club Invite Wheel showing spin-based bonus amounts added to a referrer\'s balance',
+          caption: 'The 6 Club Invite Wheel, which adds spin-based bonus amounts to a referrer\'s balance as more invited friends join.'
         }
       },
       {
-        heading: 'Reading Your Referral Dashboard',
+        heading: 'Reading the Dashboard at a Glance',
         paragraphs: [
-          'The referral section separates pending earnings from paid ones, along with a count of active versus inactive invited players, so it\'s easy to see at a glance whether recent invites are actually playing or just registered once.',
-          'Because tracking is tied to the link itself rather than a manual code entry, there\'s nothing extra an invited player needs to do beyond registering through your link — the connection is made automatically the moment their account is created.'
+          'Pending earnings sit separately from paid ones, and active invited players are split out from inactive ones — so a quick glance tells you whether recent invites are actually playing or just registered and disappeared.',
+          'Because everything ties to the link itself rather than a code someone has to type in, an invited player doesn\'t need to do anything extra — the connection forms automatically the second their account exists.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-invite-commission-poster.webp',
-          alt: 'BDG Win shareable invite poster with a scannable QR code and commission rate',
-          caption: 'A shareable BDG Win invite poster with a scannable QR code — one of several ready-made formats for sending your referral link to friends.'
+          src: '/images/screenshots/6club-invite-commission-poster.webp',
+          alt: '6 Club shareable invite poster with a scannable QR code and commission rate',
+          caption: 'A shareable 6 Club invite poster with a scannable QR code — one of several ready-made formats for sending your referral link to friends.'
         }
       }
     ],
     faqs: [
-      { q: 'Where do I find my BDG Win referral link?', a: 'Your unique referral link is available in the referral section of your BDG Win account dashboard.' },
-      { q: 'How much can I earn from BDG Win referrals?', a: 'Referral earnings are a share of your invited players\' qualifying activity and scale with how active they remain over time.' },
-      { q: 'Is there a limit to how many people I can refer?', a: 'There is no fixed cap listed — you can share your BDG Win referral link with as many people as you like.' },
-      { q: 'When are referral earnings paid out?', a: 'Referral earnings accumulate in your account and can be withdrawn through the standard BDG Win withdrawal process.' },
-      { q: 'Does an invited player need to enter a code?', a: 'No, registering through your referral link automatically tags the new account to your referral profile.' },
-      { q: 'Can I see which invited players are still active?', a: 'Yes, the referral dashboard separates active and inactive invited players so you can see who is still playing.' }
+      { q: 'Where\'s my referral link kept?', a: 'In the referral section of your account dashboard, ready to copy and share.' },
+      { q: 'What determines how much I earn from referrals?', a: 'A share of your invited players\' qualifying activity — the more active they stay, the more it adds up over time.' },
+      { q: 'Is there a cap on how many people I can invite?', a: 'No fixed cap — share your link with as many people as you want.' },
+      { q: 'How do I actually get paid my referral earnings?', a: 'They accumulate in your wallet and withdraw through the same standard 6 Club withdrawal process as everything else.' },
+      { q: 'Does my invited friend need to type in a code?', a: 'No — signing up through your link tags their account to you automatically, no code required.' },
+      { q: 'Can I tell which invites are still actually playing?', a: 'Yes — the dashboard splits active from inactive invited players so that\'s visible at a glance.' }
     ],
     related: [
       { label: 'Affiliate Program', url: '/affiliate-program' },
@@ -489,47 +489,47 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/affiliate-program': {
-    metaTitle: 'BDG Win Affiliate Program – Partner and Earn Commission',
+    metaTitle: '6 Club Affiliate Program – Partner With 6 Club and Earn Commission',
     metaDescription:
-      'Details on the BDG Win affiliate program for content creators and marketers who want to promote the platform for ongoing commission.',
-    keywords: ['BDG Win Affiliate Program', 'BDG Win Affiliate'],
+      'Details on the 6 Club Affiliate Program for creators and marketers who want to promote 6 Club for ongoing commission.',
+    keywords: ['6 Club Affiliate Program', '6 Club Affiliate', '6 Club Invite Code'],
     eyebrow: 'Affiliate Program',
-    h1: 'BDG Win Affiliate Program',
-    intro: 'The BDG Win affiliate program is built for creators and marketers driving larger volumes of new players.',
+    h1: '6 Club Affiliate Program',
+    intro: 'Built for creators, marketers and communities bringing in new players at scale — not just a personal referral link.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How Affiliate Tracking Differs From Referrals',
+        heading: 'Affiliates vs. Regular Referrals',
         paragraphs: [
-          'While the standard referral program suits individual players sharing a personal link, the BDG Win affiliate program is designed for larger-scale promotion — think content channels, communities or marketing campaigns. Affiliates get dedicated tracking links, campaign-level reporting and commission structures based on player volume and activity.'
+          'A standard referral link works fine for a single player sharing with friends, but the affiliate program is built for something bigger — content channels, communities, full marketing campaigns. Affiliates get their own tracking links, campaign-level reporting, and commission structures tied to volume and activity rather than a flat per-friend share.'
         ],
         image: {
           src: '/images/screenshots/agent-program-rules.webp',
-          alt: 'BDG Win promotion partner program rules explaining subordinate levels for invited players',
-          caption: 'BDG Win\'s promotion partner rules, explaining how subordinate levels are counted when an invited player goes on to invite others — the same underlying structure affiliate tracking builds on.'
+          alt: '6 Club promotion partner program rules explaining subordinate levels for invited players',
+          caption: '6 Club\'s promotion partner rules, explaining how subordinate levels are counted when an invited player goes on to invite others — the same underlying structure affiliate tracking builds on.'
         }
       },
       {
-        heading: 'Applying as a BDG Win Affiliate',
+        heading: 'Applying for Affiliate Access',
         paragraphs: [
-          'Affiliate applications are reviewed individually through the Contact page, where you can describe your audience and promotion channels before receiving affiliate account access and tracking links.'
+          'Applications go through the Contact page individually — describe your audience and how you plan to promote, and access to tracking links plus an affiliate account gets set up from there.'
         ]
       },
       {
-        heading: 'What Campaign-Level Reporting Looks Like',
+        heading: 'Why Campaign-Level Data Matters',
         paragraphs: [
-          'Where a standard referral link only shows one running total, affiliate tracking breaks activity down by campaign or channel, so you can see which specific link, page or promotion is actually converting rather than treating all traffic as one number.',
-          'That level of detail is mainly useful once volume passes what a single personal link can meaningfully track — which is the main reason the affiliate program exists as a separate tier rather than simply raising referral limits.'
+          'A personal referral link gives you one running number. Affiliate tracking breaks it down by campaign or channel instead, so you can tell exactly which link, page or promotion is converting rather than treating every visitor as one undifferentiated pile.',
+          'That granularity only really pays off once your volume outgrows what a single link can meaningfully show — which is precisely why this exists as its own tier rather than just a higher referral cap.'
         ]
       }
     ],
     faqs: [
-      { q: 'How is the BDG Win affiliate program different from referrals?', a: 'Affiliates get campaign-level tracking and commission structures suited to larger promotion volumes, compared to the simple personal link used for standard referrals.' },
-      { q: 'Who can apply for the BDG Win affiliate program?', a: 'Content creators, marketers and site owners with an audience interested in online gaming can apply through the Contact page.' },
-      { q: 'How is affiliate commission calculated?', a: 'Commission structures are based on the volume and activity of players brought in through your affiliate tracking links.' },
-      { q: 'Do affiliates get dedicated support?', a: 'Approved BDG Win affiliates are given a dedicated contact point separate from general player support.' },
-      { q: 'Can I run multiple campaigns as a BDG Win affiliate?', a: 'Yes, affiliate tracking is built to report on multiple campaigns or channels separately.' },
-      { q: 'Do I need an existing audience to apply?', a: 'An existing audience interested in online gaming is expected, though the exact size is reviewed case by case through the Contact page.' }
+      { q: 'How does the affiliate tier differ from a regular referral?', a: 'Affiliates get campaign-level tracking and commission tiers built for volume, rather than the flat personal-link setup referrals use.' },
+      { q: 'Who\'s eligible to become an affiliate?', a: 'Creators, marketers and site owners with a gaming-interested audience — apply through the Contact page.' },
+      { q: 'How does commission get worked out?', a: 'It scales with the volume and activity of players your tracking links bring in.' },
+      { q: 'Do approved affiliates get their own support contact?', a: 'Yes — a dedicated point of contact separate from the general player support queue.' },
+      { q: 'Can I run several campaigns under one affiliate account?', a: 'Yes — tracking is built to report on multiple campaigns or channels independently.' },
+      { q: 'Do I need a large existing audience to apply?', a: 'Some gaming-interested audience is expected, but size is judged case by case during the Contact page review.' }
     ],
     related: [
       { label: 'Referral Program', url: '/referral-program' },
@@ -539,57 +539,57 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/agent-program': {
-    metaTitle: 'BDG Win Agent Program – Become a BDG Win Agent',
+    metaTitle: '6 Club Agent Program – Become a 6 Club Agent',
     metaDescription:
-      'How the BDG Win agent program works for individuals managing groups of players, including responsibilities and earnings structure.',
-    keywords: ['BDG Win Agent', 'BDG Win Agent Program', 'BDG Agent'],
+      'How the 6 Club Agent Program works for individuals managing groups of players, including referral earnings and responsibilities.',
+    keywords: ['6 Club Agent', '6 Club Agent Program', '6 Club Referral'],
     eyebrow: 'Agent Program',
-    h1: 'BDG Win Agent Program',
-    intro: 'BDG Win agents manage a network of players and earn based on that network\'s combined activity.',
+    h1: '6 Club Agent Program',
+    intro: 'Agents manage a whole network of players and earn from that network\'s combined activity, not just their own play.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'What a BDG Win Agent Does',
+        heading: 'What the Role Actually Involves',
         paragraphs: [
-          'A BDG Win agent oversees a group of players — helping them register, deposit and understand the platform — in exchange for ongoing earnings tied to that group\'s activity. Agents get a management dashboard separate from the standard player view, showing group-level deposits, activity and earnings.'
+          'An agent looks after a group of players — helping them register, deposit and get comfortable with the platform — in return for ongoing earnings tied to that group\'s activity. A separate management dashboard shows group-level deposits, activity and earnings, distinct from the standard player view.'
         ],
         image: {
           src: '/images/screenshots/agency-commission-dashboard.webp',
-          alt: 'BDG Win agent Agency dashboard showing direct and team subordinate counts and commission total',
-          caption: 'A BDG Win agent\'s Agency dashboard, showing direct and team subordinate counts, deposit numbers and the previous day\'s total commission.'
+          alt: '6 Club agent Agency dashboard showing direct and team subordinate counts and commission total',
+          caption: 'A 6 Club agent\'s Agency dashboard, showing direct and team subordinate counts, deposit numbers and the previous day\'s total commission.'
         }
       },
       {
-        heading: 'Becoming an Agent',
+        heading: 'Getting Agent Access',
         paragraphs: [
-          'Agent status is granted after an application reviewed through the Contact page, where existing player history and intended network size are considered before access is set up.'
+          'Status is granted after a Contact-page application — existing player history and how large a network you\'re planning both factor into the review before access gets switched on.'
         ],
         image: {
           src: '/images/screenshots/rebate-ratio-table.webp',
-          alt: 'BDG Win rebate ratio table showing commission percentages by level and subordinate depth',
-          caption: 'BDG Win\'s rebate ratio table, showing how commission percentages change across rebate levels and subordinate depth for lottery, casino and sports.'
+          alt: '6 Club rebate ratio table showing commission percentages by level and subordinate depth',
+          caption: '6 Club\'s rebate ratio table, showing how commission percentages change across rebate levels and subordinate depth for lottery, casino and sports.'
         }
       },
       {
-        heading: 'Managing a Player Network Day to Day',
+        heading: 'The Day-to-Day Once You\'re Set Up',
         paragraphs: [
-          'Beyond onboarding, most of an agent\'s ongoing work is checking group-level activity from the management dashboard and helping individual players with account or deposit questions before they escalate to general support.',
-          'Because earnings track combined group activity rather than any single player, an agent\'s incentives line up with helping the whole network stay active — a handful of highly active players and a larger group of occasional ones both contribute to the same running total.'
+          'Past the initial onboarding, an agent\'s routine is mostly checking group activity from the management dashboard and fielding account or deposit questions from individual players before they ever reach general support.',
+          'Since earnings track the group\'s combined activity rather than any single player, the incentive naturally lines up with keeping the whole network engaged — a few highly active players and a larger pool of occasional ones both feed the same running total.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-agent-recruitment-banner.webp',
-          alt: 'BDG Win agent recruitment banner shown above the game category grid',
-          caption: 'A BDG Win agent recruitment banner — this is the kind of promotion an agent\'s network sees, tying back to the same account structure the agent manages.'
+          src: '/images/screenshots/6club-agent-recruitment-banner.webp',
+          alt: '6 Club agent recruitment banner shown above the game category grid',
+          caption: 'A 6 Club agent recruitment banner — this is the kind of promotion an agent\'s network sees, tying back to the same account structure the agent manages.'
         }
       }
     ],
     faqs: [
-      { q: 'What does a BDG Win agent manage?', a: 'A BDG Win agent manages a group of players and earns based on that group\'s combined deposits and activity.' },
-      { q: 'How do I become a BDG Win agent?', a: 'Agent applications are reviewed individually through the Contact page before dashboard access is granted.' },
-      { q: 'Is the agent dashboard different from a regular account?', a: 'Yes, agents get a management view showing group-level activity, separate from the standard individual player dashboard.' },
-      { q: 'Can an agent also be a referral or affiliate partner?', a: 'Yes, the three programs track different relationships and can be combined depending on your role with BDG Win.' },
-      { q: 'Do agent earnings depend on one specific player?', a: 'No, agent earnings are based on the combined activity of the whole managed group rather than any single player.' },
-      { q: 'What kind of support questions does an agent typically handle?', a: 'Agents commonly help with account setup and deposit questions before they would otherwise go to general support.' }
+      { q: 'What is an agent actually responsible for?', a: 'Managing a group of players and earning based on that group\'s combined deposits and activity.' },
+      { q: 'How do I get set up as an agent?', a: 'Apply through the Contact page — applications are reviewed individually before dashboard access is granted.' },
+      { q: 'Does the agent dashboard look different from a regular account?', a: 'Yes — it\'s a management view built around group-level activity, separate from the standard player dashboard.' },
+      { q: 'Can someone be an agent and an affiliate at the same time?', a: 'Yes — the three programs track different relationships and can overlap depending on your role.' },
+      { q: 'Do earnings hinge on one particular top player?', a: 'No — they\'re based on the combined activity of the whole managed group, not any single account.' },
+      { q: 'What support questions land on an agent\'s desk most often?', a: 'Account setup and deposit questions, usually before they\'d otherwise reach general support.' }
     ],
     related: [
       { label: 'Affiliate Program', url: '/affiliate-program' },
@@ -599,13 +599,13 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games': {
-    metaTitle: 'BDG Win Game Categories – Casino, Slots, Lottery & More',
+    metaTitle: '6 Club Games – Casino, Slots, Lottery, Aviator & Sports',
     metaDescription:
-      'Browse every BDG Win game category, including casino, slots, lottery, sports, crash, fishing and arcade games.',
-    keywords: ['BDG Win Game', 'BDG Win Games', 'BDG Game'],
+      'Browse every 6 Club Games category: Casino, Slots, Lottery, Aviator, Sports and Mini Games, all under one 6 Club account.',
+    keywords: ['6 Club Game', '6 Club Games', '6club Games', '6 Club Mini Games'],
     eyebrow: 'Games',
-    h1: 'BDG Win Game Categories',
-    intro: 'Every BDG Win game category sits under one account, so you can move between them without switching wallets.',
+    h1: '6 Club Game Categories',
+    intro: 'One account, every category — casino, slots, lottery, sports, crash and more, with nothing to switch between them.',
     breadcrumbTrail: [],
     itemList: [
       { label: 'Casino Games', url: '/games/casino', description: 'Live dealer tables and classic table games.' },
@@ -619,27 +619,27 @@ const pagesData: Record<string, PageEntry> = {
     ],
     sections: [
       {
-        heading: 'Choosing a Category',
+        heading: 'Which Category Fits You',
         paragraphs: [
-          'Casino and slot games suit players who prefer classic formats with visible odds. Lottery and Color Prediction rounds are built for fast, simple rounds. Sports games cover pre-match and live markets, while crash, fishing and arcade titles offer quicker, skill-influenced sessions.',
-          'Your BDG Win balance, rewards progress and VIP tier apply across all categories equally, so switching between them does not reset any progress.'
+          'Casino and slots suit anyone who likes classic formats with visible odds. Lottery and Colour Prediction are built for quick, simple rounds. Sports covers both pre-match and live markets, while crash, fishing and arcade lean into faster, skill-touched sessions.',
+          'Whichever you pick, your balance, reward progress and VIP tier travel with you — nothing resets when you switch.'
         ]
       },
       {
-        heading: 'Moving Between Categories Without Losing Progress',
+        heading: 'Switching Categories Costs You Nothing',
         paragraphs: [
-          'Because every category draws from the same wallet, there\'s no transfer step between, say, a casino table and a slot title — a balance built up in one category is immediately available in another. Rewards and VIP progress work the same way, tracking combined activity rather than resetting per category.',
-          'This is also why trying a new category carries little friction: switching from lottery to sports markets for a session doesn\'t require a new account, a separate deposit or starting your reward cycle over.'
+          'Every category draws from the same wallet, so there\'s no transfer step moving from a casino table to a slot title — a balance built in one shows up instantly in the other. Rewards and VIP progress work the same way, tracking your combined activity rather than resetting per category.',
+          'That\'s exactly why trying something new is low-friction: hopping from Lottery to a Sports market mid-session needs no new account, no fresh deposit, and doesn\'t restart your reward cycle.'
         ]
       }
     ],
     faqs: [
-      { q: 'How many game categories does BDG Win offer?', a: 'BDG Win organizes games into casino, slots, lottery, sports, crash, fishing, arcade and popular/new game groupings.' },
-      { q: 'Do I need a separate wallet for each BDG Win game category?', a: 'No, a single BDG Win wallet and account balance works across every game category.' },
-      { q: 'Which BDG Win game category is fastest to play?', a: 'Lottery, Color Prediction and crash games tend to have the shortest round times on BDG Win.' },
-      { q: 'Where can I see the newest games on BDG Win?', a: 'The New Games page lists recently added titles across all BDG Win categories.' },
-      { q: 'Does switching game categories reset my rewards progress?', a: 'No, daily, weekly and monthly reward progress tracks combined activity across every category.' },
-      { q: 'Can I try a new BDG Win game category without a new deposit?', a: 'Yes, your existing wallet balance works across every category, so no separate deposit is needed to try something new.' }
+      { q: 'How many categories are there to choose from?', a: 'Casino, slots, lottery, sports, crash, fishing, arcade, plus popular and new-release groupings.' },
+      { q: 'Is a separate wallet needed per category?', a: 'No — one wallet and balance covers every category on the platform.' },
+      { q: 'Which category has the quickest rounds?', a: 'Lottery, Colour Prediction and crash-style games generally settle the fastest.' },
+      { q: 'Where do the newest additions show up?', a: 'The New Games page lists everything recently added across every category.' },
+      { q: 'Does switching categories reset my reward progress?', a: 'No — daily, weekly and monthly progress tracks combined activity no matter which category it comes from.' },
+      { q: 'Do I need a fresh deposit to try a different category?', a: 'No — your existing balance already works everywhere, so trying something new costs nothing extra.' }
     ],
     related: [
       { label: 'Casino Games', url: '/games/casino' },
@@ -649,37 +649,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/casino': {
-    metaTitle: 'BDG Win Casino Games – Live Tables and Classic Formats',
+    metaTitle: '6 Club Casino – Live Tables & Classic Casino Games',
     metaDescription:
-      'Play BDG Win casino games including live dealer tables and classic table game formats with transparent odds.',
-    keywords: ['BDG Win Casino', 'BDG Win Casino Games', 'BDG Casino'],
+      'Play 6 Club Casino games including live dealer tables and classic formats with transparent, verified odds.',
+    keywords: ['6 Club Casino', '6 Club Casino Games'],
     eyebrow: 'Casino',
-    h1: 'BDG Win Casino Games',
-    intro: 'BDG Win casino games cover live dealer tables and classic formats with clearly stated odds.',
+    h1: '6 Club Casino Games',
+    intro: 'Live dealer tables and classic formats, side by side, with the odds spelled out before you ever place a stake.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'Live Tables and Classic Formats',
+        heading: 'Live Tables vs. Classic Formats',
         paragraphs: [
-          'Live dealer tables on BDG Win stream in real time with visible card or wheel outcomes, while classic formats run on certified random outcome generation. Both formats display stake limits and payout ratios before you join a round.',
-          'Casino games sit in the same wallet as every other BDG Win category, so winnings are available for withdrawal or reuse across slots, lottery or sports without a transfer step.'
+          'Live dealer tables stream in real time with visible card or wheel outcomes, while classic formats run on certified random generation instead. Either way, stake limits and payout ratios are shown up front, before you join a round.',
+          'Winnings land in the same wallet used everywhere else on the platform — nothing needs transferring before you can spend it on slots, lottery or sports.'
         ]
       },
       {
-        heading: 'Choosing Between Live and Classic Tables',
+        heading: 'Picking a Format That Matches Your Pace',
         paragraphs: [
-          'Live dealer tables suit players who want to see a real dealer and shuffle in real time, streamed continuously rather than generated on demand. Classic formats resolve faster since there\'s no stream to wait on, which suits shorter sessions or lower-bandwidth connections.',
-          'Both formats are held to the same fair play standards, so the choice comes down to preferred pace and format rather than one being more reliable than the other.'
+          'Live tables suit anyone who wants to watch an actual dealer and shuffle happen in real time, streamed continuously rather than generated instantly. Classic formats resolve quicker since there\'s no stream to wait for, which fits shorter sessions or a weaker connection better.',
+          'Both run under the same fair play standards, so the decision really comes down to pace and preference — neither format is more reliable than the other.'
         ]
       }
     ],
     faqs: [
-      { q: 'Are BDG Win casino games live or automated?', a: 'BDG Win offers both live dealer tables and automated classic formats, clearly labeled before you join a table.' },
-      { q: 'Are BDG Win casino game odds published?', a: 'Payout ratios and stake limits are shown on each table before you place a bet.' },
-      { q: 'Can I move casino winnings to other BDG Win games?', a: 'Yes, all winnings sit in the same BDG Win wallet used across every game category.' },
-      { q: 'Is there a minimum stake for BDG Win casino tables?', a: 'Minimum and maximum stakes vary by table and are displayed before you join.' },
-      { q: 'Which loads faster, live or classic casino tables?', a: 'Classic formats typically resolve faster since there is no live video stream to wait on.' },
-      { q: 'Are live dealer tables held to the same fairness standards as classic tables?', a: 'Yes, both formats follow the same fair play standards described on our Fair Play page.' }
+      { q: 'Are the casino games live-streamed or computer-generated?', a: 'Both — live dealer tables and automated classic formats, each clearly labeled before you join.' },
+      { q: 'Are the odds published anywhere?', a: 'Yes — payout ratios and stake limits show on every table before you place a bet.' },
+      { q: 'Can casino winnings move over to other games?', a: 'Yes — everything sits in the same wallet used across the whole platform.' },
+      { q: 'Is there a minimum stake at the tables?', a: 'Minimums and maximums vary by table and display before you join.' },
+      { q: 'Which resolves faster, live or classic tables?', a: 'Classic formats, generally, since there\'s no live stream to wait on.' },
+      { q: 'Are live tables held to the same fairness rules as classic ones?', a: 'Yes — both follow the identical standards described on the Fair Play page.' }
     ],
     related: [
       { label: 'Slot Games', url: '/games/slots' },
@@ -689,42 +689,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/slots': {
-    metaTitle: 'BDG Win Slots – Themed Reels and Instant Results',
+    metaTitle: '6 Club Slots – Themed Reels & Instant Results',
     metaDescription:
-      'Explore BDG Win slot games with themed reels, adjustable stakes and instant round results across desktop and mobile.',
-    keywords: ['BDG Win Slots', 'BDG Win Slot Games', 'BDG Slots', 'BDG Slot'],
+      'Explore 6 Club Slots with themed reels, adjustable stakes and instant round results across desktop and mobile.',
+    keywords: ['6 Club Slots', '6 Club Slot Games', '6 Club Slot'],
     eyebrow: 'Slots',
-    h1: 'BDG Win Slot Games',
-    intro: 'BDG Win slots cover a wide range of themes, all running on the same fast, low-bandwidth interface.',
+    h1: '6 Club Slot Games',
+    intro: 'A wide spread of slot themes, all running through the same fast, low-bandwidth-friendly interface.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'How BDG Win Slots Are Organized',
+        heading: 'How the Slot Library Is Sorted',
         paragraphs: [
-          'Slot titles on BDG Win are grouped by theme and volatility, with stake ranges adjustable per spin. Round results are generated and displayed instantly, without long loading animations, which keeps sessions quick even on limited mobile data.',
-          'New slot titles are added periodically and appear first on the New Games page before moving into general rotation.'
+          'Titles are grouped by theme and volatility, with a stake range you can adjust per spin. Results generate and display instantly — no long loading animation eating into your session, even on a weak mobile connection.',
+          'New titles surface first on the New Games page before folding into general rotation.'
         ],
         image: {
           src: '/images/screenshots/slots-provider-grid.webp',
-          alt: 'BDG Win slots screen showing titles from multiple game studios grouped for browsing',
-          caption: 'A sample of the slot titles available on BDG Win, grouped for quick browsing across multiple game studios.'
+          alt: '6 Club slots screen showing titles from multiple game studios grouped for browsing',
+          caption: 'A sample of the slot titles available on 6 Club, grouped for quick browsing across multiple game studios.'
         }
       },
       {
-        heading: 'Matching a Title to Your Play Style',
+        heading: 'Matching a Title to How You Want to Play',
         paragraphs: [
-          'Themes and volatility are shown together on each slot title, so it\'s possible to filter toward the combination that fits a session — a themed reel with steadier, smaller payouts for longer sessions, or a higher-volatility title for shorter ones with bigger swings.',
-          'Because stakes adjust per spin, the same title can suit a cautious session and a more aggressive one just by changing the stake range rather than switching games entirely.'
+          'Theme and volatility sit right next to each other on every title, so you can filter toward whatever fits the session — a steadier reel with smaller, more frequent payouts for a longer sit-down, or a high-volatility title for a shorter session with bigger swings.',
+          'Since stakes adjust per spin, the same title can flex between a cautious approach and an aggressive one just by changing the range — no need to switch games to change pace.'
         ]
       }
     ],
     faqs: [
-      { q: 'Can I adjust my stake on BDG Win slots?', a: 'Yes, most BDG Win slot titles allow you to adjust your stake per spin within a set range.' },
-      { q: 'How fast do BDG Win slot rounds resolve?', a: 'Slot results display instantly after each spin, with minimal loading time between rounds.' },
-      { q: 'Where can I find new BDG Win slot titles?', a: 'New slot releases are listed on the New Games page before entering general rotation.' },
-      { q: 'Do BDG Win slots work well on mobile data?', a: 'Yes, slot screens are optimized to load quickly even on slower mobile connections.' },
-      { q: 'How do I know a slot title\'s volatility before playing?', a: 'Volatility is shown alongside the theme on each BDG Win slot title before you spin.' },
-      { q: 'Can I change my approach without switching slot titles?', a: 'Yes, adjusting your stake range within the same title is often enough to change pace without switching games.' }
+      { q: 'Can I change my stake between spins?', a: 'Yes — most titles let you adjust the stake per spin within a set range.' },
+      { q: 'How quickly do slot rounds settle?', a: 'Instantly after each spin, with barely any wait between rounds.' },
+      { q: 'Where do new slot titles show up first?', a: 'On the New Games page, before they move into general rotation.' },
+      { q: 'Are slots optimized for weaker mobile connections?', a: 'Yes — the screens are built to load quickly even on a slower connection.' },
+      { q: 'How do I check a title\'s volatility before spinning?', a: 'It\'s displayed right alongside the theme on each title.' },
+      { q: 'Can I change pace without switching titles?', a: 'Yes — adjusting the stake range within the same title is usually enough.' }
     ],
     related: [
       { label: 'New Games', url: '/games/new' },
@@ -734,47 +734,47 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/lottery': {
-    metaTitle: 'BDG Win Lottery & Color Prediction Games',
+    metaTitle: '6 Club Lottery & Colour Prediction Games',
     metaDescription:
-      'Play BDG Win lottery draws and Color Prediction rounds with fast settlement times and clear result history.',
-    keywords: ['BDG Win Lottery', 'BDG Win Color Prediction', 'BDG Lottery', 'BDG Color Prediction'],
+      'Play 6 Club Lottery draws and 6 Club Colour Prediction rounds with fast settlement times and a clear result history.',
+    keywords: ['6 Club Lottery', '6 Club Color Prediction', '6 Club Colour Prediction', '6 Club Wingo', '6 Club Colour Prediction Game', '6 Club Lottery Games'],
     eyebrow: 'Lottery',
-    h1: 'BDG Win Lottery Games',
-    intro: 'BDG Win lottery games include numbered draws and Color Prediction rounds that settle quickly.',
+    h1: '6 Club Lottery Games',
+    intro: 'Numbered draws on a fixed schedule, plus Colour Prediction rounds that settle in under a minute.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'Lottery Draws and Color Prediction',
+        heading: 'Two Formats, Two Different Paces',
         paragraphs: [
-          'Numbered lottery draws on BDG Win run on fixed schedules with published draw times, while BDG Win Color Prediction rounds settle in under a minute, letting you place several rounds in a short session.',
-          'Every draw and prediction round result is logged in your history, so you can review outcomes and timing at any point from your account.'
+          'Numbered draws run to a published schedule, so you always know when the next one lands. Colour Prediction moves much faster — under a minute per round — letting you fit several rounds into a short session.',
+          'Every result, whichever format, logs to your history, so reviewing outcomes and timing later is just a case of checking your account.'
         ],
         image: {
           src: '/images/screenshots/lottery-wingo-k3-5d.webp',
-          alt: 'BDG Win lottery category listing Win Go, MotoRace, K3 and 5D draw formats',
-          caption: 'BDG Win\'s lottery category, listing draw formats side by side, each with its own guess-number style and settlement time.'
+          alt: '6 Club lottery category listing Win Go, MotoRace, K3 and 5D draw formats',
+          caption: '6 Club\'s lottery category, listing draw formats side by side, each with its own guess-number style and settlement time.'
         }
       },
       {
-        heading: 'Reading Your Round History',
+        heading: 'One History View for Both Formats',
         paragraphs: [
-          'Every settled round — whether a numbered draw or a Color Prediction cycle — logs its outcome, timing and your entry in the same history view, so comparing recent results doesn\'t require jumping between separate screens for each format.',
-          'That shared history is also where the certified random outcome generation described on our Fair Play page becomes visible in practice: each entry reflects an independently generated result, not a running pattern carried over from the previous round.'
+          'A settled numbered draw and a settled Colour Prediction round both log to the exact same history screen — outcome, timing, your entry — so comparing recent results never means jumping between separate views.',
+          'That shared log is also where the certified random generation covered on the Fair Play page becomes concrete: each entry is its own independently generated result, not a continuation of whatever pattern showed up last round.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-wingo-live-round.webp',
-          alt: 'BDG Win Win Go round in progress with a live countdown and number grid',
-          caption: 'A BDG Win Win Go round in progress — the countdown, draw ID and number grid all update together as the round settles.'
+          src: '/images/screenshots/6club-wingo-live-round.webp',
+          alt: '6 Club Win Go round in progress with a live countdown and number grid',
+          caption: 'A 6 Club Win Go round in progress — the countdown, draw ID and number grid all update together as the round settles.'
         }
       }
     ],
     faqs: [
-      { q: 'What is BDG Win Color Prediction?', a: 'BDG Win Color Prediction is a fast-settling round type where players predict an outcome color, with results confirmed in under a minute.' },
-      { q: 'How often do BDG Win lottery draws run?', a: 'Numbered lottery draws run on published fixed schedules visible before you enter a round.' },
-      { q: 'Can I see past BDG Win lottery results?', a: 'Yes, your draw and prediction history is available from your account activity log.' },
-      { q: 'Is Color Prediction faster than numbered lottery draws?', a: 'Yes, Color Prediction rounds typically settle faster than fixed-schedule numbered lottery draws.' },
-      { q: 'Are numbered draws and Color Prediction results shown in the same place?', a: 'Yes, both formats log to the same round history view in your account.' },
-      { q: 'Does a past Color Prediction round influence the next one?', a: 'No, each round uses independent certified random generation regardless of previous outcomes.' }
+      { q: 'What exactly is Colour Prediction?', a: 'A fast-settling round type where you predict an outcome colour, confirmed in under a minute.' },
+      { q: 'How frequently do numbered draws happen?', a: 'On a published fixed schedule, visible before you enter any round.' },
+      { q: 'Can I look back at past results?', a: 'Yes — your full draw and prediction history sits in your account activity log.' },
+      { q: 'Which settles faster, Colour Prediction or numbered draws?', a: 'Colour Prediction, typically, since numbered draws run on a fixed schedule.' },
+      { q: 'Do both formats log to the same place?', a: 'Yes — one shared round history view covers both.' },
+      { q: 'Does a past round affect the next one?', a: 'No — each round is generated independently, regardless of what came before.' }
     ],
     related: [
       { label: 'Crash Games', url: '/games/crash' },
@@ -784,37 +784,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/sports': {
-    metaTitle: 'BDG Win Sports Games – Cricket, Football & Live Markets',
+    metaTitle: '6 Club Sports – Cricket, Football & Live Betting Markets',
     metaDescription:
-      'Bet on BDG Win sports markets across cricket, football, tennis and kabaddi, with both pre-match and live options.',
-    keywords: ['BDG Win Sports', 'BDG Win Sports Games', 'BDG Sports'],
+      'Bet on 6 Club Sports markets across cricket, football, tennis and kabaddi, with pre-match and live options.',
+    keywords: ['6 Club Sports', '6 Club Sports Games'],
     eyebrow: 'Sports',
-    h1: 'BDG Win Sports Games',
-    intro: 'BDG Win sports markets cover major disciplines with both pre-match and in-play options.',
+    h1: '6 Club Sports Games',
+    intro: 'Cricket, football, tennis and kabaddi markets, open both before kickoff and live as the action unfolds.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'Available Markets',
+        heading: 'What\'s On Offer',
         paragraphs: [
-          'Cricket, football, tennis and kabaddi make up the core BDG Win sports offering, with markets available before matches start and updated live as events progress. Odds adjust in real time during live markets, shown alongside each fixture.',
-          'Settlement follows official match results, and your sports activity contributes toward the same reward cycles as other BDG Win game categories.'
+          'Cricket, football, tennis and kabaddi anchor the sports lineup, with markets open ahead of a fixture and updating live once it kicks off. Odds move in real time during live play, shown right alongside the fixture.',
+          'Settlement follows the official result, and everything you do here counts toward the same reward cycles as any other category.'
         ]
       },
       {
-        heading: 'Pre-Match vs Live Markets',
+        heading: 'Betting Ahead of Time vs. Betting Live',
         paragraphs: [
-          'Pre-match markets open ahead of a fixture and give a fixed view of the odds before anything on the field has happened, which suits players who prefer to research and place a market ahead of time. Live markets take over once the fixture starts, adjusting continuously as the match unfolds.',
-          'Both feed into the same match settlement and reward tracking, so there\'s no separate account state to manage depending on which type of market you use.'
+          'Pre-match markets open before a fixture starts and give you a fixed set of odds to research and act on ahead of time. Live markets take over once play begins, shifting continuously as the match develops.',
+          'Both feed the same settlement process and the same reward tracking — there\'s no separate account state depending on which type of market you\'re using.'
         ]
       }
     ],
     faqs: [
-      { q: 'Which sports can I bet on with BDG Win?', a: 'BDG Win sports markets cover cricket, football, tennis and kabaddi, among other disciplines.' },
-      { q: 'Does BDG Win offer live in-play betting?', a: 'Yes, live markets update in real time during matches, alongside standard pre-match options.' },
-      { q: 'Do sports market results count toward BDG Win rewards?', a: 'Yes, sports activity contributes to the same daily, weekly and monthly reward cycles as other game categories.' },
-      { q: 'How is a BDG Win sports market settled?', a: 'Markets settle based on official results of the underlying match or event.' },
-      { q: 'Can I switch from a pre-match market to a live one mid-fixture?', a: 'Yes, live markets become available once a fixture starts, alongside any pre-match position you already hold.' },
-      { q: 'Do pre-match and live markets use the same wallet?', a: 'Yes, both market types draw from and settle to the same BDG Win wallet.' }
+      { q: 'Which sports are covered?', a: 'Cricket, football, tennis and kabaddi, among other disciplines.' },
+      { q: 'Is live, in-play betting available?', a: 'Yes — live markets update in real time alongside the standard pre-match options.' },
+      { q: 'Do sports results count toward the reward cycles?', a: 'Yes — sports activity feeds the same daily, weekly and monthly cycles as every other category.' },
+      { q: 'How does a market actually settle?', a: 'Based on the official result of the underlying match or event.' },
+      { q: 'Can I move from a pre-match bet into a live one mid-fixture?', a: 'Yes — live markets open the moment a fixture starts, alongside whatever pre-match position you already hold.' },
+      { q: 'Do pre-match and live markets share the same wallet?', a: 'Yes — both draw from and settle to the same wallet.' }
     ],
     related: [
       { label: 'Crash Games', url: '/games/crash' },
@@ -824,37 +824,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/fishing': {
-    metaTitle: 'BDG Win Fishing Games – Skill-Based Arcade Rounds',
+    metaTitle: '6 Club Fishing Games – Skill-Based Mini Games',
     metaDescription:
-      'Play BDG Win fishing games with multiplier catches, boss fish payouts and skill-based aiming mechanics.',
-    keywords: ['BDG Win Fishing Games', 'BDG Win'],
+      'Play 6 Club fishing games, one of the platform\'s popular 6 Club Mini Games, with multiplier catches and skill-based aiming.',
+    keywords: ['6 Club Fishing Games', '6 Club', '6 Club Mini Games'],
     eyebrow: 'Fishing',
-    h1: 'BDG Win Fishing Games',
-    intro: 'BDG Win fishing games combine aiming skill with multiplier-based payouts on different fish types.',
+    h1: '6 Club Fishing Games',
+    intro: 'Aiming skill meets multiplier payouts here — different fish types pay differently, and timing matters.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'How Fishing Rounds Work',
+        heading: 'The Basic Rules of a Round',
         paragraphs: [
-          'Each BDG Win fishing round places you in a shared pool where different fish types carry different point multipliers. Landing a catch pays based on the fish value and your stake per shot, with rare boss fish offering the largest payouts.',
-          'Because outcomes depend partly on timing and aim, fishing rounds feel more active than pure chance-based formats while still running on BDG Win\'s certified game engine.'
+          'Every round drops you into a shared pool where each fish type carries its own point multiplier. Land a catch and you\'re paid based on that fish\'s value and your stake per shot — rare boss fish carry the biggest payouts by far.',
+          'Because timing and aim genuinely matter, these rounds feel more hands-on than pure chance formats, even though the underlying engine is the same certified system used elsewhere.'
         ]
       },
       {
-        heading: 'Shared Pools and Payout Timing',
+        heading: 'Why the Pool Being Shared Matters',
         paragraphs: [
-          'Since a fishing round runs as a shared pool, the fish on screen and their point values are visible to every player in that round at the same time — landing a catch is a mix of aim, timing and picking a target before someone else does.',
-          'Payouts are calculated per catch rather than at the end of a round, so a session\'s results build up continuously and are reflected in your wallet as they happen rather than all at once.'
+          'Everyone in the round sees the same fish and the same point values at the same time — landing a catch comes down to aim, timing, and getting to a target before someone else does.',
+          'Payouts credit per catch, not at the end of the round, so your results build up continuously and hit your wallet as they happen rather than in one lump sum afterward.'
         ]
       }
     ],
     faqs: [
-      { q: 'Are BDG Win fishing games skill-based?', a: 'Yes, aiming and timing affect your catches, though payout multipliers are set by the game engine per fish type.' },
-      { q: 'What is a boss fish in BDG Win fishing games?', a: 'Boss fish are rare, high-value targets that pay out significantly more than standard fish types.' },
-      { q: 'Can multiple players share a BDG Win fishing round?', a: 'Yes, fishing rounds typically run in a shared pool where multiple players can target fish simultaneously.' },
-      { q: 'Do fishing games use the same wallet as other BDG Win games?', a: 'Yes, stakes and winnings use the same BDG Win wallet shared across all game categories.' },
-      { q: 'Are fishing payouts credited per catch or at the end of a round?', a: 'Payouts are credited per catch as they happen, rather than all at once at the end of a round.' },
-      { q: 'Can other players target the same fish as me?', a: 'Yes, since rounds run in a shared pool, timing matters because other players can target the same fish.' }
+      { q: 'Is there real skill involved, or is it pure luck?', a: 'Aim and timing genuinely affect your catches, though the payout multiplier per fish is set by the game engine.' },
+      { q: 'What makes a boss fish special?', a: 'It\'s a rare, high-value target that pays out well above standard fish types.' },
+      { q: 'Do other players share the same round as me?', a: 'Yes — rounds typically run as a shared pool with multiple players targeting fish at once.' },
+      { q: 'Does this use a separate wallet from other games?', a: 'No — stakes and winnings run through the same wallet shared across the whole platform.' },
+      { q: 'When do payouts actually land — per catch or at the end?', a: 'Per catch, credited the moment it happens.' },
+      { q: 'Can someone else grab the fish I\'m aiming at?', a: 'Yes — since the pool is shared, timing matters because others can target the same fish.' }
     ],
     related: [
       { label: 'Arcade Games', url: '/games/arcade' },
@@ -864,47 +864,47 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/crash': {
-    metaTitle: 'BDG Win Crash Games – Multiplier Cash-Out Rounds',
+    metaTitle: '6 Club Aviator & Crash Games – Multiplier Cash-Out Rounds',
     metaDescription:
-      'Play BDG Win crash games where a rising multiplier can be cashed out any time before the round ends.',
-    keywords: ['BDG Win Crash Games', 'BDG Win Color Prediction', 'BDG Color Prediction'],
+      '6 Club Aviator and other crash games: a rising multiplier that can be cashed out any time before the round ends.',
+    keywords: ['6 Club Crash Games', '6 Club Color Prediction', '6 Club Aviator'],
     eyebrow: 'Crash',
-    h1: 'BDG Win Crash Games',
-    intro: 'BDG Win crash games are built around a simple rule: cash out before the multiplier crashes.',
+    h1: '6 Club Crash Games',
+    intro: 'One simple rule drives crash and Aviator-style games here: cash out before the multiplier crashes.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'How a Crash Round Plays Out',
+        heading: 'How One Round Plays Out',
         paragraphs: [
-          'Each round starts a rising multiplier applied to your stake. You choose when to cash out — the longer you wait, the higher the potential payout, but the round can crash at any moment, ending it at zero if you have not cashed out yet.',
-          'Round history and crash points are logged and visible after each round, similar to how BDG Win Color Prediction results are tracked, giving you a clear record of past outcomes.'
+          'A rising multiplier applies to your stake from the moment a round starts. You pick the moment to cash out — wait longer for a bigger potential payout, but the round can crash at any second and zero out anything you haven\'t already banked.',
+          'Crash points and round history log automatically, much like Colour Prediction results do, giving you a clear record to look back on.'
         ],
         image: {
           src: '/images/screenshots/mini-games-grid.webp',
-          alt: 'BDG Win mini games list including crash-style titles alongside quick-round games',
-          caption: 'BDG Win\'s mini games list, where crash-style titles sit alongside other quick-round formats.'
+          alt: '6 Club mini games list including crash-style titles alongside quick-round games',
+          caption: '6 Club\'s mini games list, where crash-style titles sit alongside other quick-round formats.'
         }
       },
       {
-        heading: 'Setting a Cash-Out Approach Before You Play',
+        heading: 'Deciding Your Cash-Out Point in Advance',
         paragraphs: [
-          'Because the round can end at any moment, many players decide on a target multiplier before the round starts rather than reacting in the moment — a fixed target removes the split-second decision under pressure once the multiplier is climbing quickly.',
-          'The visible round history is useful for this exactly because it shows a spread of recent crash points rather than a single number, which is a more realistic picture of typical outcomes than any one round on its own.'
+          'Since a round can end without warning, plenty of players settle on a target multiplier before it even starts rather than reacting under pressure once the number\'s climbing fast — a fixed target takes the split-second decision out of the equation.',
+          'That\'s exactly what the round history is useful for: it shows a spread of recent crash points rather than one number, which paints a far more realistic picture of typical outcomes than any single round would on its own.'
         ],
         image: {
           src: '/images/screenshots/aviator-bonus.webp',
-          alt: 'BDG Win crash game bonus promotion tied to total turnover, with bonus tiers by wagering amount',
-          caption: 'A BDG Win crash-game bonus tied to total turnover, with bonus tiers shown by wagering amount.'
+          alt: '6 Club crash game bonus promotion tied to total turnover, with bonus tiers by wagering amount',
+          caption: 'A 6 Club crash-game bonus tied to total turnover, with bonus tiers shown by wagering amount.'
         }
       }
     ],
     faqs: [
-      { q: 'How do I win in a BDG Win crash game?', a: 'You cash out your stake at a chosen multiplier before the round crashes; waiting longer increases potential payout but also risk.' },
-      { q: 'Can I see past BDG Win crash round results?', a: 'Yes, previous crash points are displayed in the round history so you can review recent outcomes.' },
-      { q: 'Is there a maximum multiplier in BDG Win crash games?', a: 'Multiplier ceilings vary by game version and are shown within the game interface.' },
-      { q: 'Are crash games related to BDG Win Color Prediction?', a: 'Both are fast-settling round types, though crash games use a rising multiplier while Color Prediction is outcome-based.' },
-      { q: 'Should I decide my cash-out point before or during a round?', a: 'Many players find it easier to set a target multiplier before the round starts rather than deciding mid-round.' },
-      { q: 'Does one round\'s crash point affect the next one?', a: 'No, each crash round settles independently, the same way BDG Win Color Prediction rounds do.' }
+      { q: 'What\'s the actual way to win here?', a: 'Cash out at a multiplier of your choosing before the round crashes — waiting longer raises both potential payout and risk.' },
+      { q: 'Can I look back at previous crash points?', a: 'Yes — the round history displays past results so you can review recent outcomes.' },
+      { q: 'Is there a ceiling on how high the multiplier can climb?', a: 'It varies by game version and is shown directly in the game interface.' },
+      { q: 'How does this compare to Colour Prediction?', a: 'Both settle fast, but crash games ride a rising multiplier while Colour Prediction is a straight outcome guess.' },
+      { q: 'Should I pick my cash-out point ahead of time or decide live?', a: 'Most players find setting a target before the round starts easier than deciding mid-climb.' },
+      { q: 'Does the last round\'s crash point predict the next one?', a: 'No — each round settles independently, exactly like Colour Prediction rounds do.' }
     ],
     related: [
       { label: 'Lottery & Color Prediction', url: '/games/lottery' },
@@ -914,36 +914,36 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/arcade': {
-    metaTitle: 'BDG Win Arcade Games – Quick Casual Rounds',
+    metaTitle: '6 Club Arcade – Quick Casual Mini Games',
     metaDescription:
-      'Play short, casual BDG Win arcade games designed for quick sessions between bigger game categories.',
-    keywords: ['BDG Win Arcade Games', 'BDG Win'],
+      'Play short, casual 6 Club Mini Games in the arcade category, designed for quick sessions between bigger game types.',
+    keywords: ['6 Club Arcade Games', '6 Club', '6 Club Mini Games'],
     eyebrow: 'Arcade',
-    h1: 'BDG Win Arcade Games',
-    intro: 'BDG Win arcade games are built for short sessions rather than long, sustained play.',
+    h1: '6 Club Arcade Games',
+    intro: 'Short, casual rounds built for a quick break, not a long sustained session.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'What Makes Arcade Games Different',
+        heading: 'What Sets Arcade Apart',
         paragraphs: [
-          'Arcade titles on BDG Win run shorter rounds with simpler rules than casino or sports markets, making them a natural fit for quick breaks between other game categories. Stakes are generally lower, matching the faster round pace.'
+          'Rounds here run shorter and simpler than casino or sports markets, making them a natural fit for a quick break between other categories. Stakes stay generally lower too, matching the faster pace.'
         ]
       },
       {
-        heading: 'When Arcade Titles Make Sense',
+        heading: 'When Arcade Actually Makes Sense',
         paragraphs: [
-          'Arcade games work well in two specific situations — filling a short gap between longer sessions in another category, or as a low-stake way to get comfortable with the BDG Win interface before moving to formats with more moving parts, like live casino tables or sports markets.',
-          'Because rules stay simple across the category, switching between different arcade titles doesn\'t require relearning much, which is part of why they suit quick, casual sessions rather than long, focused ones.'
+          'Two situations, mainly: filling a short gap between longer sessions elsewhere, or getting comfortable with the platform\'s interface at low stakes before moving on to something with more moving parts, like live casino tables or sports markets.',
+          'Since the rules stay simple across the whole category, hopping between different arcade titles takes almost no relearning — part of why they suit quick, casual play rather than long, focused sessions.'
         ]
       }
     ],
     faqs: [
-      { q: 'How long does a typical BDG Win arcade round take?', a: 'Arcade rounds are designed to be short, often resolving in well under a minute.' },
-      { q: 'Are BDG Win arcade game stakes lower than other categories?', a: 'Arcade titles generally support lower minimum stakes, matching their faster round pace.' },
-      { q: 'Do arcade games contribute to BDG Win rewards?', a: 'Yes, arcade activity counts toward the same daily, weekly and monthly reward cycles as other categories.' },
-      { q: 'Are arcade games good for new BDG Win players?', a: 'Their simple rules and short rounds make arcade games a straightforward starting point for new accounts.' },
-      { q: 'Are arcade game rules consistent across different titles?', a: 'Yes, arcade titles generally share simple, similar rules, so switching between them takes little adjustment.' },
-      { q: 'Are arcade games a good way to fill a short break?', a: 'Yes, their short round times make them a natural fit for quick sessions between other categories.' }
+      { q: 'How long does a typical round last?', a: 'Rounds are designed short, often resolving in well under a minute.' },
+      { q: 'Are stakes lower here than other categories?', a: 'Generally yes — lower minimums match the faster round pace.' },
+      { q: 'Does arcade play count toward the reward cycles?', a: 'Yes — it contributes to the same daily, weekly and monthly cycles as everything else.' },
+      { q: 'Is this a good starting point for new players?', a: 'Yes — simple rules and short rounds make it an easy entry point for a new account.' },
+      { q: 'Are the rules consistent across different arcade titles?', a: 'Yes — they generally share similar, simple rules, so switching between them is easy.' },
+      { q: 'Is it good for filling a short break?', a: 'Yes — short round times make it a natural fit between longer sessions elsewhere.' }
     ],
     related: [
       { label: 'Fishing Games', url: '/games/fishing' },
@@ -953,46 +953,46 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/popular': {
-    metaTitle: 'BDG Win Popular Games – Most Played This Month',
+    metaTitle: '6 Club Popular Games – Most Played This Month',
     metaDescription:
-      'See the most played BDG Win games this month, ranked by active player counts across all categories.',
-    keywords: ['BDG Win Popular Games', 'BDG Win Game', 'BDG Game'],
+      'See the most played 6 Club Games this month, ranked by active player counts across every category.',
+    keywords: ['6 Club Popular Games', '6 Club Game', '6club Games'],
     eyebrow: 'Popular',
-    h1: 'BDG Win Popular Games',
-    intro: 'Popular games on BDG Win are ranked using active player counts, refreshed on a rolling basis.',
+    h1: '6 Club Popular Games',
+    intro: 'Ranked by active player counts and refreshed on a rolling basis — this is what\'s actually drawing a crowd right now.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'How Popularity Is Ranked',
+        heading: 'How the Ranking Gets Built',
         paragraphs: [
-          'BDG Win tracks active sessions across casino, slots, lottery, sports, crash, fishing and arcade categories to determine which titles are currently drawing the most play. This ranking updates regularly, so it reflects recent trends rather than a fixed all-time list.'
+          'Active sessions across casino, slots, lottery, sports, crash, fishing and arcade all feed into this list, showing which titles are pulling the most play right now. It refreshes regularly, so it tracks recent trends rather than sitting as a fixed all-time chart.'
         ],
         image: {
           src: '/images/screenshots/popular-games-rtp.webp',
-          alt: 'BDG Win popular games list ranked with published RTP percentages',
-          caption: 'BDG Win\'s popular games list, showing top titles ranked alongside their published RTP percentage.'
+          alt: '6 Club popular games list ranked with published RTP percentages',
+          caption: '6 Club\'s popular games list, showing top titles ranked alongside their published RTP percentage.'
         }
       },
       {
-        heading: 'Using the Popular List to Try Something New',
+        heading: 'A Shortcut for Trying Something New',
         paragraphs: [
-          'Because ranking is based on recent activity rather than an all-time leaderboard, the list is a reasonable starting point when you want to try a game outside your usual category without researching each option individually — a title near the top is, by definition, one a large number of current players are actively choosing.',
-          'It updates on the same rolling basis across every category, so a strong week for sports markets or a new slot release can shift the list noticeably compared to the month before.'
+          'Since the ranking reflects recent activity rather than an all-time chart, it\'s a decent starting point if you want to branch outside your usual category without researching every option yourself — anything near the top is, by definition, something a lot of current players are actively choosing.',
+          'It refreshes on that same rolling basis across every category, so a strong week for sports or a new slot release can shuffle the list noticeably compared to the month before.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-wingo-bet-slip.webp',
-          alt: 'BDG Win bet slip showing stake and quantity selection for a popular lottery round',
-          caption: 'A bet slip for one of BDG Win\'s most popular formats, with stake and quantity set before confirming.'
+          src: '/images/screenshots/6club-wingo-bet-slip.webp',
+          alt: '6 Club bet slip showing stake and quantity selection for a popular lottery round',
+          caption: 'A bet slip for one of 6 Club\'s most popular formats, with stake and quantity set before confirming.'
         }
       }
     ],
     faqs: [
-      { q: 'How is the BDG Win Popular Games list generated?', a: 'It ranks titles by recent active player counts across all game categories, updated on a rolling basis.' },
-      { q: 'Does the popular list include every game category?', a: 'Yes, casino, slots, lottery, sports, crash, fishing and arcade titles are all eligible to appear.' },
-      { q: 'How often does the popular ranking change?', a: 'Rankings refresh regularly to reflect recent play trends rather than staying fixed.' },
-      { q: 'Where can I find brand-new BDG Win titles instead?', a: 'Recently added games appear on the New Games page before they build enough play to rank as popular.' },
-      { q: 'Is the popular list a good way to try a new game category?', a: 'Yes, since it reflects what a large number of current players are actively choosing right now.' },
-      { q: 'Can a new game release shift the popular ranking quickly?', a: 'Yes, because the list updates on a rolling basis, a strong week for any title can move it noticeably.' }
+      { q: 'How is this ranking put together?', a: 'By recent active player counts across every category, refreshed on a rolling basis.' },
+      { q: 'Does it cover all categories or just some?', a: 'All of them — casino, slots, lottery, sports, crash, fishing and arcade are all eligible.' },
+      { q: 'How often does the list change?', a: 'Regularly — it tracks recent trends rather than staying fixed.' },
+      { q: 'Where do I find titles too new to rank here yet?', a: 'The New Games page — new releases show up there before they build enough play to appear here.' },
+      { q: 'Is this a good way to discover a new category?', a: 'Yes — it reflects what a lot of current players are actually choosing right now.' },
+      { q: 'Can one big release shake up the ranking fast?', a: 'Yes — since it updates on a rolling basis, a strong week for any title can move it noticeably.' }
     ],
     related: [
       { label: 'New Games', url: '/games/new' },
@@ -1002,36 +1002,36 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/games/new': {
-    metaTitle: 'New BDG Win Games – Latest Releases',
+    metaTitle: 'New 6 Club Games – Latest Releases',
     metaDescription:
-      'Browse the newest games added to BDG Win across casino, slots, lottery, sports, crash, fishing and arcade categories.',
-    keywords: ['BDG Win New Games', 'BDG Win Game', 'BDG Game'],
+      'Browse the newest 6 Club Games added across Casino, Slots, Lottery, Sports, Aviator, Fishing and Arcade.',
+    keywords: ['6 Club New Games', '6 Club Game', '6club Games'],
     eyebrow: 'New Releases',
-    h1: 'New BDG Win Games',
-    intro: 'New titles are added to BDG Win periodically across every game category.',
+    h1: 'New 6 Club Games',
+    intro: 'Fresh titles land here periodically, across every category — this is the first stop before general rotation.',
     breadcrumbTrail: [{ label: 'Games', url: '/games' }],
     sections: [
       {
-        heading: 'Where New Titles Appear First',
+        heading: 'The First Place a New Title Shows Up',
         paragraphs: [
-          'Before a new game moves into general category listings, it appears here first. This gives early players a chance to try new casino tables, slot themes or arcade formats as soon as they go live on BDG Win.'
+          'Before anything moves into its permanent category listing, it appears here first — giving early players a shot at a new casino table, slot theme or arcade format the moment it goes live.'
         ]
       },
       {
-        heading: 'From New Release to General Rotation',
+        heading: 'From "New" to Just Part of the Rotation',
         paragraphs: [
-          'A new title typically spends some time listed here specifically so early players can surface any issues before it moves into its permanent category page alongside established games. This staged rollout is the same reason a slot or arcade title might appear on both the New Games page and its category page for a period before settling into general rotation only.',
-          'Checking this page periodically is the most direct way to see what\'s launched recently, since new releases can arrive in any category — a new casino table and a new arcade title can go live in the same week without either displacing the other.'
+          'A title usually sits here for a stretch specifically so early players can flag anything off before it settles permanently into its category page alongside established titles — which is why a slot or arcade game might briefly appear on both this page and its category page at once.',
+          'Checking in here periodically is the fastest way to catch what\'s just launched, since new releases can land in any category at any time — a new casino table and a new arcade title can both go live the same week without one bumping the other.'
         ]
       }
     ],
     faqs: [
-      { q: 'How often are new games added to BDG Win?', a: 'New titles are added periodically across categories; check this page regularly for the latest releases.' },
-      { q: 'Do new BDG Win games count toward rewards immediately?', a: 'Yes, activity on newly released games counts toward daily, weekly and monthly reward cycles like any other title.' },
-      { q: 'Can I suggest a new game type for BDG Win?', a: 'Feedback and suggestions can be submitted through the Contact or Support pages.' },
-      { q: 'Are new BDG Win games tested before release?', a: 'New titles go through the same fair play and security standards described on our Fair Play page before launch.' },
-      { q: 'How long does a game stay listed as new before moving to general rotation?', a: 'New titles are typically listed here for a period before settling permanently into their category page.' },
-      { q: 'Can multiple new games launch in different categories at once?', a: 'Yes, new releases across different categories can go live in the same week without affecting each other.' }
+      { q: 'How regularly do new games get added?', a: 'Periodically, across categories — check back here for the latest.' },
+      { q: 'Do new releases count toward rewards right away?', a: 'Yes — activity on a brand-new title counts toward the daily, weekly and monthly cycles just like anything established.' },
+      { q: 'Can I suggest a game type I\'d like to see?', a: 'Yes — feedback goes through the Contact or Support pages.' },
+      { q: 'Are new titles tested before launch?', a: 'Yes — they go through the same fair play and security checks as everything else before going live.' },
+      { q: 'How long does something stay listed as "new"?', a: 'Typically a set period before it settles permanently into its own category page.' },
+      { q: 'Can multiple categories get new releases in the same week?', a: 'Yes — different categories can launch new titles simultaneously without affecting each other.' }
     ],
     related: [
       { label: 'Popular Games', url: '/games/popular' },
@@ -1041,37 +1041,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/download': {
-    metaTitle: 'BDG Win Download – Android, iOS and Desktop',
+    metaTitle: '6 Club Download – Official 6 Club App for Android, iOS & Desktop',
     metaDescription:
-      'Download BDG Win for Android via APK, install on iOS, or play instantly on desktop without downloading anything.',
-    keywords: ['BDG Win Download', 'BDG Win APK', 'BDG Win App', 'BDG Download', 'BDG APK', 'BDG App'],
+      'Download 6 Club App on Android via APK, install on iOS, or play instantly on desktop — the official 6 Club App download hub.',
+    keywords: ['6 Club Download', '6 Club APK', '6 Club App', '6club App', '6club Download', 'Download 6 Club App', 'Official 6 Club App', '6 Club App Download'],
     eyebrow: 'Download',
-    h1: 'Download BDG Win',
-    intro: 'BDG Win is available as an Android APK, through an iOS installation guide, or directly on desktop browsers.',
+    h1: 'Download 6 Club',
+    intro: 'The official 6 Club App (6club App) is available as an Android APK, through an iOS installation guide, or directly on desktop browsers.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Choosing Your Platform',
+        heading: 'Pick Your Platform',
         paragraphs: [
-          'Android users install the BDG Win APK directly, following the steps on our Android Guide. iOS players follow a browser-based installation process detailed on our iOS Guide, since distribution methods differ from Android. Desktop users can skip installation entirely and play directly through a browser.',
-          'Whichever platform you choose, your account, wallet and rewards remain the same — installing the app just changes how you access BDG Win, not what your account contains.'
+          'Android players install the APK directly — the Android Guide walks through it. iOS follows a different, browser-based install process since Apple\'s distribution rules differ, covered in the iOS Guide. Desktop skips installation entirely; just play straight through a browser.',
+          'Whatever you pick, your account, wallet and rewards stay exactly the same — installing an app only changes how you reach 6 Club, never what\'s inside the account.'
         ]
       },
       {
-        heading: 'Picking the Right Option for How You Play',
+        heading: 'Matching the Platform to How You Actually Play',
         paragraphs: [
-          'If BDG Win is mostly a phone habit, the Android APK or iOS installation gives a faster, app-like way back in each time without opening a browser and re-entering a URL. If you mainly play at a desk, skipping installation and using a browser directly is the lower-friction option since there\'s nothing to keep updated.',
-          'None of these choices are permanent — an account created through the desktop browser works identically if you install the Android APK later, and vice versa, since everything ties back to the same login rather than the device it was created on.'
+          'If 6 Club is mostly a phone thing for you, the Android APK or iOS install gives a faster, app-like return trip each time instead of typing a URL into a browser. Mostly at a desk instead? Skipping installation and using a browser is the lower-friction call, since there\'s nothing to keep updated.',
+          'None of this locks you in — an account started on desktop works exactly the same if you install the Android APK later, and the reverse holds too, since everything ties back to the login, not the device it began on.'
         ]
       }
     ],
     faqs: [
-      { q: 'Is the BDG Win APK safe to install?', a: 'Always download the BDG Win APK from the official source described in our Android Guide to avoid modified or unofficial files.' },
-      { q: 'Does BDG Win have an iOS app?', a: 'iOS access follows a guided installation process outlined on our iOS Guide, distinct from the Android APK method.' },
-      { q: 'Do I need to download anything to play on desktop?', a: 'No, desktop players can access BDG Win directly through a browser without installing a separate app.' },
-      { q: 'Will my account be the same across devices?', a: 'Yes, your BDG Win account, wallet and rewards stay consistent whether you play on Android, iOS or desktop.' },
-      { q: 'Can I switch platforms after creating my account?', a: 'Yes, an account created on one platform works identically if you install BDG Win on another later.' },
-      { q: 'Which platform is best if I mostly play on my phone?', a: 'The Android APK or iOS installation gives faster, app-like access compared to opening a browser each time.' }
+      { q: 'Is the APK safe?', a: 'Only if downloaded from the official source in the Android Guide — that\'s the only way to avoid modified files.' },
+      { q: 'Is there an actual iOS app?', a: 'Access follows a guided installation process, different from the Android APK method — see the iOS Guide.' },
+      { q: 'Do desktop players need to download anything?', a: 'No — desktop works straight through a browser, no separate app needed.' },
+      { q: 'Does my account stay the same across every platform?', a: 'Yes — account, wallet and rewards stay identical whether you\'re on Android, iOS or desktop.' },
+      { q: 'Can I switch platforms after I\'ve already registered?', a: 'Yes — an account works the same no matter which platform you add later.' },
+      { q: 'Which option suits someone who mostly plays on their phone?', a: 'The Android APK or iOS install, for that quicker, app-like return each time.' }
     ],
     related: [
       { label: 'Android Guide', url: '/download/android' },
@@ -1081,37 +1081,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/download/android': {
-    metaTitle: 'BDG Win Android Guide – Install the APK Step by Step',
+    metaTitle: '6 Club APK – Install the Official 6 Club App on Android',
     metaDescription:
-      'Step-by-step guide to downloading and installing the BDG Win APK on Android devices safely.',
-    keywords: ['BDG Win APK', 'BDG Win Android', 'BDG APK'],
+      'Step-by-step guide to downloading the 6 Club APK latest version and installing 6 Club on Android devices safely.',
+    keywords: ['6 Club APK', '6 Club Android', '6club APK', 'Install 6 Club', '6 Club APK Latest Version'],
     eyebrow: 'Android Guide',
-    h1: 'BDG Win Android Installation Guide',
-    intro: 'Installing the BDG Win APK on Android takes a few extra steps compared to a Play Store app.',
+    h1: '6 Club Android Installation Guide',
+    intro: 'Installing the 6 Club APK on Android takes a few extra steps compared to a Play Store app.',
     breadcrumbTrail: [{ label: 'Download', url: '/download' }],
     sections: [
       {
-        heading: 'Installation Steps',
+        heading: 'The Install Process, Step by Step',
         paragraphs: [
-          'Download the BDG Win APK file from the official Download page rather than a third-party link. Before opening the file, allow installation from unknown sources in your Android settings, since the app is distributed outside the Play Store. Once installed, open the app and log in with your existing BDG Win account, or register directly from the app if you are new.',
-          'Keep the app updated by re-downloading the APK from the official page whenever a new version is announced on our Announcements page.'
+          'Grab the APK from the official Download page — never a third-party link. Before opening it, flip on installation from unknown sources in your Android settings, since this app ships outside the Play Store. Once it\'s installed, open it and sign in with your existing account, or register fresh if you\'re new.',
+          'To stay updated, just re-download the APK from the official page whenever a new version shows up on the Announcements page.'
         ]
       },
       {
-        heading: 'If Installation Doesn\'t Go Smoothly',
+        heading: 'When the Install Doesn\'t Go As Planned',
         paragraphs: [
-          'Most installation issues come down to one of two things: unknown sources not being enabled for the specific browser or file manager used to open the APK, or an older partially-installed version conflicting with the new file. Uninstalling any previous version before installing a fresh APK usually clears this up.',
-          'If the app installs but won\'t log in, double-check that you\'re using the same registered mobile number as on other devices — installation and login are separate steps, and a successful install doesn\'t mean the login step is complete yet.'
+          'Almost every installation hiccup traces back to one of two things: unknown sources not enabled for whichever app opened the file, or a half-installed older version conflicting with the new one. Uninstalling anything old before installing fresh usually fixes it.',
+          'If the app installs fine but login fails, check that you\'re using the same registered number as your other devices — installing and logging in are two separate steps, and finishing one doesn\'t mean the other\'s done.'
         ]
       }
     ],
     faqs: [
-      { q: 'Why do I need to enable unknown sources for the BDG Win APK?', a: 'Android blocks installation from outside the Play Store by default, so this setting must be enabled once to install the official BDG Win APK.' },
-      { q: 'Is enabling unknown sources risky?', a: 'It is safe as long as you only install the BDG Win APK from our official Download page, not from unverified third-party links.' },
-      { q: 'Do I need a new account to use the Android app?', a: 'No, your existing BDG Win account works immediately in the app; new players can also register directly from it.' },
-      { q: 'How do I update the BDG Win Android app?', a: 'Re-download the latest APK from the Download page whenever a new version is announced.' },
-      { q: 'What if the BDG Win APK won\'t install?', a: 'Uninstall any previous version first, then confirm unknown sources is enabled for the app you used to open the file.' },
-      { q: 'The app installed but won\'t log in — what should I check?', a: 'Confirm you\'re using the same registered mobile number as your other devices, since installation and login are separate steps.' }
+      { q: 'Why does Android ask me to allow unknown sources?', a: 'Because the app is distributed outside the Play Store, so that setting has to be switched on once to install it.' },
+      { q: 'Is turning that setting on actually risky?', a: 'Not if you only ever install the APK from the official Download page — avoid unverified third-party links.' },
+      { q: 'Do I need to register again for the Android app specifically?', a: 'No — your existing account works right away; new players can also sign up directly inside the app.' },
+      { q: 'How do updates work for the Android app?', a: 'Re-download the latest APK from the Download page whenever a new version gets announced.' },
+      { q: 'What if the APK just won\'t install?', a: 'Uninstall any older version first, then double-check unknown sources is enabled for the app you\'re using to open the file.' },
+      { q: 'It installed but I can\'t log in — what\'s wrong?', a: 'Make sure you\'re using the same registered number as on your other devices — install and login aren\'t the same step.' }
     ],
     related: [
       { label: 'iOS Guide', url: '/download/ios' },
@@ -1121,37 +1121,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/download/ios': {
-    metaTitle: 'BDG Win iOS Guide – How to Access BDG Win on iPhone',
+    metaTitle: '6 Club App on iOS – How to Access 6 Club on iPhone',
     metaDescription:
-      'Guide to accessing BDG Win on iOS devices, including installation steps and how your account carries over.',
-    keywords: ['BDG Win iOS', 'BDG Win App', 'BDG App'],
+      'Guide to using the 6 Club App on iOS devices, including installation steps and how your 6 Club account carries over.',
+    keywords: ['6 Club iOS', '6 Club App', 'Install 6 Club', 'Official 6 Club App'],
     eyebrow: 'iOS Guide',
-    h1: 'BDG Win iOS Installation Guide',
-    intro: 'BDG Win on iOS follows a different distribution path than the Android APK.',
+    h1: '6 Club iOS Installation Guide',
+    intro: '6 Club on iOS follows a different distribution path than the Android APK.',
     breadcrumbTrail: [{ label: 'Download', url: '/download' }],
     sections: [
       {
-        heading: 'Getting Set Up on iPhone',
+        heading: 'Setting Up on iPhone or iPad',
         paragraphs: [
-          'From the Download page, open the iOS link on your iPhone or iPad and follow the on-screen installation prompts. Depending on your iOS version, you may need to trust the app profile once in your device settings before it opens normally.',
-          'After installation, log in with your existing BDG Win credentials — your wallet balance, rewards and VIP tier carry over exactly as they appear on Android or desktop.'
+          'Open the iOS link from the Download page on your device and follow the on-screen prompts. Depending on your iOS version, you might need to trust the app profile once in device settings before it\'ll open properly.',
+          'Once it\'s in, log in with your usual credentials — wallet balance, rewards and VIP tier show up exactly as they do on Android or desktop.'
         ]
       },
       {
-        heading: 'Why iOS Installation Looks Different From Android',
+        heading: 'Why This Looks Nothing Like the Android Install',
         paragraphs: [
-          'Apple\'s App Store review process doesn\'t accommodate every category BDG Win offers, which is why iOS access uses a direct installation link and a one-time device-trust step instead of a standard App Store listing. It\'s an extra step, but a one-time one — future updates don\'t require repeating the trust step unless iOS itself resets app permissions.',
-          'This distribution method is common across the online gaming industry for the same reason, so the extra step isn\'t unique to BDG Win specifically.'
+          'Apple\'s App Store review process simply doesn\'t accommodate every category 6 Club runs, so iOS access relies on a direct installation link plus a one-time device-trust step instead of a normal App Store listing. It\'s extra friction, but only once — future updates don\'t repeat the trust step unless iOS itself resets app permissions.',
+          'This isn\'t a 6 Club quirk, either — it\'s a common distribution pattern across online gaming generally, for the exact same App Store restriction.'
         ]
       }
     ],
     faqs: [
-      { q: 'Why does BDG Win on iOS require trusting a profile?', a: 'Because distribution outside the App Store requires a one-time trust step in iOS settings before the app will open.' },
-      { q: 'Will my rewards carry over to the iOS app?', a: 'Yes, your BDG Win wallet, rewards and VIP tier are the same across iOS, Android and desktop.' },
-      { q: 'What iOS version is required?', a: 'Compatibility details are listed on the Download page installation link for the current release.' },
-      { q: 'Is there a separate registration for iOS?', a: 'No, existing accounts log in directly, and new players can register from within the iOS app.' },
-      { q: 'Do I need to repeat the trust step after every update?', a: 'No, the device-trust step is generally one-time unless iOS resets app permissions.' },
-      { q: 'Why isn\'t BDG Win listed directly in the App Store?', a: 'App Store review policies don\'t accommodate every game category BDG Win offers, so a direct installation link is used instead.' }
+      { q: 'Why do I have to trust a profile on iOS?', a: 'Since distribution happens outside the App Store, iOS requires that one-time trust step before the app will open.' },
+      { q: 'Do my rewards and VIP tier show up the same way on iOS?', a: 'Yes — wallet, rewards and VIP tier are identical across iOS, Android and desktop.' },
+      { q: 'Is there a minimum iOS version needed?', a: 'Current compatibility details are listed right on the Download page install link.' },
+      { q: 'Do I register separately for iOS?', a: 'No — existing accounts just log in, and new players can register from inside the app itself.' },
+      { q: 'Does every update require re-trusting the app?', a: 'No — that step is generally one-time, unless iOS resets your app permissions.' },
+      { q: 'Why isn\'t this just a normal App Store download?', a: 'App Store review rules don\'t accommodate every category on the platform, so a direct link is used instead.' }
     ],
     related: [
       { label: 'Android Guide', url: '/download/android' },
@@ -1161,37 +1161,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/download/desktop': {
-    metaTitle: 'BDG Win Desktop Guide – Play Without Downloading',
+    metaTitle: '6 Club Desktop – Play 6 Club Without Downloading',
     metaDescription:
-      'How to play BDG Win directly from a desktop browser without installing any additional software.',
-    keywords: ['BDG Win Desktop', 'BDG Win'],
+      'How to play 6 Club directly from a desktop browser without installing the 6 Club App or any extra software.',
+    keywords: ['6 Club Desktop', '6 Club', 'Official 6 Club App'],
     eyebrow: 'Desktop Guide',
-    h1: 'BDG Win Desktop Guide',
-    intro: 'Desktop access to BDG Win does not require downloading or installing anything.',
+    h1: '6 Club Desktop Guide',
+    intro: 'Desktop access to 6 Club does not require downloading or installing anything.',
     breadcrumbTrail: [{ label: 'Download', url: '/download' }],
     sections: [
       {
-        heading: 'Playing on Desktop',
+        heading: 'Just Open a Browser',
         paragraphs: [
-          'Open BDG Win directly in any modern desktop browser and log in with your existing account, or register if you are new. The desktop layout mirrors the same game categories, wallet and rewards system used on mobile, so nothing about your account changes based on device.',
-          'For the best performance, keep your browser updated and avoid unnecessary extensions that can slow page loading.'
+          'Load 6 Club in any modern desktop browser and sign in with your existing account, or register on the spot if you\'re new. The layout adapts to the bigger screen, but the same game categories, wallet and reward system carry over exactly as they are on mobile.',
+          'For the smoothest performance, keep your browser current and skip unnecessary extensions that can drag down page speed.'
         ]
       },
       {
-        heading: 'When Desktop Play Makes the Most Sense',
+        heading: 'Where Desktop Genuinely Has an Edge',
         paragraphs: [
-          'A larger screen is the clearest advantage for formats with more visual detail — live dealer casino tables and sports markets with several simultaneous fixtures are easier to follow on desktop than a phone screen, even though both work fine on mobile too.',
-          'Because there\'s nothing to install, desktop is also a convenient way to check your account from a shared or borrowed computer without leaving an app installed behind — just remember to log out when you\'re done on a device that isn\'t your own.'
+          'A bigger screen mainly helps with visually dense formats — live dealer tables and sports markets juggling several fixtures at once are easier to follow on desktop, even though both run perfectly well on mobile too.',
+          'Since nothing gets installed, desktop is also a handy way to check your account from a borrowed or shared computer without leaving an app behind — just log out afterward if it isn\'t your own device.'
         ]
       }
     ],
     faqs: [
-      { q: 'Do I need to install software to play BDG Win on desktop?', a: 'No, BDG Win runs directly in your browser on desktop without any download.' },
-      { q: 'Which browsers work best with BDG Win?', a: 'Any current version of major browsers works; keeping your browser updated gives the best performance.' },
-      { q: 'Is the desktop experience different from mobile?', a: 'The layout is adapted for larger screens, but game categories, wallet and rewards are identical across devices.' },
-      { q: 'Can I switch between desktop and the Android or iOS app?', a: 'Yes, your BDG Win account stays in sync whether you play on desktop, Android or iOS.' },
-      { q: 'Is desktop better for watching live casino tables or sports markets?', a: 'A larger screen can make it easier to follow visual detail, though both formats work fully on mobile as well.' },
-      { q: 'Is it safe to use BDG Win on a shared or borrowed computer?', a: 'Yes, since nothing is installed, just remember to log out when finished on a device that isn\'t your own.' }
+      { q: 'Do I need to install anything for desktop play?', a: 'No — it runs straight in your browser, no download required.' },
+      { q: 'Which browser works best?', a: 'Any current version of a major browser; keeping it updated gives the best performance.' },
+      { q: 'Is the desktop experience different from mobile in any real way?', a: 'The layout adapts to a bigger screen, but game categories, wallet and rewards stay identical.' },
+      { q: 'Can I bounce between desktop and the mobile app freely?', a: 'Yes — your account stays in sync no matter which one you use.' },
+      { q: 'Is desktop better for watching live tables or multi-match sports?', a: 'A larger screen helps with visual detail, though both formats work fully on mobile as well.' },
+      { q: 'Is it safe on a shared or borrowed computer?', a: 'Yes — since nothing installs, just remember to log out when you\'re done.' }
     ],
     related: [
       { label: 'Android Guide', url: '/download/android' },
@@ -1201,42 +1201,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/register': {
-    metaTitle: 'BDG Win Register – Create Your Account in Minutes',
+    metaTitle: '6 Club Register – Create 6 Club Account in Minutes',
     metaDescription:
-      'Step-by-step guide to BDG Win registration: verify your number, set a password and start playing in under a minute.',
-    keywords: ['BDG Win Register', 'BDG Win Registration', 'BDG Register'],
+      'Sign Up 6 Club in under a minute: verify your number, set a password and join 6 Club to start playing right away.',
+    keywords: ['6 Club Register', '6 Club Registration', '6club Register', 'Create 6 Club Account', 'Join 6 Club', 'Sign Up 6 Club', '6 Club Register New Account'],
     eyebrow: 'Register',
-    h1: 'Register on BDG Win',
-    intro: 'Creating a BDG Win account takes a mobile number, an OTP verification step and a password.',
+    h1: 'Register on 6 Club',
+    intro: 'Join 6 Club in minutes: creating a 6 Club (6club) account takes a mobile number, an OTP verification step and a password.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Registration Steps',
+        heading: 'What Registering Actually Involves',
         paragraphs: [
-          'Enter your mobile number on the registration form, then confirm the one-time code sent to that number. Once verified, set a password for your account — this is what you will use to log in going forward alongside your registered number.',
-          'After registration, add a payment method from the Payment Methods page and make your first deposit to unlock full access to every BDG Win game category.'
+          'Type your mobile number into the registration form, then confirm the one-time code sent to it. Once that\'s verified, set a password — that combination is what you\'ll use to log in from here on.',
+          'From there, head to Payment Methods, add one, and make your first deposit — that\'s what switches on full access to every game category.'
         ],
         image: {
           src: '/images/screenshots/register-screen.webp',
-          alt: 'BDG Win registration form asking for phone number, password and invite code',
-          caption: 'The BDG Win registration form, asking for a phone number, a password and confirmation before your account is created.'
+          alt: '6 Club registration form asking for phone number, password and invite code',
+          caption: 'The 6 Club registration form, asking for a phone number, a password and confirmation before your account is created.'
         }
       },
       {
-        heading: 'What to Have Ready Before You Start',
+        heading: 'Before You Even Open the Form',
         paragraphs: [
-          'Registration goes fastest when you have an active mobile number in hand to receive the one-time code, since the code expires after a short window and you\'ll need to request a new one if it lapses before you enter it.',
-          'It also helps to decide your payment method in advance — registration itself only needs a number and a password, but you won\'t be able to place a real stake in any game category until a deposit clears, so lining up a supported payment method ahead of time shortens the gap between registering and actually playing.'
+          'Have your phone within reach — the one-time code expires after a short window, so if it lapses before you enter it, you\'ll need to request a fresh one.',
+          'It\'s also worth deciding on a payment method beforehand. Registering itself only needs a number and a password, but you can\'t place a real stake anywhere until a deposit clears, so having a method ready cuts the gap between signing up and actually playing.'
         ]
       }
     ],
     faqs: [
-      { q: 'What do I need to register on BDG Win?', a: 'A valid mobile number and a password are all that is required; the number is verified with a one-time code.' },
-      { q: 'How long does BDG Win registration take?', a: 'Registration typically takes under a minute once you receive and enter the verification code.' },
-      { q: 'Can I change my registered number later?', a: 'Account detail changes are handled through Support — visit the Contact or Support page for help.' },
-      { q: 'What should I do right after registering?', a: 'Add a payment method and make your first deposit to unlock full access to BDG Win game categories and rewards.' },
-      { q: 'What happens if my verification code expires?', a: 'You can request a new one-time code if the original expires before you enter it.' },
-      { q: 'Can I browse BDG Win before completing registration?', a: 'General information pages are visible without an account, but game categories and rewards require registering first.' }
+      { q: 'What\'s actually required to sign up?', a: 'Just a valid mobile number and a password — the number gets verified with a one-time code.' },
+      { q: 'How long does the whole process take?', a: 'Usually under a minute once the verification code arrives and you enter it.' },
+      { q: 'Can I change my number after registering?', a: 'Yes, but it\'s handled through Support — reach out via the Contact or Support page.' },
+      { q: 'What\'s the very next step after signing up?', a: 'Add a payment method and make a first deposit — that unlocks every game category and reward.' },
+      { q: 'My code expired before I entered it — now what?', a: 'Just request a new one-time code.' },
+      { q: 'Can I look around before finishing registration?', a: 'General info pages are open without an account, but game categories and rewards need you registered first.' }
     ],
     related: [
       { label: 'Login', url: '/login' },
@@ -1246,47 +1246,47 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/login': {
-    metaTitle: 'BDG Win Login – Access Your Account',
+    metaTitle: '6 Club Login – Official 6 Club Sign In Page',
     metaDescription:
-      'Log in to your BDG Win account using your registered mobile number and password, with steps for recovery if needed.',
-    keywords: ['BDG Win Login', 'BDG Win Account', 'BDG Login'],
+      '6 Club Login using your registered mobile number and password. Member login steps, plus recovery help if you\'re signed out.',
+    keywords: ['6 Club Login', '6 Club Account', '6 Club Sign In', '6 Club Member Login', '6 Club Login Guide', '6 Club Login Official Website'],
     eyebrow: 'Login',
-    h1: 'BDG Win Login',
-    intro: 'Log in to BDG Win with your registered mobile number and password from any supported device.',
+    h1: '6 Club Login',
+    intro: 'Log in to 6 Club (also written 6club) — the official 6 Club Login page — with your registered mobile number and password from any supported device.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Logging In',
+        heading: 'Signing In',
         paragraphs: [
-          'Enter your registered mobile number and password on the login form. The same credentials work across Android, iOS and desktop, so your wallet, rewards and VIP tier stay consistent regardless of which device you log in from.',
-          'If you cannot remember your password, use the Forgot Password page to reset it through your registered number rather than creating a new account.'
+          'Type your registered mobile number and password into the login form. The same pair works on Android, iOS and desktop alike, so your wallet, rewards and VIP tier look identical no matter which device you sign in from.',
+          'Blanked on your password? Use the Forgot Password page to reset it through your registered number — there\'s no need to create a fresh account.'
         ],
         image: {
           src: '/images/screenshots/login-screen.webp',
-          alt: 'BDG Win login screen with phone number and password fields',
-          caption: 'The BDG Win login screen, using a registered mobile number and password, with phone or email login tabs.'
+          alt: '6 Club login screen with phone number and password fields',
+          caption: 'The 6 Club login screen, using a registered mobile number and password, with phone or email login tabs.'
         }
       },
       {
-        heading: 'Staying Logged In Safely',
+        heading: 'Keeping a Session Secure',
         paragraphs: [
-          'Most devices let you stay logged in between sessions, which is convenient on a personal phone or computer but worth avoiding on a shared or public device — logging out manually afterward keeps your wallet and account details from being visible to the next person who uses it.',
-          'If you ever see login activity you don\'t recognize, changing your password immediately through the Forgot Password flow is the fastest way to secure the account, and Support can help review recent activity if anything looks unfamiliar.'
+          'Staying logged in between visits is convenient on your own phone or laptop, but worth switching off on a shared or public device — logging out manually keeps your wallet and account details from being visible to whoever uses it next.',
+          'Notice login activity you don\'t recognize? Change your password immediately through Forgot Password — that\'s the fastest fix — and Support can help review recent activity if anything still looks off.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-login-mockup.webp',
-          alt: 'BDG Win login screen with phone number and password fields',
-          caption: 'The BDG Win login screen, ready for a registered mobile number and password on any device.'
+          src: '/images/screenshots/6club-login-mockup.webp',
+          alt: '6 Club login screen with phone number and password fields',
+          caption: 'The 6 Club login screen, ready for a registered mobile number and password on any device.'
         }
       }
     ],
     faqs: [
-      { q: 'What do I use to log in to BDG Win?', a: 'Your registered mobile number and password are used to log in on any device.' },
-      { q: 'Can I use the same BDG Win login on multiple devices?', a: 'Yes, the same credentials work across Android, iOS and desktop with your account staying in sync.' },
-      { q: 'What if I forget my BDG Win password?', a: 'Use the Forgot Password page to reset your password through your registered mobile number.' },
-      { q: 'Should I create a new account if I can\'t log in?', a: 'No, use password recovery first — creating a duplicate account will not carry over your existing wallet or rewards.' },
-      { q: 'Is it safe to stay logged in on a shared device?', a: 'It\'s best to log out manually on any shared or public device rather than relying on it staying signed in.' },
-      { q: 'What should I do if I see unfamiliar login activity?', a: 'Reset your password immediately through the Forgot Password page and contact Support if anything looks unfamiliar.' }
+      { q: 'What credentials do I log in with?', a: 'Your registered mobile number and password — the same pair works on any device.' },
+      { q: 'Can I be logged in on more than one device at once?', a: 'Yes — the same credentials work across Android, iOS and desktop, staying in sync.' },
+      { q: 'I\'ve forgotten my password — what now?', a: 'Head to Forgot Password and reset it through your registered mobile number.' },
+      { q: 'Should I just make a new account if login fails?', a: 'No — try password recovery first; a duplicate account won\'t inherit your existing wallet or rewards.' },
+      { q: 'Is staying signed in on a shared device a bad idea?', a: 'It\'s safer to log out manually on any device that isn\'t only yours.' },
+      { q: 'What if I spot login activity I don\'t recognize?', a: 'Reset your password right away through Forgot Password, and loop in Support if anything still seems off.' }
     ],
     related: [
       { label: 'Forgot Password', url: '/forgot-password' },
@@ -1296,37 +1296,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/forgot-password': {
-    metaTitle: 'BDG Win Forgot Password – Reset Your Account Access',
+    metaTitle: '6 Club Forgot Password – Reset Your 6 Club Account Login',
     metaDescription:
-      'Reset your BDG Win password using your registered mobile number if you cannot access your account.',
-    keywords: ['BDG Win Forgot Password', 'BDG Win Login', 'BDG Login'],
+      'Reset your 6 Club account login using your registered mobile number if you can\'t remember your password.',
+    keywords: ['6 Club Forgot Password', '6 Club Login', '6 Club Account Login'],
     eyebrow: 'Account Recovery',
-    h1: 'BDG Win Forgot Password',
-    intro: 'Reset a forgotten BDG Win password using the mobile number linked to your account.',
+    h1: '6 Club Forgot Password',
+    intro: 'Reset a forgotten 6 Club password using the mobile number linked to your account.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Resetting Your Password',
+        heading: 'The Reset Flow',
         paragraphs: [
-          'Enter the mobile number registered to your BDG Win account and request a reset code. Confirm the code sent to your number, then choose a new password. Once set, log in normally using your number and the new password.',
-          'If you no longer have access to your registered number, contact Support directly for identity-verified account recovery.'
+          'Enter the mobile number tied to your account and request a reset code. Confirm the code once it arrives, pick a new password, and you\'re back to logging in normally with your number and the new password.',
+          'Lost access to that number entirely? Contact Support directly for identity-verified recovery.'
         ]
       },
       {
-        heading: 'Choosing a Password That Holds Up',
+        heading: 'Picking a Password Worth Trusting',
         paragraphs: [
-          'Since your registered number and password are the only two things standing between anyone and your wallet, it\'s worth choosing a new password you haven\'t reused on another account, rather than a quick variation of the old one.',
-          'If you reset your password because you suspect someone else had access, it\'s also worth reviewing your recent activity from the account dashboard afterward, just to confirm nothing changed while you were locked out.'
+          'Your number and password are the only two things standing between anyone and your wallet, so it\'s worth choosing something you haven\'t reused elsewhere rather than a slight tweak on the old one.',
+          'If the reset was prompted by a suspicion someone else had access, it\'s worth a quick look at your recent account activity afterward too, just to confirm nothing shifted while you were locked out.'
         ]
       }
     ],
     faqs: [
-      { q: 'How do I reset my BDG Win password?', a: 'Enter your registered mobile number, confirm the reset code sent to it, then choose a new password.' },
-      { q: 'What if I lost access to my registered mobile number?', a: 'Contact BDG Win Support for identity-verified account recovery in that situation.' },
-      { q: 'Will resetting my password affect my wallet or rewards?', a: 'No, resetting your password only changes account access — your wallet, rewards and VIP tier stay the same.' },
-      { q: 'How long does a BDG Win password reset take?', a: 'The reset code arrives shortly after you request it, and the new password takes effect immediately after confirmation.' },
-      { q: 'Should I reuse a password from another account?', a: 'It\'s best to choose a password you haven\'t used elsewhere, especially when resetting after a suspected access issue.' },
-      { q: 'Should I check my account activity after a password reset?', a: 'It\'s a good habit, particularly if the reset was prompted by suspected unauthorized access.' }
+      { q: 'What are the steps to reset my password?', a: 'Enter your registered number, confirm the code sent to it, then set a new password.' },
+      { q: 'I no longer have my registered number — what do I do?', a: 'Contact Support directly for identity-verified account recovery.' },
+      { q: 'Does resetting my password touch my wallet or rewards?', a: 'No — it only changes account access; wallet, rewards and VIP tier stay untouched.' },
+      { q: 'How long does the whole reset take?', a: 'The code arrives quickly, and the new password takes effect the moment you confirm it.' },
+      { q: 'Is it fine to reuse an old password from elsewhere?', a: 'Better not to, especially if this reset followed a suspected access issue.' },
+      { q: 'Should I check my activity log after resetting?', a: 'It\'s a sensible habit, particularly if unauthorized access was the reason for the reset.' }
     ],
     related: [
       { label: 'Login', url: '/login' },
@@ -1336,42 +1336,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/payment-methods': {
-    metaTitle: 'BDG Win Payment Methods – Supported Deposit Options',
+    metaTitle: '6 Club Wallet – Supported Payment Methods',
     metaDescription:
-      'See the payment methods supported on BDG Win for deposits and withdrawals, and how to add one to your account.',
-    keywords: ['BDG Win Payment Methods', 'BDG Win', 'BDG Payment Methods'],
+      'See the payment methods supported in your 6 Club Wallet for deposits and withdrawals, and how to add one to your account.',
+    keywords: ['6 Club Payment Methods', '6 Club', '6 Club Wallet', '6 Club Payment', '6 Club Deposit and Withdrawal'],
     eyebrow: 'Payment Methods',
-    h1: 'BDG Win Payment Methods',
-    intro: 'BDG Win supports a range of verified payment methods for both deposits and withdrawals.',
+    h1: '6 Club Payment Methods',
+    intro: '6 Club supports a range of verified payment methods for both deposits and withdrawals.',
     breadcrumbTrail: [],
     sections: [
       {
         heading: 'Supported Options',
         paragraphs: [
-          'Bank transfers, UPI and select digital wallets are supported for BDG Win deposits and withdrawals, all routed through verified payment partners. Available options may vary slightly depending on your region and account verification status.',
-          'Add a payment method from your account settings before making your first deposit — this same method is generally used for withdrawals as well, keeping transactions consistent and traceable.'
+          'Bank transfers, UPI and a handful of digital wallets cover both deposits and withdrawals, all routed through verified partners. Exact options can shift slightly depending on your region and verification status.',
+          'Add a method from account settings before that first deposit — it\'ll generally be the same one used for withdrawals too, which keeps transactions consistent and easy to trace.'
         ],
         image: {
           src: '/images/screenshots/wallet-split-view.webp',
-          alt: 'BDG Win wallet summary showing main wallet and third-party wallet balances',
-          caption: 'A BDG Win wallet summary showing the split between main wallet and third-party wallet balances, with quick links to deposit and withdrawal history.'
+          alt: '6 Club wallet summary showing main wallet and third-party wallet balances',
+          caption: 'A 6 Club wallet summary showing the split between main wallet and third-party wallet balances, with quick links to deposit and withdrawal history.'
         }
       },
       {
-        heading: 'Why Deposits and Withdrawals Use the Same Method',
+        heading: 'The Logic Behind Matching Deposit and Withdrawal Methods',
         paragraphs: [
-          'Routing both deposits and withdrawals through the same verified method is a security measure as much as a convenience one — it means funds always return to a source that\'s already been confirmed as belonging to you, rather than an arbitrary destination entered at withdrawal time.',
-          'If your usual method stops being available for any reason, adding a new verified method is straightforward from account settings, though a newly added method typically needs its own verification before it can be used for withdrawals.'
+          'Routing both through the same verified channel is as much a security measure as a convenience — funds always return to a source already confirmed as yours, rather than some arbitrary destination typed in at withdrawal time.',
+          'If your usual method stops working for whatever reason, adding a new verified one from account settings is straightforward, though it typically needs its own verification pass before it can handle withdrawals.'
         ]
       }
     ],
     faqs: [
-      { q: 'What payment methods does BDG Win support?', a: 'BDG Win supports bank transfers, UPI and select digital wallets through verified payment partners.' },
-      { q: 'Can I use a different method for withdrawals than deposits?', a: 'Withdrawals are generally processed through the same verified method used for deposits for security consistency.' },
-      { q: 'Do all payment methods work in every region?', a: 'Available options can vary slightly by region and account verification status.' },
-      { q: 'Is there a fee for BDG Win payment methods?', a: 'Any applicable fees are shown before you confirm a deposit or withdrawal request.' },
-      { q: 'Why must deposits and withdrawals use the same method?', a: 'It keeps funds tied to a verified source, which is a security measure alongside a convenience.' },
-      { q: 'Can I add a new payment method later?', a: 'Yes, from account settings, though a newly added method typically needs its own verification before withdrawals.' }
+      { q: 'What payment options are actually supported?', a: 'Bank transfers, UPI and select digital wallets, all through verified payment partners.' },
+      { q: 'Can my deposit and withdrawal methods differ?', a: 'Generally no — withdrawals go through the same verified method as deposits, for security consistency.' },
+      { q: 'Does every option work in every region?', a: 'Not always — availability can shift slightly by region and verification status.' },
+      { q: 'Are there fees attached to any method?', a: 'Any applicable fee shows up before you confirm a deposit or withdrawal.' },
+      { q: 'Why does the same method have to cover both directions?', a: 'It keeps funds tied to a source already confirmed as yours — security first, convenience second.' },
+      { q: 'Can I add another method down the line?', a: 'Yes, from account settings — though a freshly added one usually needs its own verification before withdrawals.' }
     ],
     related: [
       { label: 'Deposit Guide', url: '/deposit-guide' },
@@ -1381,42 +1381,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/deposit-guide': {
-    metaTitle: 'BDG Win Deposit Guide – How to Add Funds',
+    metaTitle: '6 Club Deposit Guide – How to Recharge Your Wallet',
     metaDescription:
-      'Step-by-step BDG Win deposit guide covering payment methods, confirmation times and troubleshooting tips.',
-    keywords: ['BDG Win Deposit', 'BDG Win Deposit Guide', 'BDG Deposit'],
+      'Step-by-step 6 Club deposit and recharge guide covering payment methods, confirmation times and troubleshooting tips.',
+    keywords: ['6 Club Deposit', '6 Club Deposit Guide', '6 Club Recharge'],
     eyebrow: 'Deposit Guide',
-    h1: 'BDG Win Deposit Guide',
-    intro: 'Adding funds to your BDG Win wallet takes a few steps through a verified payment method.',
+    h1: '6 Club Deposit Guide',
+    intro: 'Adding funds to your 6 Club wallet takes a few steps through a verified payment method.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Making a Deposit',
+        heading: 'Putting Money In',
         paragraphs: [
-          'From your account dashboard, choose a payment method from the Payment Methods page, enter the deposit amount, and confirm through your chosen provider. Most deposits post to your BDG Win wallet within minutes once the payment provider confirms the transaction.',
-          'If a deposit does not appear after a reasonable wait, check your payment provider\'s transaction history first, then contact Support with the transaction reference if it still has not posted.'
+          'From the dashboard, pick a method off the Payment Methods page, enter an amount, and confirm through your chosen provider. Most deposits hit the wallet within minutes of the provider confirming the transaction.',
+          'Nothing showing up after a reasonable wait? Check your provider\'s own transaction history first, then reach Support with the transaction reference if it\'s still missing.'
         ],
         image: {
           src: '/images/screenshots/deposit-channels.webp',
-          alt: 'BDG Win deposit screen showing supported payment channels and quick-select amounts',
-          caption: 'The BDG Win Deposit screen, showing supported channels alongside quick-select deposit amounts.'
+          alt: '6 Club deposit screen showing supported payment channels and quick-select amounts',
+          caption: 'The 6 Club Deposit screen, showing supported channels alongside quick-select deposit amounts.'
         }
       },
       {
-        heading: 'Avoiding the Most Common Deposit Delays',
+        heading: 'Why Deposits Sometimes Lag',
         paragraphs: [
-          'The two most common causes of a slow deposit are a mismatch between the account holder name on the payment method and your registered BDG Win details, and a temporary delay on the payment provider\'s side rather than anything on BDG Win\'s end — checking the provider\'s own transaction status first usually clarifies which one it is.',
-          'Keeping your transaction reference handy when a deposit is delayed speeds up the process considerably if you do need to contact Support, since it lets the request be traced directly rather than searched for by amount and approximate time.'
+          'Two things usually explain a slow deposit: a mismatch between the account holder name on the payment method and your registered details, or a delay sitting on the payment provider\'s side rather than anything on the platform. Checking the provider\'s own transaction status first usually tells you which.',
+          'Hang onto your transaction reference if a deposit is delayed — it lets Support trace the exact request instead of hunting by amount and rough time, which speeds things up considerably.'
         ]
       }
     ],
     faqs: [
-      { q: 'How long does a BDG Win deposit take to appear?', a: 'Most deposits post to your wallet within minutes once the payment provider confirms the transaction.' },
-      { q: 'What should I do if my deposit hasn\'t appeared?', a: 'Check your payment provider\'s transaction history first, then contact Support with your transaction reference.' },
-      { q: 'Is there a minimum deposit amount on BDG Win?', a: 'Minimum deposit amounts vary by payment method and are shown before you confirm the transaction.' },
-      { q: 'Can I deposit using any payment method listed?', a: 'Yes, any method listed on the Payment Methods page can be used, subject to your account verification status.' },
-      { q: 'What\'s the most common reason a BDG Win deposit is delayed?', a: 'A name mismatch between the payment method and your registered details, or a delay on the payment provider\'s side.' },
-      { q: 'What information should I have ready if I contact Support about a deposit?', a: 'Your transaction reference lets Support trace the request directly rather than searching by amount and time.' }
+      { q: 'How fast does a deposit typically post?', a: 'Within minutes of the payment provider confirming it, in most cases.' },
+      { q: 'What if my deposit still hasn\'t shown up?', a: 'Check your provider\'s transaction history first, then contact Support with your transaction reference.' },
+      { q: 'Is there a minimum amount for a deposit?', a: 'It varies by method and shows before you confirm the transaction.' },
+      { q: 'Can I use any method listed on the Payment Methods page?', a: 'Yes, subject to your account\'s current verification status.' },
+      { q: 'What most commonly causes a delayed deposit?', a: 'A name mismatch between the payment method and your registered details, or a hiccup on the provider\'s end.' },
+      { q: 'What should I have ready before messaging Support about a deposit?', a: 'Your transaction reference — it lets them trace the request directly instead of searching by amount and time.' }
     ],
     related: [
       { label: 'Payment Methods', url: '/payment-methods' },
@@ -1426,42 +1426,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/withdrawal-guide': {
-    metaTitle: 'BDG Win Withdrawal Guide – How Payouts Are Processed',
+    metaTitle: '6 Club Withdrawal Guide – How Payouts Are Processed',
     metaDescription:
-      'How BDG Win withdrawals are processed, typical processing times and how VIP tier affects payout speed.',
-    keywords: ['BDG Win Withdrawal', 'BDG Win Withdrawal Guide', 'BDG Withdrawal'],
+      'How 6 Club withdrawal requests are processed, typical payment times and how your VIP tier affects payout speed.',
+    keywords: ['6 Club Withdrawal', '6 Club Withdrawal Guide', '6 Club Balance', '6 Club Transactions'],
     eyebrow: 'Withdrawal Guide',
-    h1: 'BDG Win Withdrawal Guide',
-    intro: 'Withdrawals on BDG Win are processed through the same verified method used for your deposits.',
+    h1: '6 Club Withdrawal Guide',
+    intro: 'Withdrawals on 6 Club are processed through the same verified method used for your deposits.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Requesting a Withdrawal',
+        heading: 'Sending a Withdrawal Request',
         paragraphs: [
-          'From your wallet, request a withdrawal to your verified payment method and confirm the amount. Most requests are reviewed and processed the same day, though processing speed can vary based on your account verification status and current VIP tier.',
-          'Higher BDG Win VIP tiers are typically prioritized in the withdrawal queue, resulting in faster payout confirmation compared to base-tier accounts.'
+          'From your wallet, request a payout to your verified method and confirm the amount. Most requests get reviewed and cleared the same day, though speed can shift depending on your verification status and current VIP tier.',
+          'Higher VIP tiers jump ahead in the withdrawal queue, so payout confirmation lands faster than it would on a base-tier account.'
         ],
         image: {
           src: '/images/screenshots/withdraw-screen.webp',
-          alt: 'BDG Win withdraw screen showing available balance and a saved payout method',
-          caption: 'The BDG Win Withdraw screen, showing available balance, supported payout methods and a saved withdrawal address.'
+          alt: '6 Club withdraw screen showing available balance and a saved payout method',
+          caption: 'The 6 Club Withdraw screen, showing available balance, supported payout methods and a saved withdrawal address.'
         }
       },
       {
-        heading: 'Habits That Keep Withdrawals Fast',
+        heading: 'What Keeps a Withdrawal Moving Quickly',
         paragraphs: [
-          'Keeping your payment method\'s verification current is the single biggest factor in withdrawal speed — a lapsed or mismatched verification is the most common reason a request gets pulled into manual review instead of processing automatically.',
-          'Double-checking the withdrawal amount before confirming also avoids a common slowdown: requests that need to be corrected and resubmitted simply take longer than one confirmed correctly on the first attempt.'
+          'Current verification on your payment method is the single biggest lever here — a lapsed or mismatched verification is the most common reason a request gets pulled into manual review instead of clearing automatically.',
+          'Double-checking the amount before hitting confirm avoids the other common slowdown: a request that needs correcting and resubmitting always takes longer than one confirmed right the first time.'
         ]
       }
     ],
     faqs: [
-      { q: 'How long do BDG Win withdrawals take?', a: 'Most verified withdrawal requests are processed the same day, though timing can vary by verification status and VIP tier.' },
-      { q: 'Does VIP tier affect withdrawal speed?', a: 'Yes, higher BDG Win VIP tiers are typically prioritized in the withdrawal processing queue.' },
-      { q: 'Can I withdraw to a different method than I deposited with?', a: 'Withdrawals generally go through the same verified method used for deposits for security consistency.' },
-      { q: 'What if my BDG Win withdrawal is delayed?', a: 'Contact Support with your request details if a withdrawal takes noticeably longer than the usual same-day window.' },
-      { q: 'What most commonly sends a withdrawal to manual review?', a: 'A lapsed or mismatched payment method verification is the most common cause.' },
-      { q: 'Does double-checking my withdrawal amount matter?', a: 'Yes, requests that need correcting and resubmitting take longer than ones confirmed correctly the first time.' }
+      { q: 'What\'s the typical withdrawal timeline?', a: 'Most verified requests clear the same day, though verification status and VIP tier can shift that.' },
+      { q: 'Does a higher VIP tier speed things up?', a: 'Yes — higher tiers get prioritized in the withdrawal queue.' },
+      { q: 'Can I send a withdrawal to a different method than I deposited with?', a: 'Generally no — withdrawals follow the same verified method as deposits, for security.' },
+      { q: 'My withdrawal is taking longer than expected — what now?', a: 'Contact Support with your request details if it runs noticeably past the usual same-day window.' },
+      { q: 'What most often triggers manual review?', a: 'A lapsed or mismatched verification on the payment method.' },
+      { q: 'Does getting the amount right the first time actually matter?', a: 'Yes — a request needing correction and resubmission always takes longer than one confirmed correctly upfront.' }
     ],
     related: [
       { label: 'Deposit Guide', url: '/deposit-guide' },
@@ -1471,42 +1471,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/security': {
-    metaTitle: 'BDG Win Security – How Your Account Is Protected',
+    metaTitle: '6 Club Security – Is 6 Club Safe? Account Protection Explained',
     metaDescription:
-      'An overview of BDG Win security measures, including account protection, encrypted sessions and payment verification.',
-    keywords: ['BDG Win Security', 'BDG Win'],
+      '6 Club security overview: encrypted sessions, verified payments and how 6 Club keeps your account and balance protected.',
+    keywords: ['6 Club Security', '6 Club', 'Is 6 Club Safe'],
     eyebrow: 'Security',
-    h1: 'BDG Win Security',
-    intro: 'BDG Win applies account-level and platform-level protections across every game category.',
+    h1: '6 Club Security',
+    intro: '6 Club applies account-level and platform-level protections across every game category.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Account Protection',
+        heading: 'How the Account Itself Is Protected',
         paragraphs: [
-          'Every BDG Win session is encrypted, and login access requires your registered mobile number alongside your password. Withdrawal requests are checked against your verified payment method to reduce the risk of unauthorized transfers.',
-          'We recommend using a unique password for your BDG Win account and never sharing your login details, OTP codes or password with anyone claiming to be BDG Win support — official support will never ask for your password.'
+          'Every session runs encrypted, and getting in requires your registered number alongside your password. Withdrawal requests get checked against your verified payment method specifically to cut the risk of an unauthorized transfer slipping through.',
+          'Use a password you haven\'t reused anywhere else, and never hand over login details, OTP codes or your password to anyone claiming to be support — genuine support staff will never ask for it.'
         ],
         image: {
           src: '/images/screenshots/account-wallet-overview.webp',
-          alt: 'BDG Win account overview showing UID, VIP tier, last login timestamp and wallet balance',
-          caption: 'A BDG Win account overview showing your UID, VIP tier and last login timestamp alongside your wallet balance — everything tied to one encrypted, password-protected session.'
+          alt: '6 Club account overview showing UID, VIP tier, last login timestamp and wallet balance',
+          caption: 'A 6 Club account overview showing your UID, VIP tier and last login timestamp alongside your wallet balance — everything tied to one encrypted, password-protected session.'
         }
       },
       {
-        heading: 'Recognizing and Avoiding Common Scams',
+        heading: 'Spotting the Scams That Actually Cause Problems',
         paragraphs: [
-          'Most account compromises don\'t come from a security flaw in the platform itself — they come from a message or call claiming to be BDG Win support asking for a password, OTP code or a "verification link" outside the app. Genuine BDG Win communication never requires you to share these details to fix an account issue.',
-          'If you receive an unexpected OTP code you didn\'t request, treat it as a sign someone else has your registered number and attempted to log in — change your password immediately rather than ignoring it.'
+          'Most compromised accounts have nothing to do with a platform flaw — they trace back to a message or call posing as support, asking for a password, OTP code or a "verification link" outside the app. Real communication from us never needs those details to fix anything.',
+          'An OTP code you didn\'t ask for is a red flag someone else has your number and is trying to log in — change your password right away instead of brushing it off.'
         ]
       }
     ],
     faqs: [
-      { q: 'How does BDG Win protect my account?', a: 'Encrypted sessions, password-protected login and withdrawal checks against your verified payment method all help protect your BDG Win account.' },
-      { q: 'Will BDG Win support ever ask for my password?', a: 'No, official BDG Win support will never ask for your password or OTP codes.' },
-      { q: 'What should I do if I suspect unauthorized access?', a: 'Reset your password immediately through the Forgot Password page and contact Support.' },
-      { q: 'Does BDG Win security relate to fair play?', a: 'Security covers account protection, while our Fair Play page covers how game outcomes themselves are verified.' },
-      { q: 'What should I do if I get an OTP code I didn\'t request?', a: 'Treat it as a sign someone attempted to log in and change your password immediately.' },
-      { q: 'How can I tell a scam message from real BDG Win support?', a: 'Genuine support will never ask you to share your password, OTP code or click an outside verification link.' }
+      { q: 'What actually protects my account here?', a: 'Encrypted sessions, password-protected login, and withdrawal checks against your verified payment method.' },
+      { q: 'Would support ever ask for my password?', a: 'No — genuine support never asks for your password or OTP codes.' },
+      { q: 'I think someone accessed my account without permission — what do I do?', a: 'Reset your password immediately via Forgot Password, then contact Support.' },
+      { q: 'How does this page relate to Fair Play?', a: 'This one covers account protection; Fair Play covers how game outcomes themselves get verified.' },
+      { q: 'What if I get an OTP I never requested?', a: 'Treat it as a login attempt by someone else and change your password immediately.' },
+      { q: 'How do I spot a scam message pretending to be support?', a: 'Real support never asks for your password, an OTP code, or a click on an outside verification link.' }
     ],
     related: [
       { label: 'Fair Play', url: '/fair-play' },
@@ -1516,37 +1516,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/responsible-gaming': {
-    metaTitle: 'BDG Win Responsible Gaming – Play Within Your Limits',
+    metaTitle: '6 Club Responsible Gaming – Play Within Your Limits',
     metaDescription:
-      'BDG Win responsible gaming guidance, including setting deposit and time limits and recognizing when to take a break.',
-    keywords: ['BDG Win Responsible Gaming', 'BDG Win'],
+      '6 Club responsible gaming guidance, including setting deposit and time limits and recognizing when to take a break.',
+    keywords: ['6 Club Responsible Gaming', '6 Club', '6 Club Guide'],
     eyebrow: 'Responsible Gaming',
-    h1: 'BDG Win Responsible Gaming',
-    intro: 'BDG Win encourages players to set limits and treat gaming as entertainment, not income.',
+    h1: '6 Club Responsible Gaming',
+    intro: '6 Club encourages players to set limits and treat gaming as entertainment, not income.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Setting Limits',
+        heading: 'Setting Your Own Boundaries',
         paragraphs: [
-          'Your BDG Win account settings let you set personal deposit limits and session reminders, helping you keep track of both spending and time spent playing. We recommend setting these limits before you start playing rather than after a losing session.',
-          'Players must be 18 years or older to register on BDG Win. If gaming starts to feel like an obligation rather than entertainment, consider taking a break using the cooling-off options in your account settings.'
+          'Account settings let you set personal deposit limits and session reminders — one way to track both spending and time without relying on memory. It\'s far better to set these before you start playing than after a rough session.',
+          'You need to be 18 or older to register at all. And if play starts feeling like an obligation instead of entertainment, the cooling-off options in account settings let you step away for a while.'
         ]
       },
       {
-        heading: 'Signs Worth Paying Attention To',
+        heading: 'Signs That Are Worth Noticing Early',
         paragraphs: [
-          'It\'s easier to notice a shift in your own habits than to wait for a clear warning sign — playing specifically to recover a previous loss, spending noticeably longer than planned on a regular basis, or feeling anxious about checking your balance are all worth treating as a cue to set a limit rather than waiting for things to get harder to manage.',
-          'None of the tools on this page require explaining yourself to anyone — deposit limits, session reminders and cooling-off periods are all set directly from account settings, privately and reversibly, for exactly the reason that acting early should be easy.'
+          'A shift in your own habits is usually easier to catch than waiting for some obvious red flag — chasing a previous loss, regularly playing longer than you meant to, or feeling anxious checking your balance are all reasons to set a limit now rather than later.',
+          'None of the tools here require explaining yourself to anyone. Deposit limits, session reminders and cooling-off periods are all set privately and reversibly, right from account settings — precisely so that acting on it early is easy.'
         ]
       }
     ],
     faqs: [
-      { q: 'How do I set a deposit limit on BDG Win?', a: 'Deposit limits can be set from your account settings, applied before your next deposit is processed.' },
-      { q: 'What is the minimum age to use BDG Win?', a: 'Players must be 18 years or older to register and play on BDG Win.' },
-      { q: 'Can I take a break from BDG Win temporarily?', a: 'Yes, cooling-off options are available in your account settings to pause activity for a set period.' },
-      { q: 'Where can I get help with gaming habits?', a: 'Contact Support for guidance, or use the account limit tools described on this page as a first step.' },
-      { q: 'What are early signs worth paying attention to?', a: 'Playing to recover a loss, spending longer than planned regularly, or feeling anxious about your balance are worth treating as a cue to set a limit.' },
-      { q: 'Do I need to explain myself to set a limit or cooling-off period?', a: 'No, these tools are set privately and reversibly from account settings without needing to explain anything.' }
+      { q: 'How do I actually set a deposit limit?', a: 'From account settings — it applies from your very next deposit onward.' },
+      { q: 'What\'s the minimum age to play?', a: 'You must be 18 or older to register at all.' },
+      { q: 'Can I pause my account for a while?', a: 'Yes — cooling-off options in account settings pause activity for a set period.' },
+      { q: 'Where do I go for help with gaming habits?', a: 'Contact Support, or start with the limit tools described right here.' },
+      { q: 'What early warning signs should I actually watch for?', a: 'Chasing a loss, playing longer than planned regularly, or feeling anxious about your balance — all worth a limit.' },
+      { q: 'Do I need to justify setting a limit to anyone?', a: 'No — these tools are private and reversible, set directly from account settings.' }
     ],
     related: [
       { label: 'Security', url: '/security' },
@@ -1556,37 +1556,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/fair-play': {
-    metaTitle: 'BDG Win Fair Play – How Game Outcomes Are Verified',
+    metaTitle: '6 Club Fair Play – How Game Outcomes Are Verified',
     metaDescription:
-      'Learn how BDG Win ensures fair play across casino, slot, lottery and crash games using certified outcome generation.',
-    keywords: ['BDG Win Fair Play', 'BDG Win'],
+      'Learn how 6 Club ensures fair play across Casino, Slots, Lottery and Aviator games using certified outcome generation.',
+    keywords: ['6 Club Fair Play', '6 Club', 'Is 6 Club Safe'],
     eyebrow: 'Fair Play',
-    h1: 'BDG Win Fair Play',
-    intro: 'BDG Win uses certified random outcome generation to keep game results fair and independently verifiable.',
+    h1: '6 Club Fair Play',
+    intro: '6 Club uses certified random outcome generation to keep game results fair and independently verifiable.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How Outcomes Are Generated',
+        heading: 'How an Outcome Actually Gets Decided',
         paragraphs: [
-          'Classic casino formats, slots, lottery draws and Color Prediction rounds on BDG Win use certified random number generation, meaning outcomes are not influenced by previous rounds or by individual account history. Live dealer tables display outcomes in real time, verifiable as they happen.',
-          'Payout ratios and odds are published on each game before you play, so you always know the terms of a round before placing a stake.'
+          'Classic casino formats, slots, lottery draws and Colour Prediction rounds all run on certified random number generation — nothing about a previous round or your own account history nudges the result. Live dealer tables work differently: outcomes display in real time, verifiable as they happen.',
+          'Every game publishes its payout ratios and odds before you play, so the terms of a round are never a surprise after the fact.'
         ]
       },
       {
-        heading: 'Why Independence Between Rounds Matters',
+        heading: 'Why One Round Never "Owes" You the Next',
         paragraphs: [
-          'A common misconception in fast-cycle formats like Color Prediction or crash games is that a run of similar outcomes makes a different one "due" next. Certified random generation specifically rules this out — each round is generated independently, so no amount of round history changes the odds of what comes next.',
-          'This is also why the same fairness standard applies whether a round settles in under a minute or runs on a scheduled draw: the generation method is what\'s certified, not the speed of the format built around it.'
+          'A common misread in fast formats like Colour Prediction or crash games is assuming a run of similar outcomes makes something different "due" next. Certified random generation rules that out entirely — every round generates independently, so no amount of history shifts what comes next.',
+          'And that standard doesn\'t bend for speed either: a round settling in under a minute and a scheduled draw both answer to the exact same certification, since it\'s the generation method being certified, not the pace of the format around it.'
         ]
       }
     ],
     faqs: [
-      { q: 'How does BDG Win ensure fair game outcomes?', a: 'Certified random number generation is used across classic games, slots, lottery and Color Prediction rounds.' },
-      { q: 'Are live BDG Win casino tables also fair?', a: 'Yes, live dealer tables show outcomes in real time as they happen, making results independently verifiable.' },
-      { q: 'Can previous rounds affect future BDG Win outcomes?', a: 'No, certified random generation means each round is independent of previous results.' },
-      { q: 'Where are BDG Win payout ratios shown?', a: 'Payout ratios and odds are published on each individual game before you place a stake.' },
-      { q: 'Does a streak of similar outcomes make a different one more likely next?', a: 'No, certified random generation means a streak has no bearing on the next round\'s outcome.' },
-      { q: 'Does fairness certification differ between fast and scheduled game formats?', a: 'No, the same certified generation standard applies regardless of how quickly a format settles.' }
+      { q: 'How is fairness actually enforced across games?', a: 'Certified random number generation runs behind classic games, slots, lottery and Colour Prediction.' },
+      { q: 'Are live casino tables fair the same way?', a: 'Yes — outcomes show in real time as they happen, which makes them independently verifiable.' },
+      { q: 'Can a previous round influence the next one?', a: 'No — certified random generation makes every round independent of what came before.' },
+      { q: 'Where do I find the payout ratios for a game?', a: 'Published directly on each game, before you place a stake.' },
+      { q: 'Does a streak make the opposite outcome more likely next?', a: 'No — a streak has zero bearing on what the next round generates.' },
+      { q: 'Do fast and scheduled formats get held to different fairness standards?', a: 'No — the same certification standard covers both, regardless of how quickly a format settles.' }
     ],
     related: [
       { label: 'Security', url: '/security' },
@@ -1596,48 +1596,48 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/privacy-policy': {
-    metaTitle: 'BDG Win Privacy Policy',
+    metaTitle: '6 Club Privacy Policy',
     metaDescription:
-      'Read the BDG Win privacy policy covering what account data is collected, how it is used and how it is protected.',
-    keywords: ['BDG Win Privacy Policy'],
+      'Read the 6 Club Privacy Policy covering what account data 6 Club collects, how it\'s used and how it\'s protected.',
+    keywords: ['6 Club Privacy Policy', '6 Club Platform'],
     eyebrow: 'Legal',
-    h1: 'BDG Win Privacy Policy',
-    intro: 'This policy explains what information BDG Win collects and how it is used across your account.',
+    h1: '6 Club Privacy Policy',
+    intro: 'This policy explains what information 6 Club collects and how it is used across your account.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Information We Collect',
+        heading: 'What Gets Collected',
         paragraphs: [
-          'When you register for BDG Win, we collect your mobile number, account credentials and, once you make a transaction, verified payment details needed to process deposits and withdrawals. We also record gameplay activity to calculate rewards, VIP tier and referral earnings.'
+          'Registering hands over your mobile number and account credentials; making a transaction adds verified payment details needed to process deposits and withdrawals. Gameplay activity is also logged to calculate rewards, VIP tier and referral earnings.'
         ]
       },
       {
-        heading: 'How Information Is Used',
+        heading: 'What That Data Is Actually Used For',
         paragraphs: [
-          'Account data is used to operate your BDG Win wallet, apply rewards correctly, verify withdrawal requests, and respond to support inquiries. We do not sell personal account information to third parties. Payment details are shared only with verified payment partners required to complete a transaction.'
+          'It runs your wallet, applies rewards correctly, verifies withdrawal requests, and helps support respond to your questions. Personal account information is never sold to third parties, and payment details go only to the verified partners needed to complete a transaction.'
         ]
       },
       {
-        heading: 'Your Choices',
+        heading: 'Your Options',
         paragraphs: [
-          'You can request details about the data associated with your account, or request account closure, by contacting Support. Some transaction records may be retained as required for financial and regulatory record-keeping even after account closure.'
+          'Contact Support to request details on the data tied to your account, or to close it entirely. Some transaction records stay on file after closure where financial and regulatory rules require it.'
         ]
       },
       {
-        heading: 'How Long We Retain Your Information',
+        heading: 'How Long Records Stick Around',
         paragraphs: [
-          'Active account data is kept for as long as your account remains open, so your rewards history, VIP progress and referral records stay accurate and available to you. After a closure request, most account data is removed within a reasonable period, while transaction records required for financial and regulatory record-keeping are retained separately for the period required by applicable rules.',
-          'If you have questions about what specific data is retained after closure, Support can provide details relevant to your account on request.'
+          'Active account data stays for as long as the account itself is open, keeping your rewards history, VIP progress and referral records accurate. Once you request closure, most account data clears out within a reasonable window, while transaction records required by regulation are retained separately for whatever period applies.',
+          'Support can walk through exactly what\'s retained after closure for your specific account, on request.'
         ]
       }
     ],
     faqs: [
-      { q: 'What information does BDG Win collect at registration?', a: 'Your mobile number and account credentials are collected at registration; verified payment details are added once you transact.' },
-      { q: 'Does BDG Win sell my data to third parties?', a: 'No, personal account information is not sold to third parties.' },
-      { q: 'Who sees my payment details?', a: 'Payment details are shared only with verified payment partners required to process your transaction.' },
-      { q: 'Can I request my BDG Win account data or closure?', a: 'Yes, contact Support to request account data details or closure, subject to standard record-keeping requirements.' },
-      { q: 'How long is my data kept after I close my account?', a: 'Most account data is removed within a reasonable period after closure, while certain transaction records are retained separately as required by regulation.' },
-      { q: 'Can I ask what specific data BDG Win holds on my account?', a: 'Yes, contact Support to request details about the data associated with your account.' }
+      { q: 'What gets collected the moment I register?', a: 'Your mobile number and account credentials; verified payment details get added once you actually transact.' },
+      { q: 'Is my data ever sold?', a: 'No — personal account information is never sold to third parties.' },
+      { q: 'Who has access to my payment details?', a: 'Only the verified payment partners required to process a given transaction.' },
+      { q: 'Can I ask for my data, or ask to close my account?', a: 'Yes — contact Support for either, subject to standard record-keeping rules.' },
+      { q: 'What happens to my data after I close my account?', a: 'Most of it clears within a reasonable window; certain transaction records stay on file as regulation requires.' },
+      { q: 'Can I find out exactly what data is held on me?', a: 'Yes — contact Support to request those specifics.' }
     ],
     related: [
       { label: 'Terms & Conditions', url: '/terms-conditions' },
@@ -1647,48 +1647,48 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/terms-conditions': {
-    metaTitle: 'BDG Win Terms & Conditions',
+    metaTitle: '6 Club Terms & Conditions',
     metaDescription:
-      'Read the BDG Win terms and conditions covering account eligibility, acceptable use, rewards and withdrawal rules.',
-    keywords: ['BDG Win Terms', 'BDG Win Terms and Conditions'],
+      'Read the 6 Club Terms & Conditions covering account eligibility, acceptable use, rewards and withdrawal rules.',
+    keywords: ['6 Club Terms', '6 Club Terms and Conditions', '6 Club Platform'],
     eyebrow: 'Legal',
-    h1: 'BDG Win Terms & Conditions',
-    intro: 'These terms govern your use of the BDG Win platform, account and associated reward programs.',
+    h1: '6 Club Terms & Conditions',
+    intro: 'These terms govern your use of the 6 Club platform, account and associated reward programs.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Account Eligibility',
+        heading: 'Who Can Hold an Account',
         paragraphs: [
-          'You must be at least 18 years old and provide accurate registration information to hold a BDG Win account. One account is permitted per individual; duplicate accounts may be restricted or merged at our discretion.'
+          'You must be at least 18 and provide accurate registration details to open an account. One account per person — duplicates may be restricted or merged at our discretion.'
         ]
       },
       {
-        heading: 'Acceptable Use',
+        heading: 'What Counts as Acceptable Use',
         paragraphs: [
-          'BDG Win accounts must be used personally and not on behalf of a third party without prior approval, such as through the Agent Program. Any attempt to exploit reward systems, referral tracking or game mechanics outside intended use may result in account review or restriction.'
+          'Accounts are personal — using one on behalf of someone else needs prior approval, such as through the Agent Program. Attempting to exploit reward systems, referral tracking or game mechanics outside their intended use can trigger an account review or restriction.'
         ]
       },
       {
-        heading: 'Rewards, Withdrawals and Changes',
+        heading: 'Rewards, Withdrawals and Term Updates',
         paragraphs: [
-          'Reward eligibility and withdrawal processing follow the terms described on the Rewards and Withdrawal Guide pages. BDG Win may update these terms periodically; continued use of the account after changes take effect constitutes acceptance of the updated terms.'
+          'Reward eligibility and withdrawal handling follow what\'s described on the Rewards and Withdrawal Guide pages. Terms here get updated periodically, and continuing to use your account after a change takes effect counts as accepting the update.'
         ]
       },
       {
-        heading: 'Suspension and Account Review',
+        heading: 'When an Account Gets Reviewed or Restricted',
         paragraphs: [
-          'BDG Win may review or temporarily restrict an account where activity appears to conflict with these terms — including suspected duplicate accounts, reward system exploitation, or payment verification issues — while the matter is looked into. Where possible, affected players are notified through the account or registered contact details.',
-          'A restriction is not automatically permanent; resolving the underlying issue, such as completing verification or clarifying account history through Support, is generally the path back to normal account access.'
+          'An account may be reviewed or temporarily restricted if its activity looks like it conflicts with these terms — suspected duplicates, reward exploitation, or payment verification issues among them — while things get sorted out. Affected players are notified through the account or registered contact details wherever possible.',
+          'A restriction isn\'t automatically permanent. Resolving the underlying issue — completing verification, clarifying account history through Support — is usually the path back to normal access.'
         ]
       }
     ],
     faqs: [
-      { q: 'What is the minimum age to hold a BDG Win account?', a: 'You must be at least 18 years old to register and hold a BDG Win account.' },
-      { q: 'Can I have more than one BDG Win account?', a: 'One account is permitted per individual; duplicates may be restricted or merged.' },
-      { q: 'Can someone else use my BDG Win account for them?', a: 'Accounts should be used personally, except under approved arrangements such as the Agent Program.' },
-      { q: 'How will I know if terms change?', a: 'Updates are reflected on this page, and continued use after changes take effect means you accept the updated terms.' },
-      { q: 'Why might my BDG Win account be restricted?', a: 'Accounts may be reviewed or restricted for suspected duplicate registration, reward exploitation, or payment verification issues.' },
-      { q: 'Is an account restriction permanent?', a: 'Not necessarily — resolving the underlying issue through Support is generally the path back to normal access.' }
+      { q: 'What\'s the minimum age to hold an account?', a: 'At least 18, to register and to hold an account at all.' },
+      { q: 'Am I allowed more than one account?', a: 'One per person — duplicates may be restricted or merged.' },
+      { q: 'Can someone else use my account on my behalf?', a: 'Accounts are meant to be personal, aside from approved arrangements like the Agent Program.' },
+      { q: 'How would I find out if terms change?', a: 'Updates appear on this page, and continued use afterward means you\'ve accepted them.' },
+      { q: 'What typically triggers an account restriction?', a: 'Suspected duplicate accounts, reward exploitation, or payment verification issues.' },
+      { q: 'Can a restricted account be restored?', a: 'Usually yes — resolving the underlying issue through Support is the normal path back.' }
     ],
     related: [
       { label: 'Privacy Policy', url: '/privacy-policy' },
@@ -1698,37 +1698,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/cookies': {
-    metaTitle: 'BDG Win Cookies Policy',
+    metaTitle: '6 Club Cookies Policy',
     metaDescription:
-      'How BDG Win uses cookies to keep you logged in, remember preferences and understand site usage.',
-    keywords: ['BDG Win Cookies Policy'],
+      '6 Club Cookies Policy: how 6 Club uses cookies to keep you logged in, remember preferences and understand site usage.',
+    keywords: ['6 Club Cookies Policy', '6 Club Platform'],
     eyebrow: 'Legal',
-    h1: 'BDG Win Cookies Policy',
-    intro: 'BDG Win uses a small number of cookies to keep sessions secure and remember basic preferences.',
+    h1: '6 Club Cookies Policy',
+    intro: '6 Club uses a small number of cookies to keep sessions secure and remember basic preferences.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Why We Use Cookies',
+        heading: 'What Cookies Are Doing Here',
         paragraphs: [
-          'Session cookies keep you logged in to BDG Win as you move between pages, without needing to re-enter your credentials on every page load. A small set of preference cookies remember display settings so the site behaves consistently on repeat visits.',
-          'BDG Win does not use cookies to sell your browsing activity to third-party advertisers.'
+          'Session cookies keep you signed in as you move between pages, so credentials don\'t need re-entering on every load. A small batch of preference cookies remember display settings for a consistent experience on repeat visits.',
+          'None of this feeds third-party advertisers — cookies here aren\'t used to sell browsing activity.'
         ]
       },
       {
-        heading: 'Managing Your Cookie Preferences',
+        heading: 'Managing Cookies on Your End',
         paragraphs: [
-          'Because BDG Win\'s cookie usage is limited to session management and basic preferences rather than advertising trackers, there\'s little practical difference in your experience whether cookies are managed through your browser settings or left at default — the main effect of blocking session cookies specifically is being logged out between page loads.',
-          'Most browsers let you review and clear cookies on a per-site basis rather than all at once, which is a reasonable way to reset your BDG Win session specifically without affecting other sites you use.'
+          'Since usage here is limited to session management and basic preferences rather than ad trackers, there\'s not much practical difference whether you manage cookies through browser settings or leave them at default — blocking session cookies specifically just means getting logged out between page loads.',
+          'Most browsers let you clear cookies per-site rather than everywhere at once, which is a clean way to reset just your session here without touching other sites you use.'
         ]
       }
     ],
     faqs: [
-      { q: 'Does BDG Win use cookies for advertising?', a: 'No, cookies on BDG Win are used for session management and basic preferences, not for third-party advertising sales.' },
-      { q: 'Can I use BDG Win without cookies enabled?', a: 'Session cookies are required to stay logged in; disabling them will likely log you out between pages.' },
-      { q: 'What type of cookies does BDG Win set?', a: 'Primarily session cookies for login state and lightweight preference cookies for display settings.' },
-      { q: 'How do I clear BDG Win cookies?', a: 'Cookies can be cleared through your browser\'s privacy or history settings at any time.' },
-      { q: 'Can I clear cookies for BDG Win specifically without affecting other sites?', a: 'Yes, most browsers allow clearing cookies on a per-site basis.' },
-      { q: 'What happens if I block session cookies on BDG Win?', a: 'You will likely be logged out between pages, since session cookies are what keep you signed in as you navigate.' }
+      { q: 'Are cookies here used for ads?', a: 'No — they\'re for session management and basic preferences only, not advertising sales.' },
+      { q: 'Can I browse with cookies disabled?', a: 'Session cookies are needed to stay logged in, so disabling them will likely log you out between pages.' },
+      { q: 'What kinds of cookies actually get set?', a: 'Mostly session cookies for login state, plus lightweight preference cookies for display settings.' },
+      { q: 'How do I clear them?', a: 'Through your browser\'s privacy or history settings, any time.' },
+      { q: 'Can I clear these without wiping cookies from every site?', a: 'Yes — most browsers support clearing on a per-site basis.' },
+      { q: 'What happens if I block session cookies specifically?', a: 'You\'ll likely get logged out between pages, since that\'s what keeps a session signed in.' }
     ],
     related: [
       { label: 'Privacy Policy', url: '/privacy-policy' },
@@ -1738,52 +1738,52 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/disclaimer': {
-    metaTitle: 'BDG Win Disclaimer',
+    metaTitle: '6 Club Disclaimer',
     metaDescription:
-      'Read the BDG Win disclaimer covering informational content, outcome uncertainty, third-party links and platform limitations.',
-    keywords: ['BDG Win Disclaimer'],
+      'Read the 6 Club Disclaimer covering informational content, outcome uncertainty, third-party links and platform limits.',
+    keywords: ['6 Club Disclaimer', '6 Club Platform'],
     eyebrow: 'Legal',
-    h1: 'BDG Win Disclaimer',
-    intro: 'This disclaimer sets out the limits of what BDG Win\'s content and platform can promise you.',
+    h1: '6 Club Disclaimer',
+    intro: 'This disclaimer sets out the limits of what 6 Club\'s content and platform can promise you.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'General Information, Not a Guarantee',
+        heading: 'Information, Not a Promise',
         paragraphs: [
-          'Guides, odds explanations and game descriptions across BDG Win are provided for general informational purposes. They describe how a game category or feature works; they are not a promise of any particular outcome, winning result or payout amount.'
+          'Guides, odds explanations and game descriptions here are general information only. They explain how a category or feature works — they\'re never a promise of a particular outcome, win, or payout amount.'
         ]
       },
       {
-        heading: 'No Guaranteed Outcomes',
+        heading: 'No Outcome Is Ever Guaranteed',
         paragraphs: [
-          'Casino, slot, lottery, sports, crash, fishing and arcade results are determined by certified random outcome generation or, for sports markets, by real event results — not by BDG Win or by anything published on this site. Past results shown in round history or blog content are not indicative of future outcomes.'
+          'Casino, slot, lottery, sports, crash, fishing and arcade results come down to certified random generation, or, for sports, the actual event result — never anything published on this site. Past results shown in history or blog content say nothing about what happens next.'
         ]
       },
       {
-        heading: 'Age and Eligibility',
+        heading: 'Age and Eligibility Assumptions',
         paragraphs: [
-          'BDG Win content assumes the reader meets the minimum age and eligibility requirements described in our Terms & Conditions. Nothing on this site is directed at, or intended for, anyone below the required age or in a jurisdiction where this type of platform is not permitted.'
+          'This content assumes readers already meet the age and eligibility bar set out in the Terms & Conditions. None of it is aimed at anyone below that age, or in a place where this kind of platform isn\'t permitted.'
         ]
       },
       {
-        heading: 'Third-Party Links and Content',
+        heading: 'What Happens When You Click a Third-Party Link',
         paragraphs: [
-          'Where BDG Win links to a payment partner, sister site or other third-party destination, that link is provided for convenience. BDG Win does not control and is not responsible for the content, policies or availability of third-party sites once you leave our platform.'
+          'Links to payment partners, sister sites or other outside destinations exist purely for convenience. Once you leave the platform, we don\'t control — and aren\'t responsible for — what happens on that third-party site.'
         ]
       },
       {
-        heading: 'Limitation of Liability',
+        heading: 'Where Liability Stops',
         paragraphs: [
-          'BDG Win, its content and its guides are provided "as is." To the extent permitted by applicable law, BDG Win is not liable for decisions made based on information published on this site, or for losses arising from platform use, beyond what is separately addressed in our Terms & Conditions.'
+          'Content and guides here are provided as-is. To whatever extent the law allows, we\'re not liable for decisions made based on what\'s published here, or for losses tied to platform use beyond what\'s separately covered in the Terms & Conditions.'
         ]
       }
     ],
     faqs: [
-      { q: 'Does BDG Win guarantee winnings?', a: 'No, no game category or piece of content on BDG Win guarantees a winning outcome or payout amount.' },
-      { q: 'Are BDG Win blog guides financial or betting advice?', a: 'No, guides are general informational content about how a feature or game works, not personalized advice.' },
-      { q: 'Is BDG Win responsible for third-party sites it links to?', a: 'No, links to payment partners or other third-party destinations are for convenience only; BDG Win does not control that content.' },
-      { q: 'Does past round history predict future results?', a: 'No, each round or market settles independently, and past results shown in history are not indicative of future outcomes.' },
-      { q: 'Where do the full legal terms live?', a: 'Full account and platform terms are on the Terms & Conditions page; this disclaimer covers the limits of BDG Win\'s content specifically.' }
+      { q: 'Is a win ever guaranteed?', a: 'No — no game or piece of content here guarantees a winning outcome or payout amount.' },
+      { q: 'Should blog guides be treated as betting advice?', a: 'No — they\'re general informational content about how something works, not personalized advice.' },
+      { q: 'Are third-party sites linked here your responsibility?', a: 'No — those links are for convenience only, and we don\'t control that outside content.' },
+      { q: 'Does past history predict future results?', a: 'No — every round or market settles independently, regardless of what history shows.' },
+      { q: 'Where do the full legal terms actually live?', a: 'On the Terms & Conditions page — this disclaimer specifically covers the limits of the content itself.' }
     ],
     related: [
       { label: 'Terms & Conditions', url: '/terms-conditions' },
@@ -1793,42 +1793,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/help-center': {
-    metaTitle: 'BDG Win Help Center – Guides and Answers',
+    metaTitle: '6 Club Help Center – Guides for Login, Register & Account Help',
     metaDescription:
-      'The BDG Win Help Center collects guides on registration, deposits, withdrawals, rewards and account security.',
-    keywords: ['BDG Win Help Center', 'BDG Win Support'],
+      'The 6 Club Help Center collects guides on how to login 6 Club, how to register 6 Club, deposits, withdrawals and rewards.',
+    keywords: ['6 Club Help Center', '6 Club Support', '6 Club Help'],
     eyebrow: 'Help Center',
-    h1: 'BDG Win Help Center',
-    intro: 'The Help Center brings together BDG Win guides on the topics players ask about most.',
+    h1: '6 Club Help Center',
+    intro: 'The Help Center brings together 6 Club guides on the topics players ask about most.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Popular Topics',
+        heading: 'Where to Start',
         paragraphs: [
-          'Start with the Register, Login and Deposit Guide pages if you are setting up your account for the first time. For payout questions, the Withdrawal Guide and Payment Methods pages cover processing details, while the Security and Fair Play pages explain how BDG Win protects accounts and verifies game outcomes.',
-          'If a guide does not answer your question, reach the support team directly through the Contact page.'
+          'New here? The Register, Login and Deposit Guide pages cover the basics of getting set up. For payout questions, Withdrawal Guide and Payment Methods handle the details, while Security and Fair Play explain account protection and how outcomes get verified.',
+          'Still stuck after a guide? Reach the team directly through the Contact page.'
         ],
         image: {
           src: '/images/screenshots/self-service-center.webp',
-          alt: 'BDG Win Self Service Center listing common self-help topics like deposit and withdrawal issues',
-          caption: 'BDG Win\'s Self Service Center, listing common self-help topics such as deposit issues, IFSC modification and withdrawal problems.'
+          alt: '6 Club Self Service Center listing common self-help topics like deposit and withdrawal issues',
+          caption: '6 Club\'s Self Service Center, listing common self-help topics such as deposit issues, IFSC modification and withdrawal problems.'
         }
       },
       {
-        heading: 'Finding the Right Guide Quickly',
+        heading: 'Getting to the Right Guide Fast',
         paragraphs: [
-          'Most Help Center visits fall into one of three categories: getting an account set up, understanding how money moves in and out of the wallet, or understanding how a specific game category works. Grouping guides this way is intentional — it\'s usually faster to recognize which of the three a question falls under than to search by exact wording.',
-          'If a question spans more than one guide, such as how a reward interacts with a withdrawal, the related links at the bottom of each guide are the fastest way to move between connected topics without starting a new search.'
+          'Nearly every visit here falls into one of three buckets: setting up an account, understanding how money moves through the wallet, or figuring out how a specific game works. Grouping things this way is deliberate — it\'s quicker to identify which bucket a question belongs to than to search for exact wording.',
+          'When a question straddles two guides — how a reward interacts with a withdrawal, say — the related links at the bottom of each page are the quickest route between connected topics.'
         ]
       }
     ],
     faqs: [
-      { q: 'Where do I start if I am new to BDG Win?', a: 'Begin with the Register and Deposit Guide pages, then explore game categories once your account is funded.' },
-      { q: 'Where can I find withdrawal information?', a: 'The Withdrawal Guide and Payment Methods pages cover processing times and supported options.' },
-      { q: 'What if my question isn\'t covered in the Help Center?', a: 'Contact the BDG Win support team directly through the Contact page.' },
-      { q: 'Does the Help Center cover account security?', a: 'Yes, the Security and Fair Play pages explain account protection and how game outcomes are verified.' },
-      { q: 'How are Help Center guides organized?', a: 'Guides are grouped around account setup, payments, and individual game categories, since most questions fall into one of those areas.' },
-      { q: 'What if my question touches more than one guide?', a: 'Use the related links at the bottom of each guide to move between connected topics quickly.' }
+      { q: 'Where should a brand-new player start?', a: 'Register and Deposit Guide first, then explore game categories once the account is funded.' },
+      { q: 'Where\'s withdrawal information kept?', a: 'Withdrawal Guide and Payment Methods cover processing times and supported options.' },
+      { q: 'What if my exact question isn\'t here?', a: 'Contact the team directly through the Contact page.' },
+      { q: 'Does this cover account security topics?', a: 'Yes — Security and Fair Play explain protection and outcome verification.' },
+      { q: 'What\'s the logic behind how guides are grouped?', a: 'Around account setup, payments and individual games, since most questions fall into one of those.' },
+      { q: 'My question spans two different guides — now what?', a: 'Use the related links at the bottom of each page to jump between connected topics.' }
     ],
     related: [
       { label: 'Support', url: '/support' },
@@ -1838,37 +1838,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/support': {
-    metaTitle: 'BDG Win Support – Get Help With Your Account',
+    metaTitle: '6 Club Support – Customer Care for Your Account',
     metaDescription:
-      'Reach BDG Win player support for help with account access, deposits, withdrawals or general questions.',
-    keywords: ['BDG Win Support'],
+      'Reach 6 Club Support and Customer Care for help with account access, deposits, withdrawals or general questions.',
+    keywords: ['6 Club Support', '6 Club Customer Care', '6 Club Help'],
     eyebrow: 'Support',
-    h1: 'BDG Win Support',
-    intro: 'BDG Win support is available around the clock through live chat and email.',
+    h1: '6 Club Support',
+    intro: '6 Club support is available around the clock through live chat and email.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How to Reach Support',
+        heading: 'Getting Hold of Support',
         paragraphs: [
-          'For account access issues, deposit or withdrawal questions, or general platform questions, reach the BDG Win support team through the Contact page. Include your registered mobile number and a brief description of the issue to speed up the response.',
-          'For self-service answers to common questions, check the Help Center and FAQs pages first — many account and payment questions are answered there without needing to wait for a response.'
+          'Account access issues, deposit or withdrawal questions, general platform questions — all of it goes through the Contact page. Include your registered number and a short description of what\'s wrong to speed things along.',
+          'For quicker self-service, check Help Center and FAQs first — a lot of account and payment questions are already answered there.'
         ]
       },
       {
-        heading: 'What Makes a Support Request Faster to Resolve',
+        heading: 'What Gets a Request Resolved Faster',
         paragraphs: [
-          'Requests that include specifics — a transaction reference for a payment issue, the approximate time an error occurred, or which device and platform you were using — are generally resolved faster than a general description, since the support team doesn\'t need a follow-up message just to gather basic details.',
-          'For account access or payment issues specifically, having your registered mobile number ready from the start avoids an extra back-and-forth step before the actual issue can even be looked into.'
+          'Specifics help — a transaction reference for a payment issue, roughly when it happened, which device and platform you were on. That level of detail means support doesn\'t need a follow-up message just to gather basics.',
+          'For account or payment issues specifically, having your registered number ready from the start skips an extra back-and-forth before the real issue even gets looked at.'
         ]
       }
     ],
     faqs: [
-      { q: 'Is BDG Win support available 24/7?', a: 'Yes, BDG Win support is reachable around the clock through live chat and email.' },
-      { q: 'What information should I include when contacting support?', a: 'Your registered mobile number and a brief description of the issue help speed up the response.' },
-      { q: 'Where can I find quick answers without contacting support?', a: 'The Help Center and FAQs pages cover common account, deposit and withdrawal questions.' },
-      { q: 'How do I contact BDG Win support directly?', a: 'Use the Contact page to reach the support team by your preferred channel.' },
-      { q: 'What details make a support request resolve faster?', a: 'Including a transaction reference, approximate time of the issue, and device or platform used helps avoid follow-up questions.' },
-      { q: 'Do VIP tiers get a different support channel?', a: 'Yes, higher VIP tiers typically get a dedicated support contact instead of the general queue.' }
+      { q: 'Is support around 24/7?', a: 'Yes — reachable any time through live chat and email.' },
+      { q: 'What should I include in a support message?', a: 'Your registered number and a short description of the issue.' },
+      { q: 'Is there a way to get answers without waiting on support?', a: 'Yes — Help Center and FAQs cover most common account, deposit and withdrawal questions.' },
+      { q: 'What\'s the direct way to reach the team?', a: 'The Contact page, through your preferred channel.' },
+      { q: 'What details speed up a resolution?', a: 'A transaction reference, rough timing, and the device or platform involved.' },
+      { q: 'Do VIP accounts get a different support line?', a: 'Yes — higher tiers get a dedicated contact instead of the general queue.' }
     ],
     related: [
       { label: 'Help Center', url: '/help-center' },
@@ -1878,36 +1878,36 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/contact-us': {
-    metaTitle: 'Contact BDG Win – Reach Our Support Team',
+    metaTitle: '6 Club Contact – Reach 6 Club Customer Care',
     metaDescription:
-      'Contact BDG Win for player support, affiliate or agent program applications, or general platform questions.',
-    keywords: ['BDG Win Contact'],
+      '6 Club Contact details for player support, affiliate or agent program applications, or general platform questions.',
+    keywords: ['6 Club Contact', '6 Club Customer Care'],
     eyebrow: 'Contact',
-    h1: 'Contact BDG Win',
-    intro: 'Reach BDG Win for account support, partnership applications, or general questions about the platform.',
+    h1: 'Contact 6 Club',
+    intro: 'Reach 6 Club for account support, partnership applications, or general questions about the platform.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Ways to Reach Us',
+        heading: 'Ways to Get in Touch',
         paragraphs: [
-          `Player support requests, affiliate or agent program applications, and general platform questions can all be submitted through this page. Email us directly at ${'support@bdgwin.ai'} with your registered mobile number and a description of your question, and our team will follow up as soon as possible.`
+          `Player support requests, affiliate or agent program applications, and general platform questions all funnel through this page. Email ${'support@6club.org.in'} with your registered mobile number and a short description of your question, and the team follows up as quickly as possible.`
         ]
       },
       {
-        heading: 'Choosing the Right Reason for Your Message',
+        heading: 'Picking the Right Category for Your Message',
         paragraphs: [
-          'A player support question, a partnership application and a general platform question all move through the same inbox but are prioritized differently — account-access and payment issues are treated as time-sensitive, while partnership applications and general questions are reviewed in the order received.',
-          'Mentioning which category your message falls into up front, alongside your registered mobile number for account-related questions, helps route it to the right response faster.'
+          'Player support, partnership applications and general questions all land in the same inbox but get prioritized differently — account-access and payment issues are treated as time-sensitive, while partnership applications and general questions go in received order.',
+          'Flagging which category your message falls under upfront, along with your registered number for account questions, routes it to the right response faster.'
         ]
       }
     ],
     faqs: [
-      { q: 'How do I contact BDG Win support?', a: 'Email support@bdgwin.ai with your registered mobile number and a description of your question.' },
-      { q: 'Can I apply for the affiliate or agent program through this page?', a: 'Yes, partnership applications for the Affiliate and Agent Programs are submitted through the same contact channel.' },
-      { q: 'How quickly does BDG Win respond?', a: 'Our team follows up as soon as possible; urgent account issues are prioritized.' },
-      { q: 'Is there a self-service option before contacting support?', a: 'Yes, check the Help Center and FAQs pages for answers to common questions first.' },
-      { q: 'Are all contact messages treated with the same priority?', a: 'No, account-access and payment issues are treated as time-sensitive, while partnership and general questions are reviewed in order received.' },
-      { q: 'Should I mention what my message is about upfront?', a: 'Yes, stating your category and registered mobile number for account questions helps route your message faster.' }
+      { q: 'What\'s the best way to reach support?', a: `Email ${'support@6club.org.in'} with your registered mobile number and a description of the issue.` },
+      { q: 'Can affiliate or agent applications go through here too?', a: 'Yes — both go through the same contact channel as general support.' },
+      { q: 'How fast is the typical response?', a: 'As quickly as possible; urgent account issues get prioritized first.' },
+      { q: 'Is there a faster self-service option?', a: 'Yes — check Help Center and FAQs for answers to common questions first.' },
+      { q: 'Does every message get treated with the same urgency?', a: 'No — account-access and payment issues are time-sensitive; partnership and general questions go in order received.' },
+      { q: 'Should I state my category upfront?', a: 'Yes — that, plus your registered number for account questions, gets a faster response.' }
     ],
     related: [
       { label: 'Support', url: '/support' },
@@ -1917,39 +1917,39 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/faqs': {
-    metaTitle: 'BDG Win FAQs – Frequently Asked Questions',
+    metaTitle: '6 Club FAQ – Frequently Asked Questions',
     metaDescription:
-      'Answers to the most common BDG Win questions covering registration, deposits, withdrawals, rewards and security.',
-    keywords: ['BDG Win FAQs', 'BDG Win FAQ'],
+      'Answers to the most common 6 Club FAQ topics covering registration, deposits, withdrawals, rewards and security.',
+    keywords: ['6 Club FAQs', '6 Club FAQ'],
     eyebrow: 'FAQs',
-    h1: 'BDG Win Frequently Asked Questions',
-    intro: 'Common questions about registering, playing and managing your BDG Win account in one place.',
+    h1: '6 Club Frequently Asked Questions',
+    intro: 'Common questions about registering, playing and managing your 6 Club account in one place.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'Before You Start',
+        heading: 'What This Page Covers',
         paragraphs: [
-          'This page collects the questions asked most often across registration, payments, rewards and security. For a deeper walkthrough of any topic, the linked guides below cover each process step by step.'
+          'The questions asked most often about registration, payments, rewards and security are collected right here. For a deeper walkthrough on any of them, the linked guides below break each process down step by step.'
         ]
       },
       {
-        heading: 'How to Use This Page',
+        heading: 'How to Get the Most Out of This Page',
         paragraphs: [
-          'Each answer here is intentionally short — the goal is to confirm the basic shape of an answer quickly, not replace the full guide on a topic. Where a question needs more detail than fits in a short answer, it links through to the page built specifically around that topic.',
-          'If a question you have isn\'t listed here, it\'s worth checking the Help Center first, since it\'s organized by topic area rather than by individual question and may cover something more specific than what\'s collected on this page.'
+          'Every answer here is kept short on purpose — the goal is confirming the shape of an answer quickly, not replacing the full guide on a topic. Where a question needs more room than a short answer allows, it links straight to the page built around it.',
+          'Not seeing your exact question? Check the Help Center next — it\'s organized by topic area rather than by individual question, so it may cover something more specific than what\'s gathered here.'
         ]
       }
     ],
     faqs: [
-      { q: 'How do I register on BDG Win?', a: 'Enter your mobile number, verify with the OTP sent to your device, and set a password — full steps are on the Register page.' },
-      { q: 'How do I download the BDG Win app?', a: 'Android users install the APK, iOS users follow a guided browser installation, and desktop needs no download — see the Download page.' },
-      { q: 'How long do withdrawals take?', a: 'Most verified BDG Win withdrawal requests are processed the same day, detailed on the Withdrawal Guide page.' },
-      { q: 'What is BDG Win Color Prediction?', a: 'A fast-settling round type on the Lottery Games page where players predict an outcome color, resolving in under a minute.' },
-      { q: 'How does the BDG Win referral program work?', a: 'You earn a share of your invited friends\' activity through your unique referral link — see the Referral Program page.' },
-      { q: 'How do I join the BDG Win VIP program?', a: 'VIP tiers unlock automatically as your account activity grows — see the VIP Program page for how tiers work.' },
-      { q: 'Is BDG Win safe to use?', a: 'BDG Win uses encrypted sessions, verified payment partners and certified fair play standards — see the Security and Fair Play pages for details.' },
-      { q: 'What should I do if I forget my BDG Win password?', a: 'Use the Forgot Password page to reset it through your registered mobile number rather than creating a new account.' },
-      { q: 'Can I set limits on my BDG Win account?', a: 'Yes, deposit limits and cooling-off options are available from account settings — see the Responsible Gaming page.' }
+      { q: 'What are the steps to register?', a: 'Enter your mobile number, confirm the OTP, set a password — full detail on the Register page.' },
+      { q: 'How do I get the app onto my device?', a: 'Android installs the APK, iOS uses a guided browser install, desktop needs nothing at all — see Download.' },
+      { q: 'What\'s the usual withdrawal timeline?', a: 'Most verified requests clear the same day — details on the Withdrawal Guide page.' },
+      { q: 'What exactly is Colour Prediction?', a: 'A fast round type on the Lottery Games page where you predict an outcome colour, settling in under a minute.' },
+      { q: 'How does inviting friends actually pay off?', a: 'You earn a share of what they play through your unique referral link — see Referral Program.' },
+      { q: 'How do VIP tiers get unlocked?', a: 'Automatically, as account activity builds — see the VIP Program page for the mechanics.' },
+      { q: 'Is this platform actually safe?', a: 'Encrypted sessions, verified payment partners and certified fair play standards — see Security and Fair Play.' },
+      { q: 'What do I do about a forgotten password?', a: 'Use Forgot Password to reset it through your registered number — no need for a new account.' },
+      { q: 'Can I cap my own account activity?', a: 'Yes — deposit limits and cooling-off periods live in account settings — see Responsible Gaming.' }
     ],
     related: [
       { label: 'Help Center', url: '/help-center' },
@@ -1959,36 +1959,36 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/news': {
-    metaTitle: 'BDG Win News – Platform Updates',
+    metaTitle: '6 Club News – Platform Updates & Guide',
     metaDescription:
-      'Read the latest BDG Win news covering platform updates, new game releases and policy changes.',
-    keywords: ['BDG Win News'],
+      'Read the latest 6 Club news covering platform updates, new game releases and policy changes.',
+    keywords: ['6 Club News', '6 Club Platform'],
     eyebrow: 'News',
-    h1: 'BDG Win News',
-    intro: 'Platform-level news covering updates, releases and policy changes across BDG Win.',
+    h1: '6 Club News',
+    intro: 'Platform-level news covering updates, releases and policy changes across 6 Club.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'What You Will Find Here',
+        heading: 'What Lives on This Page',
         paragraphs: [
-          'This page tracks broader platform news — payment method updates, new game category launches and policy changes — separate from the shorter, more frequent notices on our Announcements page. For educational articles and strategy content, visit the Blog.'
+          'Broader platform news — payment method updates, new category launches, policy changes — sits here, separate from the shorter, more frequent notices on Announcements. For educational and strategy content, that\'s the Blog instead.'
         ]
       },
       {
-        heading: 'Why We Separate News From Announcements and the Blog',
+        heading: 'Why Three Separate Pages Instead of One',
         paragraphs: [
-          'Splitting updates across three pages is intentional rather than redundant: News is for changes that affect how the platform works, Announcements is for short-lived operational notices like maintenance windows, and the Blog is for longer explainer content that doesn\'t change over time the way a news item does.',
-          'If you\'re only interested in substantive changes — a new payment method, a new game category, or a policy update — this page is the fastest way to catch up without wading through day-to-day operational notices.'
+          'This split is deliberate, not redundant: News covers changes that affect how the platform actually works, Announcements handles short-lived operational notices like maintenance windows, and the Blog carries longer explainer content that doesn\'t shift over time the way a news item does.',
+          'If substantive changes are all you care about — a new payment method, a new category, a policy update — this page gets you caught up without wading through day-to-day operational chatter.'
         ]
       }
     ],
     faqs: [
-      { q: 'How is News different from Announcements?', a: 'News covers broader platform updates and releases, while Announcements covers shorter, more frequent operational notices.' },
-      { q: 'Does BDG Win News cover new game releases?', a: 'Yes, major new game category launches are covered here alongside other platform updates.' },
-      { q: 'Where do I find gaming strategy content instead?', a: 'Educational and strategy articles are published on the BDG Win Blog.' },
-      { q: 'How often is this page updated?', a: 'It updates as significant platform changes occur, rather than on a fixed schedule.' },
-      { q: 'Why does BDG Win separate News, Announcements and the Blog?', a: 'Each serves a different purpose — substantive changes, short-lived operational notices, and longer explainer content, respectively.' },
-      { q: 'Is News the fastest way to catch up on major changes?', a: 'Yes, since it focuses on substantive updates rather than day-to-day operational notices.' }
+      { q: 'What separates News from Announcements?', a: 'News covers broader updates and releases; Announcements covers shorter, more frequent operational notices.' },
+      { q: 'Are new game launches covered here?', a: 'Yes — major category launches sit here alongside other platform updates.' },
+      { q: 'Where\'s the strategy and educational content?', a: 'On the Blog.' },
+      { q: 'How often does this page get updated?', a: 'Whenever something significant happens, rather than on a fixed schedule.' },
+      { q: 'Why split content across News, Announcements and the Blog?', a: 'Each serves a different purpose — substantive changes, short-lived notices, and longer explainers, respectively.' },
+      { q: 'Is this the fastest way to catch up on major changes?', a: 'Yes — it\'s focused on substance rather than daily operational notices.' }
     ],
     related: [
       { label: 'Announcements', url: '/announcements' },
@@ -1998,37 +1998,37 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/leaderboard': {
-    metaTitle: 'BDG Win Leaderboard – Top Players This Period',
+    metaTitle: '6 Club Leaderboard – Top VIP Players This Period',
     metaDescription:
-      'See the current BDG Win leaderboard ranking top players by activity and winnings across game categories.',
-    keywords: ['BDG Win Leaderboard'],
+      'See the current 6 Club Leaderboard ranking top players by activity and winnings across every game category.',
+    keywords: ['6 Club Leaderboard', '6 Club VIP'],
     eyebrow: 'Leaderboard',
-    h1: 'BDG Win Leaderboard',
-    intro: 'The BDG Win leaderboard ranks top players by activity across all game categories for the current period.',
+    h1: '6 Club Leaderboard',
+    intro: 'The 6 Club leaderboard ranks top players by activity across all game categories for the current period.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'How Ranking Works',
+        heading: 'What Determines Your Rank',
         paragraphs: [
-          'Leaderboard position is based on combined activity and winnings across BDG Win game categories during the current ranking period. Standings reset at the start of each new period, giving every player a fresh chance to climb the rankings.',
-          'Top-ranked players may be featured in seasonal promotions in addition to the standard rewards earned through normal play.'
+          'Position comes from combined activity and winnings across every category during the current period. Standings reset at the start of each new one, so everyone gets a clean slate to climb from.',
+          'Top spots sometimes get featured in seasonal promotions on top of the standard rewards earned through normal play.'
         ]
       },
       {
-        heading: 'Climbing the Rankings Over a Period',
+        heading: 'How to Actually Move Up',
         paragraphs: [
-          'Because ranking combines activity and winnings across every category rather than just one, there\'s no single "best" category for moving up — steady play across a favorite category counts the same as the same volume spread across several. What matters is the combined total by the time the period closes.',
-          'Since standings reset at the start of each new period, a slow start doesn\'t rule out a strong finish — many players find their position shifts the most in the final stretch of a ranking period as combined totals catch up.'
+          'Since ranking combines activity and winnings across every category rather than crediting just one, there\'s no single "best" category to chase — steady play in a favorite category counts the same as the same volume spread across several. It\'s the combined total at the period\'s close that matters.',
+          'And because standings reset each period, a slow start doesn\'t rule out a strong finish — plenty of players see the biggest jumps happen in the final stretch as totals catch up.'
         ]
       }
     ],
     faqs: [
-      { q: 'How is BDG Win leaderboard position calculated?', a: 'Ranking is based on combined activity and winnings across all game categories during the current period.' },
-      { q: 'Does the leaderboard reset?', a: 'Yes, standings reset at the start of each new ranking period.' },
-      { q: 'Do top leaderboard players get extra rewards?', a: 'Top-ranked players may be featured in seasonal promotions alongside standard reward earnings.' },
-      { q: 'Which game categories count toward the leaderboard?', a: 'Activity across all BDG Win game categories contributes to your leaderboard position.' },
-      { q: 'Is one game category better than another for climbing the leaderboard?', a: 'No, combined activity and winnings across every category count equally toward your position.' },
-      { q: 'Can a slow start still lead to a strong leaderboard finish?', a: 'Yes, since ranking reviews the combined total for the full period rather than an early pace.' }
+      { q: 'What goes into calculating rank?', a: 'Combined activity and winnings across every category during the current period.' },
+      { q: 'Does the board reset periodically?', a: 'Yes — standings reset at the start of each new ranking period.' },
+      { q: 'Is there a bonus for finishing near the top?', a: 'Top spots may be featured in seasonal promotions, on top of standard rewards.' },
+      { q: 'Which categories actually count toward it?', a: 'All of them — activity across every category contributes.' },
+      { q: 'Is one category a better bet for climbing than another?', a: 'No — combined activity and winnings across every category count equally.' },
+      { q: 'Can a weak start still turn into a strong finish?', a: 'Yes — the review covers the full period total, not early pace.' }
     ],
     related: [
       { label: 'Popular Games', url: '/games/popular' },
@@ -2038,42 +2038,42 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/gift-code': {
-    metaTitle: 'BDG Win Gift Code – Redeem Bonus Codes',
+    metaTitle: '6 Club Gift Code – Redeem Bonus Codes Today',
     metaDescription:
-      'How to redeem a BDG Win gift code for bonus credit, and where new codes are announced.',
-    keywords: ['BDG Win Gift Code', 'BDG Win Bonus', 'BDG Bonus'],
+      'How to redeem a 6 Club Gift Code for bonus wallet credit, and where new 6 Club Gift Code Today drops are announced.',
+    keywords: ['6 Club Gift Code', '6 Club Bonus', '6 Club Gift Code Today'],
     eyebrow: 'Gift Codes',
-    h1: 'BDG Win Gift Code',
-    intro: 'Redeem BDG Win gift codes from your account dashboard for bonus wallet credit.',
+    h1: '6 Club Gift Code',
+    intro: 'Redeem 6 Club gift codes from your account dashboard for bonus wallet credit.',
     breadcrumbTrail: [],
     sections: [
       {
         heading: 'Redeeming a Gift Code',
         paragraphs: [
-          'Enter a valid gift code in the redemption field on your account dashboard. Codes are typically time-limited and single-use per account, crediting bonus balance directly to your wallet once accepted.',
-          'New gift codes are announced through the Announcements page and official BDG Win social channels — always confirm a code through an official source before entering it.'
+          'Type a valid code into the redemption field on your dashboard. Codes are typically time-limited and single-use per account, crediting bonus balance straight to your wallet once accepted.',
+          'New codes surface on the Announcements page and official social channels — always confirm a code against an official source before typing it in.'
         ],
         image: {
-          src: '/images/screenshots/bdgwin-lottery-win-popup.webp',
-          alt: 'BDG Win bonus confirmation popup showing a credited bonus amount',
-          caption: 'A BDG Win bonus confirmation popup — the same style of instant credit you see once a gift code or bonus is accepted.'
+          src: '/images/screenshots/6club-lottery-win-popup.webp',
+          alt: '6 Club bonus confirmation popup showing a credited bonus amount',
+          caption: 'A 6 Club bonus confirmation popup — the same style of instant credit you see once a gift code or bonus is accepted.'
         }
       },
       {
-        heading: 'Avoiding Invalid or Unofficial Codes',
+        heading: 'Dodging Fake or Expired Codes',
         paragraphs: [
-          'Because gift codes are simple to share, unofficial versions and expired codes circulate more than official ones on any given day — the only way to confirm a code is genuinely current is checking it against the Announcements page or an official BDG Win social channel directly, rather than a forwarded message or third-party post.',
-          'If a code doesn\'t redeem, the most common reasons are that it has already expired, already been used on that account, or was never an official code to begin with — checking the Announcements page resolves most of these quickly.'
+          'Codes are easy to forward, which means unofficial and expired versions tend to outnumber genuinely live ones on any given day. The only real way to confirm one is current is checking it directly against the Announcements page or an official social channel — not a forwarded message or random third-party post.',
+          'If a code refuses to redeem, it\'s usually one of three things: already expired, already used on that account, or never official in the first place. The Announcements page clears up most of these fast.'
         ]
       }
     ],
     faqs: [
-      { q: 'Where do I redeem a BDG Win gift code?', a: 'Gift codes are entered in the redemption field on your account dashboard.' },
-      { q: 'Do BDG Win gift codes expire?', a: 'Yes, most gift codes are time-limited and stop working after their listed expiry.' },
-      { q: 'Can I use the same gift code twice?', a: 'No, gift codes are generally single-use per account.' },
-      { q: 'Where are new gift codes announced?', a: 'New codes are posted on the Announcements page and official BDG Win social channels.' },
-      { q: 'Why might a gift code fail to redeem?', a: 'The most common reasons are an expired code, a code already used on that account, or a code that was never official.' },
-      { q: 'How do I confirm a gift code is genuinely official?', a: 'Check it against the Announcements page or an official BDG Win social channel before entering it.' }
+      { q: 'Where do codes actually get entered?', a: 'In the redemption field on your account dashboard.' },
+      { q: 'Do codes expire?', a: 'Yes — most are time-limited and stop working past their listed expiry.' },
+      { q: 'Can the same code be reused?', a: 'No — generally single-use per account.' },
+      { q: 'Where do new codes get announced?', a: 'The Announcements page and official social channels.' },
+      { q: 'Why would a code fail to redeem?', a: 'Usually it\'s expired, already used, or was never official to begin with.' },
+      { q: 'How do I confirm a code is genuine before using it?', a: 'Cross-check it against the Announcements page or an official social channel first.' }
     ],
     related: [
       { label: 'Announcements', url: '/announcements' },
@@ -2083,36 +2083,36 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/announcements': {
-    metaTitle: 'BDG Win Announcements – Latest Notices',
+    metaTitle: '6 Club Announcements – Latest Platform Notices',
     metaDescription:
-      'Short, frequent BDG Win announcements covering maintenance windows, new codes and quick policy notices.',
-    keywords: ['BDG Win Announcements'],
+      'Short, frequent 6 Club announcements covering maintenance windows, new gift codes and quick policy notices.',
+    keywords: ['6 Club Announcements', '6 Club Promotions'],
     eyebrow: 'Announcements',
-    h1: 'BDG Win Announcements',
-    intro: 'Short-form notices covering day-to-day BDG Win updates, separate from full News articles.',
+    h1: '6 Club Announcements',
+    intro: 'Short-form notices covering day-to-day 6 Club updates, separate from full News articles.',
     breadcrumbTrail: [],
     sections: [
       {
-        heading: 'What Gets Posted Here',
+        heading: 'What Shows Up Here',
         paragraphs: [
-          'Maintenance windows, new gift code drops, and quick policy notices are posted here as they happen. For longer platform updates and feature launches, check the News page instead.'
+          'Maintenance windows, new gift code drops, quick policy notices — all posted here as they happen. For bigger platform updates and feature launches, News is the page you want instead.'
         ]
       },
       {
-        heading: 'Making This Page Part of Your Routine',
+        heading: 'Making a Habit of Checking In',
         paragraphs: [
-          'Because notices here are short-lived by nature — a maintenance window closes, a gift code expires — checking in periodically catches more than searching after the fact once something\'s already changed. Pairing this page with the Gift Code page is a reasonable habit if bonus codes specifically are what you\'re watching for.',
-          'If a notice affects account access directly, such as a maintenance window, it\'s generally posted here with enough lead time to plan a session around it rather than being a surprise mid-play.'
+          'These notices are short-lived by design — a maintenance window closes, a code expires — so a periodic glance catches far more than searching after the fact once something\'s already changed. Pairing this page with Gift Code is a solid habit if bonus codes specifically are what you\'re after.',
+          'Anything that touches account access directly, like a maintenance window, generally posts here with enough lead time to plan around it rather than surprising you mid-session.'
         ]
       }
     ],
     faqs: [
-      { q: 'What kind of updates appear in Announcements?', a: 'Maintenance windows, new gift code drops and quick policy notices are posted here.' },
-      { q: 'How is Announcements different from News?', a: 'Announcements covers short, frequent notices, while News covers broader platform updates and releases.' },
-      { q: 'Are gift codes always announced here first?', a: 'New gift codes are typically posted here alongside official social channels.' },
-      { q: 'How often is this page updated?', a: 'It updates frequently, as short notices arise, more often than the News page.' },
-      { q: 'Will I get advance notice of a maintenance window?', a: 'Maintenance windows are generally posted here with enough lead time to plan around them.' },
-      { q: 'Should I check this page regularly if I want gift codes?', a: 'Yes, pairing this page with the Gift Code page is a reasonable habit for catching new codes.' }
+      { q: 'What sort of things get posted here?', a: 'Maintenance windows, new gift code drops, and quick policy notices.' },
+      { q: 'How does this differ from News?', a: 'This covers short, frequent notices; News covers broader updates and releases.' },
+      { q: 'Do gift codes show up here first?', a: 'Typically yes, alongside official social channels.' },
+      { q: 'How frequently does this page change?', a: 'Often — more frequently than News, since notices here are short-lived.' },
+      { q: 'Will maintenance be flagged ahead of time?', a: 'Generally yes, with enough lead time to plan a session around it.' },
+      { q: 'Should I check regularly if I\'m chasing gift codes?', a: 'Yes — pairing this with the Gift Code page is a good habit.' }
     ],
     related: [
       { label: 'News', url: '/news' },
@@ -2122,22 +2122,22 @@ const pagesData: Record<string, PageEntry> = {
   },
 
   '/sitemap': {
-    metaTitle: 'BDG Win Site Map – Full Page Directory',
+    metaTitle: '6 Club Site Map – Full 6 Club Platform Directory',
     metaDescription:
-      'A complete directory of every BDG Win page, organized by games, rewards, account and support sections.',
-    keywords: ['BDG Win Site Map'],
+      'A complete directory of every 6 Club page, organized by games, rewards, account and support sections.',
+    keywords: ['6 Club Site Map', '6 Club Platform'],
     eyebrow: 'Site Map',
-    h1: 'BDG Win Site Map',
-    intro: 'A full directory of BDG Win pages, organized by section for quick navigation.',
+    h1: '6 Club Site Map',
+    intro: 'A full directory of 6 Club pages, organized by section for quick navigation.',
     breadcrumbTrail: [],
     sections: [],
     faqs: [
-      { q: 'What is this page for?', a: 'The Site Map lists every BDG Win page in one place, organized by section, to help you find any page quickly.' },
-      { q: 'Is this different from sitemap.xml?', a: 'Yes, this is a human-readable directory; sitemap.xml is the machine-readable version used by search engines.' },
-      { q: 'Where do I find game category pages?', a: 'All game category pages are grouped together in the Games section of this directory.' },
-      { q: 'Where do I find legal and policy pages?', a: 'Privacy Policy, Terms and Cookies pages are grouped in the Legal section below.' },
-      { q: 'Where do I find reward and VIP-related pages?', a: 'Rewards, the VIP Program and Promotions are grouped together in the Rewards & VIP section.' },
-      { q: 'Where are the blog and article pages listed?', a: 'Blog categories and the main Blog listing are grouped in the Blog section of this directory.' }
+      { q: 'What\'s the purpose of this page?', a: 'It lists every page on the site in one place, grouped by section, so anything is quick to find.' },
+      { q: 'How is this different from sitemap.xml?', a: 'This is the human-readable version; sitemap.xml is the machine-readable one search engines use.' },
+      { q: 'Where are the game category pages?', a: 'Grouped together under the Games section below.' },
+      { q: 'Where do legal pages live?', a: 'Privacy Policy, Terms and Cookies sit together in the Legal section.' },
+      { q: 'Where are rewards and VIP pages grouped?', a: 'Rewards, the VIP Program and Promotions sit together in the Rewards & VIP section.' },
+      { q: 'Where\'s the blog listed?', a: 'Blog categories and the main listing are grouped in the Blog section.' }
     ],
     related: [
       { label: 'Home', url: '/' },

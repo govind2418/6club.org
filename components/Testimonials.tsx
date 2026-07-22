@@ -11,7 +11,7 @@ export function Testimonials({ testimonials }: { testimonials: TestimonialItem[]
     <section className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
       <div className="mb-10 text-center">
         <p className="section-eyebrow">Player Voices</p>
-        <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What BDG Win Players Are Saying</h2>
+        <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What 6 Club Players Are Saying</h2>
       </div>
       <div className="grid gap-6 lg:grid-cols-3">
         {testimonials.map((t, i) => (

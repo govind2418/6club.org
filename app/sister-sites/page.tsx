@@ -9,20 +9,19 @@ import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
 import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 
 const PATH = '/sister-sites';
-const TITLE = 'BDG Win Sister Sites – Partner Gaming Platforms';
+const TITLE = '6 Club Sister Sites – Partner Gaming Platforms';
 const DESCRIPTION =
-  'BDG Win sister and partner gaming platforms, including Sikkim Game, Six Club, DG Club, Daman Game and more.';
+  '6 Club sister and partner gaming platforms, including Sikkim Game, DG Club, Daman Game and more.';
 
 export const metadata: Metadata = buildMeta({
   title: TITLE,
   description: DESCRIPTION,
   path: PATH,
-  keywords: ['BDG Win Sister Sites', 'BDG Win Partners']
+  keywords: ['6 Club Sister Sites', '6 Club Partners']
 });
 
 const sisterSites: { name: string; url: string }[] = [
   { name: 'Sikkim Game', url: 'https://sikkimgame.co.in' },
-  { name: 'Six Club', url: 'https://sixclub.in' },
   { name: 'DG Club', url: 'https://dgclub.in' },
   { name: 'Daman Game', url: 'https://damangame.in' },
   { name: 'Diuwin', url: 'https://diuwin.in.net' },
@@ -49,9 +48,9 @@ export default function SisterSitesPage() {
       <JsonLd schemas={schemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
       <PageHero
-        h1="BDG Win Sister Sites"
+        h1="6 Club Sister Sites"
         intro={linkifyBrandOnce(
-          'BDG Win is part of a wider family of gaming platforms. Explore our sister and partner sites below.',
+          '6 Club is part of a wider family of gaming platforms. Explore our sister and partner sites below.',
           createLinkifyTracker()
         )}
         pageEyebrow="Partners"
@@ -73,7 +72,7 @@ export default function SisterSitesPage() {
           ))}
         </div>
         <p className="mt-8 text-xs leading-relaxed text-grey/60">
-          These are independent partner platforms. BDG Win is not responsible for the content, availability or
+          These are independent partner platforms. 6 Club is not responsible for the content, availability or
           practices of external sites linked above.
         </p>
       </section>

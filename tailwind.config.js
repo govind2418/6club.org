@@ -7,16 +7,26 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: '#070707',
-        card: '#111111',
+        bg: '#090909',
+        bgSection: '#111113',
+        bgSectionAlt: '#17171A',
+        card: '#1B1B1F',
+        cardAlt: '#222226',
         gold: {
-          DEFAULT: '#F4C542',
-          dark: '#C89616'
+          50: '#FFF0A8',
+          100: '#FFD86C',
+          DEFAULT: '#F4C84A',
+          mid: '#D9A628',
+          dark: '#B88216',
+          deep: '#8E6212'
         },
-        accent: '#8B5E17',
-        redx: '#7A0B0B',
+        accent: '#F7941D',
+        success: '#3CCB6C',
+        warning: '#FFB52E',
+        redx: '#FF5252',
         ink: '#FFFFFF',
-        grey: '#C7C7C7'
+        grey: '#CFCFCF',
+        grey2: '#A5A5A5'
       },
       fontFamily: {
         heading: ['Cinzel', 'serif'],
@@ -24,11 +34,14 @@ module.exports = {
         btn: ['Poppins', 'sans-serif']
       },
       boxShadow: {
-        glow: '0 0 24px rgba(255,210,80,.35)',
-        goldsm: '0 0 0 1px rgba(255,212,80,.15)'
+        glow: '0 0 45px rgba(244,200,74,.25)',
+        goldsm: '0 0 0 1px rgba(217,166,40,.15)',
+        btnGold: '0 8px 28px rgba(244,200,74,.35)',
+        card: '0 15px 45px rgba(0,0,0,.45)'
       },
       borderColor: {
-        goldline: 'rgba(255,212,80,.15)'
+        goldline: 'rgba(217,166,40,.18)',
+        borderDark: '#2C2C31'
       },
       keyframes: {
         floaty: {
@@ -41,8 +54,8 @@ module.exports = {
           '100%': { transform: 'translateY(-140px) rotate(180deg)', opacity: '0' }
         },
         pulseGlow: {
-          '0%,100%': { boxShadow: '0 0 10px rgba(255,210,80,.35)' },
-          '50%': { boxShadow: '0 0 28px rgba(255,210,80,.6)' }
+          '0%,100%': { boxShadow: '0 0 10px rgba(244,200,74,.35)' },
+          '50%': { boxShadow: '0 0 35px rgba(244,200,74,.45)' }
         },
         fadeUp: {
           '0%': { opacity: '0', transform: 'translateY(16px)' },

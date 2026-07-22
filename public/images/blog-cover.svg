@@ -14,6 +14,6 @@
   <circle cx="240" cy="140" r="260" fill="url(#bcGlow)"/>
   <rect x="0" y="0" width="800" height="450" fill="none" stroke="rgba(255,212,80,.15)" stroke-width="2"/>
   <path d="M120 260 L134 292 L168 296 L142 320 L150 354 L120 336 L90 354 L98 320 L72 296 L106 292 Z" fill="url(#bcGold)"/>
-  <text x="180" y="278" font-family="Georgia, serif" font-size="20" fill="#8a8a8a" letter-spacing="2">BDG WIN</text>
+  <text x="180" y="278" font-family="Georgia, serif" font-size="20" fill="#8a8a8a" letter-spacing="2">6 CLUB</text>
   <text x="180" y="308" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#ffffff">Blog</text>
 </svg>
