@@ -12,7 +12,7 @@ export const siteConfig = {
     telegram: 'https://t.me/6club'
   },
   logo: '/images/logo.png',
-  ogImage: '/images/og-cover.png',
+  ogImage: '/images/og-cover.jpg',
   themeColor: '#F4C84A',
   locale: 'en_US',
   foundingYear: 2021,

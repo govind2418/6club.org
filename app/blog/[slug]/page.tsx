@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: post.excerpt,
     path: `/blog/${post.slug}`,
     type: 'article',
-    image: '/images/blog-cover.png',
+    image: '/images/blog-cover.jpg',
     imageWidth: '800',
     imageHeight: '450',
     keywords: ['6 Club', ...post.tags.map((tag) => `6 Club ${tag.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}`)]
@@ -60,7 +60,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     articleSchema({
       title: post.title,
       description: post.excerpt,
-      image: '/images/blog-cover.png',
+      image: '/images/blog-cover.jpg',
       path,
       datePublished: post.date,
       dateModified: post.dateModified,
@@ -99,7 +99,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </header>
 
         <img
-          src="/images/blog-cover.svg"
+          src="/images/blog-cover.webp"
           alt=""
           width={800}
           height={450}

@@ -1,10 +1,14 @@
 import type { Metadata, Viewport } from 'next';
+import { Sora, Inter } from 'next/font/google';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { MobileStickyCta } from '@/components/layout/MobileStickyCta';
 import { siteConfig } from '@/lib/site.config';
 import navData from '@/data/nav.data';
 import './globals.css';
+
+const sora = Sora({ subsets: ['latin'], weight: ['500', '600', '700', '800'], variable: '--font-sora' });
+const inter = Inter({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
@@ -30,7 +34,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${sora.variable} ${inter.variable}`}>
       <body className="bg-bg text-white antialiased pb-20 lg:pb-0">
         <a href="#main-content" className="skip-link">
           Skip to main content

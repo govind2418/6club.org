@@ -596,6 +596,19 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Promo Banner */}
+      <section className="mx-auto max-w-7xl px-5 lg:px-8">
+        <Image
+          src="/images/6club-promo-banner.webp"
+          alt="6 Club — one account, endless possibilities. Play more, win more."
+          width={1536}
+          height={1024}
+          sizes="(min-width: 1024px) 1280px, 100vw"
+          className="h-auto w-full rounded-2xl border border-goldline object-cover shadow-glow"
+          loading="lazy"
+        />
+      </section>
+
       {/* Testimonials */}
       <Testimonials testimonials={homeData.testimonials} />
 

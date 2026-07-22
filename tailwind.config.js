@@ -29,9 +29,9 @@ module.exports = {
         grey2: '#A5A5A5'
       },
       fontFamily: {
-        heading: ['Cinzel', 'serif'],
-        body: ['Inter', 'sans-serif'],
-        btn: ['Poppins', 'sans-serif']
+        heading: ['var(--font-sora)', 'sans-serif'],
+        body: ['var(--font-inter)', 'sans-serif'],
+        btn: ['var(--font-sora)', 'sans-serif']
       },
       boxShadow: {
         glow: '0 0 45px rgba(244,200,74,.25)',

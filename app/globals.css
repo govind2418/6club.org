@@ -35,17 +35,8 @@
   body {
     background-color: var(--bg);
     color: #ffffff;
-    font-family: 'Cinzel', Georgia, 'Times New Roman', serif;
-  }
-
-  body,
-  p,
-  li,
-  span,
-  a,
-  input,
-  textarea {
-    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+      sans-serif;
   }
 
   h1,
@@ -54,8 +45,9 @@
   h4,
   h5,
   h6 {
-    font-family: Georgia, 'Times New Roman', 'Cinzel', serif;
-    letter-spacing: 0.02em;
+    font-family: var(--font-sora), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+      sans-serif;
+    letter-spacing: -0.01em;
   }
 
   ::selection {
@@ -75,12 +67,12 @@
 
 @layer components {
   .btn-font {
-    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-sora), 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
 
   .btn-gold {
     @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold tracking-wide text-bg transition-all duration-300;
-    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-sora), 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background: linear-gradient(135deg, var(--gold), var(--gold-mid), var(--gold-dark));
     box-shadow: 0 8px 28px rgba(244, 200, 74, 0.35);
   }
@@ -93,7 +85,7 @@
 
   .btn-outline {
     @apply inline-flex items-center justify-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold tracking-wide text-gold transition-all duration-300;
-    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-sora), 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     border-color: var(--border-gold);
     background: transparent;
   }
@@ -118,7 +110,7 @@
 
   .section-eyebrow {
     @apply inline-block text-xs font-semibold uppercase tracking-[0.3em] text-gold;
-    font-family: Poppins, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--font-sora), 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   }
 
   .gold-text {

@@ -2,7 +2,7 @@ export function PostCard({ post }: { post: { slug: string; date: string; title: 
   return (
     <a href={`/blog/${post.slug}`} className="card-surface flex flex-col overflow-hidden">
       <img
-        src="/images/blog-cover.svg"
+        src="/images/blog-cover.webp"
         alt=""
         width={800}
         height={450}
