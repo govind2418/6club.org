@@ -2,7 +2,7 @@ import type { BreadcrumbItem } from '@/lib/breadcrumb';
 
 export function Breadcrumb({ breadcrumb }: { breadcrumb: BreadcrumbItem[] }) {
   return (
-    <nav aria-label="Breadcrumb" className="border-b border-goldline/60 bg-black/40">
+    <nav aria-label="Breadcrumb" className="border-b border-goldline/60 bg-black/40 pt-20 lg:pt-24">
       <ol className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-5 py-3 text-xs text-grey lg:px-8">
         {breadcrumb.map((item, index) => (
           <li key={index} className="flex items-center gap-2">

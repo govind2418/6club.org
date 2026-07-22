@@ -1,4 +1,4 @@
-export interface HomeCategory { title: string; description: string; icon: string; url: string; }
+export interface HomeCategory { title: string; description: string; image: string; imageAlt: string; url: string; }
 export interface HomeFeature { icon: string; title: string; description: string; }
 export interface HomeReward { icon: string; title: string; description: string; url: string; }
 export interface HomeTestimonial { quote: string; name: string; role: string; }
@@ -18,49 +18,57 @@ const homeData: HomeData = {
     {
       title: 'Casino Games',
       description: 'Live-dealer tables and classic table formats on 6 Club, streamed in real time with fully transparent odds.',
-      icon: 'spade',
+      image: '/images/categories/6club-casino-games-icon.webp',
+      imageAlt: '6 Club Casino Games icon',
       url: '/games/casino'
     },
     {
       title: 'Slot Games',
       description: 'Hundreds of themed 6 Club Slots reels, with stakes you control and results that land instantly.',
-      icon: 'coins',
+      image: '/images/categories/6club-slot-games-icon.webp',
+      imageAlt: '6 Club Slot Games icon',
       url: '/games/slots'
     },
     {
       title: 'Lottery & Color Prediction',
       description: '6 Club Lottery draws and Colour Prediction rounds that settle in under sixty seconds.',
-      icon: 'ticket',
+      image: '/images/categories/6club-lottery-icon.webp',
+      imageAlt: '6 Club Lottery icon',
       url: '/games/lottery'
     },
     {
       title: 'Sports Games',
       description: '6 Club Sports markets, pre-match and live, spanning cricket, football, tennis and kabaddi.',
-      icon: 'trophy',
+      image: '/images/categories/6club-sports-games-icon.webp',
+      imageAlt: '6 Club Sports Games icon',
       url: '/games/sports'
     },
     {
       title: 'Crash Games',
       description: '6 Club Aviator-style rounds — watch the multiplier climb and cash out on your terms.',
-      icon: 'rocket',
+      image: '/images/categories/6club-crash-games-icon.webp',
+      imageAlt: '6 Club Crash Games icon',
       url: '/games/crash'
     },
     {
       title: 'Fishing Games',
       description: 'Skill-based 6 Club Mini Games with multiplier catches and the occasional boss-fish payout.',
-      icon: 'anchor',
+      image: '/images/categories/6club-fishing-games-icon.webp',
+      imageAlt: '6 Club Fishing Games icon',
       url: '/games/fishing'
     },
     {
       title: 'Arcade Games',
       description: 'Short, casual 6 Club Mini Games built for a quick round between bigger sessions.',
-      icon: 'gamepad-2',
+      image: '/images/categories/6club-popular-games-icon.webp',
+      imageAlt: '6 Club Arcade Games icon',
       url: '/games/arcade'
     },
     {
       title: 'Popular Games',
       description: 'This month\'s most-played 6 Club Games, ranked by how many players are actually online.',
-      icon: 'flame',
+      image: '/images/categories/6club-popular-games-icon.webp',
+      imageAlt: '6 Club Popular Games icon',
       url: '/games/popular'
     }
   ],

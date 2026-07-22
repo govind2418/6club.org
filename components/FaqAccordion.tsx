@@ -34,10 +34,12 @@ export function FaqAccordion({
   return (
     <section className="mx-auto max-w-4xl px-5 py-16 lg:px-8" aria-labelledby={faqHeadingId}>
       <div className="mb-10 text-center">
-        <p className="section-eyebrow">FAQs</p>
-        <h2 id={faqHeadingId} className="mt-3 text-2xl font-semibold text-white lg:text-3xl">
-          {faqTitle}
-        </h2>
+        <div className="heading-box">
+          <p className="section-eyebrow">FAQs</p>
+          <h2 id={faqHeadingId} className="mt-2 text-2xl font-semibold text-white lg:text-3xl">
+            {faqTitle}
+          </h2>
+        </div>
       </div>
 
       <div className="space-y-3">

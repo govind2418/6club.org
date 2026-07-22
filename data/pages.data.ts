@@ -212,7 +212,7 @@ const pagesData: Record<string, PageEntry> = {
           'Every account starts at the base tier and climbs based on cumulative activity across games and reward cycles combined. Each step up brings some mix of stronger reward multipliers, quicker withdrawal windows and — once you\'re high enough — a named support contact instead of the shared queue.'
         ],
         image: {
-          src: '/images/screenshots/vip-tier-progress.webp',
+          src: '/images/screenshots/6club-vip-tier-progress.webp',
           alt: '6 Club VIP profile screen showing tier badge, experience points and unlocked benefits',
           caption: 'A 6 Club VIP profile showing tier badge, accumulated experience and the benefits that unlock at that level — level-up rewards, a monthly reward and an improved rebate rate.'
         }
@@ -1217,7 +1217,7 @@ const pagesData: Record<string, PageEntry> = {
           'From there, head to Payment Methods, add one, and make your first deposit — that\'s what switches on full access to every game category.'
         ],
         image: {
-          src: '/images/screenshots/register-screen.webp',
+          src: '/images/screenshots/6club-register-screen.webp',
           alt: '6 Club registration form asking for phone number, password and invite code',
           caption: 'The 6 Club registration form, asking for a phone number, a password and confirmation before your account is created.'
         }
@@ -1262,7 +1262,7 @@ const pagesData: Record<string, PageEntry> = {
           'Blanked on your password? Use the Forgot Password page to reset it through your registered number — there\'s no need to create a fresh account.'
         ],
         image: {
-          src: '/images/screenshots/login-screen.webp',
+          src: '/images/screenshots/6club-login-screen.webp',
           alt: '6 Club login screen with phone number and password fields',
           caption: 'The 6 Club login screen, using a registered mobile number and password, with phone or email login tabs.'
         }
@@ -1487,7 +1487,7 @@ const pagesData: Record<string, PageEntry> = {
           'Use a password you haven\'t reused anywhere else, and never hand over login details, OTP codes or your password to anyone claiming to be support — genuine support staff will never ask for it.'
         ],
         image: {
-          src: '/images/screenshots/account-wallet-overview.webp',
+          src: '/images/screenshots/6club-account-wallet-overview.webp',
           alt: '6 Club account overview showing UID, VIP tier, last login timestamp and wallet balance',
           caption: 'A 6 Club account overview showing your UID, VIP tier and last login timestamp alongside your wallet balance — everything tied to one encrypted, password-protected session.'
         }

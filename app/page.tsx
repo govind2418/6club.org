@@ -4,6 +4,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Icon } from '@/components/Icon';
 import { GameCategoryGrid } from '@/components/GameCategoryGrid';
 import { FeatureGrid } from '@/components/FeatureGrid';
+import { NumberedFeatureList } from '@/components/NumberedFeatureList';
 import { Testimonials } from '@/components/Testimonials';
 import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
@@ -19,7 +20,9 @@ import {
 } from '@/lib/schema';
 import homeData from '@/data/home.data';
 
-const shot = 'h-36 w-24 shrink-0 rounded-xl border border-goldline object-cover object-top shadow-[0_12px_35px_rgba(244,200,74,.2)] sm:h-40 sm:w-28';
+const shotFrame =
+  'inline-block shrink-0 rounded-2xl border border-goldline bg-card/40 p-3 shadow-[0_20px_45px_rgba(244,200,74,.15)]';
+const shot = 'h-auto w-32 rounded-xl object-cover sm:w-40 lg:w-48';
 
 export const metadata: Metadata = buildMeta({
   title: '6 Club Official Website | 6 Club Login, Register & Games Platform',
@@ -42,6 +45,8 @@ export default function HomePage() {
   const homeToc = [
     { id: 'section-about', label: 'What Is 6 Club' },
     { id: 'section-categories', label: 'One 6 Club Account, Every Game' },
+    { id: 'section-highlights', label: 'Features Of 6 Club' },
+    { id: 'section-tips', label: 'Tips To Maximize Winning On 6 Club' },
     { id: 'section-why-choose-us', label: 'Why Players Stick With 6 Club' },
     { id: 'section-download', label: 'Play 6 Club Anywhere' },
     { id: 'section-rewards', label: 'A 6 Club Bonus for Every Stage of Play' },
@@ -155,8 +160,12 @@ export default function HomePage() {
       {/* What Is 6 Club */}
       <section id="section-about" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <p className="section-eyebrow text-center">Get Started</p>
-          <h2 className="mt-3 text-center text-2xl font-semibold text-white lg:text-3xl">What Is 6 Club</h2>
+          <div className="text-center">
+            <div className="heading-box">
+              <p className="section-eyebrow">Get Started</p>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">What Is 6 Club</h2>
+            </div>
+          </div>
           <div className="mt-6 space-y-5 text-sm leading-relaxed text-grey lg:text-base">
             <p>
               6 Club — also written 6club, and this is the 6 Club Official Website — is a single-account gaming
@@ -230,53 +239,65 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
-          <div className="card-surface flex items-start gap-5 p-6">
-            <div className="min-w-0 flex-1">
-              <h3 className="text-lg font-semibold text-white">6 Club Login</h3>
-              <p className="mt-2 text-sm leading-relaxed text-grey">
+        <div className="mx-auto mt-14 max-w-5xl space-y-14">
+          <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+            <div className="text-center lg:text-left">
+              <h3 className="text-xl font-semibold text-white lg:text-2xl">6 Club Login</h3>
+              <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
                 Returning players use 6 Club Login with their registered mobile number and password. Sessions
                 stay encrypted end to end, and a password-reset shortcut sits right on the sign-in screen if your
-                credentials slip your mind.
+                credentials slip your mind. The same login works whether you&apos;re on the 6 Club app, a mobile
+                browser or desktop, and it drops you straight onto the dashboard you last left — no re-picking a
+                game category or re-entering payment details. If you switch devices mid-session, your wallet
+                balance, VIP tier and pending bonuses stay exactly where you left them.
               </p>
-              <a href="/login" className="btn-outline mt-4 inline-flex">
+              <a href="/login" className="btn-outline mt-5 inline-flex">
                 Go to Login
               </a>
             </div>
-            <Image
-              src="/images/screenshots/login-screen.webp"
-              alt="6 Club login screen with phone number and password fields"
-              width={800}
-              height={1448}
-              sizes="112px"
-              className={shot}
-            />
+            <div className={`${shotFrame} mx-auto lg:ml-auto lg:mr-0`}>
+              <Image
+                src="/images/screenshots/6club-login-screen.webp"
+                alt="6 Club login screen with phone number and password fields"
+                width={800}
+                height={1448}
+                sizes="(min-width: 1024px) 192px, 160px"
+                className={shot}
+              />
+            </div>
           </div>
-          <div className="card-surface flex items-start gap-5 p-6">
-            <div className="min-w-0 flex-1">
-              <h3 className="text-lg font-semibold text-white">6 Club Register</h3>
-              <p className="mt-2 text-sm leading-relaxed text-grey">
+          <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+            <div className={`${shotFrame} order-2 mx-auto lg:order-1 lg:ml-0 lg:mr-auto`}>
+              <Image
+                src="/images/screenshots/6club-register-screen.webp"
+                alt="6 Club registration form asking for phone number, password and invite code"
+                width={800}
+                height={1448}
+                sizes="(min-width: 1024px) 192px, 160px"
+                className={shot}
+              />
+            </div>
+            <div className="order-1 text-center lg:order-2 lg:text-left">
+              <h3 className="text-xl font-semibold text-white lg:text-2xl">6 Club Register</h3>
+              <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
                 First-time players use 6 Club Register to open an account with a mobile number, a password and a
                 quick OTP check — usually done in under a minute, with no deposit required to finish signing up.
+                An invite code is optional, not mandatory, so you can register directly without waiting on a
+                referral link. Once verified, the account is live immediately — every game category, payment
+                method and reward ladder on 6 Club opens up right away, with no staged unlocks or waiting period.
               </p>
-              <a href="/register" className="btn-gold mt-4 inline-flex">
+              <a href="/register" className="btn-gold mt-5 inline-flex">
                 Create an Account
               </a>
             </div>
-            <Image
-              src="/images/screenshots/register-screen.webp"
-              alt="6 Club registration form asking for phone number, password and invite code"
-              width={800}
-              height={1448}
-              sizes="112px"
-              className={shot}
-            />
           </div>
         </div>
 
         <div className="mx-auto mt-14 max-w-3xl text-center">
-          <p className="section-eyebrow">Key Features</p>
-          <h3 className="mt-3 text-xl font-semibold text-white lg:text-2xl">Built for Fast, Secure Play</h3>
+          <div className="heading-box">
+            <p className="section-eyebrow">Key Features</p>
+            <h3 className="mt-2 text-xl font-semibold text-white lg:text-2xl">Built for Fast, Secure Play</h3>
+          </div>
         </div>
         <div className="mt-8">
           <FeatureGrid features={homeData.features} gridCols={4} />
@@ -287,88 +308,164 @@ export default function HomePage() {
       <section id="section-categories" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mx-auto mb-10 flex max-w-3xl flex-col items-center justify-between gap-6 text-center sm:flex-row sm:text-left">
           <div>
-            <p className="section-eyebrow">Game Categories</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">One 6 Club Account, Every Game</h2>
-            <p className="mt-3 max-w-2xl text-sm text-grey">
+            <div className="heading-box">
+              <p className="section-eyebrow">Game Categories</p>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">One 6 Club Account, Every Game</h2>
+            </div>
+            <p className="mt-4 max-w-2xl text-sm text-grey">
               Pick a lane — live casino, themed slots, Colour Prediction, Sports or Aviator-style crash rounds —
-              and jump straight in from your 6 Club dashboard.
+              and jump straight in from your 6 Club dashboard. Every category sits behind the same home screen tap,
+              so switching from a slot reel to a live table or a crash round never means logging into a different
+              account or moving your balance around.
             </p>
           </div>
-          <Image
-            src="/images/screenshots/home-game-categories.webp"
-            alt="6 Club home screen with all game categories one tap away"
-            width={800}
-            height={1448}
-            sizes="112px"
-            className={shot}
-          />
+          <div className={shotFrame}>
+            <Image
+              src="/images/screenshots/6club-home-game-categories.webp"
+              alt="6 Club home screen with all game categories one tap away"
+              width={800}
+              height={1448}
+              sizes="(min-width: 1024px) 192px, 160px"
+              className={shot}
+            />
+          </div>
         </div>
         <GameCategoryGrid categories={homeData.categories} />
+      </section>
+
+      {/* Feature Highlights */}
+      <section id="section-highlights" className="scroll-mt-24 mx-auto px-5 py-16 lg:px-8">
+        <NumberedFeatureList
+          bannerTitle="Features Of 6 Club"
+          intro="6 Club is more than just a betting app — it's a complete gaming account built for speed, security and rewards that keep paying out."
+          pillLabel="Here's what makes 6 Club stand out:"
+          items={[
+            {
+              title: 'Wide Game Variety',
+              description: 'From lottery and Colour Prediction to slots, fishing, live casino and sports betting, all in one account.'
+            },
+            {
+              title: 'Instant Deposits & Withdrawals',
+              description: 'Enjoy seamless transactions with verified, secure payment gateways and same-day payouts.'
+            },
+            {
+              title: 'Advanced Security',
+              description: 'Encrypted sessions and strict privacy policies keep your data and money safe.'
+            },
+            {
+              title: 'Exclusive Bonuses & Promotions',
+              description: 'Daily attendance rewards, welcome bonuses, win-streak bonuses and referral income, all in one rewards tab.'
+            },
+            {
+              title: 'Lightweight & Fast App',
+              description: 'A smooth gaming experience with minimal data usage and quick loading times, even on a slow connection.'
+            },
+            {
+              title: 'Fair Play Guarantee',
+              description: 'A certified random number generator (RNG) keeps every round independently verified and unbiased.'
+            },
+            {
+              title: '24/7 Customer Support',
+              description: 'A friendly, responsive live chat and support team available anytime you need help.'
+            }
+          ]}
+        />
+      </section>
+
+      {/* Winning Tips */}
+      <section id="section-tips" className="scroll-mt-24 mx-auto px-5 py-16 lg:px-8">
+        <NumberedFeatureList
+          bannerTitle="Tips To Maximize Winning On 6 Club"
+          intro="Winning on 6 Club is about more than just luck. Smart strategies and disciplined play can significantly boost your chances of success — here are a few worth building into your routine."
+          pillLabel="Here are some expert tips to help you play smarter:"
+          items={[
+            {
+              title: 'Start with Low-Risk Games',
+              description: 'If you’re new, try games with lower volatility like Lottery or Colour Prediction to understand patterns before moving to high-reward games like Aviator or Slots.'
+            },
+            {
+              title: 'Manage Your Bankroll',
+              description: 'Set a daily or weekly budget and stick to it. Never chase losses — consistent play with control leads to better results in the long run.'
+            },
+            {
+              title: 'Use Bonuses Wisely',
+              description: 'Take advantage of welcome bonuses, daily attendance rewards and referral income from the Rewards tab to play more without using extra funds.'
+            },
+            {
+              title: 'Know When to Cash Out',
+              description: 'In crash-style games like Aviator, timing is everything. Cash out at a target multiplier rather than waiting for maximum risk.'
+            },
+            {
+              title: 'Learn Game Rules & Patterns',
+              description: 'Every game has its own logic. Spend time understanding rules and payout structures before betting big.'
+            },
+            {
+              title: 'Stay Calm & Focused',
+              description: 'Avoid impulsive moves. Take breaks to keep your mind fresh and your decision-making sharp.'
+            }
+          ]}
+        />
       </section>
 
       {/* Why Choose Us */}
       <section id="section-why-choose-us" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
           <div className="mb-10 text-center">
-            <p className="section-eyebrow">Why Choose Us</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Why Players Stick With 6 Club</h2>
+            <div className="heading-box">
+              <p className="section-eyebrow">Why Choose Us</p>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">Why Players Stick With 6 Club</h2>
+            </div>
           </div>
           <FeatureGrid features={homeData.whyChooseUs} gridCols={4} />
-          <div className="mx-auto mt-6 grid max-w-5xl gap-6 sm:grid-cols-2">
-            <div className="card-surface group relative flex items-center gap-5 overflow-hidden p-6">
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute -right-12 top-1/2 h-44 w-44 -translate-y-1/2 rounded-full bg-success/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100"
-              />
-              <div className="relative min-w-0 flex-1">
+          <div className="mx-auto mt-14 max-w-5xl space-y-14">
+            <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+              <div className="text-center lg:text-left">
                 <span className="inline-flex items-center gap-1.5 rounded-full border border-success/30 bg-success/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-success">
                   <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-success" />
                   Live
                 </span>
-                <h4 className="mt-3 text-base font-semibold text-white">Live Chat, Anytime</h4>
-                <p className="mt-1.5 text-xs leading-relaxed text-grey">
+                <h4 className="mt-3 text-xl font-semibold text-white lg:text-2xl">Live Chat, Anytime</h4>
+                <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
                   Round-the-clock live chat sits inside the 6 Club App, ready for account and payment questions
-                  any time of day or night.
+                  any time of day or night. Agents can see your account context the moment a chat opens, so you
+                  don&apos;t need to re-explain a deposit or a pending withdrawal from scratch. If a question needs
+                  more digging, it gets escalated instead of leaving you stuck in a queue.
                 </p>
               </div>
-              <div className="relative shrink-0">
-                <div aria-hidden="true" className="absolute inset-3 rounded-xl bg-gold/25 blur-xl" />
+              <div className={`${shotFrame} mx-auto lg:ml-auto lg:mr-0`}>
                 <Image
-                  src="/images/screenshots/live-chat-support.webp"
+                  src="/images/screenshots/6club-live-chat-support.webp"
                   alt="Live chat support inside the 6 Club app"
                   width={800}
                   height={1448}
-                  sizes="112px"
-                  className={`${shot} relative`}
+                  sizes="(min-width: 1024px) 192px, 160px"
+                  className={shot}
                 />
               </div>
             </div>
-            <div className="card-surface group relative flex items-center gap-5 overflow-hidden p-6">
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute -right-12 top-1/2 h-44 w-44 -translate-y-1/2 rounded-full bg-accent/10 opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100"
-              />
-              <div className="relative min-w-0 flex-1">
+            <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+              <div className={`${shotFrame} order-2 mx-auto lg:order-1 lg:ml-0 lg:mr-auto`}>
+                <Image
+                  src="/images/screenshots/6club-vip-tier-progress.webp"
+                  alt="6 Club VIP tier progress and benefits screen"
+                  width={800}
+                  height={1448}
+                  sizes="(min-width: 1024px) 192px, 160px"
+                  className={shot}
+                />
+              </div>
+              <div className="order-1 text-center lg:order-2 lg:text-left">
                 <span className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-accent">
                   <Icon name="crown" className="h-3 w-3" />
                   VIP
                 </span>
-                <h4 className="mt-3 text-base font-semibold text-white">VIP Progress</h4>
-                <p className="mt-1.5 text-xs leading-relaxed text-grey">
+                <h4 className="mt-3 text-xl font-semibold text-white lg:text-2xl">VIP Progress</h4>
+                <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
                   6 Club VIP tier progress climbs automatically as your activity grows, unlocking better rates
-                  without any extra sign-up.
+                  without any extra sign-up. Every deposit and wager counts toward your tier, higher tiers clear
+                  withdrawals faster and unlock a dedicated support line, and nothing about the ladder resets just
+                  for taking a short break from play.
                 </p>
-              </div>
-              <div className="relative shrink-0">
-                <div aria-hidden="true" className="absolute inset-3 rounded-xl bg-accent/25 blur-xl" />
-                <Image
-                  src="/images/screenshots/vip-tier-progress.webp"
-                  alt="6 Club VIP tier progress and benefits screen"
-                  width={800}
-                  height={1448}
-                  sizes="112px"
-                  className={`${shot} relative`}
-                />
               </div>
             </div>
           </div>
@@ -395,24 +492,31 @@ export default function HomePage() {
           <div className="order-1 lg:order-2">
             <div className="flex items-start gap-5">
               <div className="min-w-0 flex-1">
-                <p className="section-eyebrow">6 Club Download</p>
-                <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Play 6 Club Anywhere</h2>
+                <div className="heading-box">
+                  <p className="section-eyebrow">6 Club Download</p>
+                  <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">Play 6 Club Anywhere</h2>
+                </div>
                 <p className="mt-4 text-sm leading-relaxed text-grey">
                   Grab the 6 Club APK for Android, follow the iOS install guide on your iPhone, or skip the
-                  download entirely and play 6 Club straight from a desktop browser.
+                  download entirely and play 6 Club straight from a desktop browser. All three routes land on the
+                  exact same account, so a game you started on mobile picks up right where you left off on
+                  desktop. Even before you log in, event rewards and the current welcome bonus are visible from
+                  the guest landing screen.
                 </p>
                 <a href="/download" className="btn-gold mt-6 inline-flex">
                   Get the 6 Club App
                 </a>
               </div>
-              <Image
-                src="/images/screenshots/guest-landing-rewards.webp"
-                alt="6 Club app before logging in, with event rewards ready to unlock"
-                width={800}
-                height={1448}
-                sizes="112px"
-                className={`${shot} hidden sm:block`}
-              />
+              <div className={`${shotFrame} hidden sm:block`}>
+                <Image
+                  src="/images/screenshots/6club-guest-landing-rewards.webp"
+                  alt="6 Club app before logging in, with event rewards ready to unlock"
+                  width={800}
+                  height={1448}
+                  sizes="192px"
+                  className={shot}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -422,46 +526,57 @@ export default function HomePage() {
       <section id="section-rewards" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
           <div className="mb-10 text-center">
-            <p className="section-eyebrow">6 Club Rewards</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">A 6 Club Bonus for Every Stage of Play</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-sm text-grey">
+            <div className="heading-box">
+              <p className="section-eyebrow">6 Club Rewards</p>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">A 6 Club Bonus for Every Stage of Play</h2>
+            </div>
+            <p className="mx-auto mt-4 max-w-2xl text-sm text-grey">
               Active 6 Club players earn through daily login streaks, weekly cashback, monthly milestones and a
               VIP ladder that speeds up withdrawals the higher you climb.
             </p>
           </div>
           <FeatureGrid features={homeData.rewards} gridCols={4} />
-          <div className="mx-auto mt-10 grid max-w-3xl gap-6 sm:grid-cols-2">
-            <div className="card-surface flex items-center gap-4 p-5">
-              <div className="min-w-0 flex-1">
-                <h4 className="text-sm font-semibold text-white">Attendance Bonus</h4>
-                <p className="mt-1 text-xs leading-relaxed text-grey">
-                  A 6 Club Daily Bonus that grows the longer your login streak stays unbroken.
+          <div className="mx-auto mt-14 max-w-5xl space-y-14">
+            <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+              <div className="text-center lg:text-left">
+                <h4 className="text-xl font-semibold text-white lg:text-2xl">Attendance Bonus</h4>
+                <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
+                  A 6 Club Daily Bonus that grows the longer your login streak stays unbroken. Each consecutive day
+                  bumps the payout a step further up the calendar, and missing a single day resets the count back
+                  to day one — so the streak itself is worth protecting. The calendar screen always shows exactly
+                  how many days until the next tier pays out.
                 </p>
               </div>
-              <Image
-                src="/images/screenshots/attendance-bonus-calendar.webp"
-                alt="6 Club attendance bonus screen showing rewards by consecutive login day"
-                width={800}
-                height={1448}
-                sizes="112px"
-                className={shot}
-              />
+              <div className={`${shotFrame} mx-auto lg:ml-auto lg:mr-0`}>
+                <Image
+                  src="/images/screenshots/attendance-bonus-calendar.webp"
+                  alt="6 Club attendance bonus screen showing rewards by consecutive login day"
+                  width={800}
+                  height={1448}
+                  sizes="(min-width: 1024px) 192px, 160px"
+                  className={shot}
+                />
+              </div>
             </div>
-            <div className="card-surface flex items-center gap-4 p-5">
-              <div className="min-w-0 flex-1">
-                <h4 className="text-sm font-semibold text-white">Win Streak Bonus</h4>
-                <p className="mt-1 text-xs leading-relaxed text-grey">
-                  An added percentage on top of your stake, credited after a run of consecutive wins.
+            <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+              <div className={`${shotFrame} order-2 mx-auto lg:order-1 lg:ml-0 lg:mr-auto`}>
+                <Image
+                  src="/images/screenshots/6club-win-streak-bonus.webp"
+                  alt="6 Club Streak Bonus paying an extra percentage after consecutive wins"
+                  width={800}
+                  height={1448}
+                  sizes="(min-width: 1024px) 192px, 160px"
+                  className={shot}
+                />
+              </div>
+              <div className="order-1 text-center lg:order-2 lg:text-left">
+                <h4 className="text-xl font-semibold text-white lg:text-2xl">Win Streak Bonus</h4>
+                <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
+                  An added percentage on top of your stake, credited after a run of consecutive wins. The bonus
+                  scales with the length of the streak, applies automatically the moment it qualifies, and pays
+                  out alongside your regular winnings — no separate claim step or waiting for a manual credit.
                 </p>
               </div>
-              <Image
-                src="/images/screenshots/win-streak-bonus.webp"
-                alt="6 Club Streak Bonus paying an extra percentage after consecutive wins"
-                width={800}
-                height={1448}
-                sizes="112px"
-                className={shot}
-              />
             </div>
           </div>
         </div>
@@ -471,14 +586,17 @@ export default function HomePage() {
       <section id="section-referral" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div>
-            <p className="section-eyebrow">Referral Program</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">
-              Invite Friends, Earn on 6 Club
-            </h2>
+            <div className="heading-box">
+              <p className="section-eyebrow">Referral Program</p>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">
+                Invite Friends, Earn on 6 Club
+              </h2>
+            </div>
             <p className="mt-4 text-sm leading-relaxed text-grey">
               Share your 6 Club Invite Code or referral link, and earn a cut of your friends&apos; activity for as
               long as they keep playing. Your account dashboard tracks every invite, pending payout and total
-              earned so far.
+              earned so far. Commission builds up automatically in the background — there&apos;s no cap on how
+              many friends you invite, and payouts land in the same wallet you already play from.
             </p>
             <a href="/referral-program" className="btn-gold mt-6 inline-flex">
               View Referral Program
@@ -500,14 +618,16 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <Image
-              src="/images/screenshots/invite-poster-commission.webp"
-              alt="Shareable 6 Club referral poster with a scannable invite QR code and commission rate"
-              width={800}
-              height={1448}
-              sizes="112px"
-              className={`${shot} hidden sm:block`}
-            />
+            <div className={`${shotFrame} hidden sm:block`}>
+              <Image
+                src="/images/screenshots/invite-poster-commission.webp"
+                alt="Shareable 6 Club referral poster with a scannable invite QR code and commission rate"
+                width={800}
+                height={1448}
+                sizes="192px"
+                className={shot}
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -516,12 +636,16 @@ export default function HomePage() {
       <section id="section-security" className="scroll-mt-24 border-y border-goldline bg-card/30">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-5 py-16 lg:grid-cols-2 lg:px-8">
           <div>
-            <p className="section-eyebrow">Security</p>
-            <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">Is 6 Club Safe? Here&apos;s How Your Account Is Protected</h2>
+            <div className="heading-box">
+              <p className="section-eyebrow">Security</p>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">Is 6 Club Safe? Here&apos;s How Your Account Is Protected</h2>
+            </div>
             <p className="mt-4 text-sm leading-relaxed text-grey">
               Every 6 Club account runs behind encrypted sessions, verified payment partners and withdrawal
               checks. The full Security and Fair Play pages break down exactly how outcomes and payouts get
-              verified.
+              verified. Random number generation on every game is independently certified, and responsible
+              gaming tools like deposit limits and self-exclusion sit right in your account settings if you ever
+              want more control over your own play.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <a href="/security" className="btn-outline">
@@ -548,14 +672,16 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-            <Image
-              src="/images/screenshots/account-wallet-overview.webp"
-              alt="6 Club account overview showing UID, VIP tier and total wallet balance"
-              width={800}
-              height={1448}
-              sizes="112px"
-              className={`${shot} hidden sm:block`}
-            />
+            <div className={`${shotFrame} hidden sm:block`}>
+              <Image
+                src="/images/screenshots/6club-account-wallet-overview.webp"
+                alt="6 Club account overview showing UID, VIP tier and total wallet balance"
+                width={800}
+                height={1448}
+                sizes="192px"
+                className={shot}
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -563,8 +689,10 @@ export default function HomePage() {
       {/* Getting Started */}
       <section id="section-getting-started" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="mb-10 text-center">
-          <p className="section-eyebrow">New to 6 Club</p>
-          <h2 className="mt-3 text-2xl font-semibold text-white lg:text-3xl">What to Expect in Your First Session</h2>
+          <div className="heading-box">
+            <p className="section-eyebrow">New to 6 Club</p>
+            <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">What to Expect in Your First Session</h2>
+          </div>
         </div>
         <div className="mx-auto flex max-w-3xl flex-col gap-6 sm:flex-row sm:items-start">
           <div className="min-w-0 flex-1 space-y-6 text-sm leading-relaxed text-grey lg:text-base">
@@ -585,14 +713,16 @@ export default function HomePage() {
               without needing to contact Support.
             </p>
           </div>
-          <Image
-            src="/images/screenshots/gift-code-redeem.webp"
-            alt="6 Club gift code redemption screen"
-            width={800}
-            height={1448}
-            sizes="112px"
-            className={`${shot} mx-auto hidden sm:mx-0 sm:block`}
-          />
+          <div className={`${shotFrame} mx-auto hidden sm:mx-0 sm:block`}>
+            <Image
+              src="/images/screenshots/gift-code-redeem.webp"
+              alt="6 Club gift code redemption screen"
+              width={800}
+              height={1448}
+              sizes="192px"
+              className={shot}
+            />
+          </div>
         </div>
       </section>
 
