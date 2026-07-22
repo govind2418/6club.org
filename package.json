@@ -7,9 +7,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "predev": "node scripts/generate-og.js",
     "dev": "next dev",
-    "prebuild": "node scripts/generate-og.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
