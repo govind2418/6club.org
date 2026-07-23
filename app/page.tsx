@@ -10,7 +10,6 @@ import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
-import { siteConfig } from '@/lib/site.config';
 import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import {
   organizationSchema,
@@ -130,7 +129,7 @@ export default function HomePage() {
             </ul>
 
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
-              <a href={siteConfig.registerUrl} className="btn-gold animate-pulseGlow">
+              <a href="/go" className="btn-gold animate-pulseGlow">
                 Register on 6 Club
               </a>
               <a href="/login" className="btn-outline">
@@ -285,7 +284,7 @@ export default function HomePage() {
                 <li>Submit to finish — no deposit is required to complete registration.</li>
                 <li>Your account is live immediately, with every game category, payment method and reward ladder unlocked right away.</li>
               </ol>
-              <a href={siteConfig.registerUrl} className="btn-gold mt-5 inline-flex">
+              <a href="/go" className="btn-gold mt-5 inline-flex">
                 Create an Account
               </a>
             </div>

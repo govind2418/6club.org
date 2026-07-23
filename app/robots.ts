@@ -16,7 +16,7 @@ const AI_CRAWLERS = [
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      { userAgent: '*', allow: '/', disallow: '/api/' },
+      { userAgent: '*', allow: '/', disallow: ['/api/', '/go'] },
       ...AI_CRAWLERS.map((agent) => ({ userAgent: agent, allow: '/' }))
     ],
     sitemap: `${siteConfig.siteUrl}/sitemap.xml`

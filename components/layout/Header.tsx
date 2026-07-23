@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { Icon } from '@/components/Icon';
-import { siteConfig } from '@/lib/site.config';
 import type { NavItem } from '@/data/nav.data';
 
 export function Header({ primary }: { primary: NavItem[] }) {
@@ -61,7 +60,7 @@ export function Header({ primary }: { primary: NavItem[] }) {
           <a href="/login" className="btn-outline !px-5 !py-2 text-xs">
             Login
           </a>
-          <a href={siteConfig.registerUrl} className="btn-gold !px-5 !py-2 text-xs">
+          <a href="/go" className="btn-gold !px-5 !py-2 text-xs">
             Register
           </a>
         </div>
@@ -97,7 +96,7 @@ export function Header({ primary }: { primary: NavItem[] }) {
           <a href="/login" className="btn-outline flex-1 !py-2 text-xs">
             Login
           </a>
-          <a href={siteConfig.registerUrl} className="btn-gold flex-1 !py-2 text-xs">
+          <a href="/go" className="btn-gold flex-1 !py-2 text-xs">
             Register
           </a>
         </div>
