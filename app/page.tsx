@@ -65,7 +65,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <a href="/login" aria-label="6Club Login" className="block overflow-hidden rounded-2xl border border-goldline shadow-glow">
             <Image
-              src="/images/6club-hero-banner.png"
+              src="/images/6club-hero-banner.webp"
               alt="6club login"
               width={1536}
               height={1024}
