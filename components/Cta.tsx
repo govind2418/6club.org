@@ -1,9 +1,11 @@
+import { siteConfig } from '@/lib/site.config';
+
 export function Cta({
   ctaEyebrow = 'Join 6 Club',
   ctaTitle = 'Create your 6 Club account and start playing today',
   ctaDescription = 'Registration takes under a minute. Verify your number, claim your welcome bonus and pick a game category to begin.',
   ctaPrimaryLabel = 'Register on 6 Club',
-  ctaPrimaryUrl = '/register',
+  ctaPrimaryUrl = siteConfig.registerUrl,
   ctaSecondaryLabel = 'Login to Your Account',
   ctaSecondaryUrl = '/login'
 }: {

@@ -10,6 +10,7 @@ import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { Cta } from '@/components/Cta';
 import { buildMeta } from '@/lib/seo';
+import { siteConfig } from '@/lib/site.config';
 import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import {
   organizationSchema,
@@ -129,7 +130,7 @@ export default function HomePage() {
             </ul>
 
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
-              <a href="/register" className="btn-gold animate-pulseGlow">
+              <a href={siteConfig.registerUrl} className="btn-gold animate-pulseGlow">
                 Register on 6 Club
               </a>
               <a href="/login" className="btn-outline">
@@ -163,33 +164,31 @@ export default function HomePage() {
           <div className="text-center">
             <div className="heading-box">
               <p className="section-eyebrow">Get Started</p>
-              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">What Is 6 Club</h2>
+              <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">What Is 6 Club?</h2>
             </div>
           </div>
           <div className="mt-6 space-y-5 text-sm leading-relaxed text-grey lg:text-base">
             <p>
-              6 Club — also written 6club, and this is the 6 Club Official Website — is a single-account gaming
-              platform covering casino tables, slot reels, lottery draws, sports markets, crash rounds, fishing
-              games and arcade titles. Rather than separate logins for separate game types, one 6 Club Register
-              gives you one wallet, one balance and one rewards ladder across the whole platform. 6 Club has been
-              running since 2021, and its game lineup has grown around what players actually play rather than a
-              catalog fixed in advance. Whether you&apos;re backing a live match, watching a crash multiplier
-              climb, or picking numbers on a lottery draw, the account and deposit process behind it never
-              changes.
+              6 Club is an all-in-one online gaming platform where players can access multiple game categories
+              through a single account. From account registration and secure login to wallet management, rewards,
+              and game discovery, every feature is connected within one streamlined platform.
             </p>
             <p>
-              Players sometimes shorten the whole catalog to just &ldquo;6 Club Games&rdquo; — it isn&apos;t a
-              separate product, just shorthand for everything inside a 6 Club account: live-dealer casino tables,
-              themed slot reels, fast-settling lottery and Colour Prediction rounds, pre-match and live sports
-              markets, Aviator-style crash games, skill-based fishing rounds and quick arcade sessions. New
-              categories join this same account rather than launching as standalone apps, so a player registered
-              for Slots today can open a Sports market or a Lottery draw tomorrow without creating a second
-              account or moving money between wallets.
+              Built with a mobile-first approach, 6 Club delivers a fast and responsive experience across
+              smartphones, tablets, and desktop browsers. Players can switch between different game categories
+              without creating multiple accounts or managing separate wallets, making the platform simple to
+              navigate for both new and returning users.
             </p>
             <p>
-              Every category further down this page links out to its own dedicated guide, with rules, odds and a
-              direct way to start playing. Before that, here&apos;s how 6 Club Login, 6 Club Register and the
-              account itself actually work.
+              Beyond gameplay, 6 Club brings together promotions, VIP benefits, referral rewards, account
+              security, and customer support in one place. Whether you&apos;re exploring the platform for the
+              first time or returning to continue your experience, everything is designed around one connected
+              ecosystem that keeps your account, activity, and rewards synchronized.
+            </p>
+            <p>
+              The sections below provide detailed guides covering 6 Club Login, Registration, App Download,
+              Games, Wallet, Bonuses, Security, and other essential platform features to help you get started
+              quickly.
             </p>
           </div>
 
@@ -243,14 +242,13 @@ export default function HomePage() {
           <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
             <div className="text-center lg:text-left">
               <h3 className="text-xl font-semibold text-white lg:text-2xl">6 Club Login</h3>
-              <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
-                Returning players use 6 Club Login with their registered mobile number and password. Sessions
-                stay encrypted end to end, and a password-reset shortcut sits right on the sign-in screen if your
-                credentials slip your mind. The same login works whether you&apos;re on the 6 Club app, a mobile
-                browser or desktop, and it drops you straight onto the dashboard you last left — no re-picking a
-                game category or re-entering payment details. If you switch devices mid-session, your wallet
-                balance, VIP tier and pending bonuses stay exactly where you left them.
-              </p>
+              <ol className="mx-auto mt-3 max-w-md list-decimal space-y-2 pl-5 text-left text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
+                <li>Open 6 Club on the app, mobile browser or desktop and tap Login.</li>
+                <li>Enter your registered mobile number.</li>
+                <li>Type your password — use Forgot Password if you don&apos;t remember it.</li>
+                <li>Tap Login to confirm and sign in.</li>
+                <li>You&apos;re dropped straight onto your dashboard, with wallet balance, VIP tier and pending bonuses exactly where you left them.</li>
+              </ol>
               <a href="/login" className="btn-outline mt-5 inline-flex">
                 Go to Login
               </a>
@@ -279,14 +277,15 @@ export default function HomePage() {
             </div>
             <div className="order-1 text-center lg:order-2 lg:text-left">
               <h3 className="text-xl font-semibold text-white lg:text-2xl">6 Club Register</h3>
-              <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
-                First-time players use 6 Club Register to open an account with a mobile number, a password and a
-                quick OTP check — usually done in under a minute, with no deposit required to finish signing up.
-                An invite code is optional, not mandatory, so you can register directly without waiting on a
-                referral link. Once verified, the account is live immediately — every game category, payment
-                method and reward ladder on 6 Club opens up right away, with no staged unlocks or waiting period.
-              </p>
-              <a href="/register" className="btn-gold mt-5 inline-flex">
+              <ol className="mx-auto mt-3 max-w-md list-decimal space-y-2 pl-5 text-left text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
+                <li>Open 6 Club Register and enter your mobile number.</li>
+                <li>Confirm the OTP sent to your device.</li>
+                <li>Set a password for your account.</li>
+                <li>Add an invite code if you have one — it&apos;s optional, not mandatory.</li>
+                <li>Submit to finish — no deposit is required to complete registration.</li>
+                <li>Your account is live immediately, with every game category, payment method and reward ladder unlocked right away.</li>
+              </ol>
+              <a href={siteConfig.registerUrl} className="btn-gold mt-5 inline-flex">
                 Create an Account
               </a>
             </div>
@@ -742,6 +741,47 @@ export default function HomePage() {
       {/* Testimonials */}
       <Testimonials testimonials={homeData.testimonials} />
 
+      {/* Player Experience */}
+      <section id="section-experience" className="scroll-mt-24 mx-auto max-w-7xl px-5 py-16 lg:px-8">
+        <div className="mb-10 text-center">
+          <div className="heading-box">
+            <p className="section-eyebrow">Player Story</p>
+            <h2 className="mt-2 text-2xl font-semibold text-white lg:text-3xl">My Experience With 6 Club</h2>
+          </div>
+        </div>
+        <div className="mx-auto max-w-3xl space-y-5 text-sm leading-relaxed text-grey lg:text-base">
+          <p>As part of the 6 Club community for a while now, my time on the platform has been nothing short of enjoyable.</p>
+          <p>
+            From the first session, what stood out was how smooth the app felt — deposits and withdrawals cleared
+            fast, and there was enough game variety that I never felt boxed into one category.
+          </p>
+          <p>
+            I started with simple lottery and Colour Prediction rounds to get a feel for how everything worked,
+            then gradually moved on to faster-paced options like Aviator-style crash games and slots.
+          </p>
+          <p>
+            What kept me around was how transparent it all felt — results came through instantly, odds matched
+            what was promised, and bonuses actually added value instead of feeling like a gimmick.
+          </p>
+          <p>Support was another strong point — every query I raised got a quick, straightforward answer.</p>
+          <p>
+            Over time I got better at managing my bankroll, using bonuses smartly and knowing when to cash out,
+            which made the whole experience a lot more consistent.
+          </p>
+          <p>
+            Playing on 6 Club hasn&apos;t just been about the wins — it&apos;s been about a platform that feels
+            safe, fair and worth coming back to.
+          </p>
+          <p>
+            If you&apos;re curious about earning beyond gameplay, the{' '}
+            <a href="/referral-program" className="text-gold underline underline-offset-2 hover:text-white">
+              6 Club Referral Program
+            </a>{' '}
+            is worth a look.
+          </p>
+        </div>
+      </section>
+
       {/* FAQs */}
       <FaqAccordion faqs={homeData.faqs} faqTitle="6 Club Frequently Asked Questions" faqHeadingId="home-faq" />
 
@@ -751,7 +791,6 @@ export default function HomePage() {
         ctaTitle="Join 6 Club and Create Your Account Today"
         ctaDescription="6 Club Register takes under a minute — verify your number, claim your 6 Club Welcome Bonus, and pick a game category to start playing."
         ctaPrimaryLabel="Register on 6 Club"
-        ctaPrimaryUrl="/register"
         ctaSecondaryLabel="6 Club Login"
         ctaSecondaryUrl="/login"
       />

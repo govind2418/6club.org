@@ -188,6 +188,42 @@ const homeData: HomeData = {
     {
       q: 'Is there a minimum age to register on 6 Club?',
       a: 'Yes — you must be 18 or older to register. The Responsible Gaming page has guidance and limit-setting tools if you need them.'
+    },
+    {
+      q: 'What payment methods does 6 Club support?',
+      a: '6 Club accepts UPI, bank transfers and several other local payment options — the full list and setup steps are on the Payment Methods page.'
+    },
+    {
+      q: 'How do I make my first deposit on 6 Club?',
+      a: 'Add a payment method, enter an amount and confirm — the Deposit Guide walks through each screen so your first deposit clears without a hitch.'
+    },
+    {
+      q: 'What bonuses and promotions does 6 Club offer?',
+      a: 'Welcome bonuses, deposit matches and recurring offers are listed on the Promotions page, with fresh gift codes posted on the Gift Code page.'
+    },
+    {
+      q: 'Does 6 Club have daily, weekly or monthly rewards?',
+      a: 'Yes — the Rewards section covers Daily, Weekly and Monthly reward tracks, each with its own claim schedule and eligibility.'
+    },
+    {
+      q: 'How is fairness verified on 6 Club games?',
+      a: 'Game outcomes are checked against verified odds and provably fair mechanics — the Fair Play page explains how each game category is audited.'
+    },
+    {
+      q: 'What should I do if I forget my 6 Club password?',
+      a: 'Use the Forgot Password page and reset it through your registered mobile number — no need to create a new account.'
+    },
+    {
+      q: 'Does 6 Club have an affiliate or agent program?',
+      a: 'Yes — alongside the standard Referral Program, 6 Club also runs Affiliate and Agent programs for higher-volume partners, each detailed on its own page.'
+    },
+    {
+      q: 'Where can I see the current 6 Club leaderboard?',
+      a: 'The Leaderboard page tracks top players by activity and winnings, updated alongside official Announcements.'
+    },
+    {
+      q: 'How do I get help if something goes wrong on 6 Club?',
+      a: 'Start at the Help Center or Support page — both link through to live Contact options if your issue needs a direct response.'
     }
   ]
 }
