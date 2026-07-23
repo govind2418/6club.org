@@ -9,7 +9,7 @@ export function Footer({ nav }: { nav: NavData }) {
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1fr]">
           <div>
             <a href="/" className="mb-4 inline-flex items-center gap-2" aria-label="6 Club home">
-              <img src="/images/logo.png" alt="6 Club" width={205} height={90} className="h-9 w-auto" />
+              <img src="/images/logo.png" alt="6 Club" width={232} height={100} className="h-9 w-auto" />
             </a>
             <p className="max-w-xs text-sm leading-relaxed text-grey">
               6 Club is an online gaming platform where players across India play casino, slot, lottery, sports

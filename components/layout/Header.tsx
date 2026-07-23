@@ -24,7 +24,7 @@ export function Header({ primary }: { primary: NavItem[] }) {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
         <a href="/" className="flex items-center gap-2 shrink-0" aria-label="6 Club home">
-          <img src="/images/logo.png" alt="6 Club" width={205} height={90} className="h-9 w-auto lg:h-10" />
+          <img src="/images/logo.png" alt="6 Club" width={232} height={100} className="h-9 w-auto lg:h-10" />
         </a>
 
         <nav aria-label="Primary" className="hidden lg:block">
