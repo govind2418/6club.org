@@ -107,13 +107,24 @@ export function softwareApplicationSchema() {
   };
 }
 
-export function webPageSchema({ title, description, path }: { title: string; description: string; path: string }) {
+export function webPageSchema({
+  title,
+  description,
+  path,
+  dateModified
+}: {
+  title: string;
+  description: string;
+  path: string;
+  dateModified?: string;
+}) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: title,
     description,
     url: `${site.siteUrl}${path}`,
+    ...(dateModified ? { dateModified } : {}),
     isPartOf: {
       '@type': 'WebSite',
       name: site.siteName,

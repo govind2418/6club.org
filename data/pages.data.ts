@@ -33,7 +33,12 @@ export interface PageEntry {
   faqs?: PageFaq[];
   related?: PageLink[];
   itemList?: { label: string; url: string; description: string }[];
+  lastUpdated?: string;
+  lastUpdatedISO?: string;
 }
+
+export const defaultLastUpdated = 'July 23, 2026';
+export const defaultLastUpdatedISO = '2026-07-23';
 
 const pagesData: Record<string, PageEntry> = {
   '/about-us': {

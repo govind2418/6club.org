@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
+import { Icon } from '@/components/Icon';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { TableOfContents } from '@/components/TableOfContents';
 import { FaqAccordion } from '@/components/FaqAccordion';
@@ -93,6 +94,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               </>
             )}
             <span>{post.date}</span>
+            {post.dateModified && post.dateModified !== post.date && (
+              <>
+                <span>&middot;</span>
+                <span className="flex items-center gap-1">
+                  <Icon name="calendar-days" className="h-3 w-3 text-gold" />
+                  Last Updated: {post.dateModified}
+                </span>
+              </>
+            )}
             <span>&middot;</span>
             <span>{readingTime(fullText)}</span>
           </div>

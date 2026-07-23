@@ -101,15 +101,15 @@ export default function HomePage() {
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 lg:grid-cols-2 lg:gap-8 lg:px-8">
           <div className="fade-in text-center lg:text-left">
-            <p className="section-eyebrow">Online Gaming Platform</p>
+            <p className="section-eyebrow">Official Gaming Platform</p>
             <h1 className="text-balance mt-4 font-heading text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-              <span className="gold-text">6 Club</span>
+              <span className="gold-text">6 Club Official Website</span>
               <br />
-              One ID. All Games.
+              Login Once. Play Every Category.
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">
               {linkifyBrandOnce(
-                "One 6 Club account unlocks casino tables, slot reels, lottery draws, sports markets and crash rounds — no separate logins, no separate wallets. Finish 6 Club Register in under a minute, fund your wallet through a verified payment method, and watch every bonus land in a single rewards dashboard built for quick, modern play.",
+                "6 Club is an all-in-one gaming platform where a single account gives you access to casino games, slots, lottery, sports, and more. Register in minutes, manage your wallet from one dashboard, unlock platform rewards, and enjoy a secure experience across every supported device.",
                 createLinkifyTracker()
               )}
             </p>

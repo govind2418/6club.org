@@ -12,7 +12,7 @@ import { organizationSchema, webPageSchema, faqSchema, itemListSchema } from '@/
 import { buildBreadcrumbSchema } from '@/lib/breadcrumb';
 import { createLinkifyTracker, linkifyBrandOnce } from '@/lib/linkify';
 import { siteConfig as site } from '@/lib/site.config';
-import pagesData from '@/data/pages.data';
+import pagesData, { defaultLastUpdated, defaultLastUpdatedISO } from '@/data/pages.data';
 
 export function generateStaticParams() {
   return Object.keys(pagesData).map((slug) => ({
@@ -38,10 +38,12 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
   if (!page) notFound();
 
   const breadcrumb = [{ label: 'Home', url: '/' }, ...page.breadcrumbTrail, { label: page.h1, url: null }];
+  const lastUpdated = page.lastUpdated ?? defaultLastUpdated;
+  const lastUpdatedISO = page.lastUpdatedISO ?? defaultLastUpdatedISO;
 
   const schemas = [
     organizationSchema(),
-    webPageSchema({ title: page.metaTitle, description: page.metaDescription, path }),
+    webPageSchema({ title: page.metaTitle, description: page.metaDescription, path, dateModified: lastUpdatedISO }),
     buildBreadcrumbSchema(breadcrumb),
     faqSchema(page.faqs || []),
     page.itemList
@@ -59,7 +61,7 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
     <>
       <JsonLd schemas={schemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
-      <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} />
+      <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} lastUpdated={lastUpdated} />
       <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mx-auto mt-10 max-w-3xl px-5 lg:px-8" />
 
       {page.itemList && page.itemList.length > 0 && (
