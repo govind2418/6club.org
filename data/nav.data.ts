@@ -57,6 +57,7 @@ const navData: NavData = {
   ],
   footer: {
     platform: [
+      { label: '6 Club Official Website Guide', url: '/6club' },
       { label: 'About 6 Club', url: '/about-us' },
       { label: 'Features', url: '/features' },
       { label: 'VIP Program', url: '/vip' },
@@ -66,6 +67,7 @@ const navData: NavData = {
       { label: 'Sister Sites', url: '/sister-sites' }
     ],
     games: [
+      { label: '6 Club Games Guide', url: '/6clubgame' },
       { label: 'Casino Games', url: '/games/casino' },
       { label: 'Slot Games', url: '/games/slots' },
       { label: 'Lottery Games', url: '/games/lottery' },
@@ -74,6 +76,7 @@ const navData: NavData = {
       { label: 'Popular Games', url: '/games/popular' }
     ],
     account: [
+      { label: '6 Club Login Guide', url: '/6clublogin' },
       { label: 'Register', url: '/register' },
       { label: 'Login', url: '/login' },
       { label: 'Forgot Password', url: '/forgot-password' },

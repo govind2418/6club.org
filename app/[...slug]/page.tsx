@@ -62,6 +62,30 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
       <JsonLd schemas={schemas} />
       <Breadcrumb breadcrumb={breadcrumb} />
       <PageHero h1={page.h1} intro={page.intro || ''} pageEyebrow={page.eyebrow} lastUpdated={lastUpdated} />
+      {page.heroImage && (
+        <>
+          <section className="mx-auto mt-8 max-w-7xl px-5 lg:px-8" aria-label={`${page.h1} hero image`}>
+            <Image
+              src={page.heroImage.src}
+              alt={page.heroImage.alt}
+              width={1536}
+              height={1024}
+              sizes="(min-width: 1024px) 1280px, 100vw"
+              priority
+              className="h-auto w-full rounded-2xl border border-goldline object-cover shadow-glow"
+            />
+          </section>
+          <Cta
+            ctaEyebrow="Continue to 6 Club"
+            ctaTitle={`Choose how to continue with ${page.h1}`}
+            ctaDescription="Already have an account? Log in. New to the platform? Review the registration information and create an account."
+            ctaPrimaryLabel="6 Club Login"
+            ctaPrimaryUrl="/login"
+            ctaSecondaryLabel="Register Now"
+            ctaSecondaryUrl="/go"
+          />
+        </>
+      )}
       <TableOfContents headings={tocHeadings} faqs={tocFaqs} className="mx-auto mt-10 max-w-3xl px-5 lg:px-8" />
 
       {page.itemList && page.itemList.length > 0 && (

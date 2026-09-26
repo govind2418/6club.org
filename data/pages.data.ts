@@ -28,6 +28,7 @@ export interface PageEntry {
   eyebrow?: string;
   h1: string;
   intro?: string;
+  heroImage?: { src: string; alt: string };
   breadcrumbTrail: PageLink[];
   sections?: PageSection[];
   faqs?: PageFaq[];
@@ -41,6 +42,174 @@ export const defaultLastUpdated = 'July 23, 2026';
 export const defaultLastUpdatedISO = '2026-07-23';
 
 const pagesData: Record<string, PageEntry> = {
+  '/6clublogin': {
+    metaTitle: '6Club Login – Official 6 Club Login Guide',
+    metaDescription:
+      'Open the 6Club login page and follow simple steps to access your 6 Club account securely on mobile or desktop.',
+    keywords: ['6club login', '6 club login', '6 Club Login Page', '6 Club Account Login', '6club sign in'],
+    eyebrow: 'Account Access',
+    h1: '6 Club Login Guide',
+    intro:
+      'Looking for the 6club login page? Use this guide to find the official account sign-in, review safe login steps, and get help if you cannot access your 6 Club account.',
+    heroImage: { src: '/images/6club-hero-banner.webp', alt: '6 Club hero image for 6 Club Login Guide' },
+    breadcrumbTrail: [],
+    sections: [
+      {
+        heading: 'How to Use the 6 Club Login Page',
+        paragraphs: [
+          'Open the 6 Club Login page from the site navigation, enter the mobile number and password linked to your account, then complete any verification step shown on screen. Check that the address is the official 6club.co.in domain before entering account details.',
+          'After sign-in, review your account and wallet information before choosing a game. The same 6 Club login is used for supported game categories, so you do not need a separate profile for each section.'
+        ],
+        list: ['Open the official login page.', 'Enter your registered credentials.', 'Complete the verification prompt, if shown.', 'Sign out on shared devices.']
+      },
+      {
+        heading: '6Club Login on a Mobile Phone',
+        paragraphs: [
+          'The 6club login flow is designed to work in a mobile browser as well as on desktop. Keep the browser up to date, use a private network you trust, and avoid saving your password on a public or shared phone.',
+          'If the page does not load properly, refresh it once or open the official site in another current browser. Do not install files from unofficial download pages or share one-time codes with anyone.'
+        ]
+      },
+      {
+        heading: 'If You Cannot Sign In',
+        paragraphs: [
+          'First confirm that the mobile number and password are entered correctly and that your connection is stable. If a verification code is required, use the latest code and request another only after the current one expires.',
+          'Use the account recovery option on the login screen if you have forgotten your password. If access still fails, contact support through the official site and never send your password or OTP in a support message.'
+        ]
+      },
+      {
+        heading: 'Keep Your 6 Club Account Secure',
+        paragraphs: [
+          'Choose a unique password, keep recovery details current, and do not reuse credentials from other websites. A genuine 6 Club login will not require you to disclose your password or OTP to another person.',
+          'Use the official help and account pages for login changes. You can also visit the 6 Club homepage for platform information or browse the game guide before signing in.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'Where is the official 6club login page?', a: 'Use the Login link on 6club.co.in or the Login button on this page. Check the domain before entering your credentials.' },
+      { q: 'Can I use 6 Club Login on mobile?', a: 'Yes. Open the official site in a current mobile browser and complete the sign-in steps shown.' },
+      { q: 'What should I do if I forgot my 6 Club password?', a: 'Use the account recovery option on the login screen and follow its verification steps.' },
+      { q: 'Why is my 6club login not working?', a: 'Check your connection and credentials, use the latest verification code, and try the recovery option if needed.' },
+      { q: 'Should I share my OTP with support?', a: 'No. Keep your password and one-time codes private, including when contacting support.' }
+    ],
+    related: [
+      { label: '6 Club Homepage', url: '/' },
+      { label: '6 Club Games', url: '/6clubgame' },
+      { label: 'Register on 6 Club', url: '/register' }
+    ]
+  },
+
+  '/6clubgame': {
+    metaTitle: '6 Club Game Guide – Explore 6 Club Games',
+    metaDescription:
+      'Explore the 6 Club game categories, learn where to find casino, slots, lottery and other games, and review the rules before you play.',
+    keywords: ['6 club game', '6club game', '6 Club Games', '6 Club Game Categories', '6 Club Online Games'],
+    eyebrow: 'Game Guide',
+    h1: '6 Club Games and Categories',
+    intro:
+      'The 6 Club game guide introduces the categories available on the platform and helps you find the right rules and account information before you play.',
+    heroImage: { src: '/images/6club-hero-banner.webp', alt: '6 Club hero image for 6 Club Games and Categories' },
+    breadcrumbTrail: [],
+    sections: [
+      {
+        heading: 'Find a 6 Club Game Category',
+        paragraphs: [
+          'Use the Games menu to browse the categories currently listed on 6 Club. Each game can have its own instructions, round timing, payout rules and entry requirements, so read the on-screen information before joining.',
+          'The 6 Club games area is organized to make discovery straightforward on phones and desktop. Start with a category that you understand and check the game rules before placing any stake.'
+        ],
+        list: ['Casino and table games', 'Slot and arcade games', 'Lottery and number games', 'Sports, crash and fishing categories']
+      },
+      {
+        heading: 'Understand the Rules Before Playing',
+        paragraphs: [
+          'Game outcomes are not guaranteed, and past results do not predict future results. Review the rules, limits and any displayed terms for the specific 6 Club game you choose.',
+          'Set a personal spending and time limit before you begin. If play stops feeling enjoyable or manageable, take a break and use the responsible-play information available on the site.'
+        ]
+      },
+      {
+        heading: 'One Account for Your 6 Club Games',
+        paragraphs: [
+          'A 6 Club account provides access to the platform sections associated with that account. Sign in through the official 6club login page, then use the site navigation to move between game categories and account tools.',
+          'Keep your sign-in credentials private and check wallet details before starting a session. For account access, see the 6 Club login guide; for platform background, return to the homepage overview.'
+        ]
+      },
+      {
+        heading: 'Play at Your Own Pace',
+        paragraphs: [
+          'Treat games as entertainment, not a way to earn guaranteed income. Decide in advance how much time and money you are comfortable spending, and do not chase losses or borrow to continue playing.',
+          'If you are under the legal age for online gaming where you live, do not use the platform. Always follow local rules and the age requirements that apply to you.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'What types of games are listed on 6 Club?', a: 'The site groups its listed games into categories such as casino, slots, lottery, sports, crash, fishing and arcade. Availability may change, so check the current Games menu.' },
+      { q: 'How do I find a specific 6 Club game?', a: 'Open the Games menu and browse the relevant category. Read the individual game instructions before joining.' },
+      { q: 'Do all 6 Club games have the same rules?', a: 'No. Rules, round timing and terms vary by game. Review the information shown for each game.' },
+      { q: 'Can I play 6 Club games on my phone?', a: 'The site is designed for mobile and desktop browsers. Use a supported, up-to-date browser and the official website.' },
+      { q: 'Are game results guaranteed?', a: 'No. Outcomes are uncertain; past results do not guarantee future results. Play only within limits you can afford.' }
+    ],
+    related: [
+      { label: '6 Club Homepage', url: '/' },
+      { label: '6 Club Login Guide', url: '/6clublogin' },
+      { label: 'Browse All Games', url: '/games' }
+    ]
+  },
+
+  '/6club': {
+    metaTitle: '6Club Official Website – 6 Club Platform Guide',
+    metaDescription:
+      'Visit the 6Club official website guide for account access, mobile use, game categories and help finding the right 6 Club page.',
+    keywords: ['6club', '6 club', '6club official website', '6 Club Platform', '6 Club Online'],
+    eyebrow: 'Official Website Guide',
+    h1: '6Club Official Website Guide',
+    intro:
+      'This 6club guide helps visitors navigate the official 6 Club website, find account and game information, and choose the right next step from mobile or desktop.',
+    heroImage: { src: '/images/6club-hero-banner.webp', alt: '6 Club hero image for 6Club Official Website Guide' },
+    breadcrumbTrail: [],
+    sections: [
+      {
+        heading: 'What You Can Find on the 6 Club Website',
+        paragraphs: [
+          'The 6 Club website brings account access, game categories, rewards, help and policy pages together in one navigation. Use the homepage to understand the platform, then open the relevant guide for account setup or a specific feature.',
+          'If you are returning to an existing account, go to 6 Club Login. New visitors can review the registration information and the terms that apply before creating an account.'
+        ],
+        list: ['Account login and registration information', 'Guides to game categories and platform features', 'Rewards, payment and help pages', 'Responsible-play and legal information']
+      },
+      {
+        heading: 'Use 6Club on Mobile or Desktop',
+        paragraphs: [
+          'Open 6club.co.in in a current browser and use the navigation menu to find the page you need. On a phone, the menu and page sections adapt to a narrow screen; the page table of contents can take you directly to a guide section or FAQ.',
+          'Bookmark the official domain if you return often. Be cautious of lookalike pages and do not enter your password or one-time code on an address you cannot verify.'
+        ]
+      },
+      {
+        heading: 'Choose Your Next Step',
+        paragraphs: [
+          'For account access, use the official login route. To understand the available categories, open the 6 Club Games guide and read the rules attached to each game before playing.',
+          'For help with an account or a site feature, use the support pages linked in the navigation. Keep passwords and verification codes private when asking for assistance.'
+        ]
+      },
+      {
+        heading: 'Responsible and Informed Use',
+        paragraphs: [
+          'Online games involve uncertainty and should be treated as entertainment; no result or income is guaranteed. Review relevant terms, follow the laws and age requirements where you live, and set spending and time limits before you play.',
+          'Take a break if play stops being enjoyable. The 6 Club website includes responsible-play and policy information to help visitors make informed choices.'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'What is the 6Club official website?', a: 'The official site is 6club.co.in. Check the address carefully before entering account details.' },
+      { q: 'Where can I find the 6 Club login?', a: 'Use the Login link in the site navigation or open the 6 Club Login Guide from this page.' },
+      { q: 'Can I open the 6 Club website on mobile?', a: 'Yes. Visit the official domain in a current mobile browser; the navigation and page content adapt to smaller screens.' },
+      { q: 'Where can I learn about 6 Club games?', a: 'Open the Games menu or use the 6 Club Games guide to browse categories and find game rules.' },
+      { q: 'Does the 6 Club website guarantee game outcomes?', a: 'No. Outcomes are uncertain. Review rules and play only within limits you can afford.' }
+    ],
+    related: [
+      { label: '6 Club Login Guide', url: '/6clublogin' },
+      { label: '6 Club Games Guide', url: '/6clubgame' },
+      { label: 'Home', url: '/' }
+    ]
+  },
+
   '/about-us': {
     metaTitle: 'About 6 Club – What Is 6 Club & How the Platform Works',
     metaDescription:

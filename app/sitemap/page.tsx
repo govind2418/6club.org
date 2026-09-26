@@ -37,6 +37,7 @@ export default function SiteMapPage() {
       label: 'Main',
       links: [
         { label: 'Home', url: '/' },
+        { label: '6 Club Official Website Guide', url: '/6club' },
         { label: 'About', url: '/about-us' },
         { label: 'Features', url: '/features' },
         { label: 'Sister Sites', url: '/sister-sites' }
@@ -45,6 +46,7 @@ export default function SiteMapPage() {
     {
       label: 'Games',
       links: navData.footer.games.concat([
+        { label: '6 Club Game Guide', url: '/6clubgame' },
         { label: 'Game Categories', url: '/games' },
         { label: 'New Games', url: '/games/new' }
       ])

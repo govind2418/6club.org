@@ -216,10 +216,13 @@ export default function HomePage() {
             <div className="flex flex-wrap items-center justify-center gap-3">
               {[
                 { label: '6 Club Login', url: '/login', icon: 'log-in' },
+                { label: '6Club Login Guide', url: '/6clublogin', icon: 'log-in' },
                 { label: '6 Club Register', url: '/register', icon: 'user-plus' },
+                { label: '6Club Official Website', url: '/6club', icon: 'badge-check' },
                 { label: '6 Club Download', url: '/download', icon: 'download' },
                 { label: '6 Club App', url: '/download', icon: 'smartphone' },
                 { label: '6 Club Game', url: '/games', icon: 'gamepad-2' },
+                { label: '6Club Game Guide', url: '/6clubgame', icon: 'gamepad-2' },
                 { label: '6 Club Bonus', url: '/promotions', icon: 'percent' },
                 { label: '6 Club Gift Code', url: '/gift-code', icon: 'gift' },
                 { label: '6 Club VIP', url: '/vip', icon: 'crown' }
