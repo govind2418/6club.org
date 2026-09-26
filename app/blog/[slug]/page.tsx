@@ -110,7 +110,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
         <img
           src="/images/blog-cover.webp"
-          alt=""
+          alt={`6 Club blog hero image for ${post.title}`}
           width={800}
           height={450}
           className="mb-10 w-full rounded-2xl border border-goldline"
@@ -161,6 +161,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </section>
       )}
+
+      <nav aria-label="Explore 6 Club homepage" className="mx-auto mb-10 flex max-w-3xl flex-wrap justify-center gap-3 px-5 lg:px-8">
+        <a href="/#section-about" className="rounded-full border border-goldline px-4 py-2 text-xs font-medium text-grey transition hover:border-gold hover:text-gold">
+          6 Club Homepage Overview
+        </a>
+        <a href="/#section-categories" className="rounded-full border border-goldline px-4 py-2 text-xs font-medium text-grey transition hover:border-gold hover:text-gold">
+          Explore 6 Club Games
+        </a>
+      </nav>
 
       <Cta />
     </>

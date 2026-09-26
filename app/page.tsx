@@ -66,7 +66,7 @@ export default function HomePage() {
           <a href="/login" aria-label="6Club Login" className="block overflow-hidden rounded-2xl border border-goldline shadow-glow">
             <Image
               src="/images/6club-hero-banner.webp"
-              alt="6club login"
+              alt="6 Club hero image for homepage"
               width={1536}
               height={1024}
               sizes="(min-width: 1024px) 1280px, 100vw"

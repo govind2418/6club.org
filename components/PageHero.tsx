@@ -18,7 +18,7 @@ export function PageHero({
       <div className="absolute inset-0 -z-10">
         <Image
           src="/images/page-header-cover.webp"
-          alt=""
+          alt={`6 Club page hero image for ${h1}`}
           fill
           priority
           sizes="100vw"
@@ -35,6 +35,14 @@ export function PageHero({
           </h1>
         </div>
         <p className="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-grey lg:mx-0 lg:text-base">{intro}</p>
+        <nav aria-label="Explore 6 Club homepage" className="mx-auto mt-6 flex max-w-2xl flex-wrap justify-center gap-3 lg:mx-0 lg:justify-start">
+          <a href="/#section-about" className="rounded-full border border-goldline px-4 py-2 text-xs font-medium text-grey transition hover:border-gold hover:text-gold">
+            6 Club Homepage Overview
+          </a>
+          <a href="/#section-categories" className="rounded-full border border-goldline px-4 py-2 text-xs font-medium text-grey transition hover:border-gold hover:text-gold">
+            Explore 6 Club Games
+          </a>
+        </nav>
         {lastUpdated && (
           <p className="mx-auto mt-4 flex w-fit items-center gap-1.5 text-xs text-grey lg:mx-0">
             <Icon name="calendar-days" className="h-3.5 w-3.5 text-gold" />
