@@ -16,7 +16,7 @@ export const siteConfig = {
   themeColor: '#F4C84A',
   locale: 'en_US',
   foundingYear: 2021,
-  registerUrl: 'https://bdgwin98.com/#/register?invitationCode=136448806011',
+  registerUrl: 'https://www.veergame44.com/#/register?invitationCode=24961166303',
   googleSiteVerification: 'qo7B3RxuBFGYHVClrsKFb5Mkn7osxL2FR0AX54yeUcw'
 };
 
