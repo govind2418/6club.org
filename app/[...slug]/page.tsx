@@ -29,7 +29,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const { path, page } = getPage(slug);
   if (!page) return {};
-  return buildMeta({ title: page.metaTitle, description: page.metaDescription, path, keywords: page.keywords || [] });
+  return buildMeta({
+    title: page.metaTitle,
+    description: page.metaDescription,
+    path,
+    keywords: page.keywords || [],
+    ...(page.heroImage ? { image: page.heroImage.src, imageWidth: '1536', imageHeight: '1024' } : {})
+  });
 }
 
 export default async function GenericPage({ params }: { params: Promise<{ slug: string[] }> }) {

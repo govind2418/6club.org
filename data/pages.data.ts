@@ -51,7 +51,7 @@ const pagesData: Record<string, PageEntry> = {
     h1: '6 Club Login Guide',
     intro:
       'Looking for the 6club login page? Use this guide to find the official account sign-in, review safe login steps, and get help if you cannot access your 6 Club account.',
-    heroImage: { src: '/images/6club-hero-banner.webp', alt: '6 Club hero image for 6 Club Login Guide' },
+    heroImage: { src: '/images/6club-login-hero.webp', alt: '6 Club hero image for 6 Club Login Guide' },
     breadcrumbTrail: [],
     sections: [
       {
@@ -107,7 +107,7 @@ const pagesData: Record<string, PageEntry> = {
     h1: '6 Club Games and Categories',
     intro:
       'The 6 Club game guide introduces the categories available on the platform and helps you find the right rules and account information before you play.',
-    heroImage: { src: '/images/6club-hero-banner.webp', alt: '6 Club hero image for 6 Club Games and Categories' },
+    heroImage: { src: '/images/6club-game-hero.webp', alt: '6 Club hero image for 6 Club Games and Categories' },
     breadcrumbTrail: [],
     sections: [
       {
@@ -163,7 +163,7 @@ const pagesData: Record<string, PageEntry> = {
     h1: '6Club Official Website Guide',
     intro:
       'This 6club guide helps visitors navigate the official 6 Club website, find account and game information, and choose the right next step from mobile or desktop.',
-    heroImage: { src: '/images/6club-hero-banner.webp', alt: '6 Club hero image for 6Club Official Website Guide' },
+    heroImage: { src: '/images/6club-site-hero.webp', alt: '6 Club hero image for 6Club Official Website Guide' },
     breadcrumbTrail: [],
     sections: [
       {
