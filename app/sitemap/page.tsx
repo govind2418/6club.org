@@ -73,11 +73,21 @@ export default function SiteMapPage() {
     { label: 'Support & Legal', links: navData.footer.support.concat(navData.footer.legal) },
     {
       label: 'Blog',
-      links: [{ label: 'All Articles', url: '/blog' }].concat(
-        blog.categories.map((c) => ({ label: `Category: ${c.name}`, url: `/blog/category/${c.slug}` }))
-      )
+      links: [
+        { label: 'All Articles', url: '/blog' },
+        ...blog.categories.map((c) => ({ label: `Category: ${c.name}`, url: `/blog/category/${c.slug}` })),
+        ...blog.authors.map((author) => ({ label: `Articles by ${author.name}`, url: `/blog/author/${author.slug}` })),
+        ...blog.getAllTags().map((tag) => ({ label: `Tag: ${tag.name}`, url: `/blog/tag/${tag.slug}` })),
+        ...blog.getAllPosts().map((post) => ({ label: post.title, url: `/blog/${post.slug}` }))
+      ]
     }
   ];
+
+  const listedUrls = new Set(groups.flatMap((group) => group.links.map((link) => link.url)));
+  const unlistedPages = Object.entries(pagesData)
+    .filter(([url]) => !listedUrls.has(url))
+    .map(([url, entry]) => ({ label: entry.h1, url }));
+  if (unlistedPages.length > 0) groups.push({ label: 'More Guides', links: unlistedPages });
 
   const tocHeadings = groups.map((group, i) => ({ id: `group-${i}`, label: group.label }));
   const tocFaqs = (page.faqs || []).map((faq, i) => ({ id: `faq-item-${i}`, label: faq.q }));

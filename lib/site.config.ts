@@ -1,6 +1,6 @@
 export const siteConfig = {
   siteName: process.env.SITE_NAME || '6 Club',
-  siteUrl: (process.env.SITE_URL || 'https://6club.org.in').replace(/\/$/, ''),
+  siteUrl: (process.env.SITE_URL || 'https://6club.co.in').replace(/\/$/, ''),
   tagline: 'One ID. All Games.',
   defaultDescription:
     '6 Club gives players across India instant access to live casino tables, slot reels, lottery draws, sports markets and crash games, with same-day withdrawals, verified fair-play odds and a rewards ladder that pays back every session.',
@@ -17,7 +17,7 @@ export const siteConfig = {
   locale: 'en_US',
   foundingYear: 2021,
   registerUrl: 'https://bdgwin98.com/#/register?invitationCode=136448806011',
-  googleSiteVerification: 'wVWdHRlXfEvgqVx2FV9f_WEA5p_R7DCnhAso8LJA5Ac'
+  googleSiteVerification: 'qo7B3RxuBFGYHVClrsKFb5Mkn7osxL2FR0AX54yeUcw'
 };
 
 export type SiteConfig = typeof siteConfig;
