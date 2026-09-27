@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://6club.6club.co.in/sitemap.xml
